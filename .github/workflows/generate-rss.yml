@@ -27,7 +27,7 @@ jobs:
         npm install node-fetch xml2js
         
     - name: Generate RSS Feed
-      run: node generate-rss.js
+      run: node rss-generator-script.js
       
     - name: Commit and push if changed
       run: |
