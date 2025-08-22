@@ -258,7 +258,12 @@
                 document.getElementById('total-count').textContent = data.totalItems || allItems.length;
                 document.getElementById('kaist-count').textContent = allItems.filter(item => item.source === 'KAIST').length;
                 document.getElementById('snu-count').textContent = allItems.filter(item => item.source === 'SNU').length;
-                document.getElementById('last-update').textContent = new Date(data.lastBuildDate).toLocaleDateString();
+                const lastUpdate = data.lastBuildDate || data.lastUpdate;
+if (lastUpdate) {
+    document.getElementById('last-update').textContent = new Date(lastUpdate).toLocaleDateString();
+} else {
+    document.getElementById('last-update').textContent = 'Unknown';
+}
 
                 displayItems(filteredItems);
 
