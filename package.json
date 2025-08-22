@@ -6,7 +6,12 @@
     "start": "node rss-generator-script.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["rss", "academic", "kaist", "snu"],
+  "keywords": [
+    "rss",
+    "academic",
+    "kaist",
+    "snu"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
