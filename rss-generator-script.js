@@ -140,6 +140,26 @@ async function generateRSS() {
         console.error('Error generating RSS:', error);
         process.exit(1);
     }
+
+    // Add this to the end of your generateRSS() function, before the closing } catch
+// Generate a simple statistics file
+const stats = {
+    lastUpdate: new Date().toISOString(),
+    totalItems: allItems.length,
+    sources: {
+        KAIST: allItems.filter(item => item.source === 'KAIST').length,
+        SNU: allItems.filter(item => item.source === 'SNU').length
+    },
+    latestItem: allItems.length > 0 ? {
+        title: allItems[0].title,
+        date: allItems.pubDate.toISOString(),
+        source: allItems.source
+    } : null
+};
+
+fs.writeFileSync('stats.json', JSON.stringify(stats, null, 2));
+console.log('Statistics generated successfully!');
+
 }
 
 // Run the generator
