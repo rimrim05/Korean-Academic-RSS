@@ -81,18 +81,12 @@ async function generateRSS() {
         const results = await Promise.all(feedPromises);
         
         // Combine and sort all items
-        const allItems = results.flat().sort((a, b) => b.pubDate - a.pubDate);
+        let allItems = results.flat().sort((a, b) => b.pubDate - a.pubDate);
         
         console.log(`Found ${allItems.length} total items`);
         
-        if (allItems.length === 0) {
-            console.log('No items found in any feed');
-            // Still generate empty files
-            fs.writeFileSync('feed.xml', '<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>KAIST & SNU Publications</title><description>No items found</description></channel></rss>');
-            fs.writeFileSync('feed.json', JSON.stringify({title: "KAIST & SNU Publications", description: "No items found", items: []}, null, 2));
-            fs.writeFileSync('stats.json', JSON.stringify({lastUpdate: new Date().toISOString(), totalItems: 0, sources: {KAIST: 0, SNU: 0}, latestItem: null}, null, 2));
-            return;
-        }
+        // Limit to 50 items
+        allItems = allItems.slice(0, 50);
         
         // Get your actual GitHub Pages URL
         const baseUrl = 'https://rimrim05.github.io/Korean-Academic-RSS/';
@@ -109,7 +103,7 @@ async function generateRSS() {
         <language>en-us</language>
         <ttl>360</ttl>
         
-        ${allItems.slice(0, 50).map(item => `
+        ${allItems.map(item => `
         <item>
             <title><![CDATA[${item.title} (${item.source})]]></title>
             <link>${escapeXml(item.link)}</link>
@@ -124,13 +118,13 @@ async function generateRSS() {
         fs.writeFileSync('feed.xml', rssContent);
         console.log('RSS feed generated successfully!');
         
-        // Generate JSON feed for the web interface
+        // Generate JSON feed
         const jsonFeed = {
             title: "KAIST & SNU Publications",
             description: "Combined academic publications from KAIST and SNU",
             lastBuildDate: new Date().toISOString(),
             totalItems: allItems.length,
-            items: allItems.slice(0, 50).map(item => ({
+            items: allItems.map(item => ({
                 title: `${item.title} (${item.source})`,
                 link: item.link,
                 description: item.description,
@@ -142,13 +136,16 @@ async function generateRSS() {
         fs.writeFileSync('feed.json', JSON.stringify(jsonFeed, null, 2));
         console.log('JSON feed generated successfully!');
         
-        // Generate statistics file
+        // Generate statistics
+        const kaistCount = allItems.filter(item => item.source === 'KAIST').length;
+        const snuCount = allItems.filter(item => item.source === 'SNU').length;
+        
         const stats = {
             lastUpdate: new Date().toISOString(),
             totalItems: allItems.length,
             sources: {
-                KAIST: allItems.filter(item => item.source === 'KAIST').length,
-                SNU: allItems.filter(item => item.source === 'SNU').length
+                KAIST: kaistCount,
+                SNU: snuCount
             },
             latestItem: allItems.length > 0 ? {
                 title: allItems[0].title,
