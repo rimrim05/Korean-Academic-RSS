@@ -1,4 +1,4 @@
-const fetch = (...args) => import('node-fetch').then(({default: fetch}) => fetch(...args));
+const fetch = require('node-fetch');
 const xml2js = require('xml2js');
 const fs = require('fs');
 
@@ -17,30 +17,55 @@ const feeds = [
 async function fetchFeed(feed) {
     try {
         console.log(`Fetching ${feed.name} feed...`);
-        const response = await fetch(feed.url);
+        const response = await fetch(feed.url, {
+            headers: {
+                'User-Agent': 'Mozilla/5.0 (compatible; RSS-Aggregator/1.0)'
+            }
+        });
+        
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        
         const xmlData = await response.text();
         
-        const parser = new xml2js.Parser();
+        const parser = new xml2js.Parser({
+            explicitArray: false,
+            mergeAttrs: true,
+            normalize: true,
+            normalizeTags: true,
+            trim: true
+        });
+        
         const result = await parser.parseStringPromise(xmlData);
         
-        const items = result.rss.channel[0].item || [];
+        if (!result.rss || !result.rss.channel || !result.rss.channel.item) {
+            console.log(`No items found in ${feed.name} feed`);
+            return [];
+        }
+        
+        const items = Array.isArray(result.rss.channel.item) 
+            ? result.rss.channel.item 
+            : [result.rss.channel.item];
         
         return items.map(item => ({
-            title: item.title[0],
-            link: item.link[0],
-            description: item.description[0],
-            pubDate: new Date(item.pubDate[0]),
+            title: item.title || 'No title',
+            link: item.link || '',
+            description: item.description || '',
+            pubDate: new Date(item.pubdate || item.pubDate || Date.now()),
             source: feed.name,
-            guid: item.link[0]
-        }));
+            guid: item.link || item.guid || ''
+        })).filter(item => item.title && item.link); // Filter out invalid items
+        
     } catch (error) {
-        console.error(`Error fetching ${feed.name} feed:`, error);
+        console.error(`Error fetching ${feed.name} feed:`, error.message);
         return [];
     }
 }
 
 function escapeXml(unsafe) {
-    return unsafe.replace(/[<>&'"]/g, function (c) {
+    if (!unsafe) return '';
+    return unsafe.toString().replace(/[<>&'"]/g, function (c) {
         switch (c) {
             case '<': return '&lt;';
             case '>': return '&gt;';
@@ -49,6 +74,19 @@ function escapeXml(unsafe) {
             case '"': return '&quot;';
         }
     });
+}
+
+function cleanDescription(description) {
+    if (!description) return '';
+    // Remove HTML tags and decode HTML entities
+    return description
+        .replace(/<[^>]*>/g, '')
+        .replace(/&lt;/g, '<')
+        .replace(/&gt;/g, '>')
+        .replace(/&amp;/g, '&')
+        .replace(/&quot;/g, '"')
+        .replace(/&apos;/g, "'")
+        .trim();
 }
 
 async function generateRSS() {
@@ -60,9 +98,29 @@ async function generateRSS() {
         const results = await Promise.all(feedPromises);
         
         // Combine and sort all items
-        const allItems = results.flat().sort((a, b) => b.pubDate - a.pubDate);
+        let allItems = results.flat().sort((a, b) => b.pubDate - a.pubDate);
         
         console.log(`Found ${allItems.length} total items`);
+        
+        if (allItems.length === 0) {
+            console.log('No items found in any feed. Creating empty feed.');
+        }
+        
+        // Remove duplicates based on link
+        const uniqueItems = [];
+        const seenLinks = new Set();
+        
+        for (const item of allItems) {
+            if (!seenLinks.has(item.link)) {
+                seenLinks.add(item.link);
+                uniqueItems.push(item);
+            }
+        }
+        
+        allItems = uniqueItems.slice(0, 50); // Limit to 50 items
+        
+        // Get your actual GitHub Pages URL from environment or use placeholder
+        const baseUrl = process.env.GITHUB_PAGES_URL || 'https://yourusername.github.io/your-repo-name/';
         
         // Generate RSS XML
         const rssContent = `<?xml version="1.0" encoding="UTF-8"?>
@@ -70,19 +128,21 @@ async function generateRSS() {
     <channel>
         <title>KAIST &amp; SNU Publications</title>
         <description>Combined academic publications from KAIST and SNU</description>
-        <link>https://yourusername.github.io/your-repo-name/</link>
-        <atom:link href="https://yourusername.github.io/your-repo-name/feed.xml" rel="self" type="application/rss+xml" />
+        <link>${baseUrl}</link>
+        <atom:link href="${baseUrl}feed.xml" rel="self" type="application/rss+xml" />
         <lastBuildDate>${new Date().toUTCString()}</lastBuildDate>
         <language>en-us</language>
         <ttl>360</ttl>
+        <generator>Academic RSS Aggregator</generator>
         
-        ${allItems.slice(0, 50).map(item => `
+        ${allItems.map(item => `
         <item>
             <title><![CDATA[${item.title} (${item.source})]]></title>
             <link>${escapeXml(item.link)}</link>
-            <description><![CDATA[${item.description}]]></description>
+            <description><![CDATA[${cleanDescription(item.description)}]]></description>
             <pubDate>${item.pubDate.toUTCString()}</pubDate>
             <guid isPermaLink="true">${escapeXml(item.link)}</guid>
+            <source>${escapeXml(item.source)}</source>
         </item>`).join('')}
     </channel>
 </rss>`;
@@ -95,10 +155,12 @@ async function generateRSS() {
         const jsonFeed = {
             title: "KAIST & SNU Publications",
             description: "Combined academic publications from KAIST and SNU",
-            items: allItems.slice(0, 50).map(item => ({
+            lastBuildDate: new Date().toISOString(),
+            totalItems: allItems.length,
+            items: allItems.map(item => ({
                 title: `${item.title} (${item.source})`,
                 link: item.link,
-                description: item.description,
+                description: cleanDescription(item.description),
                 pubDate: item.pubDate.toISOString(),
                 source: item.source
             }))
@@ -106,6 +168,24 @@ async function generateRSS() {
         
         fs.writeFileSync('feed.json', JSON.stringify(jsonFeed, null, 2));
         console.log('JSON feed generated successfully!');
+        
+        // Generate a simple statistics file
+        const stats = {
+            lastUpdate: new Date().toISOString(),
+            totalItems: allItems.length,
+            sources: {
+                KAIST: allItems.filter(item => item.source === 'KAIST').length,
+                SNU: allItems.filter(item => item.source === 'SNU').length
+            },
+            latestItem: allItems.length > 0 ? {
+                title: allItems[0].title,
+                date: allItems.pubDate.toISOString(),
+                source: allItems.source
+            } : null
+        };
+        
+        fs.writeFileSync('stats.json', JSON.stringify(stats, null, 2));
+        console.log('Statistics generated successfully!');
         
     } catch (error) {
         console.error('Error generating RSS:', error);
