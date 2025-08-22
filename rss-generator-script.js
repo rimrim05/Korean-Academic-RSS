@@ -87,11 +87,15 @@ async function generateRSS() {
         
         if (allItems.length === 0) {
             console.log('No items found in any feed');
+            // Still generate empty files
+            fs.writeFileSync('feed.xml', '<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>KAIST & SNU Publications</title><description>No items found</description></channel></rss>');
+            fs.writeFileSync('feed.json', JSON.stringify({title: "KAIST & SNU Publications", description: "No items found", items: []}, null, 2));
+            fs.writeFileSync('stats.json', JSON.stringify({lastUpdate: new Date().toISOString(), totalItems: 0, sources: {KAIST: 0, SNU: 0}, latestItem: null}, null, 2));
             return;
         }
         
         // Get your actual GitHub Pages URL
-        const baseUrl = process.env.GITHUB_PAGES_URL || 'https://rimrim05.github.io/Korean-Academic-RSS/';
+        const baseUrl = 'https://rimrim05.github.io/Korean-Academic-RSS/';
         
         // Generate RSS XML
         const rssContent = `<?xml version="1.0" encoding="UTF-8"?>
@@ -120,10 +124,12 @@ async function generateRSS() {
         fs.writeFileSync('feed.xml', rssContent);
         console.log('RSS feed generated successfully!');
         
-        // Also generate a JSON feed for the web interface
+        // Generate JSON feed for the web interface
         const jsonFeed = {
             title: "KAIST & SNU Publications",
             description: "Combined academic publications from KAIST and SNU",
+            lastBuildDate: new Date().toISOString(),
+            totalItems: allItems.length,
             items: allItems.slice(0, 50).map(item => ({
                 title: `${item.title} (${item.source})`,
                 link: item.link,
@@ -136,30 +142,28 @@ async function generateRSS() {
         fs.writeFileSync('feed.json', JSON.stringify(jsonFeed, null, 2));
         console.log('JSON feed generated successfully!');
         
+        // Generate statistics file
+        const stats = {
+            lastUpdate: new Date().toISOString(),
+            totalItems: allItems.length,
+            sources: {
+                KAIST: allItems.filter(item => item.source === 'KAIST').length,
+                SNU: allItems.filter(item => item.source === 'SNU').length
+            },
+            latestItem: allItems.length > 0 ? {
+                title: allItems[0].title,
+                date: allItems.pubDate.toISOString(),
+                source: allItems.source
+            } : null
+        };
+        
+        fs.writeFileSync('stats.json', JSON.stringify(stats, null, 2));
+        console.log('Statistics generated successfully!');
+        
     } catch (error) {
         console.error('Error generating RSS:', error);
         process.exit(1);
     }
-
-    // Add this to the end of your generateRSS() function, before the closing } catch
-// Generate a simple statistics file
-const stats = {
-    lastUpdate: new Date().toISOString(),
-    totalItems: allItems.length,
-    sources: {
-        KAIST: allItems.filter(item => item.source === 'KAIST').length,
-        SNU: allItems.filter(item => item.source === 'SNU').length
-    },
-    latestItem: allItems.length > 0 ? {
-        title: allItems[0].title,
-        date: allItems.pubDate.toISOString(),
-        source: allItems.source
-    } : null
-};
-
-fs.writeFileSync('stats.json', JSON.stringify(stats, null, 2));
-console.log('Statistics generated successfully!');
-
 }
 
 // Run the generator
