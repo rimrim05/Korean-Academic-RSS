@@ -3,88 +3,221 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RSS Feed Aggregator</title>
+    <title>Academic Publications Feed - KAIST & SNU</title>
     <style>
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            max-width: 800px;
+            max-width: 1000px;
             margin: 0 auto;
             padding: 20px;
             line-height: 1.6;
             color: #333;
+            background-color: #f8f9fa;
         }
         .header {
             text-align: center;
             margin-bottom: 40px;
-            padding: 20px;
+            padding: 30px;
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             color: white;
+            border-radius: 15px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            font-weight: 300;
+        }
+        .header p {
+            margin: 10px 0 0 0;
+            opacity: 0.9;
+            font-size: 1.2em;
+        }
+        .links {
+            margin: 20px 0;
+        }
+        .rss-link {
+            background: #28a745;
+            color: white;
+            padding: 12px 24px;
+            border-radius: 8px;
+            text-decoration: none;
+            display: inline-block;
+            margin: 5px;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+        .rss-link:hover {
+            background: #218838;
+            color: white;
+            text-decoration: none;
+            transform: translateY(-2px);
+        }
+        .rss-link.json {
+            background: #007bff;
+        }
+        .rss-link.json:hover {
+            background: #0056b3;
+        }
+        .stats {
+            background: white;
+            padding: 20px;
             border-radius: 10px;
+            margin: 20px 0;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        .stat-item {
+            text-align: center;
+        }
+        .stat-number {
+            font-size: 2em;
+            font-weight: bold;
+            color: #667eea;
+        }
+        .stat-label {
+            color: #666;
+            font-size: 0.9em;
+            margin-top: 5px;
         }
         .feed-item {
-            background: #f8f9fa;
+            background: white;
             margin: 20px 0;
-            padding: 20px;
-            border-radius: 8px;
-            border-left: 4px solid #667eea;
+            padding: 25px;
+            border-radius: 12px;
+            border-left: 5px solid #667eea;
+            box-shadow: 0 2px 15px rgba(0,0,0,0.08);
+            transition: all 0.3s ease;
+        }
+        .feed-item:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
         }
         .feed-item h3 {
             margin-top: 0;
             color: #2c3e50;
+            line-height: 1.4;
         }
         .feed-item a {
             color: #667eea;
             text-decoration: none;
+            font-weight: 500;
         }
         .feed-item a:hover {
             text-decoration: underline;
         }
         .date {
             color: #666;
-            font-size: 0.9em;
+            font-size: 0.95em;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
         }
         .source {
-            background: #e9ecef;
-            padding: 5px 10px;
-            border-radius: 15px;
-            font-size: 0.8em;
-            color: #495057;
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 0.85em;
+            color: white;
             display: inline-block;
-            margin-bottom: 10px;
+            margin-bottom: 15px;
+            font-weight: 500;
+        }
+        .source.kaist {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+        }
+        .source.snu {
+            background: linear-gradient(135deg, #f093fb, #f5576c);
         }
         .loading {
             text-align: center;
-            padding: 40px;
+            padding: 60px;
             color: #666;
+            font-size: 1.1em;
         }
         .error {
             background: #f8d7da;
             color: #721c24;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+            border-left: 4px solid #f5c6cb;
+        }
+        .description {
+            color: #555;
+            margin-top: 10px;
+            line-height: 1.6;
+        }
+        .search-box {
+            width: 100%;
             padding: 15px;
-            border-radius: 5px;
-            margin: 20px 0;
+            border: 2px solid #e9ecef;
+            border-radius: 8px;
+            font-size: 1em;
+            margin-bottom: 20px;
+            transition: border-color 0.3s ease;
         }
-        .rss-link {
-            background: #28a745;
-            color: white;
-            padding: 10px 20px;
-            border-radius: 5px;
-            text-decoration: none;
-            display: inline-block;
-            margin: 20px 0;
+        .search-box:focus {
+            outline: none;
+            border-color: #667eea;
         }
-        .rss-link:hover {
-            background: #218838;
+        .filter-buttons {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .filter-btn {
+            background: #e9ecef;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 20px;
+            margin: 0 5px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        .filter-btn.active {
+            background: #667eea;
             color: white;
-            text-decoration: none;
         }
     </style>
 </head>
 <body>
     <div class="header">
-        <h1>Academic Publications Feed</h1>
-        <p>KAIST & SNU Research Publications</p>
-        <a href="feed.xml" class="rss-link">📡 Combined RSS Feed</a>
+        <h1>🎓 Academic Publications</h1>
+        <p>Latest research from KAIST & Seoul National University</p>
+        <div class="links">
+            <a href="feed.xml" class="rss-link">📡 RSS Feed</a>
+            <a href="feed.json" class="rss-link json">📄 JSON Feed</a>
+            <a href="stats.json" class="rss-link" style="background: #6f42c1;">📊 Statistics</a>
+        </div>
+    </div>
+
+    <div id="stats" class="stats" style="display: none;">
+        <div class="stat-item">
+            <div class="stat-number" id="total-count">0</div>
+            <div class="stat-label">Total Publications</div>
+        </div>
+        <div class="stat-item">
+            <div class="stat-number" id="kaist-count">0</div>
+            <div class="stat-label">KAIST</div>
+        </div>
+        <div class="stat-item">
+            <div class="stat-number" id="snu-count">0</div>
+            <div class="stat-label">SNU</div>
+        </div>
+        <div class="stat-item">
+            <div class="stat-number" id="last-update">-</div>
+            <div class="stat-label">Last Updated</div>
+        </div>
+    </div>
+
+    <input type="text" class="search-box" id="search" placeholder="🔍 Search publications...">
+    
+    <div class="filter-buttons">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="KAIST">KAIST</button>
+        <button class="filter-btn" data-filter="SNU">SNU</button>
     </div>
 
     <div id="loading" class="loading">Loading publications...</div>
@@ -92,125 +225,111 @@
     <div id="feed-container"></div>
 
     <script>
-        // RSS feed URLs
-        const feeds = [
-            {
-                url: 'https://pubmed.ncbi.nlm.nih.gov/rss/search/1lGTpA7S74whuNVC_kQy0F4ncgCxeB9B9U0hbi6Wldiv2cIgV2/?limit=50&utm_campaign=pubmed-2&fc=20250822163126',
-                name: 'KAIST'
-            },
-            {
-                url: 'https://pubmed.ncbi.nlm.nih.gov/rss/search/1bo4uOs-bB_ZLOeoRMDuMyKrqOCTTJrR8i4c8aBDtpAcbJ09ch/?limit=50&utm_campaign=pubmed-2&fc=20250822163228',
-                name: 'SNU'
-            }
-        ];
-
         let allItems = [];
+        let filteredItems = [];
+        let currentFilter = 'all';
 
-        // CORS proxy for fetching RSS feeds
-        const proxyUrl = 'https://api.allorigins.win/get?url=';
-
-        async function fetchFeed(feed) {
-            try {
-                const response = await fetch(proxyUrl + encodeURIComponent(feed.url));
-                const data = await response.json();
-                const parser = new DOMParser();
-                const xmlDoc = parser.parseFromString(data.contents, 'text/xml');
-                
-                const items = xmlDoc.querySelectorAll('item');
-                const feedItems = [];
-
-                items.forEach(item => {
-                    const title = item.querySelector('title')?.textContent || 'No title';
-                    const link = item.querySelector('link')?.textContent || '#';
-                    const description = item.querySelector('description')?.textContent || '';
-                    const pubDate = item.querySelector('pubDate')?.textContent || '';
-                    
-                    feedItems.push({
-                        title,
-                        link,
-                        description,
-                        pubDate: new Date(pubDate),
-                        source: feed.name
-                    });
-                });
-
-                return feedItems;
-            } catch (error) {
-                console.error(`Error fetching ${feed.name} feed:`, error);
-                return [];
-            }
-        }
-
-        async function loadAllFeeds() {
+        async function loadFeed() {
             const loadingDiv = document.getElementById('loading');
             const errorDiv = document.getElementById('error');
             const container = document.getElementById('feed-container');
+            const statsDiv = document.getElementById('stats');
 
             try {
-                // Fetch all feeds
-                const feedPromises = feeds.map(feed => fetchFeed(feed));
-                const results = await Promise.all(feedPromises);
+                const response = await fetch('feed.json');
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
                 
-                // Combine and sort all items
-                allItems = results.flat().sort((a, b) => b.pubDate - a.pubDate);
-
+                const data = await response.json();
                 loadingDiv.style.display = 'none';
 
-                if (allItems.length === 0) {
-                    errorDiv.textContent = 'No items found in feeds';
+                if (!data.items || data.items.length === 0) {
+                    errorDiv.textContent = 'No publications found';
                     errorDiv.style.display = 'block';
                     return;
                 }
 
-                // Display items
-                container.innerHTML = allItems.map(item => `
-                    <div class="feed-item">
-                        <div class="source">${item.source}</div>
-                        <h3><a href="${item.link}" target="_blank">${item.title}</a></h3>
-                        <div class="date">${item.pubDate.toLocaleDateString()}</div>
-                        <p>${item.description.substring(0, 300)}${item.description.length > 300 ? '...' : ''}</p>
-                    </div>
-                `).join('');
+                allItems = data.items;
+                filteredItems = [...allItems];
+
+                // Show stats
+                statsDiv.style.display = 'grid';
+                document.getElementById('total-count').textContent = data.totalItems || allItems.length;
+                document.getElementById('kaist-count').textContent = allItems.filter(item => item.source === 'KAIST').length;
+                document.getElementById('snu-count').textContent = allItems.filter(item => item.source === 'SNU').length;
+                document.getElementById('last-update').textContent = new Date(data.lastBuildDate).toLocaleDateString();
+
+                displayItems(filteredItems);
 
             } catch (error) {
                 loadingDiv.style.display = 'none';
-                errorDiv.textContent = 'Error loading feeds: ' + error.message;
+                errorDiv.textContent = 'Error loading publications: ' + error.message;
                 errorDiv.style.display = 'block';
+                console.error('Error:', error);
             }
         }
 
-        function generateRSS() {
-            const rssContent = `<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
-    <channel>
-        <title>KAIST & SNU Publications</title>
-        <description>Combined academic publications from KAIST and SNU</description>
-        <link>${window.location.href}</link>
-        <lastBuildDate>${new Date().toUTCString()}</lastBuildDate>
-        
-        ${allItems.map(item => `
-        <item>
-            <title><![CDATA[${item.title} (${item.source})]]></title>
-            <link>${item.link}</link>
-            <description><![CDATA[${item.description}]]></description>
-            <pubDate>${item.pubDate.toUTCString()}</pubDate>
-            <guid>${item.link}</guid>
-        </item>`).join('')}
-    </channel>
-</rss>`;
+        function displayItems(items) {
+            const container = document.getElementById('feed-container');
+            
+            if (items.length === 0) {
+                container.innerHTML = '<div class="error">No publications match your search criteria.</div>';
+                return;
+            }
 
-            // Create and download RSS file
-            const blob = new Blob([rssContent], { type: 'application/rss+xml' });
-            const url = URL.createObjectURL(blob);
-            const a = document.createElement('a');
-            a.href = url;
-            a.download = 'combined-feed.xml';
-            a.click();
-            URL.revokeObjectURL(url);
+            container.innerHTML = items.map(item => {
+                const date = new Date(item.pubDate);
+                const sourceClass = item.source.toLowerCase();
+                
+                return `
+                    <div class="feed-item" data-source="${item.source}">
+                        <div class="source ${sourceClass}">${item.source}</div>
+                        <h3><a href="${item.link}" target="_blank" rel="noopener">${item.title}</a></h3>
+                        <div class="date">
+                            📅 ${date.toLocaleDateString('en-US', { 
+                                year: 'numeric', 
+                                month: 'long', 
+                                day: 'numeric' 
+                            })}
+                        </div>
+                        <div class="description">${item.description}</div>
+                    </div>
+                `;
+            }).join('');
         }
 
-        // Load feeds when page loads
-        window.addEventListener('load', loadAllFeeds);
+        function filterItems() {
+            const searchTerm = document.getElementById('search').value.toLowerCase();
+            
+            filteredItems = allItems.filter(item => {
+                const matchesSearch = item.title.toLowerCase().includes(searchTerm) || 
+                                    item.description.toLowerCase().includes(searchTerm);
+                const matchesFilter = currentFilter === 'all' || item.source === currentFilter;
+                
+                return matchesSearch && matchesFilter;
+            });
+            
+            displayItems(filteredItems);
+        }
+
+        // Event listeners
+        document.getElementById('search').addEventListener('input', filterItems);
+
+        document.querySelectorAll('.filter-btn').forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+                e.target.classList.add('active');
+                currentFilter = e.target.dataset.filter;
+                filterItems();
+            });
+        });
+
+        // Load feed when page loads
+        window.addEventListener('load', loadFeed);
+
+        // Auto-refresh every 30 minutes
+        setInterval(loadFeed, 30 * 60 * 1000);
     </script>
 </body>
 </html>
