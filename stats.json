@@ -1,19 +1,19 @@
 {
-  "lastUpdate": "2025-08-23T01:17:57.049Z",
+  "lastUpdate": "2025-08-23T06:30:11.763Z",
   "totalItems": 150,
-  "totalArchived": 1334,
-  "newPapersAdded": 380,
+  "totalArchived": 1699,
+  "newPapersAdded": 365,
   "institutionBreakdown": {
-    "KAIST": 10,
-    "SNU": 41,
-    "Yonsei University": 2,
-    "SKKU": 2,
-    "POSTECH": 3,
-    "Korea University": 42,
-    "IBS": 69,
-    "Multi-institutional": 18
+    "KAIST": 23,
+    "SNU": 50,
+    "Yonsei University": 7,
+    "SKKU": 4,
+    "POSTECH": 4,
+    "Korea University": 70,
+    "IBS": 36,
+    "Multi-institutional": 31
   },
-  "multiInstitutional": 18,
+  "multiInstitutional": 31,
   "institutions": [
     "KAIST",
     "SNU",
@@ -24,8 +24,8 @@
     "IBS"
   ],
   "latestItem": {
-    "title": "Immunosuppression induced by co-exposure to allergens and PM2.5 increases the risk of lung disease upon viral protein challenge",
-    "date": "2025-08-23T01:17:57.049Z",
+    "title": "Reconfigurable control of coherence, dissipation, and nonreciprocity in cavity magnonics",
+    "date": "2025-08-23T06:30:11.764Z",
     "institutions": [
       "Unknown"
     ]
