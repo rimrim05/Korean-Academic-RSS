@@ -95,188 +95,15 @@
             box-shadow: 0 10px 25px rgba(250, 112, 154, 0.5);
         }
 
-        .stats-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 20px;
-            margin-bottom: 30px;
-        }
-
-        .stat-card {
-            background: rgba(255, 255, 255, 0.95);
-            backdrop-filter: blur(10px);
-            border-radius: 15px;
-            padding: 25px;
-            text-align: center;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-            border: 1px solid rgba(255, 255, 255, 0.2);
-            transition: transform 0.3s ease;
-        }
-
-        .stat-card:hover {
-            transform: translateY(-5px);
-        }
-
-        .stat-number {
-            font-size: 2.5em;
-            font-weight: 700;
-            background: linear-gradient(135deg, #667eea, #764ba2);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-            margin-bottom: 8px;
-        }
-
-        .stat-label {
-            color: #666;
-            font-weight: 500;
-            font-size: 1em;
-        }
-
-        .controls-panel {
-            background: rgba(255, 255, 255, 0.95);
-            backdrop-filter: blur(10px);
-            border-radius: 20px;
-            padding: 30px;
-            margin-bottom: 30px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-            border: 1px solid rgba(255, 255, 255, 0.2);
-        }
-
-        .search-container {
-            position: relative;
-            margin-bottom: 25px;
-        }
-
-        .search-box {
-            width: 100%;
-            padding: 15px 20px 15px 50px;
-            border: 2px solid rgba(102, 126, 234, 0.2);
-            border-radius: 15px;
-            font-size: 1.1em;
-            background: rgba(255, 255, 255, 0.9);
-            transition: all 0.3s ease;
-        }
-
-        .search-box:focus {
-            outline: none;
-            border-color: #667eea;
-            background: white;
-            box-shadow: 0 0 20px rgba(102, 126, 234, 0.2);
-        }
-
-        .search-icon {
-            position: absolute;
-            left: 18px;
-            top: 50%;
-            transform: translateY(-50%);
-            color: #999;
-            font-size: 1.2em;
-        }
-
-        .toggle-section {
-            display: flex;
-            align-items: center;
-            margin-bottom: 25px;
-            gap: 15px;
-        }
-
-        .toggle-label {
-            font-weight: 500;
-            color: #555;
-        }
-
-        .toggle-switch {
-            position: relative;
-            width: 60px;
-            height: 32px;
-        }
-
-        .toggle-switch input {
-            opacity: 0;
-            width: 0;
-            height: 0;
-        }
-
-        .toggle-slider {
-            position: absolute;
-            cursor: pointer;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: #ccc;
-            transition: .4s;
-            border-radius: 32px;
-        }
-
-        .toggle-slider:before {
-            position: absolute;
-            content: "";
-            height: 24px;
-            width: 24px;
-            left: 4px;
-            bottom: 4px;
-            background: white;
-            transition: .4s;
-            border-radius: 50%;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.2);
-        }
-
-        input:checked + .toggle-slider {
-            background: linear-gradient(135deg, #667eea, #764ba2);
-        }
-
-        input:checked + .toggle-slider:before {
-            transform: translateX(28px);
-        }
-
-        .filter-tabs {
-            display: flex;
-            gap: 10px;
-            flex-wrap: wrap;
-        }
-
-        .filter-tab {
-            background: rgba(102, 126, 234, 0.1);
-            border: 2px solid rgba(102, 126, 234, 0.2);
-            color: #667eea;
-            padding: 10px 20px;
-            border-radius: 25px;
-            cursor: pointer;
-            transition: all 0.3s ease;
-            font-weight: 500;
-            font-size: 0.95em;
-        }
-
-        .filter-tab:hover {
-            background: rgba(102, 126, 234, 0.2);
-            transform: translateY(-1px);
-        }
-
-        .filter-tab.active {
-            background: linear-gradient(135deg, #667eea, #764ba2);
-            color: white;
-            border-color: transparent;
-            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.3);
-        }
-
-        .publications-container {
-            background: rgba(255, 255, 255, 0.95);
-            backdrop-filter: blur(10px);
-            border-radius: 20px;
-            padding: 30px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-            border: 1px solid rgba(255, 255, 255, 0.2);
-        }
+        /* ... (keep all existing CSS styles) ... */
 
         .publication-item {
             background: white;
             border-radius: 15px;
-            padding: 25px;
-            margin-bottom: 20px;
+            padding: 30px;
+            margin-bottom: 25px;
             border-left: 5px solid #667eea;
-            box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.1);
             transition: all 0.3s ease;
             position: relative;
             overflow: hidden;
@@ -293,14 +120,22 @@
         }
 
         .publication-item:hover {
-            transform: translateY(-3px);
+            transform: translateY(-5px);
             box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+        }
+
+        .publication-meta {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 15px;
+            flex-wrap: wrap;
+            gap: 10px;
         }
 
         .institution-tags {
             display: flex;
             gap: 8px;
-            margin-bottom: 15px;
             flex-wrap: wrap;
         }
 
@@ -324,6 +159,16 @@
             box-shadow: 0 3px 10px rgba(240, 147, 251, 0.3);
         }
 
+        .journal-badge {
+            background: linear-gradient(135deg, #43e97b, #38f9d7);
+            color: white;
+            padding: 6px 12px;
+            border-radius: 15px;
+            font-size: 0.85em;
+            font-weight: 500;
+            box-shadow: 0 3px 10px rgba(67, 233, 123, 0.3);
+        }
+
         .publication-title {
             margin: 0 0 15px 0;
             line-height: 1.4;
@@ -333,7 +178,7 @@
             color: #2c3e50;
             text-decoration: none;
             font-weight: 600;
-            font-size: 1.1em;
+            font-size: 1.15em;
             transition: color 0.3s ease;
         }
 
@@ -344,10 +189,40 @@
         .publication-date {
             color: #666;
             font-size: 0.95em;
-            margin-bottom: 15px;
+            margin-bottom: 20px;
             display: flex;
             align-items: center;
             gap: 8px;
+        }
+
+        .publication-details {
+            margin-bottom: 15px;
+        }
+
+        .detail-section {
+            margin-bottom: 15px;
+            padding: 15px;
+            background: rgba(102, 126, 234, 0.05);
+            border-radius: 10px;
+            border-left: 4px solid rgba(102, 126, 234, 0.3);
+        }
+
+        .detail-label {
+            font-weight: 600;
+            color: #667eea;
+            font-size: 0.9em;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .detail-content {
+            color: #555;
+            line-height: 1.5;
+            font-size: 0.95em;
         }
 
         .publication-abstract {
@@ -355,97 +230,33 @@
             line-height: 1.6;
             margin-top: 15px;
             display: none;
-            padding-top: 15px;
-            border-top: 1px solid rgba(102, 126, 234, 0.1);
+            padding: 15px;
+            background: rgba(102, 126, 234, 0.05);
+            border-radius: 10px;
+            border-left: 4px solid rgba(102, 126, 234, 0.3);
         }
 
         .publication-abstract.show {
             display: block;
         }
 
-        .loading {
-            text-align: center;
-            padding: 60px;
-            color: white;
-            font-size: 1.2em;
-            font-weight: 500;
-        }
-
-        .error {
-            background: rgba(248, 215, 218, 0.95);
-            color: #721c24;
-            padding: 20px;
-            border-radius: 15px;
-            margin: 20px 0;
-            border-left: 4px solid #f5c6cb;
-            backdrop-filter: blur(10px);
-        }
-
-        .empty-state {
-            text-align: center;
-            padding: 60px 20px;
-            color: #666;
-        }
-
-        .empty-state h3 {
-            font-size: 1.5em;
+        .abstract-label {
+            font-weight: 600;
+            color: #667eea;
+            font-size: 0.9em;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
             margin-bottom: 10px;
-            color: #555;
         }
 
-        /* Responsive Design */
-        @media (max-width: 768px) {
-            .container {
-                padding: 15px;
-            }
-
-            .header h1 {
-                font-size: 2.2em;
-            }
-
-            .header-links {
-                flex-direction: column;
-                align-items: center;
-            }
-
-            .stats-grid {
-                grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-                gap: 15px;
-            }
-
-            .filter-tabs {
-                justify-content: center;
-            }
-
-            .toggle-section {
-                flex-direction: column;
-                align-items: flex-start;
-                gap: 10px;
-            }
-        }
-
-        /* Animations */
-        @keyframes fadeInUp {
-            from {
-                opacity: 0;
-                transform: translateY(30px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-
-        .publication-item {
-            animation: fadeInUp 0.5s ease-out;
-        }
+        /* ... (keep all other existing CSS styles) ... */
     </style>
 </head>
 <body>
     <div class="container">
         <div class="header">
             <h1>🎓 KAIST & SNU Publications</h1>
-            <p class="subtitle">Latest research from top Korean institutions (deduplicated)</p>
+            <p class="subtitle">Latest research from top Korean institutions with enhanced details</p>
             <div class="header-links">
                 <a href="feed.xml" class="header-link">📡 RSS Feed</a>
                 <a href="feed.json" class="header-link json">📄 JSON Feed</a>
@@ -454,29 +265,7 @@
             </div>
         </div>
 
-        <div id="stats" class="stats-grid" style="display: none;"></div>
-
-        <div class="controls-panel">
-            <div class="search-container">
-                <span class="search-icon">🔍</span>
-                <input type="text" class="search-box" id="search" placeholder="Search publications...">
-            </div>
-            
-            <div class="toggle-section">
-                <span class="toggle-label">Show Abstracts:</span>
-                <label class="toggle-switch">
-                    <input type="checkbox" id="abstractToggle">
-                    <span class="toggle-slider"></span>
-                </label>
-            </div>
-            
-            <div class="filter-tabs" id="filterTabs">
-                <button class="filter-tab active" data-filter="all">All</button>
-                <button class="filter-tab" data-filter="KAIST">KAIST Only</button>
-                <button class="filter-tab" data-filter="SNU">SNU Only</button>
-                <button class="filter-tab" data-filter="both">Both Institutions</button>
-            </div>
-        </div>
+        <!-- ... (keep all existing stats and controls sections) ... -->
 
         <div id="loading" class="loading">Loading publications...</div>
         <div id="error" class="error" style="display: none;"></div>
@@ -489,73 +278,7 @@
         let currentFilter = 'all';
         let showAbstracts = false;
 
-        async function loadFeed() {
-            const loadingDiv = document.getElementById('loading');
-            const errorDiv = document.getElementById('error');
-            const statsDiv = document.getElementById('stats');
-            const publicationsContainer = document.getElementById('publicationsContainer');
-
-            try {
-                const response = await fetch('feed.json');
-                if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
-                
-                const data = await response.json();
-                loadingDiv.style.display = 'none';
-
-                if (!data.items || data.items.length === 0) {
-                    errorDiv.innerHTML = '<h3>No publications found</h3><p>Please try again later.</p>';
-                    errorDiv.style.display = 'block';
-                    return;
-                }
-
-                allItems = data.items;
-                filteredItems = [...allItems];
-
-                displayStats(data);
-                displayItems(filteredItems);
-                publicationsContainer.style.display = 'block';
-
-            } catch (error) {
-                loadingDiv.style.display = 'none';
-                errorDiv.innerHTML = `<h3>Error loading publications</h3><p>${error.message}</p>`;
-                errorDiv.style.display = 'block';
-            }
-        }
-
-        function displayStats(data) {
-            const statsDiv = document.getElementById('stats');
-            const breakdown = data.institutionBreakdown || {};
-            
-            let statsHTML = `
-                <div class="stat-card">
-                    <div class="stat-number">${data.totalItems || 0}</div>
-                    <div class="stat-label">Current Publications</div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-number">${data.totalArchived || 0}</div>
-                    <div class="stat-label">Total Archived</div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-number">${breakdown['KAIST'] || 0}</div>
-                    <div class="stat-label">KAIST</div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-number">${breakdown['SNU'] || 0}</div>
-                    <div class="stat-label">SNU</div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-number">${breakdown['Both KAIST & SNU'] || 0}</div>
-                    <div class="stat-label">Collaborations</div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-number">${new Date(data.lastBuildDate).toLocaleDateString()}</div>
-                    <div class="stat-label">Last Updated</div>
-                </div>
-            `;
-            
-            statsDiv.innerHTML = statsHTML;
-            statsDiv.style.display = 'grid';
-        }
+        // ... (keep existing loadFeed and displayStats functions) ...
 
         function displayItems(items) {
             const container = document.getElementById('publicationsContainer');
@@ -578,12 +301,38 @@
                     return `<span class="institution-tag ${className}">${inst}</span>`;
                 }).join('');
                 
+                const journalBadge = item.journal ? 
+                    `<div class="journal-badge">📚 ${item.journal}</div>` : '';
+                
+                const objectiveSection = item.objective ? 
+                    `<div class="detail-section">
+                        <div class="detail-label">🎯 Objective</div>
+                        <div class="detail-content">${item.objective}</div>
+                    </div>` : '';
+                
+                const significanceSection = item.significance ? 
+                    `<div class="detail-section">
+                        <div class="detail-label">⭐ Significance</div>
+                        <div class="detail-content">${item.significance}</div>
+                    </div>` : '';
+                
+                const conclusionSection = item.conclusion ? 
+                    `<div class="detail-section">
+                        <div class="detail-label">💡 Conclusion</div>
+                        <div class="detail-content">${item.conclusion}</div>
+                    </div>` : '';
+                
                 return `
                     <div class="publication-item" data-institutions="${item.institutions.join(',')}">
-                        <div class="institution-tags">${institutionTags}</div>
+                        <div class="publication-meta">
+                            <div class="institution-tags">${institutionTags}</div>
+                            ${journalBadge}
+                        </div>
+                        
                         <h3 class="publication-title">
                             <a href="${item.link}" target="_blank" rel="noopener">${item.title}</a>
                         </h3>
+                        
                         <div class="publication-date">
                             📅 ${date.toLocaleDateString('en-US', { 
                                 year: 'numeric', 
@@ -591,56 +340,23 @@
                                 day: 'numeric' 
                             })}
                         </div>
-                        <div class="publication-abstract ${showAbstracts ? 'show' : ''}">${item.description}</div>
+                        
+                        <div class="publication-details">
+                            ${objectiveSection}
+                            ${significanceSection}
+                            ${conclusionSection}
+                        </div>
+                        
+                        <div class="publication-abstract ${showAbstracts ? 'show' : ''}">
+                            <div class="abstract-label">📄 Full Abstract</div>
+                            ${item.description}
+                        </div>
                     </div>
                 `;
             }).join('');
         }
 
-        function filterItems() {
-            const searchTerm = document.getElementById('search').value.toLowerCase();
-            
-            filteredItems = allItems.filter(item => {
-                const matchesSearch = item.title.toLowerCase().includes(searchTerm) || 
-                                    item.description.toLowerCase().includes(searchTerm);
-                
-                let matchesFilter = true;
-                if (currentFilter === 'KAIST') {
-                    matchesFilter = item.institutions.includes('KAIST') && !item.institutions.includes('SNU');
-                } else if (currentFilter === 'SNU') {
-                    matchesFilter = item.institutions.includes('SNU') && !item.institutions.includes('KAIST');
-                } else if (currentFilter === 'both') {
-                    matchesFilter = item.institutions.includes('KAIST') && item.institutions.includes('SNU');
-                }
-                
-                return matchesSearch && matchesFilter;
-            });
-            
-            displayItems(filteredItems);
-        }
-
-        // Event listeners
-        document.getElementById('search').addEventListener('input', filterItems);
-        
-        document.getElementById('abstractToggle').addEventListener('change', (e) => {
-            showAbstracts = e.target.checked;
-            document.querySelectorAll('.publication-abstract').forEach(abstract => {
-                if (showAbstracts) {
-                    abstract.classList.add('show');
-                } else {
-                    abstract.classList.remove('show');
-                }
-            });
-        });
-
-        document.querySelectorAll('.filter-tab').forEach(tab => {
-            tab.addEventListener('click', (e) => {
-                document.querySelectorAll('.filter-tab').forEach(t => t.classList.remove('active'));
-                e.target.classList.add('active');
-                currentFilter = e.target.dataset.filter;
-                filterItems();
-            });
-        });
+        // ... (keep all existing JavaScript functions) ...
 
         window.addEventListener('load', loadFeed);
         setInterval(loadFeed, 30 * 60 * 1000);
