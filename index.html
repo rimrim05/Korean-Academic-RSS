@@ -3,152 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KAIST & SNU Academic Publications</title>
+    <title>Korean Academic Publications</title>
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            min-height: 100vh;
-            color: #333;
-        }
-
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-
-        .header {
-            text-align: center;
-            margin-bottom: 40px;
-            background: rgba(255, 255, 255, 0.95);
-            backdrop-filter: blur(10px);
-            border-radius: 20px;
-            padding: 40px 30px;
-            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
-            border: 1px solid rgba(255, 255, 255, 0.2);
-        }
-
-        .header h1 {
-            font-size: 3em;
-            font-weight: 700;
-            background: linear-gradient(135deg, #667eea, #764ba2);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-            margin-bottom: 15px;
-        }
-
-        .header .subtitle {
-            font-size: 1.2em;
-            color: #666;
-            margin-bottom: 30px;
-            font-weight: 400;
-        }
-
-        .header-links {
-            display: flex;
-            justify-content: center;
-            gap: 15px;
-            flex-wrap: wrap;
-        }
-
-        .header-link {
-            background: linear-gradient(135deg, #667eea, #764ba2);
-            color: white;
-            padding: 12px 24px;
-            border-radius: 25px;
-            text-decoration: none;
-            font-weight: 500;
-            transition: all 0.3s ease;
-            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.3);
-        }
-
-        .header-link:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 10px 25px rgba(102, 126, 234, 0.5);
-            color: white;
-            text-decoration: none;
-        }
-
-        .header-link.json {
-            background: linear-gradient(135deg, #4facfe, #00f2fe);
-            box-shadow: 0 5px 15px rgba(79, 172, 254, 0.3);
-        }
-
-        .header-link.json:hover {
-            box-shadow: 0 10px 25px rgba(79, 172, 254, 0.5);
-        }
-
-        .header-link.stats {
-            background: linear-gradient(135deg, #fa709a, #fee140);
-            box-shadow: 0 5px 15px rgba(250, 112, 154, 0.3);
-        }
-
-        .header-link.stats:hover {
-            box-shadow: 0 10px 25px rgba(250, 112, 154, 0.5);
-        }
-
         /* ... (keep all existing CSS styles) ... */
-
-        .publication-item {
-            background: white;
-            border-radius: 15px;
-            padding: 30px;
-            margin-bottom: 25px;
-            border-left: 5px solid #667eea;
-            box-shadow: 0 8px 25px rgba(0,0,0,0.1);
-            transition: all 0.3s ease;
-            position: relative;
-            overflow: hidden;
-        }
-
-        .publication-item::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            height: 3px;
-            background: linear-gradient(90deg, #667eea, #764ba2);
-        }
-
-        .publication-item:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 15px 40px rgba(0,0,0,0.15);
-        }
-
-        .publication-meta {
-            display: flex;
-            justify-content: space-between;
-            align-items: flex-start;
-            margin-bottom: 15px;
-            flex-wrap: wrap;
-            gap: 10px;
-        }
-
-        .institution-tags {
-            display: flex;
-            gap: 8px;
-            flex-wrap: wrap;
-        }
-
-        .institution-tag {
-            padding: 6px 12px;
-            border-radius: 20px;
-            font-size: 0.85em;
-            font-weight: 600;
-            color: white;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-        }
-
+        
         .institution-tag.kaist {
             background: linear-gradient(135deg, #667eea, #764ba2);
             box-shadow: 0 3px 10px rgba(102, 126, 234, 0.3);
@@ -159,104 +17,48 @@
             box-shadow: 0 3px 10px rgba(240, 147, 251, 0.3);
         }
 
-        .journal-badge {
+        .institution-tag.yonsei {
+            background: linear-gradient(135deg, #4facfe, #00f2fe);
+            box-shadow: 0 3px 10px rgba(79, 172, 254, 0.3);
+        }
+
+        .institution-tag.skku {
             background: linear-gradient(135deg, #43e97b, #38f9d7);
-            color: white;
-            padding: 6px 12px;
-            border-radius: 15px;
-            font-size: 0.85em;
-            font-weight: 500;
             box-shadow: 0 3px 10px rgba(67, 233, 123, 0.3);
         }
 
-        .publication-title {
-            margin: 0 0 15px 0;
-            line-height: 1.4;
+        .institution-tag.postech {
+            background: linear-gradient(135deg, #fa709a, #fee140);
+            box-shadow: 0 3px 10px rgba(250, 112, 154, 0.3);
         }
 
-        .publication-title a {
-            color: #2c3e50;
-            text-decoration: none;
-            font-weight: 600;
-            font-size: 1.15em;
-            transition: color 0.3s ease;
+        .institution-tag.korea {
+            background: linear-gradient(135deg, #a8edea, #fed6e3);
+            color: #555;
+            box-shadow: 0 3px 10px rgba(168, 237, 234, 0.3);
         }
 
-        .publication-title a:hover {
-            color: #667eea;
+        .institution-tag.ibs {
+            background: linear-gradient(135deg, #ffecd2, #fcb69f);
+            color: #555;
+            box-shadow: 0 3px 10px rgba(255, 236, 210, 0.3);
         }
 
-        .publication-date {
-            color: #666;
-            font-size: 0.95em;
-            margin-bottom: 20px;
+        .filter-tabs {
             display: flex;
-            align-items: center;
             gap: 8px;
+            flex-wrap: wrap;
+            justify-content: center;
         }
 
-        .publication-details {
-            margin-bottom: 15px;
-        }
-
-        .detail-section {
-            margin-bottom: 15px;
-            padding: 15px;
-            background: rgba(102, 126, 234, 0.05);
-            border-radius: 10px;
-            border-left: 4px solid rgba(102, 126, 234, 0.3);
-        }
-
-        .detail-label {
-            font-weight: 600;
-            color: #667eea;
-            font-size: 0.9em;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-            margin-bottom: 8px;
-            display: flex;
-            align-items: center;
-            gap: 6px;
-        }
-
-        .detail-content {
-            color: #555;
-            line-height: 1.5;
-            font-size: 0.95em;
-        }
-
-        .publication-abstract {
-            color: #555;
-            line-height: 1.6;
-            margin-top: 15px;
-            display: none;
-            padding: 15px;
-            background: rgba(102, 126, 234, 0.05);
-            border-radius: 10px;
-            border-left: 4px solid rgba(102, 126, 234, 0.3);
-        }
-
-        .publication-abstract.show {
-            display: block;
-        }
-
-        .abstract-label {
-            font-weight: 600;
-            color: #667eea;
-            font-size: 0.9em;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-            margin-bottom: 10px;
-        }
-
-        /* ... (keep all other existing CSS styles) ... */
+        /* ... (keep all other existing styles) ... */
     </style>
 </head>
 <body>
     <div class="container">
         <div class="header">
-            <h1>🎓 KAIST & SNU Publications</h1>
-            <p class="subtitle">Latest research from top Korean institutions with enhanced details</p>
+            <h1>🇰🇷 Korean Academic Publications</h1>
+            <p class="subtitle">Latest research from Korea's top institutions with enhanced details</p>
             <div class="header-links">
                 <a href="feed.xml" class="header-link">📡 RSS Feed</a>
                 <a href="feed.json" class="header-link json">📄 JSON Feed</a>
@@ -265,7 +67,34 @@
             </div>
         </div>
 
-        <!-- ... (keep all existing stats and controls sections) ... -->
+        <div id="stats" class="stats-grid" style="display: none;"></div>
+
+        <div class="controls-panel">
+            <div class="search-container">
+                <span class="search-icon">🔍</span>
+                <input type="text" class="search-box" id="search" placeholder="Search publications...">
+            </div>
+            
+            <div class="toggle-section">
+                <span class="toggle-label">Show Abstracts:</span>
+                <label class="toggle-switch">
+                    <input type="checkbox" id="abstractToggle">
+                    <span class="toggle-slider"></span>
+                </label>
+            </div>
+            
+            <div class="filter-tabs" id="filterTabs">
+                <button class="filter-tab active" data-filter="all">All</button>
+                <button class="filter-tab" data-filter="KAIST">KAIST</button>
+                <button class="filter-tab" data-filter="SNU">SNU</button>
+                <button class="filter-tab" data-filter="Yonsei University">Yonsei</button>
+                <button class="filter-tab" data-filter="SKKU">SKKU</button>
+                <button class="filter-tab" data-filter="POSTECH">POSTECH</button>
+                <button class="filter-tab" data-filter="Korea University">Korea Univ</button>
+                <button class="filter-tab" data-filter="IBS">IBS</button>
+                <button class="filter-tab" data-filter="multi">Collaborations</button>
+            </div>
+        </div>
 
         <div id="loading" class="loading">Loading publications...</div>
         <div id="error" class="error" style="display: none;"></div>
@@ -278,7 +107,48 @@
         let currentFilter = 'all';
         let showAbstracts = false;
 
-        // ... (keep existing loadFeed and displayStats functions) ...
+        // Enhanced displayStats function for multiple institutions
+        function displayStats(data) {
+            const statsDiv = document.getElementById('stats');
+            const breakdown = data.institutionBreakdown || {};
+            
+            let statsHTML = `
+                <div class="stat-card">
+                    <div class="stat-number">${data.totalItems || 0}</div>
+                    <div class="stat-label">Current Publications</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">${data.totalArchived || 0}</div>
+                    <div class="stat-label">Total Archived</div>
+                </div>
+            `;
+            
+            // Add cards for each institution
+            Object.entries(breakdown).forEach(([inst, count]) => {
+                if (inst !== 'Multi-institutional' && count > 0) {
+                    statsHTML += `
+                        <div class="stat-card">
+                            <div class="stat-number">${count}</div>
+                            <div class="stat-label">${inst}</div>
+                        </div>
+                    `;
+                }
+            });
+            
+            statsHTML += `
+                <div class="stat-card">
+                    <div class="stat-number">${breakdown['Multi-institutional'] || 0}</div>
+                    <div class="stat-label">Collaborations</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">${new Date(data.lastBuildDate).toLocaleDateString()}</div>
+                    <div class="stat-label">Last Updated</div>
+                </div>
+            `;
+            
+            statsDiv.innerHTML = statsHTML;
+            statsDiv.style.display = 'grid';
+        }
 
         function displayItems(items) {
             const container = document.getElementById('publicationsContainer');
@@ -297,7 +167,7 @@
                 const date = new Date(item.pubDate);
                 
                 const institutionTags = item.institutions.map(inst => {
-                    const className = inst.toLowerCase();
+                    const className = inst.toLowerCase().replace(/\s+/g, '').replace('university', '').replace('korea', 'korea');
                     return `<span class="institution-tag ${className}">${inst}</span>`;
                 }).join('');
                 
@@ -356,7 +226,83 @@
             }).join('');
         }
 
-        // ... (keep all existing JavaScript functions) ...
+        function filterItems() {
+            const searchTerm = document.getElementById('search').value.toLowerCase();
+            
+            filteredItems = allItems.filter(item => {
+                const matchesSearch = item.title.toLowerCase().includes(searchTerm) || 
+                                    item.description.toLowerCase().includes(searchTerm);
+                
+                let matchesFilter = true;
+                if (currentFilter === 'all') {
+                    matchesFilter = true;
+                } else if (currentFilter === 'multi') {
+                    matchesFilter = item.institutions.length > 1;
+                } else {
+                    matchesFilter = item.institutions.includes(currentFilter);
+                }
+                
+                return matchesSearch && matchesFilter;
+            });
+            
+            displayItems(filteredItems);
+        }
+
+        // Enhanced event listeners for new filters
+        document.querySelectorAll('.filter-tab').forEach(tab => {
+            tab.addEventListener('click', (e) => {
+                document.querySelectorAll('.filter-tab').forEach(t => t.classList.remove('active'));
+                e.target.classList.add('active');
+                currentFilter = e.target.dataset.filter;
+                filterItems();
+            });
+        });
+
+        // Keep all other existing JavaScript functions...
+        async function loadFeed() {
+            const loadingDiv = document.getElementById('loading');
+            const errorDiv = document.getElementById('error');
+            const publicationsContainer = document.getElementById('publicationsContainer');
+
+            try {
+                const response = await fetch('feed.json');
+                if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+                
+                const data = await response.json();
+                loadingDiv.style.display = 'none';
+
+                if (!data.items || data.items.length === 0) {
+                    errorDiv.innerHTML = '<h3>No publications found</h3><p>Please try again later.</p>';
+                    errorDiv.style.display = 'block';
+                    return;
+                }
+
+                allItems = data.items;
+                filteredItems = [...allItems];
+
+                displayStats(data);
+                displayItems(filteredItems);
+                publicationsContainer.style.display = 'block';
+
+            } catch (error) {
+                loadingDiv.style.display = 'none';
+                errorDiv.innerHTML = `<h3>Error loading publications</h3><p>${error.message}</p>`;
+                errorDiv.style.display = 'block';
+            }
+        }
+
+        document.getElementById('search').addEventListener('input', filterItems);
+        
+        document.getElementById('abstractToggle').addEventListener('change', (e) => {
+            showAbstracts = e.target.checked;
+            document.querySelectorAll('.publication-abstract').forEach(abstract => {
+                if (showAbstracts) {
+                    abstract.classList.add('show');
+                } else {
+                    abstract.classList.remove('show');
+                }
+            });
+        });
 
         window.addEventListener('load', loadFeed);
         setInterval(loadFeed, 30 * 60 * 1000);
