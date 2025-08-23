@@ -1,6 +1,8 @@
 {
-  "lastUpdate": "2025-08-23T00:22:23.920Z",
+  "lastUpdate": "2025-08-23T00:41:21.232Z",
   "totalItems": 97,
+  "totalArchived": 97,
+  "newPapersAdded": 97,
   "institutionBreakdown": {
     "KAIST": 50,
     "SNU": 50,
@@ -9,7 +11,7 @@
   "multiInstitutional": 3,
   "latestItem": {
     "title": "Machine-Learning Validated Short Form of the Korean Version of the Sleep-Related Behaviors Questionnaire-10 Items: SRBQ-10",
-    "date": "2025-08-23T00:22:23.920Z",
+    "date": "2025-08-23T00:41:21.232Z",
     "institutions": [
       "Unknown"
     ]
