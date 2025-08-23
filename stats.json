@@ -1,17 +1,31 @@
 {
-  "lastUpdate": "2025-08-23T00:55:48.770Z",
-  "totalItems": 97,
-  "totalArchived": 194,
-  "newPapersAdded": 97,
+  "lastUpdate": "2025-08-23T01:13:17.535Z",
+  "totalItems": 150,
+  "totalArchived": 574,
+  "newPapersAdded": 380,
   "institutionBreakdown": {
-    "KAIST": 50,
-    "SNU": 50,
-    "Both KAIST & SNU": 3
+    "KAIST": 10,
+    "SNU": 41,
+    "Yonsei University": 2,
+    "SKKU": 2,
+    "POSTECH": 3,
+    "Korea University": 42,
+    "IBS": 69,
+    "Multi-institutional": 18
   },
-  "multiInstitutional": 3,
+  "multiInstitutional": 18,
+  "institutions": [
+    "KAIST",
+    "SNU",
+    "Yonsei University",
+    "SKKU",
+    "POSTECH",
+    "Korea University",
+    "IBS"
+  ],
   "latestItem": {
     "title": "Immunosuppression induced by co-exposure to allergens and PM2.5 increases the risk of lung disease upon viral protein challenge",
-    "date": "2025-08-23T00:55:48.770Z",
+    "date": "2025-08-23T01:13:17.535Z",
     "institutions": [
       "Unknown"
     ]
