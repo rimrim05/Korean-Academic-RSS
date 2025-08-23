@@ -1,38 +1,49 @@
-name: Generate RSS Feed
+name: Generate RSS Feed with ML Training
 
 on:
   schedule:
-    # Run every 6 hours
-    - cron: '0 */6 * * *'
-  workflow_dispatch: # Allow manual trigger
+    - cron: '0 0 * * *'  # Daily at midnight UTC
+  workflow_dispatch:  # Allow manual triggering
   push:
-    branches: [ main ]
+    paths:
+      - 'training-data.js'  # Re-train when training data changes
+      - 'train-classifier.js'
 
 jobs:
-  generate-rss:
+  train-and-generate:
     runs-on: ubuntu-latest
-    
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v3
-      
-    - name: Setup Node.js
-      uses: actions/setup-node@v3
-      with:
-        node-version: '18'
+      - name: Checkout repository
+        uses: actions/checkout@v4
         
-    - name: Install dependencies
-      run: |
-        npm init -y
-        npm install node-fetch xml2js
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          
+      - name: Install dependencies
+        run: npm install
         
-    - name: Generate RSS Feed
-      run: node rss-generator-script.js
-      
-    - name: Commit and push if changed
-      run: |
-        git config --global user.email "action@github.com"
-        git config --global user.name "GitHub Action"
-        git add .
-        git diff --staged --quiet || git commit -m "Update RSS feed $(date)"
-        git push
+      - name: Train ML Model (if needed)
+        run: |
+          if [ ! -f "ml-classifier-model.json" ] || [ "training-data.js" -nt "ml-classifier-model.json" ]; then
+            echo "🧠 Training ML model..."
+            npm run train
+          else
+            echo "✅ ML model is up to date"
+          fi
+        
+      - name: Generate RSS Feed with ML
+        run: node rss-generator-script.js
+        
+      - name: Commit and push changes
+        run: |
+          git config --global user.name 'github-actions'
+          git config --global user.email 'github-actions@github.com'
+          git add .
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Daily RSS update with ML classification - $(date)"
+            git push
+          fi
