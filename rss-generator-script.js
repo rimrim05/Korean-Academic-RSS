@@ -44,14 +44,29 @@ async function fetchFeed(feed) {
             ? result.rss.channel.item 
             : [result.rss.channel.item];
         
-        return items.map(item => ({
-            title: item.title || 'No title',
-            link: item.link || '',
-            description: item.description || '',
-            pubDate: new Date(item.pubdate || item.pubDate || Date.now()),
-            source: feed.name,
-            guid: item.link || item.guid || ''
-        })).filter(item => item.title && item.link);
+        return items.map(item => {
+            // Robust date parsing
+            let pubDate;
+            try {
+                const dateStr = item.pubdate || item.pubDate || item.pubdate;
+                pubDate = dateStr ? new Date(dateStr) : new Date();
+                // Check if date is valid
+                if (isNaN(pubDate.getTime())) {
+                    pubDate = new Date();
+                }
+            } catch (e) {
+                pubDate = new Date();
+            }
+            
+            return {
+                title: item.title || 'No title',
+                link: item.link || '',
+                description: item.description || '',
+                pubDate: pubDate,
+                source: feed.name,
+                guid: item.link || item.guid || ''
+            };
+        }).filter(item => item.title && item.link);
         
     } catch (error) {
         console.error(`Error fetching ${feed.name} feed:`, error.message);
@@ -70,6 +85,15 @@ function escapeXml(unsafe) {
             case '"': return '&quot;';
         }
     });
+}
+
+function safeToISOString(date) {
+    try {
+        if (!date) return new Date().toISOString();
+        return date instanceof Date ? date.toISOString() : new Date(date).toISOString();
+    } catch (e) {
+        return new Date().toISOString();
+    }
 }
 
 async function generateRSS() {
@@ -128,7 +152,7 @@ async function generateRSS() {
                 title: `${item.title} (${item.source})`,
                 link: item.link,
                 description: item.description,
-                pubDate: item.pubDate.toISOString(),
+                pubDate: safeToISOString(item.pubDate),
                 source: item.source
             }))
         };
@@ -136,7 +160,7 @@ async function generateRSS() {
         fs.writeFileSync('feed.json', JSON.stringify(jsonFeed, null, 2));
         console.log('JSON feed generated successfully!');
         
-        // Generate statistics
+        // Generate statistics with bulletproof error handling
         const kaistCount = allItems.filter(item => item.source === 'KAIST').length;
         const snuCount = allItems.filter(item => item.source === 'SNU').length;
         
@@ -148,9 +172,9 @@ async function generateRSS() {
                 SNU: snuCount
             },
             latestItem: allItems.length > 0 ? {
-                title: allItems[0].title,
-                date: allItems.pubDate.toISOString(),
-                source: allItems.source
+                title: allItems[0].title || 'No title',
+                date: safeToISOString(allItems.pubDate),
+                source: allItems.source || 'Unknown'
             } : null
         };
         
