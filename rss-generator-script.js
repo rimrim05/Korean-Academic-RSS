@@ -2,15 +2,11 @@ const fetch = require('node-fetch');
 const xml2js = require('xml2js');
 const fs = require('fs');
 
-// RSS feed URLs
+// Updated to use single Korean institutions RSS feed
 const feeds = [
     {
-        url: 'https://pubmed.ncbi.nlm.nih.gov/rss/search/1lGTpA7S74whuNVC_kQy0F4ncgCxeB9B9U0hbi6Wldiv2cIgV2/?limit=50&utm_campaign=pubmed-2&fc=20250822163126',
-        name: 'KAIST'
-    },
-    {
-        url: 'https://pubmed.ncbi.nlm.nih.gov/rss/search/1bo4uOs-bB_ZLOeoRMDuMyKrqOCTTJrR8i4c8aBDtpAcbJ09ch/?limit=50&utm_campaign=pubmed-2&fc=20250822163228',
-        name: 'SNU'
+        url: 'https://pubmed.ncbi.nlm.nih.gov/rss/search/1vuK0yqTJNPx5rPnM_8TPe6vjXFVhqTFBI7dBn5ciR71RFXYad/?limit=100&utm_campaign=pubmed-2&fc=20250822200326',
+        name: 'Korean Institutions'
     }
 ];
 
@@ -50,13 +46,15 @@ async function fetchFeed(feed) {
             try {
                 const dateStr = item.pubdate || item.pubDate || item.pubdate;
                 pubDate = dateStr ? new Date(dateStr) : new Date();
-                // Check if date is valid
                 if (isNaN(pubDate.getTime())) {
                     pubDate = new Date();
                 }
             } catch (e) {
                 pubDate = new Date();
             }
+
+            // Extract institution from title or description
+            const institution = extractInstitution(item.title, item.description);
             
             return {
                 title: item.title || 'No title',
@@ -64,6 +62,7 @@ async function fetchFeed(feed) {
                 description: item.description || '',
                 pubDate: pubDate,
                 source: feed.name,
+                institution: institution,
                 guid: item.link || item.guid || ''
             };
         }).filter(item => item.title && item.link);
@@ -72,6 +71,36 @@ async function fetchFeed(feed) {
         console.error(`Error fetching ${feed.name} feed:`, error.message);
         return [];
     }
+}
+
+function extractInstitution(title, description) {
+    // Common Korean institution patterns
+    const institutions = [
+        'KAIST', 'SNU', 'Seoul National University', 'Yonsei', 'Korea University',
+        'POSTECH', 'Hanyang', 'UNIST', 'GIST', 'Sungkyunkwan', 'Kyung Hee',
+        'Inha University', 'Chung-Ang', 'Ewha', 'Sogang', 'Konkuk',
+        'Pusan National', 'Chonnam National', 'Kyungpook National',
+        'Chungnam National', 'Ajou', 'Inje', 'Catholic University'
+    ];
+    
+    const text = `${title} ${description}`.toLowerCase();
+    
+    for (const inst of institutions) {
+        if (text.includes(inst.toLowerCase())) {
+            return inst;
+        }
+    }
+    
+    // Try to extract from affiliations in description
+    const affiliationMatch = text.match(/\b(university|institute|college|hospital)\b/i);
+    if (affiliationMatch) {
+        // Look for Korean institution keywords
+        if (text.includes('korea') || text.includes('seoul') || text.includes('busan')) {
+            return 'Korean Institution';
+        }
+    }
+    
+    return 'Unknown';
 }
 
 function escapeXml(unsafe) {
@@ -109,8 +138,8 @@ async function generateRSS() {
         
         console.log(`Found ${allItems.length} total items`);
         
-        // Limit to 50 items
-        allItems = allItems.slice(0, 50);
+        // Limit to 100 items
+        allItems = allItems.slice(0, 100);
         
         // Get your actual GitHub Pages URL
         const baseUrl = 'https://rimrim05.github.io/Korean-Academic-RSS/';
@@ -119,8 +148,8 @@ async function generateRSS() {
         const rssContent = `<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>KAIST &amp; SNU Publications</title>
-        <description>Combined academic publications from KAIST and SNU</description>
+        <title>Korean Academic Publications</title>
+        <description>Latest research publications from Korean institutions</description>
         <link>${baseUrl}</link>
         <atom:link href="${baseUrl}feed.xml" rel="self" type="application/rss+xml" />
         <lastBuildDate>${new Date().toUTCString()}</lastBuildDate>
@@ -129,11 +158,12 @@ async function generateRSS() {
         
         ${allItems.map(item => `
         <item>
-            <title><![CDATA[${item.title} (${item.source})]]></title>
+            <title><![CDATA[${item.title}]]></title>
             <link>${escapeXml(item.link)}</link>
             <description><![CDATA[${item.description}]]></description>
             <pubDate>${item.pubDate.toUTCString()}</pubDate>
             <guid isPermaLink="true">${escapeXml(item.link)}</guid>
+            <category>${item.institution}</category>
         </item>`).join('')}
     </channel>
 </rss>`;
@@ -142,39 +172,39 @@ async function generateRSS() {
         fs.writeFileSync('feed.xml', rssContent);
         console.log('RSS feed generated successfully!');
         
-        // Generate JSON feed
+        // Generate JSON feed with institution breakdown
+        const institutionCounts = {};
+        allItems.forEach(item => {
+            institutionCounts[item.institution] = (institutionCounts[item.institution] || 0) + 1;
+        });
+
         const jsonFeed = {
-            title: "KAIST & SNU Publications",
-            description: "Combined academic publications from KAIST and SNU",
+            title: "Korean Academic Publications",
+            description: "Latest research publications from Korean institutions",
             lastBuildDate: new Date().toISOString(),
             totalItems: allItems.length,
+            institutions: institutionCounts,
             items: allItems.map(item => ({
-                title: `${item.title} (${item.source})`,
+                title: item.title,
                 link: item.link,
                 description: item.description,
                 pubDate: safeToISOString(item.pubDate),
-                source: item.source
+                institution: item.institution
             }))
         };
         
         fs.writeFileSync('feed.json', JSON.stringify(jsonFeed, null, 2));
         console.log('JSON feed generated successfully!');
         
-        // Generate statistics with bulletproof error handling
-        const kaistCount = allItems.filter(item => item.source === 'KAIST').length;
-        const snuCount = allItems.filter(item => item.source === 'SNU').length;
-        
+        // Generate statistics
         const stats = {
             lastUpdate: new Date().toISOString(),
             totalItems: allItems.length,
-            sources: {
-                KAIST: kaistCount,
-                SNU: snuCount
-            },
+            institutions: institutionCounts,
             latestItem: allItems.length > 0 ? {
                 title: allItems[0].title || 'No title',
                 date: safeToISOString(allItems.pubDate),
-                source: allItems.source || 'Unknown'
+                institution: allItems.institution || 'Unknown'
             } : null
         };
         
