@@ -4,19 +4,13 @@
   "main": "rss-generator-script.js",
   "scripts": {
     "start": "node rss-generator-script.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "train": "node train-classifier.js"
   },
-  "keywords": [
-    "rss",
-    "academic",
-    "kaist",
-    "snu"
-  ],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "node-fetch": "^2.7.0",
-    "xml2js": "^0.6.2"
+    "xml2js": "^0.6.2",
+    "brain.js": "^2.0.0-beta.18",
+    "natural": "^6.12.0"
   },
-  "description": "RSS aggregator for KAIST and SNU academic publications"
+  "description": "Korean Academic RSS aggregator with ML classification"
 }
