@@ -449,7 +449,8 @@
             <div class="header-links">
                 <a href="feed.xml" class="header-link">📡 RSS Feed</a>
                 <a href="feed.json" class="header-link json">📄 JSON Feed</a>
-                <a href="stats.json" class="header-link stats">📊 Statistics</a>
+                <a href="papers-archive.csv" class="header-link stats">📁 Download Archive</a>
+                <a href="https://docs.google.com/spreadsheets/d/1kSExt97IEVj_DrNXHTlewzFou8XSAnpYAxKycz-ihO0/edit" class="header-link stats" target="_blank">📊 Live Archive</a>
             </div>
         </div>
 
@@ -525,10 +526,14 @@
             const statsDiv = document.getElementById('stats');
             const breakdown = data.institutionBreakdown || {};
             
-            statsDiv.innerHTML = `
+            let statsHTML = `
                 <div class="stat-card">
                     <div class="stat-number">${data.totalItems || 0}</div>
-                    <div class="stat-label">Total Publications</div>
+                    <div class="stat-label">Current Publications</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">${data.totalArchived || 0}</div>
+                    <div class="stat-label">Total Archived</div>
                 </div>
                 <div class="stat-card">
                     <div class="stat-number">${breakdown['KAIST'] || 0}</div>
@@ -548,6 +553,7 @@
                 </div>
             `;
             
+            statsDiv.innerHTML = statsHTML;
             statsDiv.style.display = 'grid';
         }
 
