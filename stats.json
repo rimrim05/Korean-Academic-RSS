@@ -1,7 +1,7 @@
 {
-  "lastUpdate": "2025-08-23T00:41:21.232Z",
+  "lastUpdate": "2025-08-23T00:55:48.770Z",
   "totalItems": 97,
-  "totalArchived": 97,
+  "totalArchived": 194,
   "newPapersAdded": 97,
   "institutionBreakdown": {
     "KAIST": 50,
@@ -10,8 +10,8 @@
   },
   "multiInstitutional": 3,
   "latestItem": {
-    "title": "Machine-Learning Validated Short Form of the Korean Version of the Sleep-Related Behaviors Questionnaire-10 Items: SRBQ-10",
-    "date": "2025-08-23T00:41:21.232Z",
+    "title": "Immunosuppression induced by co-exposure to allergens and PM2.5 increases the risk of lung disease upon viral protein challenge",
+    "date": "2025-08-23T00:55:48.770Z",
     "institutions": [
       "Unknown"
     ]
