@@ -1,14 +1,17 @@
 {
-  "lastUpdate": "2025-08-23T00:10:12.876Z",
-  "totalItems": 36,
-  "institutions": {
-    "Unknown": 34,
-    "Inje": 1,
-    "GIST": 1
+  "lastUpdate": "2025-08-23T00:14:44.399Z",
+  "totalItems": 97,
+  "institutionBreakdown": {
+    "KAIST": 50,
+    "SNU": 50,
+    "Both KAIST & SNU": 3
   },
+  "multiInstitutional": 3,
   "latestItem": {
-    "title": "Plastic debris in bird nests: sources, ecological impacts, and bioindicator potential for monitoring microplastic pollution",
-    "date": "2025-08-23T00:10:12.876Z",
-    "institution": "Unknown"
+    "title": "Machine-Learning Validated Short Form of the Korean Version of the Sleep-Related Behaviors Questionnaire-10 Items: SRBQ-10",
+    "date": "2025-08-23T00:14:44.399Z",
+    "institutions": [
+      "Unknown"
+    ]
   }
 }
