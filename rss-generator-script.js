@@ -34,7 +34,135 @@ const feeds = [
     }
 ];
 
-// ... (keep all the existing helper functions: extractPMID, extractEnhancedInfo, parseCSVLine, etc.)
+function extractPMID(url) {
+    const match = url.match(/pubmed\.ncbi\.nlm\.nih\.gov\/(\d+)/);
+    return match ? match[1] : null;
+}
+
+function extractEnhancedInfo(title, description) {
+    if (!description) {
+        return {
+            journal: null,
+            objective: null,
+            significance: null,
+            conclusion: null
+        };
+    }
+
+    const desc = description.toLowerCase();
+    
+    // Extract journal name (common patterns)
+    let journal = null;
+    const journalPatterns = [
+        /published in ([^.]+)/i,
+        /from ([a-z\s&]+journal[^.]*)/i,
+        /in ([^,]+), \d{4}/i,
+        /(nature|science|cell|lancet|jama|nejm|pnas|plos|frontiers|journal of|international journal|european journal|american journal)[^.]+/i
+    ];
+    
+    for (const pattern of journalPatterns) {
+        const match = description.match(pattern);
+        if (match) {
+            journal = match[1] || match;
+            journal = journal.replace(/^(in|from|published in)\s+/i, '').trim();
+            break;
+        }
+    }
+    
+    // Extract objective/aim
+    let objective = null;
+    const objectivePatterns = [
+        /(?:objective|aim|purpose|goal)s?[:\s]+([^.]+)/i,
+        /this study (?:aimed to|sought to|investigated|examined|analyzed)\s+([^.]+)/i,
+        /we (?:aimed to|sought to|investigated|examined|analyzed)\s+([^.]+)/i,
+        /the (?:purpose|goal|aim|objective) (?:of this study )?(?:was|is) to\s+([^.]+)/i
+    ];
+    
+    for (const pattern of objectivePatterns) {
+        const match = description.match(pattern);
+        if (match && match[1]) {
+            objective = match[1].trim();
+            if (objective.length > 200) {
+                objective = objective.substring(0, 200) + '...';
+            }
+            break;
+        }
+    }
+    
+    // Extract significance
+    let significance = null;
+    const significancePatterns = [
+        /(?:significance|important|implications?|impact)[:\s]+([^.]+)/i,
+        /this (?:finding|result|study) (?:suggests?|indicates?|shows?|demonstrates?)\s+([^.]+)/i,
+        /these (?:findings?|results?) (?:suggest|indicate|show|demonstrate)\s+([^.]+)/i,
+        /clinical significance[:\s]+([^.]+)/i,
+        /implications? for\s+([^.]+)/i
+    ];
+    
+    for (const pattern of significancePatterns) {
+        const match = description.match(pattern);
+        if (match && match[1]) {
+            significance = match[1].trim();
+            if (significance.length > 200) {
+                significance = significance.substring(0, 200) + '...';
+            }
+            break;
+        }
+    }
+    
+    // Extract conclusion
+    let conclusion = null;
+    const conclusionPatterns = [
+        /conclusions?[:\s]+([^.]+(?:\.[^.]+)?)/i,
+        /in conclusion[,\s]+([^.]+)/i,
+        /we conclude (?:that\s+)?([^.]+)/i,
+        /our (?:findings?|results?|study) (?:suggest|indicate|show|demonstrate)\s+([^.]+)/i
+    ];
+    
+    for (const pattern of conclusionPatterns) {
+        const match = description.match(pattern);
+        if (match && match[1]) {
+            conclusion = match[1].trim();
+            if (conclusion.length > 300) {
+                conclusion = conclusion.substring(0, 300) + '...';
+            }
+            break;
+        }
+    }
+    
+    return {
+        journal: journal ? journal.substring(0, 100) : null,
+        objective,
+        significance,
+        conclusion
+    };
+}
+
+function parseCSVLine(line) {
+    const result = [];
+    let current = '';
+    let inQuotes = false;
+    
+    for (let i = 0; i < line.length; i++) {
+        const char = line[i];
+        
+        if (char === '"') {
+            if (inQuotes && line[i + 1] === '"') {
+                current += '"';
+                i++; // Skip next quote
+            } else {
+                inQuotes = !inQuotes;
+            }
+        } else if (char === ',' && !inQuotes) {
+            result.push(current);
+            current = '';
+        } else {
+            current += char;
+        }
+    }
+    result.push(current);
+    return result;
+}
 
 function loadExistingArchive() {
     const archivePath = 'papers-archive.csv';
@@ -51,10 +179,10 @@ function loadExistingArchive() {
                     return {
                         institutions: values[0] || '',
                         date: values[1] || '',
-                        title: values[11] || '',
-                        journal: values[12] || '',
-                        link: values[13] || '',
-                        pmid: extractPMID(values[13] || '')
+                        title: values[26] || '',
+                        journal: values[27] || '',
+                        link: values[28] || '',
+                        pmid: extractPMID(values[28] || '')
                     };
                 });
         }
@@ -113,7 +241,121 @@ function saveEnhancedArchive(newPapers) {
     return { added: addedCount, total: allPapers.length };
 }
 
-// ... (keep all other existing functions: fetchFeed, combineAndDeduplicate, etc.)
+async function fetchFeed(feed) {
+    try {
+        console.log(`Fetching ${feed.name} feed...`);
+        const response = await fetch(feed.url);
+        
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        
+        const xmlData = await response.text();
+        
+        const parser = new xml2js.Parser({
+            explicitArray: false,
+            mergeAttrs: true,
+            normalize: true,
+            normalizeTags: true,
+            trim: true
+        });
+        
+        const result = await parser.parseStringPromise(xmlData);
+        
+        if (!result.rss || !result.rss.channel || !result.rss.channel.item) {
+            console.log(`No items found in ${feed.name} feed`);
+            return [];
+        }
+        
+        const items = Array.isArray(result.rss.channel.item) 
+            ? result.rss.channel.item 
+            : [result.rss.channel.item];
+        
+        return items.map(item => {
+            // Robust date parsing
+            let pubDate;
+            try {
+                const dateStr = item.pubdate || item.pubDate || item.pubdate;
+                pubDate = dateStr ? new Date(dateStr) : new Date();
+                if (isNaN(pubDate.getTime())) {
+                    pubDate = new Date();
+                }
+            } catch (e) {
+                pubDate = new Date();
+            }
+
+            // Extract enhanced information
+            const enhancedInfo = extractEnhancedInfo(item.title, item.description);
+            
+            return {
+                title: item.title || 'No title',
+                link: item.link || '',
+                description: item.description || '',
+                pubDate: pubDate,
+                source: feed.name,
+                pmid: extractPMID(item.link),
+                guid: item.link || item.guid || '',
+                // Enhanced fields
+                journal: enhancedInfo.journal,
+                objective: enhancedInfo.objective,
+                significance: enhancedInfo.significance,
+                conclusion: enhancedInfo.conclusion
+            };
+        }).filter(item => item.title && item.link);
+        
+    } catch (error) {
+        console.error(`Error fetching ${feed.name} feed:`, error.message);
+        return [];
+    }
+}
+
+function combineAndDeduplicate(allFeeds) {
+    const paperMap = new Map();
+    
+    allFeeds.forEach(feedItems => {
+        feedItems.forEach(item => {
+            const key = item.pmid || item.link;
+            
+            if (paperMap.has(key)) {
+                const existingPaper = paperMap.get(key);
+                if (!existingPaper.institutions.includes(item.source)) {
+                    existingPaper.institutions.push(item.source);
+                    existingPaper.institutions.sort();
+                }
+            } else {
+                const newPaper = {
+                    ...item,
+                    institutions: [item.source]
+                };
+                paperMap.set(key, newPaper);
+            }
+        });
+    });
+    
+    return Array.from(paperMap.values());
+}
+
+function escapeXml(unsafe) {
+    if (!unsafe) return '';
+    return unsafe.toString().replace(/[<>&'"]/g, function (c) {
+        switch (c) {
+            case '<': return '&lt;';
+            case '>': return '&gt;';
+            case '&': return '&amp;';
+            case '\'': return '&apos;';
+            case '"': return '&quot;';
+        }
+    });
+}
+
+function safeToISOString(date) {
+    try {
+        if (!date) return new Date().toISOString();
+        return date instanceof Date ? date.toISOString() : new Date(date).toISOString();
+    } catch (e) {
+        return new Date().toISOString();
+    }
+}
 
 async function generateRSS() {
     console.log('Starting RSS generation with 7 Korean institutions...');
@@ -142,7 +384,7 @@ async function generateRSS() {
         
         const baseUrl = 'https://rimrim05.github.io/Korean-Academic-RSS/';
         
-        // Generate RSS XML (keep existing)
+        // Generate RSS XML
         const rssContent = `<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
@@ -204,7 +446,7 @@ async function generateRSS() {
         
         fs.writeFileSync('feed.json', JSON.stringify(jsonFeed, null, 2));
 
-        // Generate statistics (keep existing)
+        // Generate statistics
         const stats = {
             lastUpdate: new Date().toISOString(),
             totalItems: displayItems.length,
@@ -232,7 +474,5 @@ async function generateRSS() {
         process.exit(1);
     }
 }
-
-// ... (keep all other existing helper functions)
 
 generateRSS();
