@@ -2,7 +2,7 @@ const fetch = require('node-fetch');
 const xml2js = require('xml2js');
 const fs = require('fs');
 
-// RSS feed URLs
+// Enhanced RSS feeds array with all Korean institutions
 const feeds = [
     {
         url: 'https://pubmed.ncbi.nlm.nih.gov/rss/search/1lGTpA7S74whuNVC_kQy0F4ncgCxeB9B9U0hbi6Wldiv2cIgV2/?limit=50&utm_campaign=pubmed-2&fc=20250822163126',
@@ -11,6 +11,26 @@ const feeds = [
     {
         url: 'https://pubmed.ncbi.nlm.nih.gov/rss/search/1bo4uOs-bB_ZLOeoRMDuMyKrqOCTTJrR8i4c8aBDtpAcbJ09ch/?limit=50&utm_campaign=pubmed-2&fc=20250822163228',
         name: 'SNU'
+    },
+    {
+        url: 'https://pubmed.ncbi.nlm.nih.gov/rss/search/1p9j2Ia0knT7gmGP5yr8TGKmrRRyRQ0oWVA_KWuJa7rtxBZMim/?limit=100&utm_campaign=pubmed-2&fc=20250822201347',
+        name: 'Yonsei University'
+    },
+    {
+        url: 'https://pubmed.ncbi.nlm.nih.gov/rss/search/1-CFTYUQzm9gD46gso3zjzxFxkq73bOFUJwQNLwmd6SldMXg0f/?limit=100&utm_campaign=pubmed-2&fc=20250822201727',
+        name: 'SKKU'
+    },
+    {
+        url: 'https://pubmed.ncbi.nlm.nih.gov/rss/search/1ZyzHXV_xuJMd_mA0Sq1F0U-jUGJIU2JUAtLtKea9s3vCCDMAg/?limit=100&utm_campaign=pubmed-2&fc=20250822201839',
+        name: 'POSTECH'
+    },
+    {
+        url: 'https://pubmed.ncbi.nlm.nih.gov/rss/search/12guA9dSu1tGGvNP7mhhDa45fpbWpGPzILFj69wJJFdG48xkuI/?limit=100&utm_campaign=pubmed-2&fc=20250822205125',
+        name: 'Korea University'
+    },
+    {
+        url: 'https://pubmed.ncbi.nlm.nih.gov/rss/search/1HyCEy3kccvK7zE0-AQi3b_3KChicv5K_t8YL3UITyEWtrEgUY/?limit=100&utm_campaign=pubmed-2&fc=20250822210237',
+        name: 'IBS'
     }
 ];
 
@@ -106,7 +126,7 @@ function extractEnhancedInfo(title, description) {
     for (const pattern of journalPatterns) {
         const match = description.match(pattern);
         if (match) {
-            journal = match[1] || match;
+            journal = match[1] || match[0];
             journal = journal.replace(/^(in|from|published in)\s+/i, '').trim();
             break;
         }
@@ -212,77 +232,74 @@ function combineAndDeduplicate(allFeeds) {
     return Array.from(paperMap.values());
 }
 
-// ... (keep all your existing helper functions: parseCSVLine, loadExistingArchive, saveAccumulatingArchive, etc.)
-
-async function generateRSS() {
-    console.log('Starting RSS generation with enhanced data extraction...');
+function parseCSVLine(line) {
+    const result = [];
+    let current = '';
+    let inQuotes = false;
     
-    try {
-        // Fetch new papers from RSS feeds
-        const feedPromises = feeds.map(feed => fetchFeed(feed));
-        const results = await Promise.all(feedPromises);
+    for (let i = 0; i < line.length; i++) {
+        const char = line[i];
         
-        let allItems = combineAndDeduplicate(results);
-        allItems.sort((a, b) => b.pubDate - a.pubDate);
-        
-        console.log(`Found ${allItems.length} current items from RSS feeds`);
-        
-        // Save to accumulating archive (enhanced CSV)
-        const archiveStats = saveEnhancedArchive(allItems);
-        
-        // Limit display items to 100 most recent
-        const displayItems = allItems.slice(0, 100);
-        
-        // Generate enhanced JSON feed
-        const jsonFeed = {
-            title: "KAIST & SNU Publications",
-            description: "Latest research from KAIST and Seoul National University (deduplicated with enhanced details)",
-            lastBuildDate: new Date().toISOString(),
-            totalItems: displayItems.length,
-            totalArchived: archiveStats.total,
-            newPapersAdded: archiveStats.added,
-            institutionBreakdown: {
-                'KAIST': displayItems.filter(item => item.institutions.includes('KAIST')).length,
-                'SNU': displayItems.filter(item => item.institutions.includes('SNU')).length,
-                'Both KAIST & SNU': displayItems.filter(item => item.institutions.includes('KAIST') && item.institutions.includes('SNU')).length
-            },
-            items: displayItems.map(item => ({
-                title: item.title,
-                link: item.link,
-                description: item.description,
-                pubDate: safeToISOString(item.pubDate),
-                institutions: item.institutions,
-                pmid: item.pmid,
-                // Enhanced fields
-                journal: item.journal,
-                objective: item.objective,
-                significance: item.significance,
-                conclusion: item.conclusion
-            }))
-        };
-        
-        fs.writeFileSync('feed.json', JSON.stringify(jsonFeed, null, 2));
-        
-        // ... (rest of your existing RSS and stats generation)
-        
-        console.log('✅ Enhanced RSS feed generated successfully!');
-        
-    } catch (error) {
-        console.error('❌ Error generating RSS:', error);
-        process.exit(1);
+        if (char === '"') {
+            if (inQuotes && line[i + 1] === '"') {
+                current += '"';
+                i++; // Skip next quote
+            } else {
+                inQuotes = !inQuotes;
+            }
+        } else if (char === ',' && !inQuotes) {
+            result.push(current);
+            current = '';
+        } else {
+            current += char;
+        }
     }
+    result.push(current);
+    return result;
+}
+
+function loadExistingArchive() {
+    const archivePath = 'papers-archive.csv';
+    try {
+        if (fs.existsSync(archivePath)) {
+            const csvContent = fs.readFileSync(archivePath, 'utf8');
+            const lines = csvContent.split('\n');
+            
+            // Parse existing papers (skip header)
+            return lines.slice(1)
+                .filter(line => line.trim())
+                .map(line => {
+                    const values = parseCSVLine(line);
+                    return {
+                        institutions: values[0] || '',
+                        date: values[1] || '',
+                        title: values[2] || '',
+                        journal: values[14] || '',
+                        objective: values[15] || '',
+                        significance: values[16] || '',
+                        link: values[17] || '',
+                        pmid: extractPMID(values[17] || '')
+                    };
+                });
+        }
+    } catch (error) {
+        console.log('No existing archive found:', error.message);
+    }
+    return [];
 }
 
 function saveEnhancedArchive(newPapers) {
-    // Enhanced CSV with additional columns
+    // Load existing papers
     const existingPapers = loadExistingArchive();
     
+    // Create map to avoid duplicates
     const existingMap = new Set();
     existingPapers.forEach(paper => {
         const key = paper.pmid || paper.link;
         if (key) existingMap.add(key);
     });
     
+    // Add only new papers
     let addedCount = 0;
     const papersToAdd = [];
     
@@ -302,6 +319,7 @@ function saveEnhancedArchive(newPapers) {
         }
     });
     
+    // Combine all papers (new papers first, then existing)
     const allPapers = [...papersToAdd, ...existingPapers];
     
     // Enhanced CSV headers
@@ -323,6 +341,144 @@ function saveEnhancedArchive(newPapers) {
     return { added: addedCount, total: allPapers.length };
 }
 
-// ... (keep all other helper functions)
+function escapeXml(unsafe) {
+    if (!unsafe) return '';
+    return unsafe.toString().replace(/[<>&'"]/g, function (c) {
+        switch (c) {
+            case '<': return '&lt;';
+            case '>': return '&gt;';
+            case '&': return '&amp;';
+            case '\'': return '&apos;';
+            case '"': return '&quot;';
+        }
+    });
+}
+
+function safeToISOString(date) {
+    try {
+        if (!date) return new Date().toISOString();
+        return date instanceof Date ? date.toISOString() : new Date(date).toISOString();
+    } catch (e) {
+        return new Date().toISOString();
+    }
+}
+
+async function generateRSS() {
+    console.log('Starting RSS generation with 7 Korean institutions...');
+    
+    try {
+        // Fetch from all feeds
+        const feedPromises = feeds.map(feed => fetchFeed(feed));
+        const results = await Promise.all(feedPromises);
+        
+        // Log results per institution
+        results.forEach((items, index) => {
+            console.log(`${feeds[index].name}: ${items.length} items`);
+        });
+        
+        let allItems = combineAndDeduplicate(results);
+        allItems.sort((a, b) => b.pubDate - a.pubDate);
+        
+        console.log(`After deduplication: ${allItems.length} unique items`);
+        console.log(`Multi-institutional papers: ${allItems.filter(item => item.institutions.length > 1).length}`);
+        
+        // Save to accumulating archive
+        const archiveStats = saveEnhancedArchive(allItems);
+        
+        // Limit display items to 150 most recent (increased for more institutions)
+        const displayItems = allItems.slice(0, 150);
+        
+        const baseUrl = 'https://rimrim05.github.io/Korean-Academic-RSS/';
+        
+        // Generate RSS XML
+        const rssContent = `<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Korean Academic Publications</title>
+        <description>Latest research from top Korean institutions (KAIST, SNU, Yonsei, SKKU, POSTECH, Korea University, IBS)</description>
+        <link>${baseUrl}</link>
+        <atom:link href="${baseUrl}feed.xml" rel="self" type="application/rss+xml" />
+        <lastBuildDate>${new Date().toUTCString()}</lastBuildDate>
+        <language>en-us</language>
+        <ttl>360</ttl>
+        
+        ${displayItems.map(item => `
+        <item>
+            <title><![CDATA[${item.title}]]></title>
+            <link>${escapeXml(item.link)}</link>
+            <description><![CDATA[${item.description}]]></description>
+            <pubDate>${item.pubDate.toUTCString()}</pubDate>
+            <guid isPermaLink="true">${escapeXml(item.link)}</guid>
+            <category>${item.institutions.join(', ')}</category>
+        </item>`).join('')}
+    </channel>
+</rss>`;
+
+        fs.writeFileSync('feed.xml', rssContent);
+
+        // Enhanced statistics for all institutions
+        const institutionBreakdown = {};
+        feeds.forEach(feed => {
+            institutionBreakdown[feed.name] = displayItems.filter(item => item.institutions.includes(feed.name)).length;
+        });
+        
+        // Add collaboration stats
+        institutionBreakdown['Multi-institutional'] = displayItems.filter(item => item.institutions.length > 1).length;
+
+        // Generate JSON feed
+        const jsonFeed = {
+            title: "Korean Academic Publications",
+            description: "Latest research from top Korean institutions with enhanced details",
+            lastBuildDate: new Date().toISOString(),
+            totalItems: displayItems.length,
+            totalArchived: archiveStats.total,
+            newPapersAdded: archiveStats.added,
+            institutionBreakdown: institutionBreakdown,
+            institutions: feeds.map(f => f.name),
+            items: displayItems.map(item => ({
+                title: item.title,
+                link: item.link,
+                description: item.description,
+                pubDate: safeToISOString(item.pubDate),
+                institutions: item.institutions,
+                pmid: item.pmid,
+                // Enhanced fields
+                journal: item.journal,
+                objective: item.objective,
+                significance: item.significance,
+                conclusion: item.conclusion
+            }))
+        };
+        
+        fs.writeFileSync('feed.json', JSON.stringify(jsonFeed, null, 2));
+
+        // Generate statistics
+        const stats = {
+            lastUpdate: new Date().toISOString(),
+            totalItems: displayItems.length,
+            totalArchived: archiveStats.total,
+            newPapersAdded: archiveStats.added,
+            institutionBreakdown: institutionBreakdown,
+            multiInstitutional: displayItems.filter(item => item.institutions.length > 1).length,
+            institutions: feeds.map(f => f.name),
+            latestItem: displayItems.length > 0 ? {
+                title: displayItems[0].title || 'No title',
+                date: safeToISOString(displayItems.pubDate),
+                institutions: displayItems.institutions || ['Unknown']
+            } : null
+        };
+        
+        fs.writeFileSync('stats.json', JSON.stringify(stats, null, 2));
+        
+        console.log('✅ RSS feed generated successfully!');
+        console.log('✅ JSON feed generated successfully!');
+        console.log('✅ Statistics generated successfully!');
+        console.log(`✅ Archive updated: ${archiveStats.added} new papers added, ${archiveStats.total} total archived`);
+        
+    } catch (error) {
+        console.error('❌ Error generating RSS:', error);
+        process.exit(1);
+    }
+}
 
 generateRSS();
