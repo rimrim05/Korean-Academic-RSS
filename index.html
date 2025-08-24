@@ -1080,6 +1080,21 @@
         }
 
         function displayItems(items) {
+            // Add to your displayItems function in the HTML
+            const feedbackSection = `
+                <div class="ml-feedback-section" style="margin-top: 15px; padding: 10px; background: rgba(102, 126, 234, 0.05); border-radius: 8px;">
+                    <span style="font-size: 0.9em; color: #666; margin-right: 10px;">Is this classification correct?</span>
+                    <button class="feedback-btn correct" onclick="submitFeedback('${item.pmid}', 'correct', '${item.subjectArea}')" 
+                            style="background: #28a745; color: white; border: none; padding: 6px 12px; border-radius: 15px; cursor: pointer; margin-right: 5px;">
+                        👍 Correct
+                    </button>
+                    <button class="feedback-btn incorrect" onclick="showCorrectCategory('${item.pmid}', '${item.subjectArea}')" 
+                            style="background: #dc3545; color: white; border: none; padding: 6px 12px; border-radius: 15px; cursor: pointer;">
+                        👎 Incorrect
+                    </button>
+                </div>
+            `;
+
             const container = document.getElementById('publicationsContainer');
             
             if (items.length === 0) {
