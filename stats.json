@@ -1,19 +1,26 @@
 {
-  "lastUpdate": "2025-08-23T06:30:11.763Z",
+  "lastUpdate": "2025-08-24T19:17:42.424Z",
   "totalItems": 150,
-  "totalArchived": 1699,
-  "newPapersAdded": 365,
+  "totalArchived": 2071,
+  "newPapersAdded": 372,
   "institutionBreakdown": {
-    "KAIST": 23,
-    "SNU": 50,
-    "Yonsei University": 7,
-    "SKKU": 4,
-    "POSTECH": 4,
-    "Korea University": 70,
-    "IBS": 36,
-    "Multi-institutional": 31
+    "KAIST": 10,
+    "SNU": 34,
+    "Yonsei University": 2,
+    "SKKU": 1,
+    "POSTECH": 1,
+    "Korea University": 36,
+    "IBS": 90
   },
-  "multiInstitutional": 31,
+  "subjectAreaBreakdown": {
+    "Multidisciplinary": 78,
+    "Cancer Research": 23,
+    "Biomedical": 32,
+    "Neuroscience": 8,
+    "Computer Science": 4,
+    "Materials Science": 5
+  },
+  "multiInstitutional": 22,
   "institutions": [
     "KAIST",
     "SNU",
@@ -23,11 +30,12 @@
     "Korea University",
     "IBS"
   ],
+  "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Reconfigurable control of coherence, dissipation, and nonreciprocity in cavity magnonics",
-    "date": "2025-08-23T06:30:11.764Z",
+    "title": "Early postnatal right-to-left patent ductus arteriosus shunting and severe outcomes in neonates with congenital diaphragmatic hernia: a retrospective cohort study",
+    "date": "2025-08-24T10:00:00.000Z",
     "institutions": [
-      "Unknown"
+      "SNU"
     ]
   }
 }
