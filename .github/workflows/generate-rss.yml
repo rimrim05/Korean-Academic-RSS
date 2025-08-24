@@ -34,15 +34,19 @@ jobs:
         
       - name: Generate RSS Feed with ML
         run: node rss-generator-script.js
-        
+
       - name: Commit and push changes
         run: |
           git config --global user.name 'github-actions'
           git config --global user.email 'github-actions@github.com'
-          git add .
+          git add feed.json feed.xml papers-archive.csv stats.json
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
             git commit -m "Daily RSS update with ML classification - $(date)"
             git push
           fi
+
+        
+
+
