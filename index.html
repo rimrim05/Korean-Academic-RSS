@@ -48,8 +48,15 @@
         .header .subtitle {
             font-size: 1.2em;
             color: #666;
-            margin-bottom: 30px;
+            margin-bottom: 10px;
             font-weight: 400;
+        }
+
+        .update-schedule {
+            font-size: 0.9em;
+            color: #888;
+            margin-bottom: 30px;
+            font-style: italic;
         }
 
         .header-links {
@@ -95,9 +102,9 @@
             box-shadow: 0 10px 25px rgba(250, 112, 154, 0.5);
         }
 
-        .stats-grid {
+        .overview-stats {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
             gap: 20px;
             margin-bottom: 30px;
         }
@@ -131,6 +138,178 @@
             color: #666;
             font-weight: 500;
             font-size: 0.95em;
+        }
+
+        /* ML Subject Areas */
+        .ml-subject-areas {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 25px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .ml-subject-areas h3 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #555;
+            font-size: 1.3em;
+        }
+
+        .subject-area-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+
+        .subject-area-card {
+            background: white;
+            border-radius: 12px;
+            padding: 20px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .subject-area-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            transition: all 0.3s ease;
+        }
+
+        .subject-area-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+        }
+
+        .subject-area-card.active {
+            border-color: #667eea;
+            background: linear-gradient(135deg, rgba(102, 126, 234, 0.1), rgba(118, 75, 162, 0.1));
+        }
+
+        .subject-area-card.computer-science::before {
+            background: linear-gradient(90deg, #667eea, #764ba2);
+        }
+
+        .subject-area-card.biomedical::before {
+            background: linear-gradient(90deg, #4facfe, #00f2fe);
+        }
+
+        .subject-area-card.cancer-research::before {
+            background: linear-gradient(90deg, #fa709a, #fee140);
+        }
+
+        .subject-area-card.materials-science::before {
+            background: linear-gradient(90deg, #43e97b, #38f9d7);
+        }
+
+        .subject-area-card.neuroscience::before {
+            background: linear-gradient(90deg, #f093fb, #f5576c);
+        }
+
+        .subject-area-card.engineering::before {
+            background: linear-gradient(90deg, #ffecd2, #fcb69f);
+        }
+
+        .subject-area-card.environmental::before {
+            background: linear-gradient(90deg, #a8edea, #fed6e3);
+        }
+
+        .subject-area-card.physics::before {
+            background: linear-gradient(90deg, #d299c2, #fef9d7);
+        }
+
+        .subject-area-card.multidisciplinary::before {
+            background: linear-gradient(90deg, #667eea, #764ba2);
+        }
+
+        .subject-area-name {
+            font-weight: 600;
+            font-size: 1.1em;
+            margin-bottom: 8px;
+            color: #555;
+        }
+
+        .subject-area-count {
+            font-size: 1.8em;
+            font-weight: 700;
+            color: #667eea;
+        }
+
+        .ml-confidence {
+            font-size: 0.8em;
+            color: #888;
+            margin-top: 5px;
+            font-style: italic;
+        }
+
+        .university-tabs {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 25px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .university-tabs h3 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #555;
+            font-size: 1.3em;
+        }
+
+        .university-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+
+        .university-card {
+            background: white;
+            border-radius: 12px;
+            padding: 20px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+        }
+
+        .university-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+        }
+
+        .university-card.active {
+            border-color: #667eea;
+            background: linear-gradient(135deg, rgba(102, 126, 234, 0.1), rgba(118, 75, 162, 0.1));
+        }
+
+        .university-name {
+            font-weight: 600;
+            font-size: 1.1em;
+            margin-bottom: 8px;
+            color: #555;
+        }
+
+        .university-count {
+            font-size: 1.8em;
+            font-weight: 700;
+            color: #667eea;
         }
 
         .controls-panel {
@@ -174,10 +353,52 @@
             font-size: 1.2em;
         }
 
+        .ml-search-suggestions {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            right: 0;
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 15px;
+            margin-top: 5px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            display: none;
+            z-index: 1000;
+        }
+
+        .ml-suggestion-category {
+            margin-bottom: 15px;
+        }
+
+        .ml-suggestion-category h4 {
+            margin-bottom: 10px;
+            color: #667eea;
+            font-size: 0.9em;
+        }
+
+        .ml-suggestion-tag {
+            display: inline-block;
+            background: rgba(102, 126, 234, 0.1);
+            color: #667eea;
+            padding: 6px 12px;
+            border-radius: 15px;
+            margin: 3px;
+            cursor: pointer;
+            font-size: 0.85em;
+            transition: all 0.3s ease;
+        }
+
+        .ml-suggestion-tag:hover {
+            background: #667eea;
+            color: white;
+        }
+
         .toggle-section {
             display: flex;
             align-items: center;
-            margin-bottom: 25px;
+            justify-content: center;
             gap: 15px;
         }
 
@@ -231,35 +452,28 @@
             transform: translateX(28px);
         }
 
-        .filter-tabs {
-            display: flex;
-            gap: 8px;
-            flex-wrap: wrap;
-            justify-content: center;
+        .current-filter {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 1.1em;
+            color: #667eea;
+            font-weight: 500;
         }
 
-        .filter-tab {
+        .clear-filter {
             background: rgba(102, 126, 234, 0.1);
-            border: 2px solid rgba(102, 126, 234, 0.2);
+            border: 2px solid rgba(102, 126, 234, 0.3);
             color: #667eea;
             padding: 8px 16px;
             border-radius: 20px;
             cursor: pointer;
             transition: all 0.3s ease;
             font-weight: 500;
-            font-size: 0.9em;
+            margin-left: 10px;
         }
 
-        .filter-tab:hover {
+        .clear-filter:hover {
             background: rgba(102, 126, 234, 0.2);
-            transform: translateY(-1px);
-        }
-
-        .filter-tab.active {
-            background: linear-gradient(135deg, #667eea, #764ba2);
-            color: white;
-            border-color: transparent;
-            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.3);
         }
 
         .publications-container {
@@ -325,39 +539,41 @@
 
         .institution-tag.kaist {
             background: linear-gradient(135deg, #667eea, #764ba2);
-            box-shadow: 0 3px 10px rgba(102, 126, 234, 0.3);
         }
 
         .institution-tag.snu {
             background: linear-gradient(135deg, #f093fb, #f5576c);
-            box-shadow: 0 3px 10px rgba(240, 147, 251, 0.3);
         }
 
-        .institution-tag.yonsei, .institution-tag.yonseiuniversity {
+        .institution-tag.yonseiuniversity {
             background: linear-gradient(135deg, #4facfe, #00f2fe);
-            box-shadow: 0 3px 10px rgba(79, 172, 254, 0.3);
         }
 
         .institution-tag.skku {
             background: linear-gradient(135deg, #43e97b, #38f9d7);
-            box-shadow: 0 3px 10px rgba(67, 233, 123, 0.3);
         }
 
         .institution-tag.postech {
             background: linear-gradient(135deg, #fa709a, #fee140);
-            box-shadow: 0 3px 10px rgba(250, 112, 154, 0.3);
         }
 
-        .institution-tag.koreauniversity, .institution-tag.korea {
+        .institution-tag.koreauniversity {
             background: linear-gradient(135deg, #a8edea, #fed6e3);
             color: #555;
-            box-shadow: 0 3px 10px rgba(168, 237, 234, 0.3);
         }
 
         .institution-tag.ibs {
             background: linear-gradient(135deg, #ffecd2, #fcb69f);
             color: #555;
-            box-shadow: 0 3px 10px rgba(255, 236, 210, 0.3);
+        }
+
+        .ml-subject-badge {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            padding: 6px 12px;
+            border-radius: 15px;
+            font-size: 0.85em;
+            font-weight: 500;
         }
 
         .journal-badge {
@@ -367,7 +583,6 @@
             border-radius: 15px;
             font-size: 0.85em;
             font-weight: 500;
-            box-shadow: 0 3px 10px rgba(67, 233, 123, 0.3);
         }
 
         .publication-title {
@@ -480,6 +695,16 @@
             color: #555;
         }
 
+        .filter-status {
+            text-align: center;
+            margin: 20px 0;
+            padding: 15px;
+            background: rgba(102, 126, 234, 0.1);
+            border-radius: 10px;
+            color: #667eea;
+            font-weight: 500;
+        }
+
         /* Responsive Design */
         @media (max-width: 768px) {
             .container {
@@ -495,13 +720,13 @@
                 align-items: center;
             }
 
-            .stats-grid {
+            .overview-stats {
                 grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
                 gap: 15px;
             }
 
-            .filter-tabs {
-                justify-content: center;
+            .subject-area-grid, .university-grid {
+                grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
             }
 
             .toggle-section {
@@ -537,7 +762,8 @@
     <div class="container">
         <div class="header">
             <h1>🇰🇷 Korean Academic Publications</h1>
-            <p class="subtitle">Latest research from Korea's top institutions with enhanced details</p>
+            <p class="subtitle">Latest research from Korea's top institutions with AI-powered classification</p>
+            <p class="update-schedule">📅 Updated daily at midnight UTC</p>
             <div class="header-links">
                 <a href="feed.xml" class="header-link">📡 RSS Feed</a>
                 <a href="feed.json" class="header-link json">📄 JSON Feed</a>
@@ -546,12 +772,23 @@
             </div>
         </div>
 
-        <div id="stats" class="stats-grid" style="display: none;"></div>
+        <div id="overviewStats" class="overview-stats" style="display: none;"></div>
+
+        <div id="mlSubjectAreas" class="ml-subject-areas" style="display: none;">
+            <h3>🧠 AI-Powered Research Areas</h3>
+            <div id="subjectAreaGrid" class="subject-area-grid"></div>
+        </div>
+
+        <div id="universityTabs" class="university-tabs" style="display: none;">
+            <h3>🏛️ Browse by University</h3>
+            <div id="universityGrid" class="university-grid"></div>
+            <div id="currentFilter" class="current-filter" style="display: none;"></div>
+        </div>
 
         <div class="controls-panel">
             <div class="search-container">
                 <span class="search-icon">🔍</span>
-                <input type="text" class="search-box" id="search" placeholder="Search publications...">
+                <input type="text" class="search-box" id="search" placeholder="Search publications with AI suggestions...">
             </div>
             
             <div class="toggle-section">
@@ -561,21 +798,9 @@
                     <span class="toggle-slider"></span>
                 </label>
             </div>
-            
-            <div class="filter-tabs" id="filterTabs">
-                <button class="filter-tab active" data-filter="all">All</button>
-                <button class="filter-tab" data-filter="KAIST">KAIST</button>
-                <button class="filter-tab" data-filter="SNU">SNU</button>
-                <button class="filter-tab" data-filter="Yonsei University">Yonsei</button>
-                <button class="filter-tab" data-filter="SKKU">SKKU</button>
-                <button class="filter-tab" data-filter="POSTECH">POSTECH</button>
-                <button class="filter-tab" data-filter="Korea University">Korea Univ</button>
-                <button class="filter-tab" data-filter="IBS">IBS</button>
-                <button class="filter-tab" data-filter="multi">Collaborations</button>
-            </div>
         </div>
 
-        <div id="loading" class="loading">Loading publications...</div>
+        <div id="loading" class="loading">Loading publications with AI classification...</div>
         <div id="error" class="error" style="display: none;"></div>
         <div id="publicationsContainer" class="publications-container" style="display: none;"></div>
     </div>
@@ -583,7 +808,8 @@
     <script>
         let allItems = [];
         let filteredItems = [];
-        let currentFilter = 'all';
+        let currentSubjectFilter = 'all';
+        let currentUniversityFilter = 'all';
         let showAbstracts = false;
 
         async function loadFeed() {
@@ -607,8 +833,11 @@
                 allItems = data.items;
                 filteredItems = [...allItems];
 
-                displayStats(data);
+                displayOverviewStats(data);
+                displayMLSubjectAreas(data);
+                displayUniversityTabs(data);
                 displayItems(filteredItems);
+                setupMLSearch();
                 publicationsContainer.style.display = 'block';
 
             } catch (error) {
@@ -618,11 +847,10 @@
             }
         }
 
-        function displayStats(data) {
-            const statsDiv = document.getElementById('stats');
-            const breakdown = data.institutionBreakdown || {};
+        function displayOverviewStats(data) {
+            const statsDiv = document.getElementById('overviewStats');
             
-            let statsHTML = `
+            statsDiv.innerHTML = `
                 <div class="stat-card">
                     <div class="stat-number">${data.totalItems || 0}</div>
                     <div class="stat-label">Current Publications</div>
@@ -631,26 +859,9 @@
                     <div class="stat-number">${data.totalArchived || 0}</div>
                     <div class="stat-label">Total Archived</div>
                 </div>
-            `;
-            
-            // Add cards for each institution with data
-            Object.entries(breakdown).forEach(([inst, count]) => {
-                if (inst !== 'Multi-institutional' && count > 0) {
-                    const displayName = inst === 'Yonsei University' ? 'Yonsei' : 
-                                      inst === 'Korea University' ? 'Korea Univ' : inst;
-                    statsHTML += `
-                        <div class="stat-card">
-                            <div class="stat-number">${count}</div>
-                            <div class="stat-label">${displayName}</div>
-                        </div>
-                    `;
-                }
-            });
-            
-            statsHTML += `
                 <div class="stat-card">
-                    <div class="stat-number">${breakdown['Multi-institutional'] || 0}</div>
-                    <div class="stat-label">Collaborations</div>
+                    <div class="stat-number">${Object.keys(data.subjectAreaBreakdown || {}).length}</div>
+                    <div class="stat-label">AI Research Areas</div>
                 </div>
                 <div class="stat-card">
                     <div class="stat-number">${new Date(data.lastBuildDate).toLocaleDateString()}</div>
@@ -658,8 +869,214 @@
                 </div>
             `;
             
-            statsDiv.innerHTML = statsHTML;
             statsDiv.style.display = 'grid';
+        }
+
+        function displayMLSubjectAreas(data) {
+            const mlDiv = document.getElementById('mlSubjectAreas');
+            const subjectGrid = document.getElementById('subjectAreaGrid');
+            const breakdown = data.subjectAreaBreakdown || {};
+            
+            let cardsHTML = `
+                <div class="subject-area-card active" data-filter="all">
+                    <div class="subject-area-name">🔍 All Research Areas</div>
+                    <div class="subject-area-count">${data.totalItems || 0}</div>
+                    <div class="ml-confidence">AI-powered classification</div>
+                </div>
+            `;
+            
+            const subjectEmojis = {
+                'Computer Science': '💻',
+                'Biomedical': '🧬',
+                'Cancer Research': '🎗️',
+                'Materials Science': '⚗️',
+                'Neuroscience': '🧠',
+                'Engineering': '🔧',
+                'Environmental': '🌱',
+                'Physics': '⚛️',
+                'Multidisciplinary': '🔬'
+            };
+            
+            Object.entries(breakdown).forEach(([area, count]) => {
+                if (count > 0) {
+                    const className = area.toLowerCase().replace(/\s+/g, '-');
+                    const emoji = subjectEmojis[area] || '📊';
+                    
+                    cardsHTML += `
+                        <div class="subject-area-card ${className}" data-filter="${area}">
+                            <div class="subject-area-name">${emoji} ${area}</div>
+                            <div class="subject-area-count">${count}</div>
+                            <div class="ml-confidence">AI classified</div>
+                        </div>
+                    `;
+                }
+            });
+            
+            subjectGrid.innerHTML = cardsHTML;
+            mlDiv.style.display = 'block';
+            
+            document.querySelectorAll('.subject-area-card').forEach(card => {
+                card.addEventListener('click', () => {
+                    document.querySelectorAll('.subject-area-card').forEach(c => c.classList.remove('active'));
+                    card.classList.add('active');
+                    
+                    currentSubjectFilter = card.dataset.filter;
+                    filterItems();
+                });
+            });
+        }
+
+        function displayUniversityTabs(data) {
+            const universityTabsDiv = document.getElementById('universityTabs');
+            const universityGrid = document.getElementById('universityGrid');
+            const breakdown = data.institutionBreakdown || {};
+            
+            let cardsHTML = `
+                <div class="university-card active" data-filter="all">
+                    <div class="university-name">All Universities</div>
+                    <div class="university-count">${data.totalItems || 0}</div>
+                </div>
+            `;
+            
+            Object.entries(breakdown).forEach(([inst, count]) => {
+                if (count > 0) {
+                    const displayName = inst === 'Yonsei University' ? 'Yonsei' : 
+                                      inst === 'Korea University' ? 'Korea Univ' : inst;
+                    const className = inst.toLowerCase()
+                        .replace(/\s+/g, '')
+                        .replace('university', '');
+                    
+                    cardsHTML += `
+                        <div class="university-card ${className}" data-filter="${inst}">
+                            <div class="university-name">${displayName}</div>
+                            <div class="university-count">${count}</div>
+                        </div>
+                    `;
+                }
+            });
+            
+            universityGrid.innerHTML = cardsHTML;
+            universityTabsDiv.style.display = 'block';
+            
+            document.querySelectorAll('.university-card').forEach(card => {
+                card.addEventListener('click', () => {
+                    document.querySelectorAll('.university-card').forEach(c => c.classList.remove('active'));
+                    card.classList.add('active');
+                    
+                    currentUniversityFilter = card.dataset.filter;
+                    filterItems();
+                });
+            });
+        }
+
+        function setupMLSearch() {
+            const searchBox = document.getElementById('search');
+            
+            const suggestionsDiv = document.createElement('div');
+            suggestionsDiv.className = 'ml-search-suggestions';
+            suggestionsDiv.innerHTML = `
+                <div class="ml-suggestion-category">
+                    <h4>🧠 AI Suggestions:</h4>
+                    <span class="ml-suggestion-tag" data-query="machine learning">Machine Learning</span>
+                    <span class="ml-suggestion-tag" data-query="cancer research">Cancer Research</span>
+                    <span class="ml-suggestion-tag" data-query="materials">Materials Science</span>
+                    <span class="ml-suggestion-tag" data-query="neuroscience">Neuroscience</span>
+                </div>
+                <div class="ml-suggestion-category">
+                    <h4>🔍 Smart Filters:</h4>
+                    <span class="ml-suggestion-tag" data-query="KAIST AI">KAIST AI Research</span>
+                    <span class="ml-suggestion-tag" data-query="SNU cancer">SNU Cancer Studies</span>
+                    <span class="ml-suggestion-tag" data-query="collaboration">Multi-University</span>
+                </div>
+            `;
+            
+            searchBox.parentNode.appendChild(suggestionsDiv);
+            
+            searchBox.addEventListener('focus', () => {
+                suggestionsDiv.style.display = 'block';
+            });
+            
+            document.addEventListener('click', (e) => {
+                if (!searchBox.contains(e.target) && !suggestionsDiv.contains(e.target)) {
+                    suggestionsDiv.style.display = 'none';
+                }
+            });
+            
+            suggestionsDiv.querySelectorAll('.ml-suggestion-tag').forEach(tag => {
+                tag.addEventListener('click', () => {
+                    searchBox.value = tag.dataset.query;
+                    filterItems();
+                    suggestionsDiv.style.display = 'none';
+                });
+            });
+        }
+
+        function filterItems() {
+            const searchTerm = document.getElementById('search').value.toLowerCase();
+            
+            filteredItems = allItems.filter(item => {
+                const matchesSearch = item.title.toLowerCase().includes(searchTerm) || 
+                                    item.description.toLowerCase().includes(searchTerm) ||
+                                    (item.objective && item.objective.toLowerCase().includes(searchTerm)) ||
+                                    (item.significance && item.significance.toLowerCase().includes(searchTerm));
+                
+                let matchesSubject = true;
+                if (currentSubjectFilter !== 'all') {
+                    matchesSubject = item.subjectArea === currentSubjectFilter;
+                }
+                
+                let matchesUniversity = true;
+                if (currentUniversityFilter !== 'all') {
+                    matchesUniversity = item.institutions.includes(currentUniversityFilter);
+                }
+                
+                return matchesSearch && matchesSubject && matchesUniversity;
+            });
+            
+            displayItems(filteredItems);
+            updateFilterStatus();
+        }
+
+        function updateFilterStatus() {
+            let statusText = `Showing ${filteredItems.length} publications`;
+            
+            if (currentSubjectFilter !== 'all') {
+                statusText += ` in ${currentSubjectFilter}`;
+            }
+            
+            if (currentUniversityFilter !== 'all') {
+                statusText += ` from ${currentUniversityFilter}`;
+            }
+            
+            const existingStatus = document.querySelector('.filter-status');
+            if (existingStatus) existingStatus.remove();
+            
+            if (currentSubjectFilter !== 'all' || currentUniversityFilter !== 'all') {
+                const statusDiv = document.createElement('div');
+                statusDiv.className = 'filter-status';
+                statusDiv.innerHTML = `
+                    ${statusText}
+                    <button onclick="clearAllFilters()" style="margin-left: 15px; background: #667eea; color: white; border: none; padding: 8px 16px; border-radius: 20px; cursor: pointer;">
+                        Clear Filters
+                    </button>
+                `;
+                
+                document.getElementById('overviewStats').appendChild(statusDiv);
+            }
+        }
+
+        function clearAllFilters() {
+            currentSubjectFilter = 'all';
+            currentUniversityFilter = 'all';
+            document.getElementById('search').value = '';
+            
+            document.querySelectorAll('.subject-area-card').forEach(c => c.classList.remove('active'));
+            document.querySelector('.subject-area-card[data-filter="all"]').classList.add('active');
+            
+            document.querySelectorAll('.university-card').forEach(c => c.classList.remove('active'));
+            document.querySelector('.university-card[data-filter="all"]').classList.add('active');
+            
+            filterItems();
         }
 
         function displayItems(items) {
@@ -668,8 +1085,8 @@
             if (items.length === 0) {
                 container.innerHTML = `
                     <div class="empty-state">
-                        <h3>No publications match your criteria</h3>
-                        <p>Try adjusting your search terms or filters.</p>
+                        <h3>🤖 No publications match your AI-powered search</h3>
+                        <p>Try adjusting your filters or search terms. Our ML system classified ${allItems.length} papers across ${new Set(allItems.map(i => i.subjectArea)).size} research areas.</p>
                     </div>
                 `;
                 return;
@@ -678,10 +1095,14 @@
             container.innerHTML = items.map(item => {
                 const date = new Date(item.pubDate);
                 
+                const subjectBadge = item.subjectArea ? 
+                    `<div class="ml-subject-badge">
+                        🧠 ${item.subjectArea}
+                        ${item.confidence ? `<span style="opacity: 0.8; margin-left: 5px;">(${(item.confidence * 100).toFixed(1)}%)</span>` : ''}
+                    </div>` : '';
+                
                 const institutionTags = item.institutions.map(inst => {
-                    const className = inst.toLowerCase()
-                        .replace(/\s+/g, '')
-                        .replace('university', '');
+                    const className = inst.toLowerCase().replace(/\s+/g, '').replace('university', '');
                     return `<span class="institution-tag ${className}">${inst}</span>`;
                 }).join('');
                 
@@ -690,27 +1111,24 @@
                 
                 const objectiveSection = item.objective ? 
                     `<div class="detail-section">
-                        <div class="detail-label">🎯 Objective</div>
+                        <div class="detail-label">🎯 Research Objective</div>
                         <div class="detail-content">${item.objective}</div>
                     </div>` : '';
                 
                 const significanceSection = item.significance ? 
                     `<div class="detail-section">
-                        <div class="detail-label">⭐ Significance</div>
+                        <div class="detail-label">⭐ Research Significance</div>
                         <div class="detail-content">${item.significance}</div>
                     </div>` : '';
                 
-                const conclusionSection = item.conclusion ? 
-                    `<div class="detail-section">
-                        <div class="detail-label">💡 Conclusion</div>
-                        <div class="detail-content">${item.conclusion}</div>
-                    </div>` : '';
-                
                 return `
-                    <div class="publication-item" data-institutions="${item.institutions.join(',')}">
+                    <div class="publication-item" data-institutions="${item.institutions.join(',')}" data-subject="${item.subjectArea}">
                         <div class="publication-meta">
                             <div class="institution-tags">${institutionTags}</div>
-                            ${journalBadge}
+                            <div style="display: flex; gap: 10px; align-items: center;">
+                                ${subjectBadge}
+                                ${journalBadge}
+                            </div>
                         </div>
                         
                         <h3 class="publication-title">
@@ -728,7 +1146,6 @@
                         <div class="publication-details">
                             ${objectiveSection}
                             ${significanceSection}
-                            ${conclusionSection}
                         </div>
                         
                         <div class="publication-abstract ${showAbstracts ? 'show' : ''}">
@@ -740,31 +1157,6 @@
             }).join('');
         }
 
-        function filterItems() {
-            const searchTerm = document.getElementById('search').value.toLowerCase();
-            
-            filteredItems = allItems.filter(item => {
-                const matchesSearch = item.title.toLowerCase().includes(searchTerm) || 
-                                    item.description.toLowerCase().includes(searchTerm) ||
-                                    (item.objective && item.objective.toLowerCase().includes(searchTerm)) ||
-                                    (item.significance && item.significance.toLowerCase().includes(searchTerm));
-                
-                let matchesFilter = true;
-                if (currentFilter === 'all') {
-                    matchesFilter = true;
-                } else if (currentFilter === 'multi') {
-                    matchesFilter = item.institutions.length > 1;
-                } else {
-                    matchesFilter = item.institutions.includes(currentFilter);
-                }
-                
-                return matchesSearch && matchesFilter;
-            });
-            
-            displayItems(filteredItems);
-        }
-
-        // Event listeners
         document.getElementById('search').addEventListener('input', filterItems);
         
         document.getElementById('abstractToggle').addEventListener('change', (e) => {
@@ -778,17 +1170,8 @@
             });
         });
 
-        document.querySelectorAll('.filter-tab').forEach(tab => {
-            tab.addEventListener('click', (e) => {
-                document.querySelectorAll('.filter-tab').forEach(t => t.classList.remove('active'));
-                e.target.classList.add('active');
-                currentFilter = e.target.dataset.filter;
-                filterItems();
-            });
-        });
-
         window.addEventListener('load', loadFeed);
-        setInterval(loadFeed, 30 * 60 * 1000);
+        setInterval(loadFeed, 24 * 60 * 60 * 1000);
     </script>
 </body>
 </html>
