@@ -298,42 +298,60 @@ function saveEnhancedArchive(newPapers) {
         if (key) existingMap.add(key);
     });
     
-    // Add only new papers
+    // Add only new papers with VALID DATA
     let addedCount = 0;
     const papersToAdd = [];
     
     newPapers.forEach(paper => {
         const key = paper.pmid || paper.link;
-        if (key && !existingMap.has(key)) {
+        
+        // 🔥 KEY FIX: Only add papers with actual content
+        const hasValidContent = paper.title && 
+                               paper.title.trim() !== '' && 
+                               paper.title !== 'No title' &&
+                               paper.link && 
+                               paper.link.trim() !== '';
+        
+        if (key && !existingMap.has(key) && hasValidContent) {
             papersToAdd.push({
                 institutions: paper.institutions.join(' & '),
                 date: paper.pubDate.toISOString().split('T')[0],
-                title: paper.title,
+                title: paper.title.trim(),
                 subjectArea: paper.subjectArea || 'Multidisciplinary',
-                journal: paper.journal || '',
-                link: paper.link
+                journal: (paper.journal || '').trim(),
+                link: paper.link.trim()
             });
             addedCount++;
         }
     });
     
+    // 🔥 FILTER EXISTING PAPERS: Remove any that have blank titles
+    const validExistingPapers = existingPapers.filter(paper => 
+        paper.title && 
+        paper.title.trim() !== '' && 
+        paper.title !== 'No title' &&
+        paper.link &&
+        paper.link.trim() !== ''
+    );
+    
     // Combine all papers (new papers first, then existing)
-    const allPapers = [...papersToAdd, ...existingPapers];
+    const allPapers = [...papersToAdd, ...validExistingPapers];
     
     // Enhanced CSV headers with Subject Area
     const csvHeaders = 'Institutions,Date,Title,Subject Area,Journal,Link\n';
     const csvContent = csvHeaders + allPapers.map(paper => {
-        const institutions = `"${paper.institutions}"`;
-        const date = `"${paper.date}"`;
-        const title = `"${paper.title.replace(/"/g, '""')}"`;
-        const subjectArea = `"${paper.subjectArea.replace(/"/g, '""')}"`;
+        const institutions = `"${(paper.institutions || '').replace(/"/g, '""')}"`;
+        const date = `"${paper.date || ''}"`;
+        const title = `"${(paper.title || '').replace(/"/g, '""')}"`;
+        const subjectArea = `"${(paper.subjectArea || 'Multidisciplinary').replace(/"/g, '""')}"`;
         const journal = `"${(paper.journal || '').replace(/"/g, '""')}"`;
-        const link = `"${paper.link}"`;
+        const link = `"${(paper.link || '').replace(/"/g, '""')}"`;
         return `${institutions},${date},${title},${subjectArea},${journal},${link}`;
     }).join('\n');
     
     fs.writeFileSync('papers-archive.csv', csvContent);
-    console.log(`Enhanced archive updated: ${addedCount} new papers added, ${allPapers.length} total archived`);
+    console.log(`✅ Enhanced archive updated: ${addedCount} new valid papers added, ${allPapers.length} total valid papers`);
+    console.log(`🧹 Cleaned up archive: removed entries with missing titles/links`);
     
     return { added: addedCount, total: allPapers.length };
 }
@@ -344,10 +362,17 @@ async function fetchFeed(feed) {
         const response = await fetch(feed.url);
         
         if (!response.ok) {
-            throw new Error(`HTTP error! status: ${response.status}`);
+            console.error(`❌ ${feed.name} feed returned ${response.status}`);
+            return []; // Return empty array instead of undefined
         }
         
         const xmlData = await response.text();
+        
+        // Check if response is actually RSS/XML
+        if (!xmlData.includes('<rss') && !xmlData.includes('<feed')) {
+            console.error(`❌ ${feed.name} returned invalid RSS data`);
+            return [];
+        }
         
         const parser = new xml2js.Parser({
             explicitArray: false,
@@ -360,7 +385,7 @@ async function fetchFeed(feed) {
         const result = await parser.parseStringPromise(xmlData);
         
         if (!result.rss || !result.rss.channel || !result.rss.channel.item) {
-            console.log(`No items found in ${feed.name} feed`);
+            console.log(`⚠️ No items found in ${feed.name} feed`);
             return [];
         }
         
@@ -369,7 +394,13 @@ async function fetchFeed(feed) {
             : [result.rss.channel.item];
         
         return items.map(item => {
-            // Robust date parsing
+            // 🔥 STRICT VALIDATION: Only process items with valid data
+            if (!item.title || !item.link || item.title.trim() === '') {
+                console.log(`⚠️ Skipping invalid item from ${feed.name}: missing title or link`);
+                return null; // This will be filtered out
+            }
+            
+            // Rest of your existing processing...
             let pubDate;
             try {
                 const dateStr = item.pubdate || item.pubDate || item.pubdate;
@@ -381,23 +412,19 @@ async function fetchFeed(feed) {
                 pubDate = new Date();
             }
 
-            // Extract enhanced information
             const enhancedInfo = extractEnhancedInfo(item.title, item.description);
-            
-            // 🧠 ML CLASSIFICATION
             const classification = classifyWithML(item.title || '', item.description || '');
             
-            console.log(`📝 ${item.title?.substring(0, 50) || 'No title'}... → ${classification.category} (${(classification.confidence * 100).toFixed(1)}%)`);
+            console.log(`📝 ${item.title.substring(0, 50)}... → ${classification.category} (${(classification.confidence * 100).toFixed(1)}%)`);
             
             return {
-                title: item.title || 'No title',
-                link: item.link || '',
-                description: item.description || '',
+                title: item.title.trim(),
+                link: item.link.trim(),
+                description: (item.description || '').trim(),
                 pubDate: pubDate,
                 source: feed.name,
                 pmid: extractPMID(item.link),
                 guid: item.link || item.guid || '',
-                // Enhanced fields with ML classification
                 subjectArea: classification.category,
                 confidence: classification.confidence,
                 journal: enhancedInfo.journal,
@@ -405,11 +432,11 @@ async function fetchFeed(feed) {
                 significance: enhancedInfo.significance,
                 conclusion: enhancedInfo.conclusion
             };
-        }).filter(item => item.title && item.link);
+        }).filter(item => item !== null); // Remove null items
         
     } catch (error) {
-        console.error(`Error fetching ${feed.name} feed:`, error.message);
-        return [];
+        console.error(`❌ Error fetching ${feed.name} feed:`, error.message);
+        return []; // Return empty array instead of undefined
     }
 }
 
