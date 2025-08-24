@@ -84,24 +84,6 @@
             text-decoration: none;
         }
 
-        .header-link.json {
-            background: linear-gradient(135deg, #4facfe, #00f2fe);
-            box-shadow: 0 5px 15px rgba(79, 172, 254, 0.3);
-        }
-
-        .header-link.json:hover {
-            box-shadow: 0 10px 25px rgba(79, 172, 254, 0.5);
-        }
-
-        .header-link.stats {
-            background: linear-gradient(135deg, #fa709a, #fee140);
-            box-shadow: 0 5px 15px rgba(250, 112, 154, 0.3);
-        }
-
-        .header-link.stats:hover {
-            box-shadow: 0 10px 25px rgba(250, 112, 154, 0.5);
-        }
-
         .overview-stats {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -140,29 +122,179 @@
             font-size: 0.95em;
         }
 
-        /* ML Subject Areas */
-        .ml-subject-areas {
+        /* HYBRID RESEARCH SELECTOR */
+        .hybrid-research-selector {
             background: rgba(255, 255, 255, 0.95);
             backdrop-filter: blur(10px);
             border-radius: 20px;
-            padding: 25px;
+            padding: 30px;
             margin-bottom: 30px;
             box-shadow: 0 10px 30px rgba(0,0,0,0.1);
             border: 1px solid rgba(255, 255, 255, 0.2);
         }
 
-        .ml-subject-areas h3 {
+        .selector-title {
             text-align: center;
-            margin-bottom: 20px;
+            margin-bottom: 25px;
             color: #555;
-            font-size: 1.3em;
+            font-size: 1.4em;
+            font-weight: 600;
         }
 
-        .subject-area-grid {
+        /* Search and Tags Section */
+        .search-and-tags-section {
+            margin-bottom: 25px;
+            border-bottom: 1px solid rgba(102, 126, 234, 0.1);
+            padding-bottom: 20px;
+        }
+
+        .enhanced-search-container {
+            position: relative;
+            margin-bottom: 15px;
+        }
+
+        .enhanced-search-box {
+            width: 100%;
+            padding: 15px 20px 15px 50px;
+            border: 2px solid rgba(102, 126, 234, 0.2);
+            border-radius: 15px;
+            font-size: 1.1em;
+            transition: all 0.3s ease;
+            background: rgba(255, 255, 255, 0.9);
+        }
+
+        .enhanced-search-box:focus {
+            border-color: #667eea;
+            box-shadow: 0 0 20px rgba(102, 126, 234, 0.2);
+            outline: none;
+            background: white;
+        }
+
+        .search-icon {
+            position: absolute;
+            left: 18px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #999;
+            font-size: 1.2em;
+        }
+
+        .search-suggestions-dropdown {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            right: 0;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+            z-index: 1000;
+            margin-top: 5px;
+            max-height: 300px;
+            overflow-y: auto;
+            display: none;
+        }
+
+        .suggestion-item {
+            padding: 12px 20px;
+            cursor: pointer;
+            border-bottom: 1px solid rgba(0,0,0,0.05);
+            transition: background 0.2s ease;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .suggestion-item:hover {
+            background: rgba(102, 126, 234, 0.1);
+        }
+
+        .suggestion-icon {
+            font-size: 1.2em;
+        }
+
+        .suggestion-text {
+            flex: 1;
+        }
+
+        .suggestion-count {
+            background: rgba(102, 126, 234, 0.2);
+            color: #667eea;
+            padding: 2px 8px;
+            border-radius: 10px;
+            font-size: 0.8em;
+            font-weight: 600;
+        }
+
+        /* Selected Tags */
+        .selected-areas-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            min-height: 40px;
+            align-items: center;
+        }
+
+        .selected-tag {
+            display: flex;
+            align-items: center;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            font-weight: 500;
+            box-shadow: 0 3px 10px rgba(102, 126, 234, 0.3);
+            animation: tagAppear 0.3s ease-out;
+        }
+
+        .selected-tag.search-derived {
+            background: linear-gradient(135deg, #43e97b, #38f9d7);
+        }
+
+        .tag-icon {
+            margin-right: 5px;
+        }
+
+        .tag-remove {
+            background: none;
+            border: none;
+            color: white;
+            font-size: 1.2em;
+            margin-left: 8px;
+            cursor: pointer;
+            opacity: 0.8;
+            transition: opacity 0.2s ease;
+        }
+
+        .tag-remove:hover {
+            opacity: 1;
+        }
+
+        .clear-all-btn {
+            background: rgba(220, 53, 69, 0.1);
+            color: #dc3545;
+            border: 2px solid rgba(220, 53, 69, 0.3);
+            padding: 8px 16px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 0.9em;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+
+        .clear-all-btn:hover {
+            background: rgba(220, 53, 69, 0.2);
+        }
+
+        /* Visual Cards Section */
+        .visual-cards-section {
+            margin-top: 20px;
+        }
+
+        .cards-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
             gap: 15px;
-            margin-bottom: 20px;
         }
 
         .subject-area-card {
@@ -193,9 +325,28 @@
             box-shadow: 0 10px 25px rgba(0,0,0,0.15);
         }
 
-        .subject-area-card.active {
+        .subject-area-card.selected {
             border-color: #667eea;
             background: linear-gradient(135deg, rgba(102, 126, 234, 0.1), rgba(118, 75, 162, 0.1));
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(102, 126, 234, 0.3);
+        }
+
+        .subject-area-card.selected::after {
+            content: '✓';
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: #667eea;
+            color: white;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.8em;
+            font-weight: bold;
         }
 
         .subject-area-card.computer-science::before {
@@ -254,6 +405,18 @@
             font-style: italic;
         }
 
+        /* Filter Status */
+        .filter-status {
+            text-align: center;
+            margin: 20px 0;
+            padding: 15px;
+            background: rgba(102, 126, 234, 0.1);
+            border-radius: 10px;
+            color: #667eea;
+            font-weight: 500;
+        }
+
+        /* University Tabs */
         .university-tabs {
             background: rgba(255, 255, 255, 0.95);
             backdrop-filter: blur(10px);
@@ -275,7 +438,6 @@
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
             gap: 15px;
-            margin-bottom: 20px;
         }
 
         .university-card {
@@ -312,6 +474,7 @@
             color: #667eea;
         }
 
+        /* Controls Panel */
         .controls-panel {
             background: rgba(255, 255, 255, 0.95);
             backdrop-filter: blur(10px);
@@ -320,79 +483,6 @@
             margin-bottom: 30px;
             box-shadow: 0 10px 30px rgba(0,0,0,0.1);
             border: 1px solid rgba(255, 255, 255, 0.2);
-        }
-
-        .search-container {
-            position: relative;
-            margin-bottom: 25px;
-        }
-
-        .search-box {
-            width: 100%;
-            padding: 15px 20px 15px 50px;
-            border: 2px solid rgba(102, 126, 234, 0.2);
-            border-radius: 15px;
-            font-size: 1.1em;
-            background: rgba(255, 255, 255, 0.9);
-            transition: all 0.3s ease;
-        }
-
-        .search-box:focus {
-            outline: none;
-            border-color: #667eea;
-            background: white;
-            box-shadow: 0 0 20px rgba(102, 126, 234, 0.2);
-        }
-
-        .search-icon {
-            position: absolute;
-            left: 18px;
-            top: 50%;
-            transform: translateY(-50%);
-            color: #999;
-            font-size: 1.2em;
-        }
-
-        .ml-search-suggestions {
-            position: absolute;
-            top: 100%;
-            left: 0;
-            right: 0;
-            background: white;
-            border: 1px solid #ddd;
-            border-radius: 10px;
-            padding: 15px;
-            margin-top: 5px;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-            display: none;
-            z-index: 1000;
-        }
-
-        .ml-suggestion-category {
-            margin-bottom: 15px;
-        }
-
-        .ml-suggestion-category h4 {
-            margin-bottom: 10px;
-            color: #667eea;
-            font-size: 0.9em;
-        }
-
-        .ml-suggestion-tag {
-            display: inline-block;
-            background: rgba(102, 126, 234, 0.1);
-            color: #667eea;
-            padding: 6px 12px;
-            border-radius: 15px;
-            margin: 3px;
-            cursor: pointer;
-            font-size: 0.85em;
-            transition: all 0.3s ease;
-        }
-
-        .ml-suggestion-tag:hover {
-            background: #667eea;
-            color: white;
         }
 
         .toggle-section {
@@ -452,30 +542,7 @@
             transform: translateX(28px);
         }
 
-        .current-filter {
-            text-align: center;
-            margin-bottom: 20px;
-            font-size: 1.1em;
-            color: #667eea;
-            font-weight: 500;
-        }
-
-        .clear-filter {
-            background: rgba(102, 126, 234, 0.1);
-            border: 2px solid rgba(102, 126, 234, 0.3);
-            color: #667eea;
-            padding: 8px 16px;
-            border-radius: 20px;
-            cursor: pointer;
-            transition: all 0.3s ease;
-            font-weight: 500;
-            margin-left: 10px;
-        }
-
-        .clear-filter:hover {
-            background: rgba(102, 126, 234, 0.2);
-        }
-
+        /* Publications */
         .publications-container {
             background: rgba(255, 255, 255, 0.95);
             backdrop-filter: blur(10px);
@@ -695,14 +762,15 @@
             color: #555;
         }
 
-        .filter-status {
-            text-align: center;
-            margin: 20px 0;
-            padding: 15px;
-            background: rgba(102, 126, 234, 0.1);
-            border-radius: 10px;
-            color: #667eea;
-            font-weight: 500;
+        @keyframes tagAppear {
+            from {
+                opacity: 0;
+                transform: scale(0.8);
+            }
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
         }
 
         /* Responsive Design */
@@ -725,7 +793,7 @@
                 gap: 15px;
             }
 
-            .subject-area-grid, .university-grid {
+            .cards-grid, .university-grid {
                 grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
             }
 
@@ -740,22 +808,6 @@
                 align-items: flex-start;
             }
         }
-
-        /* Animations */
-        @keyframes fadeInUp {
-            from {
-                opacity: 0;
-                transform: translateY(30px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-
-        .publication-item {
-            animation: fadeInUp 0.5s ease-out;
-        }
     </style>
 </head>
 <body>
@@ -766,31 +818,43 @@
             <p class="update-schedule">📅 Updated daily at midnight UTC</p>
             <div class="header-links">
                 <a href="feed.xml" class="header-link">📡 RSS Feed</a>
-                <a href="feed.json" class="header-link json">📄 JSON Feed</a>
-                <a href="papers-archive.csv" class="header-link stats">📁 Download Archive</a>
-                <a href="https://docs.google.com/spreadsheets/d/1kSExt97IEVj_DrNXHTlewzFou8XSAnpYAxKycz-ihO0/edit" class="header-link stats" target="_blank">📊 Live Archive</a>
+                <a href="feed.json" class="header-link">📄 JSON Feed</a>
+                <a href="papers-archive.csv" class="header-link">📁 Download Archive</a>
+                <a href="https://docs.google.com/spreadsheets/d/1kSExt97IEVj_DrNXHTlewzFou8XSAnpYAxKycz-ihO0/edit" class="header-link" target="_blank">📊 Live Archive</a>
             </div>
         </div>
 
         <div id="overviewStats" class="overview-stats" style="display: none;"></div>
 
-        <div id="mlSubjectAreas" class="ml-subject-areas" style="display: none;">
-            <h3>🧠 AI-Powered Research Areas</h3>
-            <div id="subjectAreaGrid" class="subject-area-grid"></div>
+        <!-- HYBRID RESEARCH SELECTOR -->
+        <div id="hybridSelector" class="hybrid-research-selector" style="display: none;">
+            <h3 class="selector-title">🧠 AI-Powered Research Discovery</h3>
+            
+            <!-- Search and Tags Section -->
+            <div class="search-and-tags-section">
+                <div class="enhanced-search-container">
+                    <span class="search-icon">🔍</span>
+                    <input type="text" class="enhanced-search-box" id="hybridSearch" placeholder="Search research areas or keywords...">
+                    <div id="suggestionDropdown" class="search-suggestions-dropdown"></div>
+                </div>
+                
+                <div class="selected-areas-container" id="selectedAreasContainer">
+                    <button class="clear-all-btn" id="clearAllBtn" onclick="clearAllSelections()">Clear All</button>
+                </div>
+            </div>
+            
+            <!-- Visual Cards Section -->
+            <div class="visual-cards-section">
+                <div id="cardsGrid" class="cards-grid"></div>
+            </div>
         </div>
 
         <div id="universityTabs" class="university-tabs" style="display: none;">
             <h3>🏛️ Browse by University</h3>
             <div id="universityGrid" class="university-grid"></div>
-            <div id="currentFilter" class="current-filter" style="display: none;"></div>
         </div>
 
         <div class="controls-panel">
-            <div class="search-container">
-                <span class="search-icon">🔍</span>
-                <input type="text" class="search-box" id="search" placeholder="Search publications with AI suggestions...">
-            </div>
-            
             <div class="toggle-section">
                 <span class="toggle-label">Show Abstracts:</span>
                 <label class="toggle-switch">
@@ -806,12 +870,29 @@
     </div>
 
     <script>
+        // Global Variables
         let allItems = [];
         let filteredItems = [];
-        let currentSubjectFilter = 'all';
+        let selectedAreas = new Set();
+        let searchKeywords = new Set();
         let currentUniversityFilter = 'all';
         let showAbstracts = false;
+        let allSubjectAreas = [];
 
+        // Subject area configuration
+        const subjectConfig = {
+            'Computer Science': { emoji: '💻', class: 'computer-science' },
+            'Biomedical': { emoji: '🧬', class: 'biomedical' },
+            'Cancer Research': { emoji: '🎗️', class: 'cancer-research' },
+            'Materials Science': { emoji: '⚗️', class: 'materials-science' },
+            'Neuroscience': { emoji: '🧠', class: 'neuroscience' },
+            'Engineering': { emoji: '🔧', class: 'engineering' },
+            'Environmental': { emoji: '🌱', class: 'environmental' },
+            'Physics': { emoji: '⚛️', class: 'physics' },
+            'Multidisciplinary': { emoji: '🔬', class: 'multidisciplinary' }
+        };
+
+        // Main load function
         async function loadFeed() {
             const loadingDiv = document.getElementById('loading');
             const errorDiv = document.getElementById('error');
@@ -834,10 +915,9 @@
                 filteredItems = [...allItems];
 
                 displayOverviewStats(data);
-                displayMLSubjectAreas(data);
+                setupHybridSelector(data);
                 displayUniversityTabs(data);
                 displayItems(filteredItems);
-                setupMLSearch();
                 publicationsContainer.style.display = 'block';
 
             } catch (error) {
@@ -847,6 +927,7 @@
             }
         }
 
+        // Display overview statistics
         function displayOverviewStats(data) {
             const statsDiv = document.getElementById('overviewStats');
             
@@ -872,60 +953,330 @@
             statsDiv.style.display = 'grid';
         }
 
-        function displayMLSubjectAreas(data) {
-            const mlDiv = document.getElementById('mlSubjectAreas');
-            const subjectGrid = document.getElementById('subjectAreaGrid');
+        // Setup hybrid selector
+        function setupHybridSelector(data) {
+            const selectorDiv = document.getElementById('hybridSelector');
+            const cardsGrid = document.getElementById('cardsGrid');
             const breakdown = data.subjectAreaBreakdown || {};
             
+            // Store all subject areas for searching
+            allSubjectAreas = Object.entries(breakdown).map(([area, count]) => ({
+                name: area,
+                count: count,
+                ...subjectConfig[area]
+            }));
+
+            // Create cards HTML
             let cardsHTML = `
-                <div class="subject-area-card active" data-filter="all">
+                <div class="subject-area-card all" data-area="all">
                     <div class="subject-area-name">🔍 All Research Areas</div>
                     <div class="subject-area-count">${data.totalItems || 0}</div>
-                    <div class="ml-confidence">AI-powered classification</div>
+                    <div class="ml-confidence">AI-powered discovery</div>
                 </div>
             `;
             
-            const subjectEmojis = {
-                'Computer Science': '💻',
-                'Biomedical': '🧬',
-                'Cancer Research': '🎗️',
-                'Materials Science': '⚗️',
-                'Neuroscience': '🧠',
-                'Engineering': '🔧',
-                'Environmental': '🌱',
-                'Physics': '⚛️',
-                'Multidisciplinary': '🔬'
-            };
-            
-            Object.entries(breakdown).forEach(([area, count]) => {
-                if (count > 0) {
-                    const className = area.toLowerCase().replace(/\s+/g, '-');
-                    const emoji = subjectEmojis[area] || '📊';
-                    
+            allSubjectAreas.forEach(area => {
+                if (area.count > 0) {
                     cardsHTML += `
-                        <div class="subject-area-card ${className}" data-filter="${area}">
-                            <div class="subject-area-name">${emoji} ${area}</div>
-                            <div class="subject-area-count">${count}</div>
+                        <div class="subject-area-card ${area.class}" data-area="${area.name}">
+                            <div class="subject-area-name">${area.emoji} ${area.name}</div>
+                            <div class="subject-area-count">${area.count}</div>
                             <div class="ml-confidence">AI classified</div>
                         </div>
                     `;
                 }
             });
             
-            subjectGrid.innerHTML = cardsHTML;
-            mlDiv.style.display = 'block';
+            cardsGrid.innerHTML = cardsHTML;
+            selectorDiv.style.display = 'block';
             
+            // Add click handlers for cards
             document.querySelectorAll('.subject-area-card').forEach(card => {
-                card.addEventListener('click', () => {
-                    document.querySelectorAll('.subject-area-card').forEach(c => c.classList.remove('active'));
-                    card.classList.add('active');
-                    
-                    currentSubjectFilter = card.dataset.filter;
-                    filterItems();
-                });
+                card.addEventListener('click', () => handleCardClick(card));
+            });
+
+            // Setup search functionality
+            setupSearchFunctionality();
+        }
+
+        // Handle card clicks
+        function handleCardClick(cardElement) {
+            const areaName = cardElement.dataset.area;
+            
+            if (areaName === 'all') {
+                clearAllSelections();
+                return;
+            }
+
+            if (selectedAreas.has(areaName)) {
+                // Deselect
+                selectedAreas.delete(areaName);
+                cardElement.classList.remove('selected');
+                removeTag(areaName);
+            } else {
+                // Select
+                selectedAreas.add(areaName);
+                cardElement.classList.add('selected');
+                addTag(areaName, 'area');
+            }
+            
+            updateResults();
+        }
+
+        // Setup search functionality
+        function setupSearchFunctionality() {
+            const searchBox = document.getElementById('hybridSearch');
+            const dropdown = document.getElementById('suggestionDropdown');
+            
+            searchBox.addEventListener('input', (e) => {
+                const query = e.target.value.trim();
+                if (query.length >= 2) {
+                    showSuggestions(query);
+                } else {
+                    dropdown.style.display = 'none';
+                }
+            });
+            
+            searchBox.addEventListener('focus', (e) => {
+                const query = e.target.value.trim();
+                if (query.length >= 2) {
+                    showSuggestions(query);
+                }
+            });
+
+            // Handle Enter key
+            searchBox.addEventListener('keypress', (e) => {
+                if (e.key === 'Enter') {
+                    const query = e.target.value.trim();
+                    if (query) {
+                        addSearchKeyword(query);
+                        searchBox.value = '';
+                        dropdown.style.display = 'none';
+                    }
+                }
+            });
+            
+            // Hide dropdown when clicking outside
+            document.addEventListener('click', (e) => {
+                if (!searchBox.contains(e.target) && !dropdown.contains(e.target)) {
+                    dropdown.style.display = 'none';
+                }
             });
         }
 
+        // Show search suggestions
+        function showSuggestions(query) {
+            const dropdown = document.getElementById('suggestionDropdown');
+            const suggestions = generateSuggestions(query);
+            
+            if (suggestions.length === 0) {
+                dropdown.style.display = 'none';
+                return;
+            }
+            
+            dropdown.innerHTML = suggestions.map(suggestion => `
+                <div class="suggestion-item" onclick="handleSuggestionClick('${suggestion.text}', '${suggestion.type}')">
+                    <span class="suggestion-icon">${suggestion.icon}</span>
+                    <span class="suggestion-text">${suggestion.text}</span>
+                    <span class="suggestion-count">${suggestion.count}</span>
+                </div>
+            `).join('');
+            
+            dropdown.style.display = 'block';
+        }
+
+        // Generate search suggestions
+        function generateSuggestions(query) {
+            const suggestions = [];
+            const lowerQuery = query.toLowerCase();
+            
+            // Area suggestions
+            allSubjectAreas.forEach(area => {
+                if (area.name.toLowerCase().includes(lowerQuery) && !selectedAreas.has(area.name)) {
+                    suggestions.push({
+                        type: 'area',
+                        text: area.name,
+                        icon: area.emoji,
+                        count: area.count
+                    });
+                }
+            });
+            
+            // Keyword suggestions
+            const commonKeywords = [
+                'machine learning', 'artificial intelligence', 'cancer', 'treatment', 
+                'materials', 'synthesis', 'brain', 'neuron', 'clinical', 'diagnosis',
+                'engineering', 'technology', 'environmental', 'sustainability', 
+                'physics', 'quantum', 'collaboration', 'research'
+            ];
+            
+            commonKeywords.forEach(keyword => {
+                if (keyword.includes(lowerQuery) && !searchKeywords.has(keyword)) {
+                    const matchCount = allItems.filter(item => 
+                        item.title.toLowerCase().includes(keyword) || 
+                        item.description.toLowerCase().includes(keyword)
+                    ).length;
+                    
+                    if (matchCount > 0) {
+                        suggestions.push({
+                            type: 'keyword',
+                            text: keyword,
+                            icon: '🔍',
+                            count: matchCount
+                        });
+                    }
+                }
+            });
+            
+            return suggestions.slice(0, 8);
+        }
+
+        // Handle suggestion clicks
+        function handleSuggestionClick(text, type) {
+            if (type === 'area') {
+                if (!selectedAreas.has(text)) {
+                    selectedAreas.add(text);
+                    addTag(text, 'area');
+                    document.querySelector(`[data-area="${text}"]`).classList.add('selected');
+                }
+            } else {
+                addSearchKeyword(text);
+            }
+            
+            document.getElementById('hybridSearch').value = '';
+            document.getElementById('suggestionDropdown').style.display = 'none';
+            updateResults();
+        }
+
+        // Add search keyword
+        function addSearchKeyword(keyword) {
+            if (!searchKeywords.has(keyword)) {
+                searchKeywords.add(keyword);
+                addTag(keyword, 'keyword');
+                updateResults();
+            }
+        }
+
+        // Add tag to UI
+        function addTag(text, type) {
+            const container = document.getElementById('selectedAreasContainer');
+            const clearBtn = document.getElementById('clearAllBtn');
+            
+            const tagElement = document.createElement('div');
+            tagElement.className = `selected-tag ${type === 'keyword' ? 'search-derived' : ''}`;
+            tagElement.innerHTML = `
+                <span class="tag-icon">${getIconForTag(text, type)}</span>
+                <span class="tag-text">${text}</span>
+                <button class="tag-remove" onclick="removeTag('${text}', '${type}')">×</button>
+            `;
+            
+            container.insertBefore(tagElement, clearBtn);
+        }
+
+        // Remove tag
+        function removeTag(text, type) {
+            if (type === 'area') {
+                selectedAreas.delete(text);
+                document.querySelector(`[data-area="${text}"]`)?.classList.remove('selected');
+            } else {
+                searchKeywords.delete(text);
+            }
+            
+            // Remove tag element
+            document.querySelectorAll('.selected-tag').forEach(tag => {
+                if (tag.querySelector('.tag-text').textContent === text) {
+                    tag.remove();
+                }
+            });
+            
+            updateResults();
+        }
+
+        // Get icon for tag
+        function getIconForTag(text, type) {
+            if (type === 'area') {
+                return subjectConfig[text]?.emoji || '📊';
+            }
+            return '🔍';
+        }
+
+        // Clear all selections
+        function clearAllSelections() {
+            selectedAreas.clear();
+            searchKeywords.clear();
+            currentUniversityFilter = 'all';
+            
+            document.querySelectorAll('.subject-area-card.selected').forEach(card => {
+                card.classList.remove('selected');
+            });
+            
+            document.querySelectorAll('.university-card').forEach(card => {
+                card.classList.remove('active');
+            });
+            document.querySelector('[data-filter="all"]')?.classList.add('active');
+            
+            document.querySelectorAll('.selected-tag:not(.clear-all-btn)').forEach(tag => {
+                if (!tag.classList.contains('clear-all-btn')) tag.remove();
+            });
+            
+            updateResults();
+        }
+
+        // Update results based on filters
+        function updateResults() {
+            filteredItems = allItems.filter(item => {
+                // Area filter (OR logic)
+                let areaMatch = selectedAreas.size === 0 || selectedAreas.has(item.subjectArea);
+                
+                // Keyword filter (AND logic)
+                let keywordMatch = searchKeywords.size === 0;
+                if (!keywordMatch) {
+                    const text = `${item.title} ${item.description}`.toLowerCase();
+                    keywordMatch = Array.from(searchKeywords).every(keyword =>
+                        text.includes(keyword.toLowerCase())
+                    );
+                }
+                
+                // University filter
+                let universityMatch = currentUniversityFilter === 'all' || 
+                                     item.institutions.includes(currentUniversityFilter);
+                
+                return areaMatch && keywordMatch && universityMatch;
+            });
+            
+            displayItems(filteredItems);
+            updateFilterStatus();
+        }
+
+        // Update filter status
+        function updateFilterStatus() {
+            const existingStatus = document.querySelector('.filter-status');
+            if (existingStatus) existingStatus.remove();
+            
+            if (selectedAreas.size > 0 || searchKeywords.size > 0 || currentUniversityFilter !== 'all') {
+                let statusText = `Showing ${filteredItems.length} publications`;
+                
+                if (selectedAreas.size > 0) {
+                    statusText += ` in ${Array.from(selectedAreas).join(', ')}`;
+                }
+                
+                if (searchKeywords.size > 0) {
+                    statusText += ` matching "${Array.from(searchKeywords).join(', ')}"`;
+                }
+                
+                if (currentUniversityFilter !== 'all') {
+                    statusText += ` from ${currentUniversityFilter}`;
+                }
+                
+                const statusDiv = document.createElement('div');
+                statusDiv.className = 'filter-status';
+                statusDiv.textContent = statusText;
+                
+                document.getElementById('overviewStats').appendChild(statusDiv);
+            }
+        }
+
+        // Display university tabs
         function displayUniversityTabs(data) {
             const universityTabsDiv = document.getElementById('universityTabs');
             const universityGrid = document.getElementById('universityGrid');
@@ -942,12 +1293,9 @@
                 if (count > 0) {
                     const displayName = inst === 'Yonsei University' ? 'Yonsei' : 
                                       inst === 'Korea University' ? 'Korea Univ' : inst;
-                    const className = inst.toLowerCase()
-                        .replace(/\s+/g, '')
-                        .replace('university', '');
                     
                     cardsHTML += `
-                        <div class="university-card ${className}" data-filter="${inst}">
+                        <div class="university-card" data-filter="${inst}">
                             <div class="university-name">${displayName}</div>
                             <div class="university-count">${count}</div>
                         </div>
@@ -964,144 +1312,20 @@
                     card.classList.add('active');
                     
                     currentUniversityFilter = card.dataset.filter;
-                    filterItems();
+                    updateResults();
                 });
             });
         }
 
-        function setupMLSearch() {
-            const searchBox = document.getElementById('search');
-            
-            const suggestionsDiv = document.createElement('div');
-            suggestionsDiv.className = 'ml-search-suggestions';
-            suggestionsDiv.innerHTML = `
-                <div class="ml-suggestion-category">
-                    <h4>🧠 AI Suggestions:</h4>
-                    <span class="ml-suggestion-tag" data-query="machine learning">Machine Learning</span>
-                    <span class="ml-suggestion-tag" data-query="cancer research">Cancer Research</span>
-                    <span class="ml-suggestion-tag" data-query="materials">Materials Science</span>
-                    <span class="ml-suggestion-tag" data-query="neuroscience">Neuroscience</span>
-                </div>
-                <div class="ml-suggestion-category">
-                    <h4>🔍 Smart Filters:</h4>
-                    <span class="ml-suggestion-tag" data-query="KAIST AI">KAIST AI Research</span>
-                    <span class="ml-suggestion-tag" data-query="SNU cancer">SNU Cancer Studies</span>
-                    <span class="ml-suggestion-tag" data-query="collaboration">Multi-University</span>
-                </div>
-            `;
-            
-            searchBox.parentNode.appendChild(suggestionsDiv);
-            
-            searchBox.addEventListener('focus', () => {
-                suggestionsDiv.style.display = 'block';
-            });
-            
-            document.addEventListener('click', (e) => {
-                if (!searchBox.contains(e.target) && !suggestionsDiv.contains(e.target)) {
-                    suggestionsDiv.style.display = 'none';
-                }
-            });
-            
-            suggestionsDiv.querySelectorAll('.ml-suggestion-tag').forEach(tag => {
-                tag.addEventListener('click', () => {
-                    searchBox.value = tag.dataset.query;
-                    filterItems();
-                    suggestionsDiv.style.display = 'none';
-                });
-            });
-        }
-
-        function filterItems() {
-            const searchTerm = document.getElementById('search').value.toLowerCase();
-            
-            filteredItems = allItems.filter(item => {
-                const matchesSearch = item.title.toLowerCase().includes(searchTerm) || 
-                                    item.description.toLowerCase().includes(searchTerm) ||
-                                    (item.objective && item.objective.toLowerCase().includes(searchTerm)) ||
-                                    (item.significance && item.significance.toLowerCase().includes(searchTerm));
-                
-                let matchesSubject = true;
-                if (currentSubjectFilter !== 'all') {
-                    matchesSubject = item.subjectArea === currentSubjectFilter;
-                }
-                
-                let matchesUniversity = true;
-                if (currentUniversityFilter !== 'all') {
-                    matchesUniversity = item.institutions.includes(currentUniversityFilter);
-                }
-                
-                return matchesSearch && matchesSubject && matchesUniversity;
-            });
-            
-            displayItems(filteredItems);
-            updateFilterStatus();
-        }
-
-        function updateFilterStatus() {
-            let statusText = `Showing ${filteredItems.length} publications`;
-            
-            if (currentSubjectFilter !== 'all') {
-                statusText += ` in ${currentSubjectFilter}`;
-            }
-            
-            if (currentUniversityFilter !== 'all') {
-                statusText += ` from ${currentUniversityFilter}`;
-            }
-            
-            const existingStatus = document.querySelector('.filter-status');
-            if (existingStatus) existingStatus.remove();
-            
-            if (currentSubjectFilter !== 'all' || currentUniversityFilter !== 'all') {
-                const statusDiv = document.createElement('div');
-                statusDiv.className = 'filter-status';
-                statusDiv.innerHTML = `
-                    ${statusText}
-                    <button onclick="clearAllFilters()" style="margin-left: 15px; background: #667eea; color: white; border: none; padding: 8px 16px; border-radius: 20px; cursor: pointer;">
-                        Clear Filters
-                    </button>
-                `;
-                
-                document.getElementById('overviewStats').appendChild(statusDiv);
-            }
-        }
-
-        function clearAllFilters() {
-            currentSubjectFilter = 'all';
-            currentUniversityFilter = 'all';
-            document.getElementById('search').value = '';
-            
-            document.querySelectorAll('.subject-area-card').forEach(c => c.classList.remove('active'));
-            document.querySelector('.subject-area-card[data-filter="all"]').classList.add('active');
-            
-            document.querySelectorAll('.university-card').forEach(c => c.classList.remove('active'));
-            document.querySelector('.university-card[data-filter="all"]').classList.add('active');
-            
-            filterItems();
-        }
-
+        // Display items
         function displayItems(items) {
-            // Add to your displayItems function in the HTML
-            const feedbackSection = `
-                <div class="ml-feedback-section" style="margin-top: 15px; padding: 10px; background: rgba(102, 126, 234, 0.05); border-radius: 8px;">
-                    <span style="font-size: 0.9em; color: #666; margin-right: 10px;">Is this classification correct?</span>
-                    <button class="feedback-btn correct" onclick="submitFeedback('${item.pmid}', 'correct', '${item.subjectArea}')" 
-                            style="background: #28a745; color: white; border: none; padding: 6px 12px; border-radius: 15px; cursor: pointer; margin-right: 5px;">
-                        👍 Correct
-                    </button>
-                    <button class="feedback-btn incorrect" onclick="showCorrectCategory('${item.pmid}', '${item.subjectArea}')" 
-                            style="background: #dc3545; color: white; border: none; padding: 6px 12px; border-radius: 15px; cursor: pointer;">
-                        👎 Incorrect
-                    </button>
-                </div>
-            `;
-
             const container = document.getElementById('publicationsContainer');
             
             if (items.length === 0) {
                 container.innerHTML = `
                     <div class="empty-state">
-                        <h3>🤖 No publications match your AI-powered search</h3>
-                        <p>Try adjusting your filters or search terms. Our ML system classified ${allItems.length} papers across ${new Set(allItems.map(i => i.subjectArea)).size} research areas.</p>
+                        <h3>🤖 No publications match your search</h3>
+                        <p>Try adjusting your filters or search terms. Our AI system has classified ${allItems.length} papers across ${allSubjectAreas.length} research areas.</p>
                     </div>
                 `;
                 return;
@@ -1137,7 +1361,7 @@
                     </div>` : '';
                 
                 return `
-                    <div class="publication-item" data-institutions="${item.institutions.join(',')}" data-subject="${item.subjectArea}">
+                    <div class="publication-item">
                         <div class="publication-meta">
                             <div class="institution-tags">${institutionTags}</div>
                             <div style="display: flex; gap: 10px; align-items: center;">
@@ -1172,8 +1396,7 @@
             }).join('');
         }
 
-        document.getElementById('search').addEventListener('input', filterItems);
-        
+        // Toggle abstracts
         document.getElementById('abstractToggle').addEventListener('change', (e) => {
             showAbstracts = e.target.checked;
             document.querySelectorAll('.publication-abstract').forEach(abstract => {
@@ -1185,6 +1408,7 @@
             });
         });
 
+        // Initialize
         window.addEventListener('load', loadFeed);
         setInterval(loadFeed, 24 * 60 * 60 * 1000);
     </script>
