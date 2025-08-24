@@ -8,6 +8,8 @@ on:
 jobs:
   train-and-generate:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write  # 🔥 This is ESSENTIAL for pushing changes
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -34,7 +36,7 @@ jobs:
         
       - name: Generate RSS Feed with ML
         run: node rss-generator-script.js
-
+        
       - name: Commit and push changes
         run: |
           git config --global user.name 'github-actions'
@@ -46,7 +48,3 @@ jobs:
             git commit -m "Daily RSS update with ML classification - $(date)"
             git push
           fi
-
-        
-
-
