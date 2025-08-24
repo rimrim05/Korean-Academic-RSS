@@ -4,10 +4,6 @@ on:
   schedule:
     - cron: '0 0 * * *'  # Daily at midnight UTC
   workflow_dispatch:  # Allow manual triggering
-  push:
-    paths:
-      - 'training-data.js'  # Re-train when training data changes
-      - 'train-classifier.js'
 
 jobs:
   train-and-generate:
@@ -20,6 +16,11 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '18'
+          
+      - name: Install system dependencies for Brain.js
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libxi-dev libxext-dev libx11-dev pkg-config libglfw3-dev libgles2-mesa-dev
           
       - name: Install dependencies
         run: npm install
