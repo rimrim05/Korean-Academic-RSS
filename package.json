@@ -11,5 +11,6 @@
     "xml2js": "^0.6.2",
     "@tensorflow/tfjs-node": "^4.15.0",
     "natural": "^6.12.0"
-  }
+  },
+  "description": "Korean Academic RSS aggregator with ML classification"
 }
