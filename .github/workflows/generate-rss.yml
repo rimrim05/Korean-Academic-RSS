@@ -2,7 +2,7 @@ name: Generate RSS Feed with ML Training
 
 on:
   schedule:
-    - cron: '25 7 * * *'  # 12:20 AM PST
+    - cron: '35 7 * * *'  # 12:20 AM PST
   workflow_dispatch:
 
 jobs:
