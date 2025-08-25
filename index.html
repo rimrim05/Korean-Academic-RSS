@@ -883,11 +883,20 @@
             }).join('');
         }
 
-        // Event listeners
-        document.getElementById('searchBox').addEventListener('input', applyFilters);
-        
-        document.getElementById('abstractToggle').addEventListener('change', (e) => {
-            showAbstracts = e.target.checked;
+       // Initialize after DOM is fully loaded
+document.addEventListener('DOMContentLoaded', function() {
+    // Event listeners with null checks
+    const searchBox = document.getElementById('searchBox');
+    if (searchBox) {
+        searchBox.addEventListener('input', applyFilters);
+    } else {
+        console.error('searchBox element not found');
+    }
+    
+    const abstractToggle = document.getElementById('abstractToggle');
+    if (abstractToggle) {
+        abstractToggle.addEventListener('change', (e) => {
+            showAbstractions = e.target.checked;
             document.querySelectorAll('.publication-abstract').forEach(abstract => {
                 if (showAbstracts) {
                     abstract.classList.add('show');
@@ -896,10 +905,15 @@
                 }
             });
         });
+    } else {
+        console.error('abstractToggle element not found');
+    }
 
-        // Initialize
-        window.addEventListener('load', loadFeed);
-        setInterval(loadFeed, 24 * 60 * 60 * 1000);
+    // Initialize the feed loading
+    loadFeed();
+    setInterval(loadFeed, 24 * 60 * 60 * 1000);
+});
+
     </script>
 </body>
 </html>
