@@ -520,6 +520,12 @@
             background: var(--secondary-color);
         }
 
+        /* Update Indicator */
+        .update-indicator {
+            color: var(--accent-color);
+            cursor: default;
+        }
+
         /* Responsive Design */
         @media (max-width: 768px) {
             .header-inner,
@@ -574,11 +580,11 @@
     <header class="header">
         <div class="header-inner">
             <h1 class="masthead">Korean Academic Research Digest</h1>
-            <p class="tagline">Daily insights from Korea's leading research institutions</p>
+            <p class="tagline">Twice-daily insights from Korea's leading research institutions</p>
             <div class="issue-info">
                 <span id="currentDate">Loading...</span>
                 <div class="divider"></div>
-                <span>AI-Classified Publications</span>
+                <span>Updated 12:30 AM & 12 PM PST</span>
                 <div class="divider"></div>
                 <span id="totalCount">Loading...</span>
             </div>
@@ -592,6 +598,7 @@
             <a href="feed.json" class="nav-link">JSON API</a>
             <a href="papers-archive.csv" class="nav-link">Download Archive</a>
             <a href="https://docs.google.com/spreadsheets/d/1kSExt97IEVj_DrNXHTlewzFou8XSAnpYAxKycz-ihO0/edit" class="nav-link" target="_blank">Live Archive</a>
+            <span class="nav-link update-indicator">📅 2x Daily Updates</span>
         </div>
     </nav>
 
@@ -614,7 +621,7 @@
                 <input type="text" class="search-box" id="searchBox" placeholder="Search publications...">
             </div>
 
-            <!-- 🔥 TOGGLE ADDED HERE -->
+            <!-- Toggle Controls -->
             <div class="controls-container">
                 <div class="toggle-container">
                     <span class="toggle-label">Show Abstracts</span>
