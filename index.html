@@ -191,7 +191,8 @@
             outline: none;
             border-color: var(--accent-color);
         }
-                /* Controls in Filters Section */
+
+        /* Controls in Filters Section */
         .controls-container {
             display: flex;
             justify-content: center;
@@ -212,7 +213,6 @@
             color: var(--secondary-color);
             font-weight: 500;
         }
-
 
         /* Subject Area Tags */
         .subject-areas {
@@ -614,6 +614,17 @@
                 <input type="text" class="search-box" id="searchBox" placeholder="Search publications...">
             </div>
 
+            <!-- 🔥 TOGGLE ADDED HERE -->
+            <div class="controls-container">
+                <div class="toggle-container">
+                    <span class="toggle-label">Show Abstracts</span>
+                    <label class="toggle-switch">
+                        <input type="checkbox" id="abstractToggle">
+                        <span class="slider"></span>
+                    </label>
+                </div>
+            </div>
+
             <!-- Subject Areas -->
             <div class="subject-areas" id="subjectAreas">
                 <!-- Will be populated by JavaScript -->
@@ -883,37 +894,36 @@
             }).join('');
         }
 
-       // Initialize after DOM is fully loaded
-document.addEventListener('DOMContentLoaded', function() {
-    // Event listeners with null checks
-    const searchBox = document.getElementById('searchBox');
-    if (searchBox) {
-        searchBox.addEventListener('input', applyFilters);
-    } else {
-        console.error('searchBox element not found');
-    }
-    
-    const abstractToggle = document.getElementById('abstractToggle');
-    if (abstractToggle) {
-        abstractToggle.addEventListener('change', (e) => {
-            showAbstractions = e.target.checked;
-            document.querySelectorAll('.publication-abstract').forEach(abstract => {
-                if (showAbstracts) {
-                    abstract.classList.add('show');
-                } else {
-                    abstract.classList.remove('show');
-                }
-            });
+        // Initialize after DOM is fully loaded
+        document.addEventListener('DOMContentLoaded', function() {
+            // Event listeners with null checks
+            const searchBox = document.getElementById('searchBox');
+            if (searchBox) {
+                searchBox.addEventListener('input', applyFilters);
+            } else {
+                console.error('searchBox element not found');
+            }
+            
+            const abstractToggle = document.getElementById('abstractToggle');
+            if (abstractToggle) {
+                abstractToggle.addEventListener('change', (e) => {
+                    showAbstracts = e.target.checked;
+                    document.querySelectorAll('.publication-abstract').forEach(abstract => {
+                        if (showAbstracts) {
+                            abstract.classList.add('show');
+                        } else {
+                            abstract.classList.remove('show');
+                        }
+                    });
+                });
+            } else {
+                console.error('abstractToggle element not found');
+            }
+
+            // Initialize the feed loading
+            loadFeed();
+            setInterval(loadFeed, 24 * 60 * 60 * 1000);
         });
-    } else {
-        console.error('abstractToggle element not found');
-    }
-
-    // Initialize the feed loading
-    loadFeed();
-    setInterval(loadFeed, 24 * 60 * 60 * 1000);
-});
-
     </script>
 </body>
 </html>
