@@ -41,7 +41,7 @@ const feeds = [
     {
         url: 'https://pubmed.ncbi.nlm.nih.gov/rss/search/1HyCEy3kccvK7zE0-AQi3b_3KChicv5K_t8YL3UITyEWtrEgUY/?limit=100&utm_campaign=pubmed-2&fc=20250822210237',
         name: 'IBS'
-    }
+    },
      url: 'https://pubmed.ncbi.nlm.nih.gov/rss/search/1J__86CjOXspvrvYwWhLha0HUgjE7uW1knCYZ8uwr5FW9x1oDL/?limit=100&utm_campaign=pubmed-2&fc=20250824200837',
         name: 'UNIST'
     },
@@ -64,7 +64,7 @@ const feeds = [
     {
         url: 'https://pubmed.ncbi.nlm.nih.gov/rss/search/1lIZdG7__acDiOnILwc1UJFv1EU2tzCDqwphAfr3PZolpno9sb/?limit=100&utm_campaign=pubmed-2&fc=20250824201059',
         name: 'Pusan National University'
-    },
+    }
 ];
 
 // Load trained model
