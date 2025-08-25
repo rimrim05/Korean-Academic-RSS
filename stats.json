@@ -1,26 +1,32 @@
 {
-  "lastUpdate": "2025-08-25T00:06:26.999Z",
+  "lastUpdate": "2025-08-25T00:48:50.562Z",
   "totalItems": 150,
-  "totalArchived": 392,
-  "newPapersAdded": 0,
+  "totalArchived": 962,
+  "newPapersAdded": 570,
   "institutionBreakdown": {
     "KAIST": 10,
-    "SNU": 34,
+    "SNU": 39,
     "Yonsei University": 2,
     "SKKU": 1,
     "POSTECH": 1,
-    "Korea University": 37,
-    "IBS": 86
+    "Korea University": 40,
+    "IBS": 78,
+    "UNIST": 1,
+    "Hanyang University": 2,
+    "KIST": 2,
+    "GIST": 2,
+    "Kyung Hee University": 1,
+    "Pusan National University": 0
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 77,
-    "Biomedical": 33,
-    "Cancer Research": 23,
-    "Materials Science": 6,
-    "Neuroscience": 7,
+    "Biomedical": 31,
+    "Multidisciplinary": 76,
+    "Cancer Research": 27,
+    "Neuroscience": 8,
+    "Materials Science": 4,
     "Computer Science": 4
   },
-  "multiInstitutional": 19,
+  "multiInstitutional": 21,
   "institutions": [
     "KAIST",
     "SNU",
@@ -28,13 +34,20 @@
     "SKKU",
     "POSTECH",
     "Korea University",
-    "IBS"
+    "IBS",
+    "UNIST",
+    "Hanyang University",
+    "KIST",
+    "GIST",
+    "Kyung Hee University",
+    "Pusan National University"
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Early postnatal right-to-left patent ductus arteriosus shunting and severe outcomes in neonates with congenital diaphragmatic hernia: a retrospective cohort study",
+    "title": "Community prevalence of at-risk state for bipolar disorder: Validation of the Korean version of Bipolar Prodrome Symptom Interview and Scale-Abbreviated Screen for Patients (BPSS-AS-P)",
     "date": "2025-08-24T10:00:00.000Z",
     "institutions": [
+      "IBS",
       "SNU"
     ]
   }
