@@ -64,7 +64,7 @@ const feeds = [
     {
         url: 'https://pubmed.ncbi.nlm.nih.gov/rss/search/1lIZdG7__acDiOnILwc1UJFv1EU2tzCDqwphAfr3PZolpno9sb/?limit=100&utm_campaign=pubmed-2&fc=20250824201059',
         name: 'Pusan National University'
-    }
+    },
 ];
 
 // Load trained model
