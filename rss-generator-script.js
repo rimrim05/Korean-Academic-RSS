@@ -42,6 +42,29 @@ const feeds = [
         url: 'https://pubmed.ncbi.nlm.nih.gov/rss/search/1HyCEy3kccvK7zE0-AQi3b_3KChicv5K_t8YL3UITyEWtrEgUY/?limit=100&utm_campaign=pubmed-2&fc=20250822210237',
         name: 'IBS'
     }
+     url: 'https://pubmed.ncbi.nlm.nih.gov/rss/search/1J__86CjOXspvrvYwWhLha0HUgjE7uW1knCYZ8uwr5FW9x1oDL/?limit=100&utm_campaign=pubmed-2&fc=20250824200837',
+        name: 'UNIST'
+    },
+    {
+        url: 'https://pubmed.ncbi.nlm.nih.gov/rss/search/16ywSWzIPvPjkjZL5IOJ6EoFrfLJCBZcYAq0zId87nG-u18olu/?limit=100&utm_campaign=pubmed-2&fc=20250824200857',
+        name: 'Hanyang University'
+    },
+    {
+        url: 'https://pubmed.ncbi.nlm.nih.gov/rss/search/1-u-VnOuHrrKiO4WMPvz_i-F2FoAlfu-lcoSZ3mSAjuT4X8gzB/?limit=100&utm_campaign=pubmed-2&fc=20250824200958',
+        name: 'KIST'
+    },
+    {
+        url: 'https://pubmed.ncbi.nlm.nih.gov/rss/search/12Ak-Eek5aCiXtpXt5nPotfAmzuqq2n4KV7PFY26W42gL0Wk4G/?limit=100&utm_campaign=pubmed-2&fc=20250824201017',
+        name: 'GIST'
+    },
+    {
+        url: 'https://pubmed.ncbi.nlm.nih.gov/rss/search/14wpWf7MA3AKQSRGSBGZnJWuy_XngRdzPRoKvgHBVI3A4IsM3D/?limit=100&utm_campaign=pubmed-2&fc=20250824201035',
+        name: 'Kyung Hee University'
+    },
+    {
+        url: 'https://pubmed.ncbi.nlm.nih.gov/rss/search/1lIZdG7__acDiOnILwc1UJFv1EU2tzCDqwphAfr3PZolpno9sb/?limit=100&utm_campaign=pubmed-2&fc=20250824201059',
+        name: 'Pusan National University'
+    }
 ];
 
 // Load trained model
