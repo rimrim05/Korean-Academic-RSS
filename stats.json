@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-08-25T07:45:55.195Z",
+  "lastUpdate": "2025-08-25T19:27:46.021Z",
   "totalItems": 150,
-  "totalArchived": 1112,
-  "newPapersAdded": 134,
+  "totalArchived": 1270,
+  "newPapersAdded": 158,
   "institutionBreakdown": {
-    "KAIST": 8,
-    "SNU": 26,
-    "Yonsei University": 1,
+    "KAIST": 1,
+    "SNU": 31,
+    "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 0,
+    "POSTECH": 1,
     "Korea University": 27,
-    "IBS": 100,
+    "IBS": 97,
     "UNIST": 0,
-    "Hanyang University": 4,
-    "KIST": 4,
-    "GIST": 4,
-    "Kyung Hee University": 3,
+    "Hanyang University": 2,
+    "KIST": 2,
+    "GIST": 1,
+    "Kyung Hee University": 4,
     "Pusan National University": 1
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 77,
-    "Biomedical": 36,
-    "Computer Science": 7,
-    "Cancer Research": 17,
-    "Materials Science": 4,
-    "Neuroscience": 9
+    "Multidisciplinary": 85,
+    "Materials Science": 10,
+    "Cancer Research": 20,
+    "Biomedical": 31,
+    "Computer Science": 1,
+    "Neuroscience": 3
   },
-  "multiInstitutional": 19,
+  "multiInstitutional": 11,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,10 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Dumper deaths - public health breakdown on Karachi's roads",
+    "title": "Hyaluronic Acid Microparticles Promote Uniform Differentiation and Survival of Stem Cells in Spheroid Cultures",
     "date": "2025-08-25T10:00:00.000Z",
     "institutions": [
-      "Korea University",
-      "SNU"
+      "KAIST"
     ]
   }
 }
