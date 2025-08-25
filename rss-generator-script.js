@@ -288,75 +288,59 @@ function loadExistingArchive() {
 }
 
 function saveEnhancedArchive(newPapers) {
-    // Load existing papers
     const existingPapers = loadExistingArchive();
+    console.log(`📚 Loaded ${existingPapers.length} existing papers from archive`);
     
-    // Create map to avoid duplicates
-    const existingMap = new Set();
+    // Create comprehensive deduplication map
+    const allPapersMap = new Map();
+    
+    // Add existing papers to map (excluding blanks)
     existingPapers.forEach(paper => {
-        const key = paper.pmid || paper.link;
-        if (key) existingMap.add(key);
+        if (paper.title && paper.title.trim() !== '' && 
+            paper.link && paper.link.trim() !== '') {
+            
+            const key = paper.pmid || paper.link || `${paper.institutions}-${paper.title}`;
+            if (!allPapersMap.has(key)) {
+                allPapersMap.set(key, paper);
+            }
+        } else {
+            console.log(`🧹 Skipping blank existing entry: ${paper.institutions}, ${paper.date}`);
+        }
     });
     
-    // 🔥 STRICT VALIDATION: Only add papers with ALL required data
+    // Add new papers to map
     let addedCount = 0;
-    const papersToAdd = [];
-    
     newPapers.forEach(paper => {
-        const key = paper.pmid || paper.link;
-        
-        // STRICT VALIDATION - Must have ALL essential fields
-        const hasValidData = paper.title && 
-                             paper.title.trim() !== '' && 
-                             paper.title !== 'No title' &&
-                             paper.link && 
-                             paper.link.trim() !== '' &&
-                             paper.institutions && 
-                             paper.institutions.length > 0 &&
-                             paper.subjectArea &&
-                             paper.subjectArea.trim() !== '';
-        
-        if (key && !existingMap.has(key) && hasValidData) {
-            papersToAdd.push({
-                institutions: paper.institutions.join(' & '),
-                date: paper.pubDate.toISOString().split('T')[0],
-                title: paper.title.trim(),
-                subjectArea: paper.subjectArea.trim(),
-                journal: (paper.journal || '').trim(),
-                link: paper.link.trim()
-            });
-            addedCount++;
-        } else if (!hasValidData) {
-            console.log(`⚠️ Skipping invalid paper: missing title=${!paper.title}, missing link=${!paper.link}, missing subject=${!paper.subjectArea}`);
+        if (paper.title && paper.title.trim() !== '' && 
+            paper.link && paper.link.trim() !== '') {
+            
+            const key = paper.pmid || paper.link;
+            if (!allPapersMap.has(key)) {
+                const newEntry = {
+                    institutions: paper.institutions.join(' & '),
+                    date: paper.pubDate.toISOString().split('T')[0],
+                    title: paper.title.trim(),
+                    subjectArea: paper.subjectArea || 'Multidisciplinary',
+                    journal: (paper.journal || '').trim(),
+                    link: paper.link.trim(),
+                    pmid: paper.pmid
+                };
+                allPapersMap.set(key, newEntry);
+                addedCount++;
+            }
         }
     });
     
-    // 🔥 CLEAN EXISTING DATA: Remove any existing blank entries
-    const cleanExistingPapers = existingPapers.filter(paper => {
-        const isValid = paper.title && 
-                       paper.title.trim() !== '' && 
-                       paper.title !== 'No title' &&
-                       paper.link &&
-                       paper.link.trim() !== '' &&
-                       paper.institutions &&
-                       paper.institutions.trim() !== '';
-        
-        if (!isValid) {
-            console.log(`🧹 Removing blank entry: institutions=${paper.institutions}, date=${paper.date}`);
-        }
-        return isValid;
-    });
+    // Convert map to array and sort by date (newest first)
+    const allValidPapers = Array.from(allPapersMap.values())
+        .sort((a, b) => new Date(b.date) - new Date(a.date));
     
-    // Combine all valid papers (new papers first, then cleaned existing)
-    const allPapers = [...papersToAdd, ...cleanExistingPapers];
-    
-    // Enhanced CSV headers
+    // Write clean CSV
     const csvHeaders = 'Institutions,Date,Title,Subject Area,Journal,Link\n';
-    const csvContent = csvHeaders + allPapers.map(paper => {
-        // Ensure all fields are properly escaped and not empty
-        const institutions = `"${(paper.institutions || 'Unknown').replace(/"/g, '""')}"`;
+    const csvContent = csvHeaders + allValidPapers.map(paper => {
+        const institutions = `"${(paper.institutions || '').replace(/"/g, '""')}"`;
         const date = `"${paper.date || ''}"`;
-        const title = `"${(paper.title || 'No title').replace(/"/g, '""')}"`;
+        const title = `"${(paper.title || '').replace(/"/g, '""')}"`;
         const subjectArea = `"${(paper.subjectArea || 'Multidisciplinary').replace(/"/g, '""')}"`;
         const journal = `"${(paper.journal || '').replace(/"/g, '""')}"`;
         const link = `"${(paper.link || '').replace(/"/g, '""')}"`;
@@ -365,11 +349,12 @@ function saveEnhancedArchive(newPapers) {
     
     fs.writeFileSync('papers-archive.csv', csvContent);
     
-    const removedCount = existingPapers.length - cleanExistingPapers.length;
-    console.log(`✅ Archive updated: ${addedCount} new papers added, ${removedCount} blank entries removed, ${allPapers.length} total valid papers`);
+    const removedBlanks = existingPapers.length - (allValidPapers.length - addedCount);
+    console.log(`✅ Archive updated: ${addedCount} new papers, ${removedBlanks} blanks removed, ${allValidPapers.length} total valid papers`);
     
-    return { added: addedCount, total: allPapers.length };
+    return { added: addedCount, total: allValidPapers.length };
 }
+
 
 
 async function fetchFeed(feed) {
@@ -465,6 +450,15 @@ function combineAndDeduplicate(allFeeds) {
     
     allFeeds.forEach(feedItems => {
         feedItems.forEach(item => {
+            // 🔥 STRICT VALIDATION: Skip items without essential data
+            if (!item.title || !item.link || 
+                item.title.trim() === '' || 
+                item.link.trim() === '' ||
+                item.title === 'No title') {
+                console.log(`⚠️ Skipping invalid item: title="${item.title}", link="${item.link}"`);
+                return; // Skip this item entirely
+            }
+            
             const key = item.pmid || item.link;
             
             if (paperMap.has(key)) {
@@ -483,7 +477,9 @@ function combineAndDeduplicate(allFeeds) {
         });
     });
     
+    console.log(`✅ Combined and deduplicated: ${paperMap.size} unique papers`);
     return Array.from(paperMap.values());
+
 }
 
 function escapeXml(unsafe) {
