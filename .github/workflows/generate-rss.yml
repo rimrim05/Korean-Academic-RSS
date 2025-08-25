@@ -2,14 +2,15 @@ name: Generate RSS Feed with ML Training
 
 on:
   schedule:
-    - cron: '35 7 * * *'  # 12:20 AM PST
+    - cron: '30 7 * * *'   # 12:30 AM PST/PDT
+    - cron: '0 19 * * *'   # 12:00 PM PST/PDT  
   workflow_dispatch:
 
 jobs:
   train-and-generate:
     runs-on: ubuntu-latest
     permissions:
-      contents: write  # 🔥 This is ESSENTIAL for pushing changes
+      contents: write
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -45,6 +46,6 @@ jobs:
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "Daily RSS update with ML classification - $(date)"
+            git commit -m "RSS update with ML classification - $(date)"
             git push
           fi
