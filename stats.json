@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-08-26T15:31:22.748Z",
+  "lastUpdate": "2025-08-26T19:25:15.172Z",
   "totalItems": 150,
-  "totalArchived": 1448,
-  "newPapersAdded": 178,
+  "totalArchived": 1567,
+  "newPapersAdded": 119,
   "institutionBreakdown": {
-    "KAIST": 3,
-    "SNU": 44,
+    "KAIST": 5,
+    "SNU": 29,
     "Yonsei University": 0,
-    "SKKU": 1,
+    "SKKU": 0,
     "POSTECH": 0,
-    "Korea University": 10,
+    "Korea University": 17,
     "IBS": 100,
     "UNIST": 0,
-    "Hanyang University": 2,
-    "KIST": 4,
-    "GIST": 0,
-    "Kyung Hee University": 3,
+    "Hanyang University": 3,
+    "KIST": 0,
+    "GIST": 1,
+    "Kyung Hee University": 2,
     "Pusan National University": 2
   },
   "subjectAreaBreakdown": {
-    "Cancer Research": 15,
-    "Biomedical": 26,
-    "Multidisciplinary": 80,
-    "Materials Science": 14,
-    "Neuroscience": 12,
-    "Computer Science": 3
+    "Multidisciplinary": 74,
+    "Materials Science": 8,
+    "Cancer Research": 24,
+    "Biomedical": 30,
+    "Computer Science": 5,
+    "Neuroscience": 9
   },
-  "multiInstitutional": 17,
+  "multiInstitutional": 8,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,10 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Novel Bone Scan Features for Predicting Prognosis in Men With Bone Metastatic Prostate Cancer: A Retrospective Study",
+    "title": "Does gender, health enterprise, and safety performance induce research and development expenditure in firms in Hong Kong, China?",
     "date": "2025-08-26T10:00:00.000Z",
     "institutions": [
-      "SNU"
+      "IBS",
+      "KAIST"
     ]
   }
 }
