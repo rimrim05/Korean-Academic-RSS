@@ -1,25 +1,32 @@
 {
-  "lastUpdate": "2025-08-26T09:39:11.800Z",
-  "totalItems": 0,
-  "totalArchived": 1270,
-  "newPapersAdded": 0,
+  "lastUpdate": "2025-08-26T15:31:22.748Z",
+  "totalItems": 150,
+  "totalArchived": 1448,
+  "newPapersAdded": 178,
   "institutionBreakdown": {
-    "KAIST": 0,
-    "SNU": 0,
+    "KAIST": 3,
+    "SNU": 44,
     "Yonsei University": 0,
-    "SKKU": 0,
+    "SKKU": 1,
     "POSTECH": 0,
-    "Korea University": 0,
-    "IBS": 0,
+    "Korea University": 10,
+    "IBS": 100,
     "UNIST": 0,
-    "Hanyang University": 0,
-    "KIST": 0,
+    "Hanyang University": 2,
+    "KIST": 4,
     "GIST": 0,
-    "Kyung Hee University": 0,
-    "Pusan National University": 0
+    "Kyung Hee University": 3,
+    "Pusan National University": 2
   },
-  "subjectAreaBreakdown": {},
-  "multiInstitutional": 0,
+  "subjectAreaBreakdown": {
+    "Cancer Research": 15,
+    "Biomedical": 26,
+    "Multidisciplinary": 80,
+    "Materials Science": 14,
+    "Neuroscience": 12,
+    "Computer Science": 3
+  },
+  "multiInstitutional": 17,
   "institutions": [
     "KAIST",
     "SNU",
@@ -36,5 +43,11 @@
     "Pusan National University"
   ],
   "mlClassificationEnabled": false,
-  "latestItem": null
+  "latestItem": {
+    "title": "Novel Bone Scan Features for Predicting Prognosis in Men With Bone Metastatic Prostate Cancer: A Retrospective Study",
+    "date": "2025-08-26T10:00:00.000Z",
+    "institutions": [
+      "SNU"
+    ]
+  }
 }
