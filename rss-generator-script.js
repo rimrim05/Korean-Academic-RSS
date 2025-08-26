@@ -1,5 +1,4 @@
-const fetch = require('node-fetch');
-const xml2js = require('xml2js');
+const fetch = (...args) => import('node-fetch').then(({default: fetch}) => fetch(...args));const xml2js = require('xml2js');
 const fs = require('fs');
 
 // Try to load TensorFlow.js, fallback to rule-based classification
@@ -67,6 +66,7 @@ const feeds = [
         name: 'Pusan National University'
     }
 ];
+
 
 // Load trained model
 async function loadMLModel() {
@@ -379,20 +379,12 @@ function saveEnhancedArchive(newPapers) {
     return { added: addedCount, total: allValidPapers.length };
 }
 
-// FIXED: Made async and added proper headers + error handling
+
+
 async function fetchFeed(feed) {
     try {
         console.log(`Fetching ${feed.name} feed...`);
-        
-        // Add proper headers to avoid blocking
-        const response = await fetch(feed.url, {
-            headers: {
-                'User-Agent': 'Mozilla/5.0 (Compatible RSS Reader for Korean Academic Research)',
-                'Accept': 'application/rss+xml, application/xml, text/xml',
-                'Accept-Language': 'en-US,en;q=0.9',
-                'Cache-Control': 'no-cache'
-            }
-        });
+        const response = await fetch(feed.url);
         
         if (!response.ok) {
             console.error(`❌ ${feed.name} feed failed: ${response.status}`);
@@ -476,6 +468,7 @@ async function fetchFeed(feed) {
     }
 }
 
+
 function combineAndDeduplicate(allFeeds) {
     const paperMap = new Map();
     
@@ -510,6 +503,7 @@ function combineAndDeduplicate(allFeeds) {
     
     console.log(`✅ Combined and deduplicated: ${paperMap.size} unique papers`);
     return Array.from(paperMap.values());
+
 }
 
 function escapeXml(unsafe) {
@@ -542,18 +536,9 @@ async function generateRSS() {
     console.log(`🧠 ML Classification: ${mlLoaded ? 'ENABLED' : 'DISABLED (using rules)'}`);
     
     try {
-        // FIXED: Sequential fetching with delays instead of parallel
-        const results = [];
-        for (let i = 0; i < feeds.length; i++) {
-            const feedResult = await fetchFeed(feeds[i]);
-            results.push(feedResult);
-            
-            // Add 2-second delay between requests to respect rate limits
-            if (i < feeds.length - 1) {
-                console.log(`⏱️ Waiting 2 seconds before next feed...`);
-                await new Promise(resolve => setTimeout(resolve, 2000));
-            }
-        }
+        // Fetch from all feeds
+        const feedPromises = feeds.map(feed => fetchFeed(feed));
+        const results = await Promise.all(feedPromises);
         
         // Log results per institution
         results.forEach((items, index) => {
