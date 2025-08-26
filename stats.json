@@ -1,32 +1,25 @@
 {
-  "lastUpdate": "2025-08-25T19:27:46.021Z",
-  "totalItems": 150,
+  "lastUpdate": "2025-08-26T07:45:55.431Z",
+  "totalItems": 0,
   "totalArchived": 1270,
-  "newPapersAdded": 158,
+  "newPapersAdded": 0,
   "institutionBreakdown": {
-    "KAIST": 1,
-    "SNU": 31,
+    "KAIST": 0,
+    "SNU": 0,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 1,
-    "Korea University": 27,
-    "IBS": 97,
+    "POSTECH": 0,
+    "Korea University": 0,
+    "IBS": 0,
     "UNIST": 0,
-    "Hanyang University": 2,
-    "KIST": 2,
-    "GIST": 1,
-    "Kyung Hee University": 4,
-    "Pusan National University": 1
+    "Hanyang University": 0,
+    "KIST": 0,
+    "GIST": 0,
+    "Kyung Hee University": 0,
+    "Pusan National University": 0
   },
-  "subjectAreaBreakdown": {
-    "Multidisciplinary": 85,
-    "Materials Science": 10,
-    "Cancer Research": 20,
-    "Biomedical": 31,
-    "Computer Science": 1,
-    "Neuroscience": 3
-  },
-  "multiInstitutional": 11,
+  "subjectAreaBreakdown": {},
+  "multiInstitutional": 0,
   "institutions": [
     "KAIST",
     "SNU",
@@ -43,11 +36,5 @@
     "Pusan National University"
   ],
   "mlClassificationEnabled": false,
-  "latestItem": {
-    "title": "Hyaluronic Acid Microparticles Promote Uniform Differentiation and Survival of Stem Cells in Spheroid Cultures",
-    "date": "2025-08-25T10:00:00.000Z",
-    "institutions": [
-      "KAIST"
-    ]
-  }
+  "latestItem": null
 }
