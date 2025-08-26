@@ -384,20 +384,29 @@ function saveEnhancedArchive(newPapers) {
 async function fetchFeed(feed) {
     try {
         console.log(`Fetching ${feed.name} feed...`);
-        const response = await fetch(feed.url);
+        
+        // Add proper headers to appear more legitimate
+        const response = await fetch(feed.url, {
+            headers: {
+                'User-Agent': 'Mozilla/5.0 (Compatible RSS Reader for Korean Academic Research)',
+                'Accept': 'application/rss+xml, application/xml, text/xml',
+                'Accept-Language': 'en-US,en;q=0.9',
+                'Cache-Control': 'no-cache'
+            }
+        });
         
         if (!response.ok) {
             console.error(`❌ ${feed.name} feed failed: ${response.status}`);
             return []; // Return empty array instead of undefined
         }
         
-        const xmlData = await response.text();
-        
-        // Validate RSS content
-        if (!xmlData || !xmlData.includes('<rss') && !xmlData.includes('<feed')) {
-            console.error(`❌ ${feed.name} returned invalid RSS data`);
-            return [];
-        }
+        // Rest of your existing code...
+    } catch (error) {
+        console.error(`❌ Error fetching ${feed.name} feed:`, error.message);
+        return []; // Return empty array instead of undefined
+    }
+}
+
         
         const parser = new xml2js.Parser({
             explicitArray: false,
@@ -537,8 +546,19 @@ async function generateRSS() {
     
     try {
         // Fetch from all feeds
-        const feedPromises = feeds.map(feed => fetchFeed(feed));
-        const results = await Promise.all(feedPromises);
+        // Fetch from all feeds with rate limiting (sequential processing)
+        const results = [];
+        for (let i = 0; i < feeds.length; i++) {
+            const feedResult = await fetchFeed(feeds[i]);
+            results.push(feedResult);
+            
+            // Add 2-second delay between requests to respect rate limits and avoid blocking
+            if (i < feeds.length - 1) {
+                console.log(`⏱️ Waiting 2 seconds before next feed...`);
+                await new Promise(resolve => setTimeout(resolve, 2000));
+            }
+        }
+
         
         // Log results per institution
         results.forEach((items, index) => {
