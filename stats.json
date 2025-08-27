@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-08-26T19:25:15.172Z",
+  "lastUpdate": "2025-08-27T07:41:16.325Z",
   "totalItems": 150,
-  "totalArchived": 1567,
-  "newPapersAdded": 119,
+  "totalArchived": 1730,
+  "newPapersAdded": 163,
   "institutionBreakdown": {
-    "KAIST": 5,
-    "SNU": 29,
+    "KAIST": 10,
+    "SNU": 59,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 0,
-    "Korea University": 17,
-    "IBS": 100,
-    "UNIST": 0,
-    "Hanyang University": 3,
-    "KIST": 0,
-    "GIST": 1,
-    "Kyung Hee University": 2,
-    "Pusan National University": 2
+    "POSTECH": 2,
+    "Korea University": 51,
+    "IBS": 46,
+    "UNIST": 1,
+    "Hanyang University": 6,
+    "KIST": 2,
+    "GIST": 2,
+    "Kyung Hee University": 4,
+    "Pusan National University": 1
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 74,
-    "Materials Science": 8,
-    "Cancer Research": 24,
-    "Biomedical": 30,
-    "Computer Science": 5,
-    "Neuroscience": 9
+    "Cancer Research": 20,
+    "Multidisciplinary": 73,
+    "Biomedical": 39,
+    "Computer Science": 4,
+    "Materials Science": 6,
+    "Neuroscience": 8
   },
-  "multiInstitutional": 8,
+  "multiInstitutional": 29,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Does gender, health enterprise, and safety performance induce research and development expenditure in firms in Hong Kong, China?",
-    "date": "2025-08-26T10:00:00.000Z",
+    "title": "Clinical outcomes of neobladder or augmentation after cystectomy in locally advanced colorectal cancer involving urinary tract: case series",
+    "date": "2025-08-27T10:00:00.000Z",
     "institutions": [
-      "IBS",
-      "KAIST"
+      "Kyung Hee University",
+      "SNU"
     ]
   }
 }
