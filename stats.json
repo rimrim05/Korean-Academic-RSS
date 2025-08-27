@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-08-27T07:41:16.325Z",
+  "lastUpdate": "2025-08-27T19:26:26.115Z",
   "totalItems": 150,
-  "totalArchived": 1730,
-  "newPapersAdded": 163,
+  "totalArchived": 1957,
+  "newPapersAdded": 227,
   "institutionBreakdown": {
-    "KAIST": 10,
-    "SNU": 59,
+    "KAIST": 11,
+    "SNU": 73,
     "Yonsei University": 0,
     "SKKU": 0,
     "POSTECH": 2,
-    "Korea University": 51,
-    "IBS": 46,
+    "Korea University": 55,
+    "IBS": 33,
     "UNIST": 1,
     "Hanyang University": 6,
-    "KIST": 2,
-    "GIST": 2,
-    "Kyung Hee University": 4,
+    "KIST": 0,
+    "GIST": 7,
+    "Kyung Hee University": 7,
     "Pusan National University": 1
   },
   "subjectAreaBreakdown": {
-    "Cancer Research": 20,
     "Multidisciplinary": 73,
     "Biomedical": 39,
-    "Computer Science": 4,
-    "Materials Science": 6,
-    "Neuroscience": 8
+    "Neuroscience": 3,
+    "Computer Science": 6,
+    "Materials Science": 7,
+    "Cancer Research": 22
   },
-  "multiInstitutional": 29,
+  "multiInstitutional": 37,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,10 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Clinical outcomes of neobladder or augmentation after cystectomy in locally advanced colorectal cancer involving urinary tract: case series",
+    "title": "Comparison of the genomes of Vibrio phages pVco-5 and pVco-7: implications for phage-host interactions",
     "date": "2025-08-27T10:00:00.000Z",
     "institutions": [
-      "Kyung Hee University",
+      "IBS",
+      "KAIST",
       "SNU"
     ]
   }
