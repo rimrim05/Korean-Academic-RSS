@@ -37,3 +37,27 @@ Large collections of academic feeds (international) can serve as references for 
 
 GitHub Actions recipes that turn RSS into README sections or files are well-established and easy to adapt to journal feeds and custom templates.
 
+**Current Limitations** 
+
+Infrastructure Constraints:
+RSS Dependency: Relies solely on RSS feeds from PubMed and only covers 13 major Korean universities, limiting the breadth of discoverable papers.
+Limited Open Access: Restricted to open-access research databases, excluding valuable content from paid institutions.
+Static Hosting: The platform is statically hosted, preventing real-time updates or user accounts, with content updated only twice daily.
+Display Limit: Only 150 current publications are displayed, despite an archive containing over 2000 papers.
+AI Limitations:
+Limited Subject Areas: The AI currently categorizes research into only 6 subject areas with basic confidence scoring.
+High "Multidisciplinary" Default: A significant portion of the current dataset (77 papers, or 52%) defaults to "Multidisciplinary," indicating classification challenges.
+Basic Rule-Based Fallback: When machine learning confidence is low, the rule-based fallback relies on limited keyword matching.
+No Confidence Thresholding: Lacks dynamic adjustment based on classification uncertainty, potentially leading to less precise categorization.
+
+**Improvement Opportunities** 
+Expand Coverage:
+Broader University Inclusion: Increase the number of covered universities to 30+ research institutions.
+Beyond PubMed: Integrate additional academic databases like ArXiv and various Korean journals to enhance content diversity.
+User Experience & Personalization:
+User Accounts & Profiles: Introduce user accounts to enable personal bookmarks, reading history, and custom alerts.
+Enhanced Search: Implement advanced search functionalities with Boolean operators and field-specific filtering.
+Expanded ML Categories: Increase the number of AI-driven subject categories and allow papers to belong to multiple research areas.
+Infrastructure & Advanced Analytics:
+Research Analytics Dashboard: Develop a dashboard for trend analysis, visualization of collaboration networks, and institutional comparisons.
+
