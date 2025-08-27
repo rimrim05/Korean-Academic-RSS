@@ -1,6 +1,4 @@
-**README**
-Korean Academic RSS
-A community-maintained list of RSS/Atom feeds for Korean academic journals and societies, intended to make it easy to follow newly published articles across disciplines in Korea. The list is organized, machine-readable, and designed to be used with RSS readers or integrated into automation workflows (e.g., GitHub Actions) for updates and notifications.
+Intended to make it easy to follow newly published articles across disciplines in Korea. The list is organized, machine-readable, and designed to be used with RSS readers or integrated into automation workflows (e.g., GitHub Actions) for updates and notifications.
 
 **Why this exists** 
 Discoverability of Korean journals’ RSS feeds is fragmented; a centralized list simplifies tracking new publications across fields and publishers.
