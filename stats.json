@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-08-27T19:26:26.115Z",
+  "lastUpdate": "2025-08-28T07:42:51.803Z",
   "totalItems": 150,
-  "totalArchived": 1957,
-  "newPapersAdded": 227,
+  "totalArchived": 2145,
+  "newPapersAdded": 188,
   "institutionBreakdown": {
-    "KAIST": 11,
-    "SNU": 73,
+    "KAIST": 22,
+    "SNU": 100,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 2,
-    "Korea University": 55,
-    "IBS": 33,
-    "UNIST": 1,
-    "Hanyang University": 6,
-    "KIST": 0,
-    "GIST": 7,
-    "Kyung Hee University": 7,
-    "Pusan National University": 1
+    "POSTECH": 4,
+    "Korea University": 52,
+    "IBS": 6,
+    "UNIST": 2,
+    "Hanyang University": 9,
+    "KIST": 2,
+    "GIST": 10,
+    "Kyung Hee University": 12,
+    "Pusan National University": 2
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 73,
-    "Biomedical": 39,
-    "Neuroscience": 3,
-    "Computer Science": 6,
-    "Materials Science": 7,
-    "Cancer Research": 22
+    "Multidisciplinary": 68,
+    "Cancer Research": 18,
+    "Biomedical": 41,
+    "Neuroscience": 5,
+    "Computer Science": 10,
+    "Materials Science": 8
   },
-  "multiInstitutional": 37,
+  "multiInstitutional": 56,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,12 +44,10 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Comparison of the genomes of Vibrio phages pVco-5 and pVco-7: implications for phage-host interactions",
-    "date": "2025-08-27T10:00:00.000Z",
+    "title": "Community-based timber comanagement and the boundaries of people-centered conservation in Brazil",
+    "date": "2025-08-28T10:00:00.000Z",
     "institutions": [
-      "IBS",
-      "KAIST",
-      "SNU"
+      "IBS"
     ]
   }
 }
