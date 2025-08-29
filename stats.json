@@ -1,30 +1,30 @@
 {
-  "lastUpdate": "2025-08-28T19:25:17.835Z",
+  "lastUpdate": "2025-08-29T07:41:33.761Z",
   "totalItems": 150,
-  "totalArchived": 2467,
-  "newPapersAdded": 322,
+  "totalArchived": 2668,
+  "newPapersAdded": 201,
   "institutionBreakdown": {
-    "KAIST": 13,
+    "KAIST": 22,
     "SNU": 100,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 5,
-    "Korea University": 53,
-    "IBS": 7,
+    "POSTECH": 7,
+    "Korea University": 46,
+    "IBS": 5,
     "UNIST": 0,
-    "Hanyang University": 6,
-    "KIST": 1,
+    "Hanyang University": 3,
+    "KIST": 0,
     "GIST": 2,
-    "Kyung Hee University": 11,
+    "Kyung Hee University": 8,
     "Pusan National University": 3
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 78,
-    "Cancer Research": 18,
-    "Biomedical": 27,
-    "Neuroscience": 7,
+    "Multidisciplinary": 90,
+    "Cancer Research": 15,
+    "Biomedical": 26,
     "Computer Science": 5,
-    "Materials Science": 15
+    "Materials Science": 9,
+    "Neuroscience": 5
   },
   "multiInstitutional": 42,
   "institutions": [
@@ -44,7 +44,7 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Genome-wide association and fine-mapping analyses identify novel candidate genes affecting serum cortisol levels using imputed whole-genome sequencing data in pigs",
+    "title": "Atomic-scale 3D structural dynamics and functional degradation of Pt alloy nanocatalysts during the oxygen reduction reaction",
     "date": "2025-08-28T10:00:00.000Z",
     "institutions": [
       "IBS",
