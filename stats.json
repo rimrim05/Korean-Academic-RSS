@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-08-30T07:37:40.628Z",
+  "lastUpdate": "2025-08-30T19:22:41.244Z",
   "totalItems": 150,
-  "totalArchived": 3038,
-  "newPapersAdded": 184,
+  "totalArchived": 3154,
+  "newPapersAdded": 116,
   "institutionBreakdown": {
-    "KAIST": 14,
-    "SNU": 93,
-    "Yonsei University": 1,
+    "KAIST": 17,
+    "SNU": 36,
+    "Yonsei University": 0,
     "SKKU": 1,
-    "POSTECH": 5,
-    "Korea University": 65,
-    "IBS": 9,
+    "POSTECH": 0,
+    "Korea University": 14,
+    "IBS": 100,
     "UNIST": 0,
-    "Hanyang University": 7,
-    "KIST": 3,
-    "GIST": 6,
-    "Kyung Hee University": 10,
+    "Hanyang University": 4,
+    "KIST": 2,
+    "GIST": 3,
+    "Kyung Hee University": 5,
     "Pusan National University": 1
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 75,
-    "Cancer Research": 13,
+    "Multidisciplinary": 77,
+    "Cancer Research": 20,
+    "Biomedical": 35,
+    "Materials Science": 4,
     "Neuroscience": 10,
-    "Computer Science": 5,
-    "Materials Science": 11,
-    "Biomedical": 36
+    "Computer Science": 4
   },
-  "multiInstitutional": 47,
+  "multiInstitutional": 24,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,10 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Student perspectives on AI-supported formative assessment in pharmacology",
+    "title": "Interfacial Curvature, not Simply Size, Controls Spontaneous Hydrogen Peroxide Formation in Water Microdroplets",
     "date": "2025-08-30T10:00:00.000Z",
     "institutions": [
-      "IBS"
+      "IBS",
+      "KAIST"
     ]
   }
 }
