@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-09-02T07:43:33.948Z",
+  "lastUpdate": "2025-09-02T19:24:05.473Z",
   "totalItems": 150,
-  "totalArchived": 3753,
-  "newPapersAdded": 187,
+  "totalArchived": 3928,
+  "newPapersAdded": 175,
   "institutionBreakdown": {
-    "KAIST": 10,
-    "SNU": 56,
+    "KAIST": 4,
+    "SNU": 37,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 3,
-    "Korea University": 53,
-    "IBS": 50,
+    "POSTECH": 1,
+    "Korea University": 41,
+    "IBS": 84,
     "UNIST": 0,
     "Hanyang University": 3,
-    "KIST": 2,
-    "GIST": 0,
-    "Kyung Hee University": 2,
-    "Pusan National University": 1
+    "KIST": 1,
+    "GIST": 1,
+    "Kyung Hee University": 3,
+    "Pusan National University": 0
   },
   "subjectAreaBreakdown": {
-    "Biomedical": 42,
-    "Multidisciplinary": 66,
-    "Cancer Research": 21,
-    "Computer Science": 7,
-    "Materials Science": 6,
-    "Neuroscience": 8
+    "Multidisciplinary": 80,
+    "Biomedical": 35,
+    "Cancer Research": 15,
+    "Materials Science": 10,
+    "Neuroscience": 9,
+    "Computer Science": 1
   },
-  "multiInstitutional": 25,
+  "multiInstitutional": 19,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,10 +44,12 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Effects of recumbent isometric yoga on the orthostatic cardiovascular response of patients with myalgic encephalomyelitis/chronic fatigue syndrome",
+    "title": "Effect of repeated intratracheal instillation of incense smoke condensate in mice",
     "date": "2025-09-02T10:00:00.000Z",
     "institutions": [
-      "Korea University"
+      "GIST",
+      "IBS",
+      "KAIST"
     ]
   }
 }
