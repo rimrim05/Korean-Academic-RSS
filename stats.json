@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-09-01T19:24:23.055Z",
+  "lastUpdate": "2025-09-02T07:43:33.948Z",
   "totalItems": 150,
-  "totalArchived": 3566,
-  "newPapersAdded": 93,
+  "totalArchived": 3753,
+  "newPapersAdded": 187,
   "institutionBreakdown": {
-    "KAIST": 12,
-    "SNU": 42,
+    "KAIST": 10,
+    "SNU": 56,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 2,
-    "Korea University": 40,
-    "IBS": 79,
+    "POSTECH": 3,
+    "Korea University": 53,
+    "IBS": 50,
     "UNIST": 0,
     "Hanyang University": 3,
-    "KIST": 3,
-    "GIST": 7,
-    "Kyung Hee University": 4,
+    "KIST": 2,
+    "GIST": 0,
+    "Kyung Hee University": 2,
     "Pusan National University": 1
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 81,
-    "Cancer Research": 15,
-    "Materials Science": 9,
-    "Biomedical": 35,
-    "Neuroscience": 8,
-    "Computer Science": 2
+    "Biomedical": 42,
+    "Multidisciplinary": 66,
+    "Cancer Research": 21,
+    "Computer Science": 7,
+    "Materials Science": 6,
+    "Neuroscience": 8
   },
-  "multiInstitutional": 29,
+  "multiInstitutional": 25,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,12 +44,10 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Surface-Resolved Mapping of Structural Disorder in Colloidal Glass-Forming Analogues",
-    "date": "2025-09-01T10:00:00.000Z",
+    "title": "Effects of recumbent isometric yoga on the orthostatic cardiovascular response of patients with myalgic encephalomyelitis/chronic fatigue syndrome",
+    "date": "2025-09-02T10:00:00.000Z",
     "institutions": [
-      "IBS",
-      "KAIST",
-      "SNU"
+      "Korea University"
     ]
   }
 }
