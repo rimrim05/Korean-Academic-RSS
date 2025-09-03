@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-09-03T07:40:37.270Z",
+  "lastUpdate": "2025-09-03T19:25:30.515Z",
   "totalItems": 150,
-  "totalArchived": 4163,
-  "newPapersAdded": 235,
+  "totalArchived": 4340,
+  "newPapersAdded": 177,
   "institutionBreakdown": {
-    "KAIST": 22,
-    "SNU": 100,
+    "KAIST": 7,
+    "SNU": 40,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 1,
-    "Korea University": 49,
-    "IBS": 9,
+    "POSTECH": 2,
+    "Korea University": 36,
+    "IBS": 81,
     "UNIST": 1,
-    "Hanyang University": 6,
-    "KIST": 2,
-    "GIST": 2,
-    "Kyung Hee University": 11,
+    "Hanyang University": 1,
+    "KIST": 0,
+    "GIST": 3,
+    "Kyung Hee University": 4,
     "Pusan National University": 2
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 98,
-    "Neuroscience": 2,
-    "Cancer Research": 17,
+    "Cancer Research": 22,
+    "Multidisciplinary": 76,
     "Materials Science": 7,
-    "Biomedical": 23,
+    "Biomedical": 38,
+    "Neuroscience": 4,
     "Computer Science": 3
   },
-  "multiInstitutional": 39,
+  "multiInstitutional": 20,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,10 +44,12 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Urban mental health: A position paper of the European Psychiatric Association",
+    "title": "Impact of preoperative anemia on short- and long-term outcomes of sphincter-preserving rectal cancer surgery",
     "date": "2025-09-03T10:00:00.000Z",
     "institutions": [
-      "IBS"
+      "IBS",
+      "KAIST",
+      "SNU"
     ]
   }
 }
