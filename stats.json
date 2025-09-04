@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-09-03T19:25:30.515Z",
+  "lastUpdate": "2025-09-04T07:39:03.679Z",
   "totalItems": 150,
-  "totalArchived": 4340,
-  "newPapersAdded": 177,
+  "totalArchived": 4508,
+  "newPapersAdded": 168,
   "institutionBreakdown": {
-    "KAIST": 7,
-    "SNU": 40,
+    "KAIST": 16,
+    "SNU": 75,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 2,
-    "Korea University": 36,
-    "IBS": 81,
-    "UNIST": 1,
-    "Hanyang University": 1,
+    "POSTECH": 3,
+    "Korea University": 74,
+    "IBS": 12,
+    "UNIST": 3,
+    "Hanyang University": 4,
     "KIST": 0,
-    "GIST": 3,
-    "Kyung Hee University": 4,
-    "Pusan National University": 2
+    "GIST": 8,
+    "Kyung Hee University": 7,
+    "Pusan National University": 5
   },
   "subjectAreaBreakdown": {
-    "Cancer Research": 22,
-    "Multidisciplinary": 76,
-    "Materials Science": 7,
-    "Biomedical": 38,
-    "Neuroscience": 4,
-    "Computer Science": 3
+    "Computer Science": 5,
+    "Biomedical": 35,
+    "Cancer Research": 19,
+    "Materials Science": 15,
+    "Multidisciplinary": 71,
+    "Neuroscience": 5
   },
-  "multiInstitutional": 20,
+  "multiInstitutional": 38,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,7 +44,7 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Impact of preoperative anemia on short- and long-term outcomes of sphincter-preserving rectal cancer surgery",
+    "title": "The first South Korean data challenge for drug discovery using human and mouse liver microsomal stability data",
     "date": "2025-09-03T10:00:00.000Z",
     "institutions": [
       "IBS",
