@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-09-05T07:39:22.761Z",
+  "lastUpdate": "2025-09-05T19:25:03.143Z",
   "totalItems": 150,
-  "totalArchived": 4840,
-  "newPapersAdded": 167,
+  "totalArchived": 4995,
+  "newPapersAdded": 155,
   "institutionBreakdown": {
-    "KAIST": 20,
-    "SNU": 82,
+    "KAIST": 5,
+    "SNU": 31,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 3,
-    "Korea University": 65,
-    "IBS": 17,
+    "POSTECH": 0,
+    "Korea University": 29,
+    "IBS": 100,
     "UNIST": 1,
-    "Hanyang University": 2,
+    "Hanyang University": 1,
     "KIST": 2,
-    "GIST": 6,
-    "Kyung Hee University": 8,
-    "Pusan National University": 7
+    "GIST": 4,
+    "Kyung Hee University": 3,
+    "Pusan National University": 2
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 77,
-    "Biomedical": 29,
-    "Cancer Research": 20,
-    "Materials Science": 15,
-    "Neuroscience": 5,
-    "Computer Science": 4
+    "Materials Science": 10,
+    "Multidisciplinary": 86,
+    "Cancer Research": 19,
+    "Biomedical": 26,
+    "Computer Science": 5,
+    "Neuroscience": 4
   },
-  "multiInstitutional": 45,
+  "multiInstitutional": 20,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,10 +44,13 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "X-ray Crystallographic Visualization of a Nucleation and Anisotropic Growth in Thiolate-Protected Gold Clusters: Toward Targeted Synthesis of Gold Quantum Needles",
+    "title": "Bandgap-Engineered Graphene Quantum Dot Photosensitizers for Tunable Light Spectrum-Activated NO<sub>2</sub> Sensors",
     "date": "2025-09-05T10:00:00.000Z",
     "institutions": [
-      "Korea University"
+      "IBS",
+      "KAIST",
+      "Korea University",
+      "SNU"
     ]
   }
 }
