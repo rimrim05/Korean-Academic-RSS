@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-09-04T19:23:33.167Z",
+  "lastUpdate": "2025-09-05T07:39:22.761Z",
   "totalItems": 150,
-  "totalArchived": 4673,
-  "newPapersAdded": 165,
+  "totalArchived": 4840,
+  "newPapersAdded": 167,
   "institutionBreakdown": {
-    "KAIST": 9,
-    "SNU": 41,
+    "KAIST": 20,
+    "SNU": 82,
     "Yonsei University": 0,
     "SKKU": 0,
     "POSTECH": 3,
-    "Korea University": 30,
-    "IBS": 87,
+    "Korea University": 65,
+    "IBS": 17,
     "UNIST": 1,
-    "Hanyang University": 1,
-    "KIST": 0,
-    "GIST": 4,
-    "Kyung Hee University": 4,
-    "Pusan National University": 2
+    "Hanyang University": 2,
+    "KIST": 2,
+    "GIST": 6,
+    "Kyung Hee University": 8,
+    "Pusan National University": 7
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 81,
-    "Cancer Research": 19,
-    "Materials Science": 12,
+    "Multidisciplinary": 77,
+    "Biomedical": 29,
+    "Cancer Research": 20,
+    "Materials Science": 15,
     "Neuroscience": 5,
-    "Biomedical": 31,
-    "Computer Science": 2
+    "Computer Science": 4
   },
-  "multiInstitutional": 25,
+  "multiInstitutional": 45,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,13 +44,10 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Induction of Nephron-Ductal Dual Lineages via Early Retinoic Acid Signaling Establishes a Platform for Fully Patterned Kidney Organoids",
-    "date": "2025-09-04T10:00:00.000Z",
+    "title": "X-ray Crystallographic Visualization of a Nucleation and Anisotropic Growth in Thiolate-Protected Gold Clusters: Toward Targeted Synthesis of Gold Quantum Needles",
+    "date": "2025-09-05T10:00:00.000Z",
     "institutions": [
-      "IBS",
-      "KAIST",
-      "Korea University",
-      "SNU"
+      "Korea University"
     ]
   }
 }
