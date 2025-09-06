@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-09-05T19:25:03.143Z",
+  "lastUpdate": "2025-09-06T07:37:58.869Z",
   "totalItems": 150,
-  "totalArchived": 4995,
-  "newPapersAdded": 155,
+  "totalArchived": 5144,
+  "newPapersAdded": 149,
   "institutionBreakdown": {
-    "KAIST": 5,
-    "SNU": 31,
+    "KAIST": 8,
+    "SNU": 59,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 0,
-    "Korea University": 29,
-    "IBS": 100,
+    "POSTECH": 2,
+    "Korea University": 50,
+    "IBS": 47,
     "UNIST": 1,
-    "Hanyang University": 1,
-    "KIST": 2,
-    "GIST": 4,
-    "Kyung Hee University": 3,
-    "Pusan National University": 2
+    "Hanyang University": 2,
+    "KIST": 4,
+    "GIST": 1,
+    "Kyung Hee University": 4,
+    "Pusan National University": 3
   },
   "subjectAreaBreakdown": {
-    "Materials Science": 10,
-    "Multidisciplinary": 86,
-    "Cancer Research": 19,
+    "Multidisciplinary": 88,
+    "Materials Science": 12,
+    "Cancer Research": 12,
     "Biomedical": 26,
-    "Computer Science": 5,
-    "Neuroscience": 4
+    "Neuroscience": 6,
+    "Computer Science": 6
   },
-  "multiInstitutional": 20,
+  "multiInstitutional": 21,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,13 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Bandgap-Engineered Graphene Quantum Dot Photosensitizers for Tunable Light Spectrum-Activated NO<sub>2</sub> Sensors",
+    "title": "Four novel species of the genus Aquimarina isolated from marine sponges: Aquimarina callyspongiae sp. nov., Aquimarina mycalae sp. nov., Aquimarina discodermiae sp. nov., and Aquimarina penaris sp. nov",
     "date": "2025-09-05T10:00:00.000Z",
     "institutions": [
       "IBS",
-      "KAIST",
-      "Korea University",
-      "SNU"
+      "KAIST"
     ]
   }
 }
