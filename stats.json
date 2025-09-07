@@ -1,16 +1,16 @@
 {
-  "lastUpdate": "2025-09-07T07:36:48.130Z",
+  "lastUpdate": "2025-09-07T19:21:51.496Z",
   "totalItems": 150,
-  "totalArchived": 5348,
-  "newPapersAdded": 127,
+  "totalArchived": 5371,
+  "newPapersAdded": 23,
   "institutionBreakdown": {
     "KAIST": 10,
-    "SNU": 30,
+    "SNU": 31,
     "Yonsei University": 0,
     "SKKU": 0,
     "POSTECH": 5,
-    "Korea University": 31,
-    "IBS": 99,
+    "Korea University": 35,
+    "IBS": 90,
     "UNIST": 2,
     "Hanyang University": 2,
     "KIST": 3,
@@ -19,14 +19,14 @@
     "Pusan National University": 1
   },
   "subjectAreaBreakdown": {
-    "Computer Science": 2,
-    "Cancer Research": 18,
-    "Multidisciplinary": 88,
-    "Neuroscience": 11,
-    "Materials Science": 8,
-    "Biomedical": 23
+    "Biomedical": 25,
+    "Cancer Research": 16,
+    "Multidisciplinary": 87,
+    "Computer Science": 4,
+    "Neuroscience": 10,
+    "Materials Science": 8
   },
-  "multiInstitutional": 20,
+  "multiInstitutional": 18,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,9 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Artificial intelligence in HFpEF: Diagnosis, prognosis, and management strategies",
-    "date": "2025-09-06T10:00:00.000Z",
+    "title": "Advancing driving rehabilitation in Korea: the development of a tailored ICF Core Set",
+    "date": "2025-09-07T10:00:00.000Z",
     "institutions": [
-      "IBS",
-      "KAIST",
       "SNU"
     ]
   }
