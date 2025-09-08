@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-09-08T07:42:49.488Z",
+  "lastUpdate": "2025-09-08T19:25:27.487Z",
   "totalItems": 150,
-  "totalArchived": 5498,
-  "newPapersAdded": 127,
+  "totalArchived": 5739,
+  "newPapersAdded": 241,
   "institutionBreakdown": {
-    "KAIST": 18,
-    "SNU": 32,
-    "Yonsei University": 0,
-    "SKKU": 0,
+    "KAIST": 14,
+    "SNU": 96,
+    "Yonsei University": 1,
+    "SKKU": 1,
     "POSTECH": 2,
-    "Korea University": 27,
-    "IBS": 100,
+    "Korea University": 43,
+    "IBS": 19,
     "UNIST": 2,
     "Hanyang University": 6,
-    "KIST": 3,
-    "GIST": 2,
-    "Kyung Hee University": 5,
-    "Pusan National University": 1
+    "KIST": 5,
+    "GIST": 6,
+    "Kyung Hee University": 12,
+    "Pusan National University": 3
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 92,
-    "Biomedical": 27,
-    "Computer Science": 3,
-    "Cancer Research": 16,
-    "Neuroscience": 9,
-    "Materials Science": 3
+    "Materials Science": 13,
+    "Biomedical": 44,
+    "Neuroscience": 8,
+    "Multidisciplinary": 65,
+    "Cancer Research": 18,
+    "Computer Science": 2
   },
-  "multiInstitutional": 30,
+  "multiInstitutional": 45,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,10 +44,12 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "The Impact of Family-Centered Care on Oral Health for Children With Special Health Care Needs",
+    "title": "rev-Gelatin: A Gelatin with Reverse Thermo-Responsive Behavior Inspired by Candy and Ice Cubes Phase Dynamics",
     "date": "2025-09-08T10:00:00.000Z",
     "institutions": [
-      "IBS"
+      "IBS",
+      "KAIST",
+      "SNU"
     ]
   }
 }
