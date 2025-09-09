@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-09-08T19:25:27.487Z",
+  "lastUpdate": "2025-09-09T07:41:51.134Z",
   "totalItems": 150,
-  "totalArchived": 5739,
-  "newPapersAdded": 241,
+  "totalArchived": 5879,
+  "newPapersAdded": 140,
   "institutionBreakdown": {
-    "KAIST": 14,
-    "SNU": 96,
+    "KAIST": 19,
+    "SNU": 100,
     "Yonsei University": 1,
     "SKKU": 1,
-    "POSTECH": 2,
-    "Korea University": 43,
-    "IBS": 19,
-    "UNIST": 2,
-    "Hanyang University": 6,
-    "KIST": 5,
-    "GIST": 6,
-    "Kyung Hee University": 12,
+    "POSTECH": 3,
+    "Korea University": 52,
+    "IBS": 2,
+    "UNIST": 3,
+    "Hanyang University": 9,
+    "KIST": 7,
+    "GIST": 4,
+    "Kyung Hee University": 9,
     "Pusan National University": 3
   },
   "subjectAreaBreakdown": {
-    "Materials Science": 13,
-    "Biomedical": 44,
-    "Neuroscience": 8,
-    "Multidisciplinary": 65,
-    "Cancer Research": 18,
+    "Multidisciplinary": 57,
+    "Neuroscience": 10,
+    "Materials Science": 14,
+    "Cancer Research": 24,
+    "Biomedical": 43,
     "Computer Science": 2
   },
-  "multiInstitutional": 45,
+  "multiInstitutional": 43,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,12 +44,10 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "rev-Gelatin: A Gelatin with Reverse Thermo-Responsive Behavior Inspired by Candy and Ice Cubes Phase Dynamics",
-    "date": "2025-09-08T10:00:00.000Z",
+    "title": "Additive Manufactured Programmable Scaffold Sensor Based on Triply Periodic Minimal Surfaces for Broad-Spectrum Pressure Detection",
+    "date": "2025-09-09T10:00:00.000Z",
     "institutions": [
-      "IBS",
-      "KAIST",
-      "SNU"
+      "IBS"
     ]
   }
 }
