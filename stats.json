@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-09-09T19:24:45.398Z",
+  "lastUpdate": "2025-09-10T07:41:16.696Z",
   "totalItems": 150,
-  "totalArchived": 6037,
-  "newPapersAdded": 158,
+  "totalArchived": 6180,
+  "newPapersAdded": 143,
   "institutionBreakdown": {
-    "KAIST": 5,
-    "SNU": 35,
+    "KAIST": 8,
+    "SNU": 62,
     "Yonsei University": 0,
     "SKKU": 0,
     "POSTECH": 4,
-    "Korea University": 32,
-    "IBS": 94,
+    "Korea University": 54,
+    "IBS": 45,
     "UNIST": 0,
-    "Hanyang University": 1,
-    "KIST": 0,
+    "Hanyang University": 3,
+    "KIST": 1,
     "GIST": 0,
-    "Kyung Hee University": 2,
+    "Kyung Hee University": 3,
     "Pusan National University": 2
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 73,
-    "Materials Science": 10,
-    "Neuroscience": 6,
-    "Cancer Research": 19,
-    "Biomedical": 40,
+    "Multidisciplinary": 72,
+    "Biomedical": 33,
+    "Materials Science": 9,
+    "Cancer Research": 23,
+    "Neuroscience": 11,
     "Computer Science": 2
   },
-  "multiInstitutional": 21,
+  "multiInstitutional": 26,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,12 +44,12 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Essentials of the System of Radiological Protection",
+    "title": "Differences in Learning Strategy Selection and Object Location Memory Impairments in APP/PS1 Mice",
     "date": "2025-09-09T10:00:00.000Z",
     "institutions": [
       "IBS",
       "KAIST",
-      "Korea University"
+      "SNU"
     ]
   }
 }
