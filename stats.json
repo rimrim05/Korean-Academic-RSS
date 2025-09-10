@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-09-10T07:41:16.696Z",
+  "lastUpdate": "2025-09-10T19:24:31.019Z",
   "totalItems": 150,
-  "totalArchived": 6180,
-  "newPapersAdded": 143,
+  "totalArchived": 6342,
+  "newPapersAdded": 162,
   "institutionBreakdown": {
-    "KAIST": 8,
-    "SNU": 62,
+    "KAIST": 4,
+    "SNU": 31,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 4,
-    "Korea University": 54,
-    "IBS": 45,
-    "UNIST": 0,
-    "Hanyang University": 3,
-    "KIST": 1,
+    "POSTECH": 1,
+    "Korea University": 33,
+    "IBS": 90,
+    "UNIST": 1,
+    "Hanyang University": 1,
+    "KIST": 0,
     "GIST": 0,
-    "Kyung Hee University": 3,
-    "Pusan National University": 2
+    "Kyung Hee University": 2,
+    "Pusan National University": 1
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 72,
-    "Biomedical": 33,
     "Materials Science": 9,
-    "Cancer Research": 23,
-    "Neuroscience": 11,
-    "Computer Science": 2
+    "Cancer Research": 17,
+    "Multidisciplinary": 87,
+    "Biomedical": 28,
+    "Neuroscience": 6,
+    "Computer Science": 3
   },
-  "multiInstitutional": 26,
+  "multiInstitutional": 13,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,12 +44,10 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Differences in Learning Strategy Selection and Object Location Memory Impairments in APP/PS1 Mice",
-    "date": "2025-09-09T10:00:00.000Z",
+    "title": "Wafer-scale integration of monolayer MoS<sub>2</sub><em>via</em> residue-free support layer etching and angular strain suppression",
+    "date": "2025-09-10T10:00:00.000Z",
     "institutions": [
-      "IBS",
-      "KAIST",
-      "SNU"
+      "KAIST"
     ]
   }
 }
