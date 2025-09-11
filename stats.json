@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-09-10T19:24:31.019Z",
+  "lastUpdate": "2025-09-11T07:40:05.390Z",
   "totalItems": 150,
-  "totalArchived": 6342,
-  "newPapersAdded": 162,
+  "totalArchived": 6522,
+  "newPapersAdded": 180,
   "institutionBreakdown": {
-    "KAIST": 4,
-    "SNU": 31,
-    "Yonsei University": 0,
+    "KAIST": 13,
+    "SNU": 80,
+    "Yonsei University": 2,
     "SKKU": 0,
-    "POSTECH": 1,
-    "Korea University": 33,
-    "IBS": 90,
-    "UNIST": 1,
-    "Hanyang University": 1,
-    "KIST": 0,
-    "GIST": 0,
-    "Kyung Hee University": 2,
-    "Pusan National University": 1
+    "POSTECH": 5,
+    "Korea University": 70,
+    "IBS": 12,
+    "UNIST": 2,
+    "Hanyang University": 3,
+    "KIST": 2,
+    "GIST": 1,
+    "Kyung Hee University": 5,
+    "Pusan National University": 5
   },
   "subjectAreaBreakdown": {
-    "Materials Science": 9,
-    "Cancer Research": 17,
-    "Multidisciplinary": 87,
-    "Biomedical": 28,
-    "Neuroscience": 6,
+    "Neuroscience": 8,
+    "Multidisciplinary": 85,
+    "Materials Science": 15,
+    "Biomedical": 27,
+    "Cancer Research": 12,
     "Computer Science": 3
   },
-  "multiInstitutional": 13,
+  "multiInstitutional": 39,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,10 +44,15 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Wafer-scale integration of monolayer MoS<sub>2</sub><em>via</em> residue-free support layer etching and angular strain suppression",
+    "title": "Astrocytic monoamine oxidase B (MAOB)-gamma-aminobutyric acid (GABA) axis as a molecular brake on repair following spinal cord injury",
     "date": "2025-09-10T10:00:00.000Z",
     "institutions": [
-      "KAIST"
+      "IBS",
+      "KAIST",
+      "KIST",
+      "POSTECH",
+      "SNU",
+      "UNIST"
     ]
   }
 }
