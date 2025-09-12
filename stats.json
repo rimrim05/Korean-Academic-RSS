@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-09-12T07:37:02.170Z",
+  "lastUpdate": "2025-09-12T19:23:43.296Z",
   "totalItems": 150,
-  "totalArchived": 6848,
-  "newPapersAdded": 194,
+  "totalArchived": 6998,
+  "newPapersAdded": 150,
   "institutionBreakdown": {
-    "KAIST": 9,
-    "SNU": 65,
+    "KAIST": 4,
+    "SNU": 25,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 2,
-    "Korea University": 63,
-    "IBS": 36,
-    "UNIST": 0,
-    "Hanyang University": 4,
-    "KIST": 1,
-    "GIST": 3,
-    "Kyung Hee University": 5,
+    "POSTECH": 0,
+    "Korea University": 29,
+    "IBS": 100,
+    "UNIST": 2,
+    "Hanyang University": 2,
+    "KIST": 2,
+    "GIST": 2,
+    "Kyung Hee University": 0,
     "Pusan National University": 2
   },
   "subjectAreaBreakdown": {
-    "Biomedical": 37,
-    "Multidisciplinary": 78,
-    "Materials Science": 9,
-    "Neuroscience": 4,
-    "Cancer Research": 17,
-    "Computer Science": 5
+    "Multidisciplinary": 84,
+    "Cancer Research": 18,
+    "Biomedical": 29,
+    "Materials Science": 13,
+    "Neuroscience": 5,
+    "Computer Science": 1
   },
-  "multiInstitutional": 28,
+  "multiInstitutional": 14,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,12 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Organoid Technology as a Promising Frontier in Organ Transplantation and Regenerative Medicine",
-    "date": "2025-09-11T10:00:00.000Z",
+    "title": "Crack-Free Transfer of Wafer-Scale Freestanding Single-Crystalline Nanomembranes Enabled by Elastically Graded Polymer",
+    "date": "2025-09-12T10:00:00.000Z",
     "institutions": [
       "IBS",
       "KAIST",
-      "Korea University",
       "SNU"
     ]
   }
