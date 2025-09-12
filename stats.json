@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-09-11T19:23:36.089Z",
+  "lastUpdate": "2025-09-12T07:37:02.170Z",
   "totalItems": 150,
-  "totalArchived": 6654,
-  "newPapersAdded": 132,
+  "totalArchived": 6848,
+  "newPapersAdded": 194,
   "institutionBreakdown": {
-    "KAIST": 13,
-    "SNU": 23,
+    "KAIST": 9,
+    "SNU": 65,
     "Yonsei University": 0,
     "SKKU": 0,
     "POSTECH": 2,
-    "Korea University": 18,
-    "IBS": 100,
-    "UNIST": 1,
-    "Hanyang University": 3,
+    "Korea University": 63,
+    "IBS": 36,
+    "UNIST": 0,
+    "Hanyang University": 4,
     "KIST": 1,
-    "GIST": 2,
-    "Kyung Hee University": 2,
-    "Pusan National University": 6
+    "GIST": 3,
+    "Kyung Hee University": 5,
+    "Pusan National University": 2
   },
   "subjectAreaBreakdown": {
-    "Biomedical": 39,
+    "Biomedical": 37,
     "Multidisciplinary": 78,
-    "Materials Science": 11,
-    "Cancer Research": 15,
-    "Neuroscience": 6,
-    "Computer Science": 1
+    "Materials Science": 9,
+    "Neuroscience": 4,
+    "Cancer Research": 17,
+    "Computer Science": 5
   },
-  "multiInstitutional": 14,
+  "multiInstitutional": 28,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,9 +44,12 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Antithrombotic Medications and Intraocular Hemorrhage Risk in Exudative Age-Related Macular Degeneration",
+    "title": "Organoid Technology as a Promising Frontier in Organ Transplantation and Regenerative Medicine",
     "date": "2025-09-11T10:00:00.000Z",
     "institutions": [
+      "IBS",
+      "KAIST",
+      "Korea University",
       "SNU"
     ]
   }
