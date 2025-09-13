@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-09-12T19:23:43.296Z",
+  "lastUpdate": "2025-09-13T07:37:15.668Z",
   "totalItems": 150,
-  "totalArchived": 6998,
-  "newPapersAdded": 150,
+  "totalArchived": 7153,
+  "newPapersAdded": 155,
   "institutionBreakdown": {
-    "KAIST": 4,
-    "SNU": 25,
+    "KAIST": 6,
+    "SNU": 50,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 0,
-    "Korea University": 29,
-    "IBS": 100,
-    "UNIST": 2,
+    "POSTECH": 1,
+    "Korea University": 59,
+    "IBS": 49,
+    "UNIST": 1,
     "Hanyang University": 2,
-    "KIST": 2,
-    "GIST": 2,
-    "Kyung Hee University": 0,
+    "KIST": 1,
+    "GIST": 0,
+    "Kyung Hee University": 2,
     "Pusan National University": 2
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 84,
+    "Multidisciplinary": 73,
+    "Materials Science": 12,
     "Cancer Research": 18,
-    "Biomedical": 29,
-    "Materials Science": 13,
-    "Neuroscience": 5,
-    "Computer Science": 1
+    "Biomedical": 32,
+    "Computer Science": 6,
+    "Neuroscience": 9
   },
-  "multiInstitutional": 14,
+  "multiInstitutional": 20,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,12 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Crack-Free Transfer of Wafer-Scale Freestanding Single-Crystalline Nanomembranes Enabled by Elastically Graded Polymer",
+    "title": "Correction: Advancing forensic accuracy: mitigating methemoglobin interference in postmortem carbon monoxide analysis using sodium dithionite reduction",
     "date": "2025-09-12T10:00:00.000Z",
     "institutions": [
       "IBS",
-      "KAIST",
-      "SNU"
+      "KAIST"
     ]
   }
 }
