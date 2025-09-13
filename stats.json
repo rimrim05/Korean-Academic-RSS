@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-09-13T07:37:15.668Z",
+  "lastUpdate": "2025-09-13T19:20:15.918Z",
   "totalItems": 150,
-  "totalArchived": 7153,
-  "newPapersAdded": 155,
+  "totalArchived": 7401,
+  "newPapersAdded": 248,
   "institutionBreakdown": {
-    "KAIST": 6,
-    "SNU": 50,
-    "Yonsei University": 0,
+    "KAIST": 14,
+    "SNU": 91,
+    "Yonsei University": 1,
     "SKKU": 0,
-    "POSTECH": 1,
-    "Korea University": 59,
-    "IBS": 49,
-    "UNIST": 1,
-    "Hanyang University": 2,
-    "KIST": 1,
-    "GIST": 0,
-    "Kyung Hee University": 2,
+    "POSTECH": 3,
+    "Korea University": 55,
+    "IBS": 15,
+    "UNIST": 0,
+    "Hanyang University": 7,
+    "KIST": 2,
+    "GIST": 1,
+    "Kyung Hee University": 14,
     "Pusan National University": 2
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 73,
-    "Materials Science": 12,
-    "Cancer Research": 18,
-    "Biomedical": 32,
-    "Computer Science": 6,
-    "Neuroscience": 9
+    "Biomedical": 28,
+    "Cancer Research": 25,
+    "Multidisciplinary": 68,
+    "Neuroscience": 8,
+    "Computer Science": 9,
+    "Materials Science": 12
   },
-  "multiInstitutional": 20,
+  "multiInstitutional": 45,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,13 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Correction: Advancing forensic accuracy: mitigating methemoglobin interference in postmortem carbon monoxide analysis using sodium dithionite reduction",
-    "date": "2025-09-12T10:00:00.000Z",
+    "title": "Subtype shift, relapse rate and risk factors of frequent relapse in cluster headache: A multicenter, prospective, longitudinal observation",
+    "date": "2025-09-13T10:00:00.000Z",
     "institutions": [
       "IBS",
-      "KAIST"
+      "KAIST",
+      "Korea University",
+      "SNU"
     ]
   }
 }
