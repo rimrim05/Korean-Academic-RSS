@@ -1,16 +1,16 @@
 {
-  "lastUpdate": "2025-09-14T07:37:27.304Z",
+  "lastUpdate": "2025-09-14T19:22:02.568Z",
   "totalItems": 150,
-  "totalArchived": 7537,
-  "newPapersAdded": 136,
+  "totalArchived": 7553,
+  "newPapersAdded": 16,
   "institutionBreakdown": {
     "KAIST": 18,
     "SNU": 100,
     "Yonsei University": 1,
     "SKKU": 0,
     "POSTECH": 5,
-    "Korea University": 48,
-    "IBS": 4,
+    "Korea University": 33,
+    "IBS": 19,
     "UNIST": 0,
     "Hanyang University": 7,
     "KIST": 1,
@@ -19,12 +19,12 @@
     "Pusan National University": 4
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 72,
-    "Cancer Research": 21,
-    "Biomedical": 33,
-    "Neuroscience": 5,
-    "Computer Science": 8,
-    "Materials Science": 11
+    "Cancer Research": 22,
+    "Neuroscience": 10,
+    "Biomedical": 34,
+    "Multidisciplinary": 66,
+    "Materials Science": 11,
+    "Computer Science": 7
   },
   "multiInstitutional": 45,
   "institutions": [
@@ -44,12 +44,10 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Semi-automated biofoundry workflows for sequence coevolution-guided isoprene synthase engineering",
-    "date": "2025-09-13T10:00:00.000Z",
+    "title": "Exploring the role of readthrough-inducing molecule 2,6-diaminopurine to increase immune response against cancer cells",
+    "date": "2025-09-14T10:00:00.000Z",
     "institutions": [
-      "IBS",
-      "KAIST",
-      "POSTECH"
+      "Korea University"
     ]
   }
 }
