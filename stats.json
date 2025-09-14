@@ -1,30 +1,30 @@
 {
-  "lastUpdate": "2025-09-13T19:20:15.918Z",
+  "lastUpdate": "2025-09-14T07:37:27.304Z",
   "totalItems": 150,
-  "totalArchived": 7401,
-  "newPapersAdded": 248,
+  "totalArchived": 7537,
+  "newPapersAdded": 136,
   "institutionBreakdown": {
-    "KAIST": 14,
-    "SNU": 91,
+    "KAIST": 18,
+    "SNU": 100,
     "Yonsei University": 1,
     "SKKU": 0,
-    "POSTECH": 3,
-    "Korea University": 55,
-    "IBS": 15,
+    "POSTECH": 5,
+    "Korea University": 48,
+    "IBS": 4,
     "UNIST": 0,
     "Hanyang University": 7,
-    "KIST": 2,
+    "KIST": 1,
     "GIST": 1,
-    "Kyung Hee University": 14,
-    "Pusan National University": 2
+    "Kyung Hee University": 12,
+    "Pusan National University": 4
   },
   "subjectAreaBreakdown": {
-    "Biomedical": 28,
-    "Cancer Research": 25,
-    "Multidisciplinary": 68,
-    "Neuroscience": 8,
-    "Computer Science": 9,
-    "Materials Science": 12
+    "Multidisciplinary": 72,
+    "Cancer Research": 21,
+    "Biomedical": 33,
+    "Neuroscience": 5,
+    "Computer Science": 8,
+    "Materials Science": 11
   },
   "multiInstitutional": 45,
   "institutions": [
@@ -44,13 +44,12 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Subtype shift, relapse rate and risk factors of frequent relapse in cluster headache: A multicenter, prospective, longitudinal observation",
+    "title": "Semi-automated biofoundry workflows for sequence coevolution-guided isoprene synthase engineering",
     "date": "2025-09-13T10:00:00.000Z",
     "institutions": [
       "IBS",
       "KAIST",
-      "Korea University",
-      "SNU"
+      "POSTECH"
     ]
   }
 }
