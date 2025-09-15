@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-09-15T07:43:13.675Z",
+  "lastUpdate": "2025-09-15T19:24:35.658Z",
   "totalItems": 150,
-  "totalArchived": 7690,
-  "newPapersAdded": 137,
+  "totalArchived": 7892,
+  "newPapersAdded": 202,
   "institutionBreakdown": {
-    "KAIST": 14,
-    "SNU": 22,
+    "KAIST": 8,
+    "SNU": 59,
     "Yonsei University": 0,
-    "SKKU": 0,
-    "POSTECH": 3,
-    "Korea University": 23,
-    "IBS": 100,
-    "UNIST": 1,
-    "Hanyang University": 2,
-    "KIST": 0,
-    "GIST": 2,
-    "Kyung Hee University": 2,
+    "SKKU": 1,
+    "POSTECH": 1,
+    "Korea University": 48,
+    "IBS": 52,
+    "UNIST": 0,
+    "Hanyang University": 3,
+    "KIST": 1,
+    "GIST": 1,
+    "Kyung Hee University": 7,
     "Pusan National University": 2
   },
   "subjectAreaBreakdown": {
-    "Biomedical": 33,
-    "Multidisciplinary": 80,
-    "Neuroscience": 12,
+    "Multidisciplinary": 79,
+    "Biomedical": 32,
+    "Cancer Research": 17,
+    "Materials Science": 11,
     "Computer Science": 2,
-    "Cancer Research": 14,
-    "Materials Science": 9
+    "Neuroscience": 9
   },
-  "multiInstitutional": 15,
+  "multiInstitutional": 25,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,15 +44,12 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Efficacy and Safety of Fimasartan, Atorvastatin, and Ezetimibe Combination Therapy in Patients With Hypertension and Dyslipidemia: A Randomized, Double-Blind, Multicenter, Therapeutic Confirmatory, Phase III Clinical Trial",
-    "date": "2025-09-14T10:00:00.000Z",
+    "title": "Axion Dark Matter Search with Sensitivity near the Kim-Shifman-Vainshtein-Zakharov Benchmark Using the TM_{020} Mode",
+    "date": "2025-09-15T10:00:00.000Z",
     "institutions": [
-      "GIST",
-      "Hanyang University",
       "IBS",
       "KAIST",
       "Korea University",
-      "Pusan National University",
       "SNU"
     ]
   }
