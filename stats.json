@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-09-14T19:22:02.568Z",
+  "lastUpdate": "2025-09-15T07:43:13.675Z",
   "totalItems": 150,
-  "totalArchived": 7553,
-  "newPapersAdded": 16,
+  "totalArchived": 7690,
+  "newPapersAdded": 137,
   "institutionBreakdown": {
-    "KAIST": 18,
-    "SNU": 100,
-    "Yonsei University": 1,
+    "KAIST": 14,
+    "SNU": 22,
+    "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 5,
-    "Korea University": 33,
-    "IBS": 19,
-    "UNIST": 0,
-    "Hanyang University": 7,
-    "KIST": 1,
-    "GIST": 1,
-    "Kyung Hee University": 12,
-    "Pusan National University": 4
+    "POSTECH": 3,
+    "Korea University": 23,
+    "IBS": 100,
+    "UNIST": 1,
+    "Hanyang University": 2,
+    "KIST": 0,
+    "GIST": 2,
+    "Kyung Hee University": 2,
+    "Pusan National University": 2
   },
   "subjectAreaBreakdown": {
-    "Cancer Research": 22,
-    "Neuroscience": 10,
-    "Biomedical": 34,
-    "Multidisciplinary": 66,
-    "Materials Science": 11,
-    "Computer Science": 7
+    "Biomedical": 33,
+    "Multidisciplinary": 80,
+    "Neuroscience": 12,
+    "Computer Science": 2,
+    "Cancer Research": 14,
+    "Materials Science": 9
   },
-  "multiInstitutional": 45,
+  "multiInstitutional": 15,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,10 +44,16 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Exploring the role of readthrough-inducing molecule 2,6-diaminopurine to increase immune response against cancer cells",
+    "title": "Efficacy and Safety of Fimasartan, Atorvastatin, and Ezetimibe Combination Therapy in Patients With Hypertension and Dyslipidemia: A Randomized, Double-Blind, Multicenter, Therapeutic Confirmatory, Phase III Clinical Trial",
     "date": "2025-09-14T10:00:00.000Z",
     "institutions": [
-      "Korea University"
+      "GIST",
+      "Hanyang University",
+      "IBS",
+      "KAIST",
+      "Korea University",
+      "Pusan National University",
+      "SNU"
     ]
   }
 }
