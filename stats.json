@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-09-16T07:41:03.900Z",
+  "lastUpdate": "2025-09-16T19:24:16.550Z",
   "totalItems": 150,
-  "totalArchived": 8034,
-  "newPapersAdded": 142,
+  "totalArchived": 8203,
+  "newPapersAdded": 169,
   "institutionBreakdown": {
-    "KAIST": 12,
-    "SNU": 85,
+    "KAIST": 10,
+    "SNU": 49,
     "Yonsei University": 0,
-    "SKKU": 1,
-    "POSTECH": 3,
-    "Korea University": 64,
-    "IBS": 8,
-    "UNIST": 0,
+    "SKKU": 0,
+    "POSTECH": 1,
+    "Korea University": 28,
+    "IBS": 87,
+    "UNIST": 1,
     "Hanyang University": 4,
     "KIST": 1,
-    "GIST": 1,
-    "Kyung Hee University": 10,
-    "Pusan National University": 2
+    "GIST": 4,
+    "Kyung Hee University": 2,
+    "Pusan National University": 1
   },
   "subjectAreaBreakdown": {
+    "Materials Science": 9,
+    "Multidisciplinary": 72,
+    "Computer Science": 5,
+    "Biomedical": 39,
     "Cancer Research": 18,
-    "Multidisciplinary": 86,
-    "Neuroscience": 7,
-    "Biomedical": 26,
-    "Materials Science": 11,
-    "Computer Science": 2
+    "Neuroscience": 7
   },
-  "multiInstitutional": 31,
+  "multiInstitutional": 25,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,12 +44,14 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Single-cell multiomic modelling of early metastatic events promoted by the extracellular matrix",
-    "date": "2025-09-15T10:00:00.000Z",
+    "title": "A Three-Phase Electrostatic Clutch with Variable Mechanical Impedance Control for Soft Robotic Systems",
+    "date": "2025-09-16T10:00:00.000Z",
     "institutions": [
       "IBS",
       "KAIST",
-      "SNU"
+      "Korea University",
+      "SNU",
+      "UNIST"
     ]
   }
 }
