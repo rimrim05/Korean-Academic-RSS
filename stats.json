@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-09-15T19:24:35.658Z",
+  "lastUpdate": "2025-09-16T07:41:03.900Z",
   "totalItems": 150,
-  "totalArchived": 7892,
-  "newPapersAdded": 202,
+  "totalArchived": 8034,
+  "newPapersAdded": 142,
   "institutionBreakdown": {
-    "KAIST": 8,
-    "SNU": 59,
+    "KAIST": 12,
+    "SNU": 85,
     "Yonsei University": 0,
     "SKKU": 1,
-    "POSTECH": 1,
-    "Korea University": 48,
-    "IBS": 52,
+    "POSTECH": 3,
+    "Korea University": 64,
+    "IBS": 8,
     "UNIST": 0,
-    "Hanyang University": 3,
+    "Hanyang University": 4,
     "KIST": 1,
     "GIST": 1,
-    "Kyung Hee University": 7,
+    "Kyung Hee University": 10,
     "Pusan National University": 2
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 79,
-    "Biomedical": 32,
-    "Cancer Research": 17,
+    "Cancer Research": 18,
+    "Multidisciplinary": 86,
+    "Neuroscience": 7,
+    "Biomedical": 26,
     "Materials Science": 11,
-    "Computer Science": 2,
-    "Neuroscience": 9
+    "Computer Science": 2
   },
-  "multiInstitutional": 25,
+  "multiInstitutional": 31,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,12 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Axion Dark Matter Search with Sensitivity near the Kim-Shifman-Vainshtein-Zakharov Benchmark Using the TM_{020} Mode",
+    "title": "Single-cell multiomic modelling of early metastatic events promoted by the extracellular matrix",
     "date": "2025-09-15T10:00:00.000Z",
     "institutions": [
       "IBS",
       "KAIST",
-      "Korea University",
       "SNU"
     ]
   }
