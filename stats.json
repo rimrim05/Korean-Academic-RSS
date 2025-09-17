@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-09-17T07:40:41.409Z",
+  "lastUpdate": "2025-09-17T19:24:02.685Z",
   "totalItems": 150,
-  "totalArchived": 8331,
-  "newPapersAdded": 128,
+  "totalArchived": 8505,
+  "newPapersAdded": 174,
   "institutionBreakdown": {
-    "KAIST": 14,
-    "SNU": 68,
+    "KAIST": 11,
+    "SNU": 52,
     "Yonsei University": 0,
-    "SKKU": 0,
-    "POSTECH": 1,
-    "Korea University": 48,
-    "IBS": 50,
-    "UNIST": 1,
-    "Hanyang University": 6,
+    "SKKU": 1,
+    "POSTECH": 2,
+    "Korea University": 27,
+    "IBS": 80,
+    "UNIST": 2,
+    "Hanyang University": 3,
     "KIST": 1,
-    "GIST": 5,
-    "Kyung Hee University": 2,
+    "GIST": 0,
+    "Kyung Hee University": 3,
     "Pusan National University": 3
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 79,
-    "Biomedical": 35,
-    "Materials Science": 7,
+    "Biomedical": 37,
     "Computer Science": 5,
-    "Cancer Research": 12,
-    "Neuroscience": 12
+    "Neuroscience": 8,
+    "Multidisciplinary": 70,
+    "Materials Science": 14,
+    "Cancer Research": 16
   },
-  "multiInstitutional": 35,
+  "multiInstitutional": 24,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,12 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "A jetted wandering massive black hole candidate in a dwarf galaxy",
-    "date": "2025-09-16T10:00:00.000Z",
+    "title": "Subclinical Coronary Atherosclerosis and Retinal Optical Coherence Tomography Angiography",
+    "date": "2025-09-17T10:00:00.000Z",
     "institutions": [
       "IBS",
-      "KAIST"
+      "KAIST",
+      "SNU"
     ]
   }
 }
