@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-09-16T19:24:16.550Z",
+  "lastUpdate": "2025-09-17T07:40:41.409Z",
   "totalItems": 150,
-  "totalArchived": 8203,
-  "newPapersAdded": 169,
+  "totalArchived": 8331,
+  "newPapersAdded": 128,
   "institutionBreakdown": {
-    "KAIST": 10,
-    "SNU": 49,
+    "KAIST": 14,
+    "SNU": 68,
     "Yonsei University": 0,
     "SKKU": 0,
     "POSTECH": 1,
-    "Korea University": 28,
-    "IBS": 87,
+    "Korea University": 48,
+    "IBS": 50,
     "UNIST": 1,
-    "Hanyang University": 4,
+    "Hanyang University": 6,
     "KIST": 1,
-    "GIST": 4,
+    "GIST": 5,
     "Kyung Hee University": 2,
-    "Pusan National University": 1
+    "Pusan National University": 3
   },
   "subjectAreaBreakdown": {
-    "Materials Science": 9,
-    "Multidisciplinary": 72,
+    "Multidisciplinary": 79,
+    "Biomedical": 35,
+    "Materials Science": 7,
     "Computer Science": 5,
-    "Biomedical": 39,
-    "Cancer Research": 18,
-    "Neuroscience": 7
+    "Cancer Research": 12,
+    "Neuroscience": 12
   },
-  "multiInstitutional": 25,
+  "multiInstitutional": 35,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,14 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "A Three-Phase Electrostatic Clutch with Variable Mechanical Impedance Control for Soft Robotic Systems",
+    "title": "A jetted wandering massive black hole candidate in a dwarf galaxy",
     "date": "2025-09-16T10:00:00.000Z",
     "institutions": [
       "IBS",
-      "KAIST",
-      "Korea University",
-      "SNU",
-      "UNIST"
+      "KAIST"
     ]
   }
 }
