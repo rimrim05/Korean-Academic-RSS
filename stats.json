@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-09-17T19:24:02.685Z",
+  "lastUpdate": "2025-09-18T07:39:03.198Z",
   "totalItems": 150,
-  "totalArchived": 8505,
-  "newPapersAdded": 174,
+  "totalArchived": 8671,
+  "newPapersAdded": 166,
   "institutionBreakdown": {
-    "KAIST": 11,
-    "SNU": 52,
+    "KAIST": 21,
+    "SNU": 85,
     "Yonsei University": 0,
     "SKKU": 1,
-    "POSTECH": 2,
-    "Korea University": 27,
-    "IBS": 80,
-    "UNIST": 2,
-    "Hanyang University": 3,
-    "KIST": 1,
-    "GIST": 0,
-    "Kyung Hee University": 3,
+    "POSTECH": 3,
+    "Korea University": 60,
+    "IBS": 16,
+    "UNIST": 4,
+    "Hanyang University": 5,
+    "KIST": 2,
+    "GIST": 3,
+    "Kyung Hee University": 5,
     "Pusan National University": 3
   },
   "subjectAreaBreakdown": {
-    "Biomedical": 37,
-    "Computer Science": 5,
-    "Neuroscience": 8,
-    "Multidisciplinary": 70,
-    "Materials Science": 14,
-    "Cancer Research": 16
+    "Materials Science": 18,
+    "Multidisciplinary": 64,
+    "Biomedical": 40,
+    "Neuroscience": 10,
+    "Cancer Research": 14,
+    "Computer Science": 4
   },
-  "multiInstitutional": 24,
+  "multiInstitutional": 43,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,12 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Subclinical Coronary Atherosclerosis and Retinal Optical Coherence Tomography Angiography",
+    "title": "Surface-Engineered Asymmetric Covalent Organic Framework Membranes with Polymers for Improved Ion Transport",
     "date": "2025-09-17T10:00:00.000Z",
     "institutions": [
       "IBS",
       "KAIST",
+      "POSTECH",
       "SNU"
     ]
   }
