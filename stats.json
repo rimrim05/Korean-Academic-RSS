@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-09-19T07:36:02.058Z",
+  "lastUpdate": "2025-09-19T19:19:23.761Z",
   "totalItems": 150,
-  "totalArchived": 9000,
-  "newPapersAdded": 175,
+  "totalArchived": 9172,
+  "newPapersAdded": 172,
   "institutionBreakdown": {
-    "KAIST": 19,
-    "SNU": 63,
+    "KAIST": 8,
+    "SNU": 34,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 0,
-    "Korea University": 71,
-    "IBS": 27,
+    "POSTECH": 2,
+    "Korea University": 38,
+    "IBS": 83,
     "UNIST": 1,
-    "Hanyang University": 8,
-    "KIST": 1,
-    "GIST": 4,
+    "Hanyang University": 5,
+    "KIST": 3,
+    "GIST": 2,
     "Kyung Hee University": 4,
     "Pusan National University": 1
   },
   "subjectAreaBreakdown": {
-    "Cancer Research": 16,
-    "Multidisciplinary": 85,
-    "Biomedical": 23,
-    "Materials Science": 13,
-    "Neuroscience": 9,
-    "Computer Science": 4
+    "Multidisciplinary": 70,
+    "Materials Science": 15,
+    "Biomedical": 40,
+    "Cancer Research": 17,
+    "Computer Science": 2,
+    "Neuroscience": 6
   },
-  "multiInstitutional": 38,
+  "multiInstitutional": 24,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,13 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Gene editing in cancer therapy: overcoming drug resistance and enhancing precision medicine",
+    "title": "Post-Treatment Strategy for High-Capacity Naphtalenediimide (NDI) Polymer Cathodes in Li-Ion Batteries",
     "date": "2025-09-19T10:00:00.000Z",
     "institutions": [
-      "Kyung Hee University",
-      "SNU"
+      "KAIST",
+      "POSTECH",
+      "SNU",
+      "UNIST"
     ]
   }
 }
