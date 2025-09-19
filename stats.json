@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-09-18T19:23:30.999Z",
+  "lastUpdate": "2025-09-19T07:36:02.058Z",
   "totalItems": 150,
-  "totalArchived": 8825,
-  "newPapersAdded": 154,
+  "totalArchived": 9000,
+  "newPapersAdded": 175,
   "institutionBreakdown": {
-    "KAIST": 4,
-    "SNU": 28,
+    "KAIST": 19,
+    "SNU": 63,
     "Yonsei University": 0,
     "SKKU": 0,
     "POSTECH": 0,
-    "Korea University": 27,
-    "IBS": 100,
-    "UNIST": 0,
-    "Hanyang University": 5,
+    "Korea University": 71,
+    "IBS": 27,
+    "UNIST": 1,
+    "Hanyang University": 8,
     "KIST": 1,
-    "GIST": 0,
-    "Kyung Hee University": 2,
-    "Pusan National University": 0
+    "GIST": 4,
+    "Kyung Hee University": 4,
+    "Pusan National University": 1
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 78,
-    "Materials Science": 10,
-    "Cancer Research": 9,
-    "Neuroscience": 10,
-    "Biomedical": 41,
-    "Computer Science": 2
+    "Cancer Research": 16,
+    "Multidisciplinary": 85,
+    "Biomedical": 23,
+    "Materials Science": 13,
+    "Neuroscience": 9,
+    "Computer Science": 4
   },
-  "multiInstitutional": 13,
+  "multiInstitutional": 38,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,13 +44,10 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Tail-Group Modulated Covalent Functionalization of Solvent-Dispersible MXenes for Selectivity-Tunable Gas Sensing at Room Temperature",
-    "date": "2025-09-18T10:00:00.000Z",
+    "title": "Gene editing in cancer therapy: overcoming drug resistance and enhancing precision medicine",
+    "date": "2025-09-19T10:00:00.000Z",
     "institutions": [
-      "IBS",
-      "KAIST",
-      "KIST",
-      "Korea University",
+      "Kyung Hee University",
       "SNU"
     ]
   }
