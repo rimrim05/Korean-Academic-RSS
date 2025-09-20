@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-09-19T19:19:23.761Z",
+  "lastUpdate": "2025-09-20T07:35:35.058Z",
   "totalItems": 150,
-  "totalArchived": 9172,
-  "newPapersAdded": 172,
+  "totalArchived": 9327,
+  "newPapersAdded": 155,
   "institutionBreakdown": {
-    "KAIST": 8,
-    "SNU": 34,
+    "KAIST": 15,
+    "SNU": 63,
     "Yonsei University": 0,
     "SKKU": 0,
     "POSTECH": 2,
-    "Korea University": 38,
-    "IBS": 83,
+    "Korea University": 65,
+    "IBS": 29,
     "UNIST": 1,
-    "Hanyang University": 5,
-    "KIST": 3,
+    "Hanyang University": 8,
+    "KIST": 4,
     "GIST": 2,
-    "Kyung Hee University": 4,
-    "Pusan National University": 1
+    "Kyung Hee University": 5,
+    "Pusan National University": 3
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 70,
-    "Materials Science": 15,
-    "Biomedical": 40,
-    "Cancer Research": 17,
-    "Computer Science": 2,
-    "Neuroscience": 6
+    "Multidisciplinary": 76,
+    "Biomedical": 25,
+    "Cancer Research": 25,
+    "Materials Science": 12,
+    "Neuroscience": 10,
+    "Computer Science": 2
   },
-  "multiInstitutional": 24,
+  "multiInstitutional": 37,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,13 +44,10 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Post-Treatment Strategy for High-Capacity Naphtalenediimide (NDI) Polymer Cathodes in Li-Ion Batteries",
-    "date": "2025-09-19T10:00:00.000Z",
+    "title": "Seed dispersal by vertebrates promotes invasion risk in the southern African grassland biome",
+    "date": "2025-09-20T10:00:00.000Z",
     "institutions": [
-      "KAIST",
-      "POSTECH",
-      "SNU",
-      "UNIST"
+      "IBS"
     ]
   }
 }
