@@ -1,29 +1,29 @@
 {
-  "lastUpdate": "2025-09-21T07:35:09.451Z",
+  "lastUpdate": "2025-09-21T19:18:22.371Z",
   "totalItems": 150,
-  "totalArchived": 9565,
-  "newPapersAdded": 129,
+  "totalArchived": 9576,
+  "newPapersAdded": 11,
   "institutionBreakdown": {
-    "KAIST": 8,
-    "SNU": 25,
+    "KAIST": 7,
+    "SNU": 24,
     "Yonsei University": 0,
     "SKKU": 0,
     "POSTECH": 0,
-    "Korea University": 20,
+    "Korea University": 21,
     "IBS": 100,
     "UNIST": 1,
     "Hanyang University": 2,
     "KIST": 0,
-    "GIST": 4,
+    "GIST": 5,
     "Kyung Hee University": 3,
     "Pusan National University": 3
   },
   "subjectAreaBreakdown": {
-    "Biomedical": 32,
     "Multidisciplinary": 86,
-    "Cancer Research": 16,
-    "Materials Science": 7,
-    "Neuroscience": 8,
+    "Cancer Research": 15,
+    "Biomedical": 34,
+    "Materials Science": 8,
+    "Neuroscience": 6,
     "Computer Science": 1
   },
   "multiInstitutional": 15,
@@ -44,11 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Association Between Serum Bilirubin and Gingivitis in Kidney Transplant Patients",
-    "date": "2025-09-20T10:00:00.000Z",
+    "title": "GLP-1 and GIP agonists in diabetes and obesity and the rise of dyspepsia",
+    "date": "2025-09-21T10:00:00.000Z",
     "institutions": [
       "IBS",
-      "KAIST"
+      "Korea University"
     ]
   }
 }
