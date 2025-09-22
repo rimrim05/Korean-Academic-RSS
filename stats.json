@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-09-22T07:37:24.222Z",
+  "lastUpdate": "2025-09-22T19:19:53.374Z",
   "totalItems": 150,
-  "totalArchived": 9707,
-  "newPapersAdded": 131,
+  "totalArchived": 9925,
+  "newPapersAdded": 218,
   "institutionBreakdown": {
-    "KAIST": 5,
-    "SNU": 28,
+    "KAIST": 14,
+    "SNU": 60,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 4,
-    "Korea University": 23,
-    "IBS": 100,
+    "POSTECH": 0,
+    "Korea University": 62,
+    "IBS": 37,
     "UNIST": 0,
-    "Hanyang University": 2,
-    "KIST": 0,
-    "GIST": 3,
-    "Kyung Hee University": 3,
-    "Pusan National University": 6
+    "Hanyang University": 5,
+    "KIST": 1,
+    "GIST": 0,
+    "Kyung Hee University": 5,
+    "Pusan National University": 1
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 82,
-    "Biomedical": 36,
-    "Cancer Research": 14,
-    "Materials Science": 7,
-    "Neuroscience": 9,
-    "Computer Science": 2
+    "Multidisciplinary": 68,
+    "Materials Science": 8,
+    "Biomedical": 37,
+    "Cancer Research": 23,
+    "Computer Science": 5,
+    "Neuroscience": 9
   },
-  "multiInstitutional": 21,
+  "multiInstitutional": 30,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,8 +44,8 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Effects of G protein-coupled estrogen receptor on hydrogen sulfide production and cystathionine γ-lyase expression in human endothelial cells",
-    "date": "2025-09-21T10:00:00.000Z",
+    "title": "Expression profiling of flowering time pathway in the L-ascorbate peroxidase 9 (APX9) near-isogenic line derived from an interspecific cross between Korean Japonica rice (Oryza sativa L.) and Oryza rufipogon",
+    "date": "2025-09-22T10:00:00.000Z",
     "institutions": [
       "IBS",
       "KAIST"
