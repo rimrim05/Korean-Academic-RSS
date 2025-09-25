@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-09-24T19:20:35.020Z",
+  "lastUpdate": "2025-09-25T07:36:53.680Z",
   "totalItems": 150,
-  "totalArchived": 10334,
-  "newPapersAdded": 73,
+  "totalArchived": 10481,
+  "newPapersAdded": 147,
   "institutionBreakdown": {
-    "KAIST": 12,
-    "SNU": 97,
+    "KAIST": 13,
+    "SNU": 0,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 4,
-    "Korea University": 52,
-    "IBS": 0,
-    "UNIST": 2,
-    "Hanyang University": 5,
+    "POSTECH": 3,
+    "Korea University": 68,
+    "IBS": 74,
+    "UNIST": 0,
+    "Hanyang University": 1,
     "KIST": 0,
-    "GIST": 9,
-    "Kyung Hee University": 6,
-    "Pusan National University": 6
+    "GIST": 2,
+    "Kyung Hee University": 0,
+    "Pusan National University": 3
   },
   "subjectAreaBreakdown": {
-    "Cancer Research": 15,
-    "Materials Science": 18,
-    "Multidisciplinary": 63,
-    "Biomedical": 39,
-    "Computer Science": 11,
-    "Neuroscience": 4
+    "Multidisciplinary": 77,
+    "Cancer Research": 13,
+    "Computer Science": 6,
+    "Materials Science": 10,
+    "Biomedical": 33,
+    "Neuroscience": 11
   },
-  "multiInstitutional": 33,
+  "multiInstitutional": 13,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,10 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Automated Resectability Classification of Pancreatic Cancer CT Reports with Privacy-Preserving Open-Weight Large Language Models: A Multicenter Study",
+    "title": "Individual Differences in Policy Precision: Links to Suicidal Risk and Network Dynamics",
     "date": "2025-09-24T10:00:00.000Z",
     "institutions": [
-      "KAIST",
-      "SNU"
+      "KAIST"
     ]
   }
 }
