@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-09-25T07:36:53.680Z",
+  "lastUpdate": "2025-09-25T19:20:41.621Z",
   "totalItems": 150,
-  "totalArchived": 10481,
-  "newPapersAdded": 147,
+  "totalArchived": 10684,
+  "newPapersAdded": 203,
   "institutionBreakdown": {
-    "KAIST": 13,
-    "SNU": 0,
+    "KAIST": 7,
+    "SNU": 48,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 3,
-    "Korea University": 68,
-    "IBS": 74,
+    "POSTECH": 0,
+    "Korea University": 34,
+    "IBS": 82,
     "UNIST": 0,
-    "Hanyang University": 1,
-    "KIST": 0,
-    "GIST": 2,
+    "Hanyang University": 7,
+    "KIST": 1,
+    "GIST": 0,
     "Kyung Hee University": 0,
-    "Pusan National University": 3
+    "Pusan National University": 1
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 77,
-    "Cancer Research": 13,
-    "Computer Science": 6,
-    "Materials Science": 10,
-    "Biomedical": 33,
-    "Neuroscience": 11
+    "Materials Science": 12,
+    "Multidisciplinary": 65,
+    "Biomedical": 44,
+    "Cancer Research": 18,
+    "Computer Science": 5,
+    "Neuroscience": 6
   },
-  "multiInstitutional": 13,
+  "multiInstitutional": 25,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,9 +44,10 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Individual Differences in Policy Precision: Links to Suicidal Risk and Network Dynamics",
-    "date": "2025-09-24T10:00:00.000Z",
+    "title": "Novel synthesis of Al<sub>2</sub>O<sub>3</sub> short fibers/Ti-12Mo-6Zr composites for cranial reconstruction applications: spark plasma sintering, microstructure and nanomechanical properties",
+    "date": "2025-09-25T10:00:00.000Z",
     "institutions": [
+      "IBS",
       "KAIST"
     ]
   }
