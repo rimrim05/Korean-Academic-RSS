@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-09-26T07:37:06.895Z",
+  "lastUpdate": "2025-09-26T19:19:35.007Z",
   "totalItems": 150,
-  "totalArchived": 10870,
-  "newPapersAdded": 186,
+  "totalArchived": 11143,
+  "newPapersAdded": 273,
   "institutionBreakdown": {
-    "KAIST": 13,
-    "SNU": 95,
+    "KAIST": 21,
+    "SNU": 84,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 0,
-    "Korea University": 59,
-    "IBS": 16,
+    "POSTECH": 2,
+    "Korea University": 63,
+    "IBS": 7,
     "UNIST": 0,
-    "Hanyang University": 10,
-    "KIST": 0,
-    "GIST": 2,
-    "Kyung Hee University": 4,
-    "Pusan National University": 2
+    "Hanyang University": 6,
+    "KIST": 2,
+    "GIST": 4,
+    "Kyung Hee University": 5,
+    "Pusan National University": 0
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 78,
-    "Computer Science": 8,
-    "Biomedical": 33,
-    "Materials Science": 8,
-    "Cancer Research": 15,
-    "Neuroscience": 8
+    "Multidisciplinary": 85,
+    "Biomedical": 25,
+    "Materials Science": 15,
+    "Cancer Research": 16,
+    "Neuroscience": 8,
+    "Computer Science": 1
   },
-  "multiInstitutional": 43,
+  "multiInstitutional": 35,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,10 +44,13 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Integrating gene expression data via weighted multiple kernel ridge regression improved accuracy of genomic prediction",
+    "title": "Associations of oseltamivir with neuropsychiatric and behavioral adverse events: A systematic review and meta-analysis",
     "date": "2025-09-26T10:00:00.000Z",
     "institutions": [
-      "IBS"
+      "IBS",
+      "KAIST",
+      "Korea University",
+      "SNU"
     ]
   }
 }
