@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-09-27T07:35:16.091Z",
+  "lastUpdate": "2025-09-27T19:17:42.944Z",
   "totalItems": 150,
-  "totalArchived": 11205,
-  "newPapersAdded": 62,
+  "totalArchived": 11452,
+  "newPapersAdded": 247,
   "institutionBreakdown": {
-    "KAIST": 33,
+    "KAIST": 24,
     "SNU": 0,
-    "Yonsei University": 0,
+    "Yonsei University": 1,
     "SKKU": 0,
-    "POSTECH": 0,
-    "Korea University": 100,
-    "IBS": 0,
-    "UNIST": 7,
-    "Hanyang University": 14,
-    "KIST": 3,
-    "GIST": 4,
-    "Kyung Hee University": 3,
-    "Pusan National University": 4
+    "POSTECH": 3,
+    "Korea University": 89,
+    "IBS": 41,
+    "UNIST": 1,
+    "Hanyang University": 0,
+    "KIST": 1,
+    "GIST": 3,
+    "Kyung Hee University": 0,
+    "Pusan National University": 3
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 80,
-    "Biomedical": 29,
-    "Neuroscience": 6,
-    "Materials Science": 18,
-    "Cancer Research": 14,
-    "Computer Science": 3
+    "Materials Science": 15,
+    "Multidisciplinary": 79,
+    "Biomedical": 35,
+    "Computer Science": 4,
+    "Cancer Research": 11,
+    "Neuroscience": 6
   },
-  "multiInstitutional": 15,
+  "multiInstitutional": 13,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,10 +44,12 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Sustainable machining and optimization of machining parameters utilizing different dielectrics in EDM machining of Waspaloy",
-    "date": "2025-09-26T10:00:00.000Z",
+    "title": "Chemically Anchored PbS-2PACz CQDs Inks for Scalable HTL in Narrow-Bandgap and All-Perovskite Tandem Solar Cells",
+    "date": "2025-09-27T10:00:00.000Z",
     "institutions": [
-      "KAIST"
+      "IBS",
+      "KAIST",
+      "Korea University"
     ]
   }
 }
