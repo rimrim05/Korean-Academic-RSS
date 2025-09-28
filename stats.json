@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-09-28T07:34:36.969Z",
+  "lastUpdate": "2025-09-28T19:17:52.334Z",
   "totalItems": 150,
-  "totalArchived": 11651,
-  "newPapersAdded": 199,
+  "totalArchived": 11665,
+  "newPapersAdded": 14,
   "institutionBreakdown": {
     "KAIST": 0,
     "SNU": 100,
     "Yonsei University": 1,
     "SKKU": 0,
-    "POSTECH": 0,
-    "Korea University": 67,
-    "IBS": 3,
+    "POSTECH": 4,
+    "Korea University": 58,
+    "IBS": 10,
     "UNIST": 1,
-    "Hanyang University": 5,
+    "Hanyang University": 4,
     "KIST": 0,
-    "GIST": 0,
+    "GIST": 5,
     "Kyung Hee University": 11,
-    "Pusan National University": 5
+    "Pusan National University": 6
   },
   "subjectAreaBreakdown": {
-    "Cancer Research": 12,
-    "Materials Science": 13,
-    "Multidisciplinary": 78,
-    "Computer Science": 5,
-    "Biomedical": 35,
-    "Neuroscience": 7
+    "Biomedical": 34,
+    "Multidisciplinary": 76,
+    "Cancer Research": 13,
+    "Computer Science": 6,
+    "Neuroscience": 8,
+    "Materials Science": 13
   },
-  "multiInstitutional": 39,
+  "multiInstitutional": 41,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,10 +44,9 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Horizontal blocking of metastatic growth factors signaling by low molecular weight heparin derivative to control ovarian cancer progression",
-    "date": "2025-09-27T10:00:00.000Z",
+    "title": "A Case of Bilateral Temporal Bone Fractures Treated With Cochlear Implantation and Customized Vestibular Rehabilitation",
+    "date": "2025-09-28T10:00:00.000Z",
     "institutions": [
-      "Kyung Hee University",
       "SNU"
     ]
   }
