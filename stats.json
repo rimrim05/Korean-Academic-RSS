@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-09-30T07:37:27.114Z",
+  "lastUpdate": "2025-09-30T19:20:25.402Z",
   "totalItems": 150,
-  "totalArchived": 12073,
-  "newPapersAdded": 84,
+  "totalArchived": 12358,
+  "newPapersAdded": 285,
   "institutionBreakdown": {
-    "KAIST": 8,
-    "SNU": 48,
+    "KAIST": 18,
+    "SNU": 66,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 6,
-    "Korea University": 41,
-    "IBS": 61,
-    "UNIST": 0,
+    "POSTECH": 1,
+    "Korea University": 55,
+    "IBS": 31,
+    "UNIST": 2,
     "Hanyang University": 5,
-    "KIST": 0,
+    "KIST": 2,
     "GIST": 3,
-    "Kyung Hee University": 2,
+    "Kyung Hee University": 5,
     "Pusan National University": 2
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 82,
-    "Materials Science": 11,
-    "Cancer Research": 14,
-    "Biomedical": 32,
-    "Neuroscience": 9,
-    "Computer Science": 2
+    "Multidisciplinary": 70,
+    "Biomedical": 41,
+    "Materials Science": 8,
+    "Cancer Research": 22,
+    "Computer Science": 6,
+    "Neuroscience": 3
   },
-  "multiInstitutional": 22,
+  "multiInstitutional": 30,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,8 +44,8 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "FAR1-RELATED SEQUENCE 5 prevents photobleaching under short days by balancing chlorophyll biosynthetic gene expression",
-    "date": "2025-09-29T10:00:00.000Z",
+    "title": "Impact of trivalent Sb<sup>3+</sup>-ion doping on charge carrier recombination dynamics of cesium lead bromide perovskite quantum dots",
+    "date": "2025-09-30T10:00:00.000Z",
     "institutions": [
       "IBS",
       "KAIST"
