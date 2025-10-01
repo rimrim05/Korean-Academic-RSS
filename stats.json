@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-09-30T19:20:25.402Z",
+  "lastUpdate": "2025-10-01T07:37:30.982Z",
   "totalItems": 150,
-  "totalArchived": 12358,
-  "newPapersAdded": 285,
+  "totalArchived": 12511,
+  "newPapersAdded": 153,
   "institutionBreakdown": {
-    "KAIST": 18,
-    "SNU": 66,
+    "KAIST": 21,
+    "SNU": 89,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 1,
-    "Korea University": 55,
-    "IBS": 31,
-    "UNIST": 2,
-    "Hanyang University": 5,
+    "POSTECH": 4,
+    "Korea University": 51,
+    "IBS": 8,
+    "UNIST": 3,
+    "Hanyang University": 6,
     "KIST": 2,
     "GIST": 3,
     "Kyung Hee University": 5,
     "Pusan National University": 2
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 70,
-    "Biomedical": 41,
-    "Materials Science": 8,
-    "Cancer Research": 22,
-    "Computer Science": 6,
-    "Neuroscience": 3
+    "Computer Science": 4,
+    "Multidisciplinary": 79,
+    "Neuroscience": 3,
+    "Materials Science": 10,
+    "Biomedical": 37,
+    "Cancer Research": 17
   },
-  "multiInstitutional": 30,
+  "multiInstitutional": 35,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,10 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Impact of trivalent Sb<sup>3+</sup>-ion doping on charge carrier recombination dynamics of cesium lead bromide perovskite quantum dots",
-    "date": "2025-09-30T10:00:00.000Z",
+    "title": "Radiomics-enhanced modelling approach for predicting the need for ECMO in ARDS patients: a retrospective cohort study",
+    "date": "2025-10-01T10:00:00.000Z",
     "institutions": [
-      "IBS",
-      "KAIST"
+      "IBS"
     ]
   }
 }
