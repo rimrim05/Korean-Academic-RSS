@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-10-01T07:37:30.982Z",
+  "lastUpdate": "2025-10-01T19:20:09.383Z",
   "totalItems": 150,
-  "totalArchived": 12511,
-  "newPapersAdded": 153,
+  "totalArchived": 12719,
+  "newPapersAdded": 208,
   "institutionBreakdown": {
-    "KAIST": 21,
-    "SNU": 89,
+    "KAIST": 10,
+    "SNU": 67,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 4,
-    "Korea University": 51,
-    "IBS": 8,
-    "UNIST": 3,
-    "Hanyang University": 6,
-    "KIST": 2,
-    "GIST": 3,
-    "Kyung Hee University": 5,
-    "Pusan National University": 2
+    "POSTECH": 1,
+    "Korea University": 52,
+    "IBS": 48,
+    "UNIST": 2,
+    "Hanyang University": 3,
+    "KIST": 5,
+    "GIST": 1,
+    "Kyung Hee University": 3,
+    "Pusan National University": 1
   },
   "subjectAreaBreakdown": {
-    "Computer Science": 4,
-    "Multidisciplinary": 79,
-    "Neuroscience": 3,
-    "Materials Science": 10,
-    "Biomedical": 37,
-    "Cancer Research": 17
+    "Cancer Research": 23,
+    "Materials Science": 8,
+    "Multidisciplinary": 64,
+    "Biomedical": 42,
+    "Neuroscience": 4,
+    "Computer Science": 9
   },
-  "multiInstitutional": 35,
+  "multiInstitutional": 26,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,10 +44,14 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Radiomics-enhanced modelling approach for predicting the need for ECMO in ARDS patients: a retrospective cohort study",
+    "title": "Gemcitabine and Cisplatin Plus Polymeric Micellar Paclitaxel and Survival in Advanced Biliary Tract Cancer: A Randomized Clinical Trial",
     "date": "2025-10-01T10:00:00.000Z",
     "institutions": [
-      "IBS"
+      "Hanyang University",
+      "IBS",
+      "KAIST",
+      "Pusan National University",
+      "SNU"
     ]
   }
 }
