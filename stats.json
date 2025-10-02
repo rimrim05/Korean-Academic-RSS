@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-10-01T19:20:09.383Z",
+  "lastUpdate": "2025-10-02T07:35:46.430Z",
   "totalItems": 150,
-  "totalArchived": 12719,
-  "newPapersAdded": 208,
+  "totalArchived": 12905,
+  "newPapersAdded": 186,
   "institutionBreakdown": {
-    "KAIST": 10,
-    "SNU": 67,
+    "KAIST": 20,
+    "SNU": 100,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 1,
-    "Korea University": 52,
-    "IBS": 48,
-    "UNIST": 2,
-    "Hanyang University": 3,
-    "KIST": 5,
-    "GIST": 1,
-    "Kyung Hee University": 3,
+    "POSTECH": 6,
+    "Korea University": 51,
+    "IBS": 12,
+    "UNIST": 1,
+    "Hanyang University": 8,
+    "KIST": 6,
+    "GIST": 2,
+    "Kyung Hee University": 10,
     "Pusan National University": 1
   },
   "subjectAreaBreakdown": {
-    "Cancer Research": 23,
-    "Materials Science": 8,
-    "Multidisciplinary": 64,
-    "Biomedical": 42,
-    "Neuroscience": 4,
-    "Computer Science": 9
+    "Biomedical": 38,
+    "Multidisciplinary": 70,
+    "Cancer Research": 22,
+    "Materials Science": 11,
+    "Neuroscience": 3,
+    "Computer Science": 6
   },
-  "multiInstitutional": 26,
+  "multiInstitutional": 44,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,13 +44,12 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Gemcitabine and Cisplatin Plus Polymeric Micellar Paclitaxel and Survival in Advanced Biliary Tract Cancer: A Randomized Clinical Trial",
-    "date": "2025-10-01T10:00:00.000Z",
+    "title": "Bronchoalveolar lavage proteomics in exacerbation of bronchiectasis",
+    "date": "2025-10-02T10:00:00.000Z",
     "institutions": [
       "Hanyang University",
       "IBS",
       "KAIST",
-      "Pusan National University",
       "SNU"
     ]
   }
