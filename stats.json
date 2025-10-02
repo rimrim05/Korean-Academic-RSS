@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-10-02T07:35:46.430Z",
+  "lastUpdate": "2025-10-02T19:18:54.355Z",
   "totalItems": 150,
-  "totalArchived": 12905,
-  "newPapersAdded": 186,
+  "totalArchived": 13085,
+  "newPapersAdded": 180,
   "institutionBreakdown": {
-    "KAIST": 20,
-    "SNU": 100,
+    "KAIST": 9,
+    "SNU": 39,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 6,
-    "Korea University": 51,
-    "IBS": 12,
-    "UNIST": 1,
-    "Hanyang University": 8,
-    "KIST": 6,
-    "GIST": 2,
-    "Kyung Hee University": 10,
+    "POSTECH": 2,
+    "Korea University": 45,
+    "IBS": 76,
+    "UNIST": 0,
+    "Hanyang University": 2,
+    "KIST": 1,
+    "GIST": 1,
+    "Kyung Hee University": 0,
     "Pusan National University": 1
   },
   "subjectAreaBreakdown": {
-    "Biomedical": 38,
-    "Multidisciplinary": 70,
-    "Cancer Research": 22,
-    "Materials Science": 11,
-    "Neuroscience": 3,
-    "Computer Science": 6
+    "Multidisciplinary": 85,
+    "Neuroscience": 8,
+    "Materials Science": 8,
+    "Biomedical": 34,
+    "Cancer Research": 12,
+    "Computer Science": 3
   },
-  "multiInstitutional": 44,
+  "multiInstitutional": 20,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,13 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Bronchoalveolar lavage proteomics in exacerbation of bronchiectasis",
+    "title": "Assembly of a high-quality Polypterus senegalus diploid genome",
     "date": "2025-10-02T10:00:00.000Z",
     "institutions": [
-      "Hanyang University",
       "IBS",
-      "KAIST",
-      "SNU"
+      "KAIST"
     ]
   }
 }
