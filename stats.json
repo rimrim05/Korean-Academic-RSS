@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-10-03T07:35:52.950Z",
+  "lastUpdate": "2025-10-03T19:19:05.152Z",
   "totalItems": 150,
-  "totalArchived": 13247,
-  "newPapersAdded": 162,
+  "totalArchived": 13394,
+  "newPapersAdded": 147,
   "institutionBreakdown": {
-    "KAIST": 14,
-    "SNU": 72,
-    "Yonsei University": 0,
-    "SKKU": 0,
-    "POSTECH": 2,
-    "Korea University": 73,
-    "IBS": 11,
-    "UNIST": 1,
-    "Hanyang University": 2,
+    "KAIST": 5,
+    "SNU": 27,
+    "Yonsei University": 1,
+    "SKKU": 1,
+    "POSTECH": 0,
+    "Korea University": 19,
+    "IBS": 100,
+    "UNIST": 2,
+    "Hanyang University": 5,
     "KIST": 2,
     "GIST": 2,
-    "Kyung Hee University": 4,
+    "Kyung Hee University": 5,
     "Pusan National University": 1
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 82,
-    "Biomedical": 31,
+    "Multidisciplinary": 69,
+    "Biomedical": 38,
+    "Materials Science": 12,
     "Cancer Research": 21,
-    "Neuroscience": 4,
-    "Materials Science": 8,
-    "Computer Science": 4
+    "Neuroscience": 7,
+    "Computer Science": 3
   },
-  "multiInstitutional": 27,
+  "multiInstitutional": 14,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,10 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Schistosome species, parasite development, and co-infection combinations determine microbiome dynamics in the snail Biomphalaria glabrata",
+    "title": "Lithium Iodide Enables Bis-electrophilic Ring-Opening of Azabicyclo[1.1.0]butanes",
     "date": "2025-10-03T10:00:00.000Z",
     "institutions": [
-      "Korea University"
+      "IBS",
+      "KAIST"
     ]
   }
 }
