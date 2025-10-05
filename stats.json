@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-10-05T07:35:10.785Z",
+  "lastUpdate": "2025-10-05T19:17:56.363Z",
   "totalItems": 150,
-  "totalArchived": 13827,
-  "newPapersAdded": 115,
+  "totalArchived": 13831,
+  "newPapersAdded": 4,
   "institutionBreakdown": {
     "KAIST": 13,
-    "SNU": 60,
+    "SNU": 61,
     "Yonsei University": 0,
     "SKKU": 0,
     "POSTECH": 3,
-    "Korea University": 27,
-    "IBS": 72,
+    "Korea University": 28,
+    "IBS": 71,
     "UNIST": 0,
     "Hanyang University": 4,
-    "KIST": 2,
+    "KIST": 3,
     "GIST": 1,
     "Kyung Hee University": 1,
     "Pusan National University": 2
   },
   "subjectAreaBreakdown": {
+    "Multidisciplinary": 72,
+    "Cancer Research": 17,
+    "Materials Science": 4,
     "Biomedical": 47,
-    "Multidisciplinary": 74,
-    "Materials Science": 3,
-    "Cancer Research": 15,
     "Neuroscience": 9,
-    "Computer Science": 2
+    "Computer Science": 1
   },
-  "multiInstitutional": 25,
+  "multiInstitutional": 26,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Predicting early progression to atezolizumab-bevacizumab in hepatocellular carcinoma: a clinical and imaging-based scoring system",
-    "date": "2025-10-04T10:00:00.000Z",
+    "title": "Structural investigation of human U6 snRNA recognition by spliceosomal recycling factor SART3 RNA recognition motifs",
+    "date": "2025-10-05T10:00:00.000Z",
     "institutions": [
-      "IBS",
-      "KAIST",
+      "KIST",
+      "Korea University",
       "SNU"
     ]
   }
