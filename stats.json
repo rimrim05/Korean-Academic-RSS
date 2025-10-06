@@ -1,32 +1,31 @@
 {
-  "lastUpdate": "2025-10-05T19:17:56.363Z",
+  "lastUpdate": "2025-10-06T07:37:24.717Z",
   "totalItems": 150,
-  "totalArchived": 13831,
-  "newPapersAdded": 4,
+  "totalArchived": 13974,
+  "newPapersAdded": 143,
   "institutionBreakdown": {
-    "KAIST": 13,
-    "SNU": 61,
+    "KAIST": 15,
+    "SNU": 25,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 3,
-    "Korea University": 28,
-    "IBS": 71,
-    "UNIST": 0,
-    "Hanyang University": 4,
-    "KIST": 3,
-    "GIST": 1,
-    "Kyung Hee University": 1,
+    "POSTECH": 2,
+    "Korea University": 29,
+    "IBS": 100,
+    "UNIST": 1,
+    "Hanyang University": 2,
+    "KIST": 1,
+    "GIST": 5,
+    "Kyung Hee University": 0,
     "Pusan National University": 2
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 72,
-    "Cancer Research": 17,
-    "Materials Science": 4,
-    "Biomedical": 47,
-    "Neuroscience": 9,
-    "Computer Science": 1
+    "Multidisciplinary": 88,
+    "Cancer Research": 13,
+    "Materials Science": 11,
+    "Neuroscience": 6,
+    "Biomedical": 32
   },
-  "multiInstitutional": 26,
+  "multiInstitutional": 23,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,12 +43,12 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Structural investigation of human U6 snRNA recognition by spliceosomal recycling factor SART3 RNA recognition motifs",
+    "title": "Author Correction: Ret finger protein deficiency attenuates adipogenesis in male mice with high fat diet-induced obesity",
     "date": "2025-10-05T10:00:00.000Z",
     "institutions": [
-      "KIST",
-      "Korea University",
-      "SNU"
+      "GIST",
+      "IBS",
+      "KAIST"
     ]
   }
 }
