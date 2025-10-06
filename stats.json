@@ -1,31 +1,32 @@
 {
-  "lastUpdate": "2025-10-06T07:37:24.717Z",
+  "lastUpdate": "2025-10-06T19:20:14.892Z",
   "totalItems": 150,
-  "totalArchived": 13974,
-  "newPapersAdded": 143,
+  "totalArchived": 14202,
+  "newPapersAdded": 228,
   "institutionBreakdown": {
-    "KAIST": 15,
-    "SNU": 25,
+    "KAIST": 12,
+    "SNU": 63,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 2,
-    "Korea University": 29,
-    "IBS": 100,
-    "UNIST": 1,
-    "Hanyang University": 2,
-    "KIST": 1,
-    "GIST": 5,
-    "Kyung Hee University": 0,
-    "Pusan National University": 2
+    "POSTECH": 6,
+    "Korea University": 67,
+    "IBS": 29,
+    "UNIST": 0,
+    "Hanyang University": 4,
+    "KIST": 3,
+    "GIST": 0,
+    "Kyung Hee University": 3,
+    "Pusan National University": 1
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 88,
-    "Cancer Research": 13,
-    "Materials Science": 11,
-    "Neuroscience": 6,
-    "Biomedical": 32
+    "Biomedical": 27,
+    "Materials Science": 16,
+    "Multidisciplinary": 79,
+    "Cancer Research": 17,
+    "Neuroscience": 10,
+    "Computer Science": 1
   },
-  "multiInstitutional": 23,
+  "multiInstitutional": 33,
   "institutions": [
     "KAIST",
     "SNU",
@@ -43,12 +44,12 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Author Correction: Ret finger protein deficiency attenuates adipogenesis in male mice with high fat diet-induced obesity",
-    "date": "2025-10-05T10:00:00.000Z",
+    "title": "Assessment of Vertical Magnification Ratios in Digital Panoramic Radiography Using Phantoms: Evaluation of DICOM Metadata and Calibration Consistency",
+    "date": "2025-10-06T10:00:00.000Z",
     "institutions": [
-      "GIST",
       "IBS",
-      "KAIST"
+      "KAIST",
+      "SNU"
     ]
   }
 }
