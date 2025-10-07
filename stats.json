@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-10-06T19:20:14.892Z",
+  "lastUpdate": "2025-10-07T07:36:03.444Z",
   "totalItems": 150,
-  "totalArchived": 14202,
-  "newPapersAdded": 228,
+  "totalArchived": 14354,
+  "newPapersAdded": 152,
   "institutionBreakdown": {
-    "KAIST": 12,
-    "SNU": 63,
+    "KAIST": 14,
+    "SNU": 87,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 6,
-    "Korea University": 67,
-    "IBS": 29,
+    "POSTECH": 7,
+    "Korea University": 59,
+    "IBS": 11,
     "UNIST": 0,
-    "Hanyang University": 4,
+    "Hanyang University": 5,
     "KIST": 3,
-    "GIST": 0,
-    "Kyung Hee University": 3,
-    "Pusan National University": 1
+    "GIST": 1,
+    "Kyung Hee University": 4,
+    "Pusan National University": 2
   },
   "subjectAreaBreakdown": {
+    "Multidisciplinary": 77,
+    "Cancer Research": 21,
     "Biomedical": 27,
-    "Materials Science": 16,
-    "Multidisciplinary": 79,
-    "Cancer Research": 17,
     "Neuroscience": 10,
-    "Computer Science": 1
+    "Materials Science": 13,
+    "Computer Science": 2
   },
-  "multiInstitutional": 33,
+  "multiInstitutional": 38,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,12 +44,10 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Assessment of Vertical Magnification Ratios in Digital Panoramic Radiography Using Phantoms: Evaluation of DICOM Metadata and Calibration Consistency",
-    "date": "2025-10-06T10:00:00.000Z",
+    "title": "\"We knew it was coming: we didn't act\" perspectives from people who use drugs and substance use workforce on the impact of delays in implementation of the supervised injection facility and drug checking interventions",
+    "date": "2025-10-07T10:00:00.000Z",
     "institutions": [
-      "IBS",
-      "KAIST",
-      "SNU"
+      "IBS"
     ]
   }
 }
