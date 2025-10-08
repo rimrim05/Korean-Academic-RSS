@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-10-08T07:36:53.870Z",
+  "lastUpdate": "2025-10-08T19:19:53.618Z",
   "totalItems": 150,
-  "totalArchived": 14639,
-  "newPapersAdded": 146,
+  "totalArchived": 14768,
+  "newPapersAdded": 129,
   "institutionBreakdown": {
-    "KAIST": 7,
-    "SNU": 38,
+    "KAIST": 12,
+    "SNU": 36,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 4,
-    "Korea University": 53,
-    "IBS": 63,
-    "UNIST": 2,
+    "POSTECH": 1,
+    "Korea University": 13,
+    "IBS": 100,
+    "UNIST": 0,
     "Hanyang University": 2,
     "KIST": 0,
-    "GIST": 1,
-    "Kyung Hee University": 3,
+    "GIST": 2,
+    "Kyung Hee University": 1,
     "Pusan National University": 1
   },
   "subjectAreaBreakdown": {
-    "Neuroscience": 6,
-    "Cancer Research": 23,
-    "Multidisciplinary": 77,
-    "Biomedical": 35,
-    "Materials Science": 5,
-    "Computer Science": 4
+    "Biomedical": 41,
+    "Multidisciplinary": 75,
+    "Computer Science": 5,
+    "Cancer Research": 17,
+    "Neuroscience": 4,
+    "Materials Science": 8
   },
-  "multiInstitutional": 24,
+  "multiInstitutional": 16,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,10 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Perceptual metacognition and self-esteem: the role of feedback valence in local and global monitoring bias",
+    "title": "AAPM CT metal artifact reduction grand challenge",
     "date": "2025-10-08T10:00:00.000Z",
     "institutions": [
-      "IBS"
+      "IBS",
+      "KAIST"
     ]
   }
 }
