@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-10-08T19:19:53.618Z",
+  "lastUpdate": "2025-10-09T07:36:28.973Z",
   "totalItems": 150,
-  "totalArchived": 14768,
-  "newPapersAdded": 129,
+  "totalArchived": 14970,
+  "newPapersAdded": 202,
   "institutionBreakdown": {
-    "KAIST": 12,
-    "SNU": 36,
+    "KAIST": 15,
+    "SNU": 71,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 1,
-    "Korea University": 13,
-    "IBS": 100,
-    "UNIST": 0,
-    "Hanyang University": 2,
-    "KIST": 0,
-    "GIST": 2,
-    "Kyung Hee University": 1,
-    "Pusan National University": 1
+    "POSTECH": 0,
+    "Korea University": 67,
+    "IBS": 25,
+    "UNIST": 1,
+    "Hanyang University": 6,
+    "KIST": 2,
+    "GIST": 4,
+    "Kyung Hee University": 6,
+    "Pusan National University": 3
   },
   "subjectAreaBreakdown": {
-    "Biomedical": 41,
-    "Multidisciplinary": 75,
-    "Computer Science": 5,
-    "Cancer Research": 17,
-    "Neuroscience": 4,
-    "Materials Science": 8
+    "Multidisciplinary": 70,
+    "Biomedical": 34,
+    "Computer Science": 7,
+    "Cancer Research": 23,
+    "Materials Science": 11,
+    "Neuroscience": 5
   },
-  "multiInstitutional": 16,
+  "multiInstitutional": 37,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,10 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "AAPM CT metal artifact reduction grand challenge",
-    "date": "2025-10-08T10:00:00.000Z",
+    "title": "Regional disparities and sociodemographic determinants of food insecurity in Somalia: a secondary cross-sectional analysis of a National survey",
+    "date": "2025-10-09T10:00:00.000Z",
     "institutions": [
-      "IBS",
-      "KAIST"
+      "SNU"
     ]
   }
 }
