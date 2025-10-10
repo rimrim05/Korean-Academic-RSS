@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-10-09T19:20:56.101Z",
+  "lastUpdate": "2025-10-10T07:36:11.740Z",
   "totalItems": 150,
-  "totalArchived": 15147,
-  "newPapersAdded": 177,
+  "totalArchived": 15326,
+  "newPapersAdded": 179,
   "institutionBreakdown": {
-    "KAIST": 4,
-    "SNU": 38,
+    "KAIST": 9,
+    "SNU": 78,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 2,
-    "Korea University": 45,
-    "IBS": 74,
+    "POSTECH": 3,
+    "Korea University": 77,
+    "IBS": 10,
     "UNIST": 0,
-    "Hanyang University": 1,
-    "KIST": 0,
-    "GIST": 0,
-    "Kyung Hee University": 2,
-    "Pusan National University": 1
+    "Hanyang University": 4,
+    "KIST": 1,
+    "GIST": 1,
+    "Kyung Hee University": 4,
+    "Pusan National University": 2
   },
   "subjectAreaBreakdown": {
-    "Biomedical": 41,
-    "Materials Science": 12,
+    "Biomedical": 39,
+    "Multidisciplinary": 79,
+    "Materials Science": 5,
     "Computer Science": 6,
-    "Multidisciplinary": 66,
-    "Neuroscience": 5,
-    "Cancer Research": 20
+    "Cancer Research": 14,
+    "Neuroscience": 7
   },
-  "multiInstitutional": 16,
+  "multiInstitutional": 33,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Optimizing Flatfoot Management with foot orthoses: A Systemic Review and Meta-Analysis",
-    "date": "2025-10-09T10:00:00.000Z",
+    "title": "ADSC-enriched adipose extract alleviates cartilage fibrosis in temporomandibular joint osteoarthritis by inhibiting chondrocyte senescence",
+    "date": "2025-10-10T10:00:00.000Z",
     "institutions": [
       "IBS",
-      "KAIST"
+      "Korea University"
     ]
   }
 }
