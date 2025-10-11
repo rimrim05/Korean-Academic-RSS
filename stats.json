@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-10-10T19:19:59.189Z",
+  "lastUpdate": "2025-10-11T07:35:05.919Z",
   "totalItems": 150,
-  "totalArchived": 15458,
-  "newPapersAdded": 132,
+  "totalArchived": 15655,
+  "newPapersAdded": 197,
   "institutionBreakdown": {
-    "KAIST": 15,
-    "SNU": 32,
+    "KAIST": 13,
+    "SNU": 66,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 0,
-    "Korea University": 23,
-    "IBS": 100,
-    "UNIST": 0,
-    "Hanyang University": 3,
-    "KIST": 2,
-    "GIST": 1,
-    "Kyung Hee University": 4,
-    "Pusan National University": 3
+    "POSTECH": 3,
+    "Korea University": 82,
+    "IBS": 19,
+    "UNIST": 3,
+    "Hanyang University": 7,
+    "KIST": 1,
+    "GIST": 6,
+    "Kyung Hee University": 6,
+    "Pusan National University": 1
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 91,
-    "Biomedical": 35,
-    "Materials Science": 7,
-    "Cancer Research": 7,
-    "Neuroscience": 7,
-    "Computer Science": 3
+    "Multidisciplinary": 82,
+    "Materials Science": 8,
+    "Biomedical": 30,
+    "Cancer Research": 18,
+    "Computer Science": 5,
+    "Neuroscience": 7
   },
-  "multiInstitutional": 21,
+  "multiInstitutional": 42,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,10 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Pushbutton-activated microfluidic cell-free biosensor for multiplexed pathogen detection",
-    "date": "2025-10-10T10:00:00.000Z",
+    "title": "De novo transcriptome assembly and gene expression analysis of Cnidium officinale under high-temperature conditions",
+    "date": "2025-10-11T10:00:00.000Z",
     "institutions": [
-      "IBS",
-      "KAIST"
+      "SNU"
     ]
   }
 }
