@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-10-11T07:35:05.919Z",
+  "lastUpdate": "2025-10-11T19:17:04.642Z",
   "totalItems": 150,
-  "totalArchived": 15655,
-  "newPapersAdded": 197,
+  "totalArchived": 15789,
+  "newPapersAdded": 134,
   "institutionBreakdown": {
-    "KAIST": 13,
-    "SNU": 66,
+    "KAIST": 15,
+    "SNU": 22,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 3,
-    "Korea University": 82,
-    "IBS": 19,
-    "UNIST": 3,
-    "Hanyang University": 7,
-    "KIST": 1,
-    "GIST": 6,
-    "Kyung Hee University": 6,
-    "Pusan National University": 1
+    "POSTECH": 1,
+    "Korea University": 23,
+    "IBS": 100,
+    "UNIST": 0,
+    "Hanyang University": 0,
+    "KIST": 0,
+    "GIST": 4,
+    "Kyung Hee University": 4,
+    "Pusan National University": 4
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 82,
-    "Materials Science": 8,
-    "Biomedical": 30,
-    "Cancer Research": 18,
-    "Computer Science": 5,
-    "Neuroscience": 7
+    "Multidisciplinary": 76,
+    "Biomedical": 36,
+    "Cancer Research": 17,
+    "Materials Science": 9,
+    "Neuroscience": 9,
+    "Computer Science": 3
   },
-  "multiInstitutional": 42,
+  "multiInstitutional": 14,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,10 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "De novo transcriptome assembly and gene expression analysis of Cnidium officinale under high-temperature conditions",
+    "title": "Correction: Four novel species of the genus Aquimarina isolated from marine sponges: Aquimarina callyspongiae sp. nov., Aquimarina mycalae sp. nov., Aquimarina discodermiae sp. nov., and Aquimarina penaris sp. nov",
     "date": "2025-10-11T10:00:00.000Z",
     "institutions": [
-      "SNU"
+      "IBS",
+      "KAIST"
     ]
   }
 }
