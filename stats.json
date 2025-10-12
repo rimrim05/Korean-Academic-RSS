@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-10-11T19:17:04.642Z",
+  "lastUpdate": "2025-10-12T07:35:10.303Z",
   "totalItems": 150,
-  "totalArchived": 15789,
-  "newPapersAdded": 134,
+  "totalArchived": 15921,
+  "newPapersAdded": 132,
   "institutionBreakdown": {
-    "KAIST": 15,
-    "SNU": 22,
+    "KAIST": 7,
+    "SNU": 34,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 1,
-    "Korea University": 23,
-    "IBS": 100,
+    "POSTECH": 2,
+    "Korea University": 36,
+    "IBS": 84,
     "UNIST": 0,
-    "Hanyang University": 0,
-    "KIST": 0,
-    "GIST": 4,
+    "Hanyang University": 1,
+    "KIST": 1,
+    "GIST": 3,
     "Kyung Hee University": 4,
-    "Pusan National University": 4
+    "Pusan National University": 2
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 76,
-    "Biomedical": 36,
-    "Cancer Research": 17,
-    "Materials Science": 9,
-    "Neuroscience": 9,
-    "Computer Science": 3
+    "Biomedical": 38,
+    "Multidisciplinary": 77,
+    "Neuroscience": 12,
+    "Materials Science": 5,
+    "Cancer Research": 16,
+    "Computer Science": 2
   },
-  "multiInstitutional": 14,
+  "multiInstitutional": 16,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,12 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Correction: Four novel species of the genus Aquimarina isolated from marine sponges: Aquimarina callyspongiae sp. nov., Aquimarina mycalae sp. nov., Aquimarina discodermiae sp. nov., and Aquimarina penaris sp. nov",
+    "title": "Genotype analysis of severe fever with thrombocytopenia syndrome viruses in Gyeonggi Province of South Korea from 2017 to 2022",
     "date": "2025-10-11T10:00:00.000Z",
     "institutions": [
       "IBS",
-      "KAIST"
+      "KAIST",
+      "SNU"
     ]
   }
 }
