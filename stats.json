@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-10-12T07:35:10.303Z",
+  "lastUpdate": "2025-10-12T19:18:14.283Z",
   "totalItems": 150,
-  "totalArchived": 15921,
-  "newPapersAdded": 132,
+  "totalArchived": 15931,
+  "newPapersAdded": 10,
   "institutionBreakdown": {
     "KAIST": 7,
-    "SNU": 34,
+    "SNU": 36,
     "Yonsei University": 0,
     "SKKU": 0,
     "POSTECH": 2,
-    "Korea University": 36,
-    "IBS": 84,
+    "Korea University": 40,
+    "IBS": 79,
     "UNIST": 0,
     "Hanyang University": 1,
-    "KIST": 1,
+    "KIST": 2,
     "GIST": 3,
     "Kyung Hee University": 4,
     "Pusan National University": 2
   },
   "subjectAreaBreakdown": {
-    "Biomedical": 38,
-    "Multidisciplinary": 77,
-    "Neuroscience": 12,
-    "Materials Science": 5,
+    "Biomedical": 40,
+    "Multidisciplinary": 75,
     "Cancer Research": 16,
+    "Neuroscience": 13,
+    "Materials Science": 4,
     "Computer Science": 2
   },
-  "multiInstitutional": 16,
+  "multiInstitutional": 17,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,9 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Genotype analysis of severe fever with thrombocytopenia syndrome viruses in Gyeonggi Province of South Korea from 2017 to 2022",
-    "date": "2025-10-11T10:00:00.000Z",
+    "title": "Clinical Pharmacokinetic Assessment of Lazertinib in Healthy Adult Participants: Effects of GSTM1 Genotype",
+    "date": "2025-10-12T10:00:00.000Z",
     "institutions": [
-      "IBS",
-      "KAIST",
       "SNU"
     ]
   }
