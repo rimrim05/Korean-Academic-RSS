@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-10-13T07:37:50.332Z",
+  "lastUpdate": "2025-10-13T19:19:25.177Z",
   "totalItems": 150,
-  "totalArchived": 16076,
-  "newPapersAdded": 145,
+  "totalArchived": 16297,
+  "newPapersAdded": 221,
   "institutionBreakdown": {
-    "KAIST": 6,
-    "SNU": 26,
+    "KAIST": 14,
+    "SNU": 65,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 1,
-    "Korea University": 33,
-    "IBS": 100,
-    "UNIST": 0,
-    "Hanyang University": 1,
-    "KIST": 2,
-    "GIST": 1,
+    "POSTECH": 3,
+    "Korea University": 51,
+    "IBS": 40,
+    "UNIST": 1,
+    "Hanyang University": 8,
+    "KIST": 0,
+    "GIST": 0,
     "Kyung Hee University": 3,
-    "Pusan National University": 0
+    "Pusan National University": 2
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 73,
-    "Biomedical": 37,
-    "Neuroscience": 10,
+    "Multidisciplinary": 88,
+    "Biomedical": 27,
+    "Neuroscience": 11,
     "Materials Science": 8,
-    "Cancer Research": 19,
-    "Computer Science": 3
+    "Computer Science": 4,
+    "Cancer Research": 12
   },
-  "multiInstitutional": 16,
+  "multiInstitutional": 29,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,10 +44,9 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Corrigendum to: Film-forming system of optimized tacrolimus-loaded nanostructured lipid carriers for effective topical treatment of atopic dermatitis (European Journal of Pharmaceutics and Biopharmaceutics, volume 216, article number 114871)",
-    "date": "2025-10-12T10:00:00.000Z",
+    "title": "Effects of repeated balneotherapy on skin hydration and psychophysiological stress: findings from a 16-week korean spa trial",
+    "date": "2025-10-13T10:00:00.000Z",
     "institutions": [
-      "GIST",
       "IBS",
       "KAIST"
     ]
