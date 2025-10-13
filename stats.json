@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-10-12T19:18:14.283Z",
+  "lastUpdate": "2025-10-13T07:37:50.332Z",
   "totalItems": 150,
-  "totalArchived": 15931,
-  "newPapersAdded": 10,
+  "totalArchived": 16076,
+  "newPapersAdded": 145,
   "institutionBreakdown": {
-    "KAIST": 7,
-    "SNU": 36,
+    "KAIST": 6,
+    "SNU": 26,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 2,
-    "Korea University": 40,
-    "IBS": 79,
+    "POSTECH": 1,
+    "Korea University": 33,
+    "IBS": 100,
     "UNIST": 0,
     "Hanyang University": 1,
     "KIST": 2,
-    "GIST": 3,
-    "Kyung Hee University": 4,
-    "Pusan National University": 2
+    "GIST": 1,
+    "Kyung Hee University": 3,
+    "Pusan National University": 0
   },
   "subjectAreaBreakdown": {
-    "Biomedical": 40,
-    "Multidisciplinary": 75,
-    "Cancer Research": 16,
-    "Neuroscience": 13,
-    "Materials Science": 4,
-    "Computer Science": 2
+    "Multidisciplinary": 73,
+    "Biomedical": 37,
+    "Neuroscience": 10,
+    "Materials Science": 8,
+    "Cancer Research": 19,
+    "Computer Science": 3
   },
-  "multiInstitutional": 17,
+  "multiInstitutional": 16,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,10 +44,12 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Clinical Pharmacokinetic Assessment of Lazertinib in Healthy Adult Participants: Effects of GSTM1 Genotype",
+    "title": "Corrigendum to: Film-forming system of optimized tacrolimus-loaded nanostructured lipid carriers for effective topical treatment of atopic dermatitis (European Journal of Pharmaceutics and Biopharmaceutics, volume 216, article number 114871)",
     "date": "2025-10-12T10:00:00.000Z",
     "institutions": [
-      "SNU"
+      "GIST",
+      "IBS",
+      "KAIST"
     ]
   }
 }
