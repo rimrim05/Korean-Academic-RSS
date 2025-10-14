@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-10-13T19:19:25.177Z",
+  "lastUpdate": "2025-10-14T07:36:57.430Z",
   "totalItems": 150,
-  "totalArchived": 16297,
-  "newPapersAdded": 221,
+  "totalArchived": 16428,
+  "newPapersAdded": 131,
   "institutionBreakdown": {
-    "KAIST": 14,
-    "SNU": 65,
+    "KAIST": 18,
+    "SNU": 84,
     "Yonsei University": 0,
     "SKKU": 0,
     "POSTECH": 3,
-    "Korea University": 51,
-    "IBS": 40,
+    "Korea University": 69,
+    "IBS": 10,
     "UNIST": 1,
     "Hanyang University": 8,
-    "KIST": 0,
+    "KIST": 1,
     "GIST": 0,
-    "Kyung Hee University": 3,
-    "Pusan National University": 2
+    "Kyung Hee University": 7,
+    "Pusan National University": 3
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 88,
-    "Biomedical": 27,
-    "Neuroscience": 11,
-    "Materials Science": 8,
-    "Computer Science": 4,
-    "Cancer Research": 12
+    "Cancer Research": 14,
+    "Biomedical": 33,
+    "Multidisciplinary": 84,
+    "Computer Science": 5,
+    "Neuroscience": 8,
+    "Materials Science": 6
   },
-  "multiInstitutional": 29,
+  "multiInstitutional": 39,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,12 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Effects of repeated balneotherapy on skin hydration and psychophysiological stress: findings from a 16-week korean spa trial",
-    "date": "2025-10-13T10:00:00.000Z",
+    "title": "In-vitro and in-silico study to assess anti breast cancer potential of N-tosyl-indole based hydrazones",
+    "date": "2025-10-14T10:00:00.000Z",
     "institutions": [
       "IBS",
-      "KAIST"
+      "Korea University",
+      "SNU"
     ]
   }
 }
