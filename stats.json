@@ -1,32 +1,25 @@
 {
-  "lastUpdate": "2025-10-14T07:36:57.430Z",
-  "totalItems": 150,
+  "lastUpdate": "2025-10-14T19:20:17.508Z",
+  "totalItems": 0,
   "totalArchived": 16428,
-  "newPapersAdded": 131,
+  "newPapersAdded": 0,
   "institutionBreakdown": {
-    "KAIST": 18,
-    "SNU": 84,
+    "KAIST": 0,
+    "SNU": 0,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 3,
-    "Korea University": 69,
-    "IBS": 10,
-    "UNIST": 1,
-    "Hanyang University": 8,
-    "KIST": 1,
+    "POSTECH": 0,
+    "Korea University": 0,
+    "IBS": 0,
+    "UNIST": 0,
+    "Hanyang University": 0,
+    "KIST": 0,
     "GIST": 0,
-    "Kyung Hee University": 7,
-    "Pusan National University": 3
+    "Kyung Hee University": 0,
+    "Pusan National University": 0
   },
-  "subjectAreaBreakdown": {
-    "Cancer Research": 14,
-    "Biomedical": 33,
-    "Multidisciplinary": 84,
-    "Computer Science": 5,
-    "Neuroscience": 8,
-    "Materials Science": 6
-  },
-  "multiInstitutional": 39,
+  "subjectAreaBreakdown": {},
+  "multiInstitutional": 0,
   "institutions": [
     "KAIST",
     "SNU",
@@ -43,13 +36,5 @@
     "Pusan National University"
   ],
   "mlClassificationEnabled": false,
-  "latestItem": {
-    "title": "In-vitro and in-silico study to assess anti breast cancer potential of N-tosyl-indole based hydrazones",
-    "date": "2025-10-14T10:00:00.000Z",
-    "institutions": [
-      "IBS",
-      "Korea University",
-      "SNU"
-    ]
-  }
+  "latestItem": null
 }
