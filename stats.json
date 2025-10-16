@@ -1,8 +1,8 @@
 {
-  "lastUpdate": "2025-10-15T19:20:23.527Z",
-  "totalItems": 0,
-  "totalArchived": 16428,
-  "newPapersAdded": 0,
+  "lastUpdate": "2025-10-16T07:38:16.350Z",
+  "totalItems": 150,
+  "totalArchived": 16464,
+  "newPapersAdded": 36,
   "institutionBreakdown": {
     "KAIST": 0,
     "SNU": 0,
@@ -12,14 +12,21 @@
     "Korea University": 0,
     "IBS": 0,
     "UNIST": 0,
-    "Hanyang University": 0,
+    "Hanyang University": 52,
     "KIST": 0,
     "GIST": 0,
-    "Kyung Hee University": 0,
-    "Pusan National University": 0
+    "Kyung Hee University": 62,
+    "Pusan National University": 45
   },
-  "subjectAreaBreakdown": {},
-  "multiInstitutional": 0,
+  "subjectAreaBreakdown": {
+    "Multidisciplinary": 69,
+    "Biomedical": 33,
+    "Computer Science": 8,
+    "Cancer Research": 17,
+    "Neuroscience": 9,
+    "Materials Science": 14
+  },
+  "multiInstitutional": 9,
   "institutions": [
     "KAIST",
     "SNU",
@@ -36,5 +43,11 @@
     "Pusan National University"
   ],
   "mlClassificationEnabled": false,
-  "latestItem": null
+  "latestItem": {
+    "title": "The Effects of Eye Rubbing on Corneal Topography and Biomechanics in Children With Allergic Conjunctivitis",
+    "date": "2025-10-15T10:00:00.000Z",
+    "institutions": [
+      "Hanyang University"
+    ]
+  }
 }
