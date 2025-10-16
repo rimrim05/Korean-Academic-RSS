@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-10-16T07:38:16.350Z",
+  "lastUpdate": "2025-10-16T19:20:00.292Z",
   "totalItems": 150,
-  "totalArchived": 16464,
-  "newPapersAdded": 36,
+  "totalArchived": 16725,
+  "newPapersAdded": 261,
   "institutionBreakdown": {
-    "KAIST": 0,
-    "SNU": 0,
+    "KAIST": 19,
+    "SNU": 93,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 0,
+    "POSTECH": 3,
     "Korea University": 0,
-    "IBS": 0,
+    "IBS": 46,
     "UNIST": 0,
-    "Hanyang University": 52,
+    "Hanyang University": 0,
     "KIST": 0,
     "GIST": 0,
-    "Kyung Hee University": 62,
-    "Pusan National University": 45
+    "Kyung Hee University": 8,
+    "Pusan National University": 2
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 69,
-    "Biomedical": 33,
-    "Computer Science": 8,
-    "Cancer Research": 17,
-    "Neuroscience": 9,
-    "Materials Science": 14
+    "Biomedical": 35,
+    "Multidisciplinary": 72,
+    "Materials Science": 9,
+    "Cancer Research": 21,
+    "Computer Science": 6,
+    "Neuroscience": 7
   },
-  "multiInstitutional": 9,
+  "multiInstitutional": 19,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,10 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "The Effects of Eye Rubbing on Corneal Topography and Biomechanics in Children With Allergic Conjunctivitis",
-    "date": "2025-10-15T10:00:00.000Z",
+    "title": "Cytogenetic risk-associated outcomes of antithymocyte globulin use in HLA-matched sibling transplantation for acute myeloid leukemia",
+    "date": "2025-10-16T10:00:00.000Z",
     "institutions": [
-      "Hanyang University"
+      "IBS",
+      "KAIST"
     ]
   }
 }
