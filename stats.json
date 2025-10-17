@@ -1,25 +1,32 @@
 {
-  "lastUpdate": "2025-10-17T07:36:54.915Z",
-  "totalItems": 0,
-  "totalArchived": 16725,
-  "newPapersAdded": 0,
+  "lastUpdate": "2025-10-17T19:20:25.900Z",
+  "totalItems": 150,
+  "totalArchived": 17034,
+  "newPapersAdded": 309,
   "institutionBreakdown": {
-    "KAIST": 0,
-    "SNU": 0,
+    "KAIST": 7,
+    "SNU": 43,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 0,
-    "Korea University": 0,
-    "IBS": 0,
+    "POSTECH": 1,
+    "Korea University": 28,
+    "IBS": 83,
     "UNIST": 0,
-    "Hanyang University": 0,
-    "KIST": 0,
+    "Hanyang University": 1,
+    "KIST": 1,
     "GIST": 0,
-    "Kyung Hee University": 0,
-    "Pusan National University": 0
+    "Kyung Hee University": 5,
+    "Pusan National University": 1
   },
-  "subjectAreaBreakdown": {},
-  "multiInstitutional": 0,
+  "subjectAreaBreakdown": {
+    "Multidisciplinary": 75,
+    "Neuroscience": 6,
+    "Cancer Research": 20,
+    "Biomedical": 36,
+    "Computer Science": 5,
+    "Materials Science": 8
+  },
+  "multiInstitutional": 18,
   "institutions": [
     "KAIST",
     "SNU",
@@ -36,5 +43,12 @@
     "Pusan National University"
   ],
   "mlClassificationEnabled": false,
-  "latestItem": null
+  "latestItem": {
+    "title": "Pushing the Limits of High-Resolution Imaging in Liquid: The Rise of Graphene Liquid Cells in Electron Microscopy",
+    "date": "2025-10-17T10:00:00.000Z",
+    "institutions": [
+      "IBS",
+      "KAIST"
+    ]
+  }
 }
