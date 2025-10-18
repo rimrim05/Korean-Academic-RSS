@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-10-18T07:36:19.985Z",
+  "lastUpdate": "2025-10-18T19:18:55.542Z",
   "totalItems": 150,
-  "totalArchived": 17093,
-  "newPapersAdded": 59,
+  "totalArchived": 17231,
+  "newPapersAdded": 138,
   "institutionBreakdown": {
-    "KAIST": 38,
-    "SNU": 0,
+    "KAIST": 16,
+    "SNU": 55,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 8,
-    "Korea University": 99,
-    "IBS": 0,
-    "UNIST": 0,
-    "Hanyang University": 0,
-    "KIST": 0,
-    "GIST": 0,
-    "Kyung Hee University": 0,
-    "Pusan National University": 8
+    "POSTECH": 0,
+    "Korea University": 23,
+    "IBS": 76,
+    "UNIST": 1,
+    "Hanyang University": 4,
+    "KIST": 1,
+    "GIST": 2,
+    "Kyung Hee University": 3,
+    "Pusan National University": 2
   },
   "subjectAreaBreakdown": {
-    "Biomedical": 30,
-    "Cancer Research": 15,
-    "Multidisciplinary": 86,
-    "Materials Science": 10,
-    "Neuroscience": 6,
+    "Materials Science": 9,
+    "Multidisciplinary": 83,
+    "Cancer Research": 14,
+    "Biomedical": 32,
+    "Neuroscience": 9,
     "Computer Science": 3
   },
-  "multiInstitutional": 3,
+  "multiInstitutional": 24,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,10 +44,16 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Efficacy and safety of rituximab versus intravenous cyclophosphamide for systemic sclerosis-associated interstitial lung disease: a retrospective cohort study",
+    "title": "Intrinsically Disordered Protein-Inspired Nanovector-Based Coacervates for the Direct Cytosolic Transport of Biomacromolecules",
     "date": "2025-10-18T10:00:00.000Z",
     "institutions": [
-      "Korea University"
+      "Hanyang University",
+      "IBS",
+      "KAIST",
+      "KIST",
+      "Korea University",
+      "SNU",
+      "UNIST"
     ]
   }
 }
