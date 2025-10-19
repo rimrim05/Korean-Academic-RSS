@@ -1,32 +1,25 @@
 {
-  "lastUpdate": "2025-10-18T19:18:55.542Z",
-  "totalItems": 150,
+  "lastUpdate": "2025-10-19T07:34:55.027Z",
+  "totalItems": 0,
   "totalArchived": 17231,
-  "newPapersAdded": 138,
+  "newPapersAdded": 0,
   "institutionBreakdown": {
-    "KAIST": 16,
-    "SNU": 55,
+    "KAIST": 0,
+    "SNU": 0,
     "Yonsei University": 0,
     "SKKU": 0,
     "POSTECH": 0,
-    "Korea University": 23,
-    "IBS": 76,
-    "UNIST": 1,
-    "Hanyang University": 4,
-    "KIST": 1,
-    "GIST": 2,
-    "Kyung Hee University": 3,
-    "Pusan National University": 2
+    "Korea University": 0,
+    "IBS": 0,
+    "UNIST": 0,
+    "Hanyang University": 0,
+    "KIST": 0,
+    "GIST": 0,
+    "Kyung Hee University": 0,
+    "Pusan National University": 0
   },
-  "subjectAreaBreakdown": {
-    "Materials Science": 9,
-    "Multidisciplinary": 83,
-    "Cancer Research": 14,
-    "Biomedical": 32,
-    "Neuroscience": 9,
-    "Computer Science": 3
-  },
-  "multiInstitutional": 24,
+  "subjectAreaBreakdown": {},
+  "multiInstitutional": 0,
   "institutions": [
     "KAIST",
     "SNU",
@@ -43,17 +36,5 @@
     "Pusan National University"
   ],
   "mlClassificationEnabled": false,
-  "latestItem": {
-    "title": "Intrinsically Disordered Protein-Inspired Nanovector-Based Coacervates for the Direct Cytosolic Transport of Biomacromolecules",
-    "date": "2025-10-18T10:00:00.000Z",
-    "institutions": [
-      "Hanyang University",
-      "IBS",
-      "KAIST",
-      "KIST",
-      "Korea University",
-      "SNU",
-      "UNIST"
-    ]
-  }
+  "latestItem": null
 }
