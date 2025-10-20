@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-10-20T07:38:40.846Z",
+  "lastUpdate": "2025-10-20T19:22:36.311Z",
   "totalItems": 150,
-  "totalArchived": 17420,
-  "newPapersAdded": 189,
+  "totalArchived": 17481,
+  "newPapersAdded": 61,
   "institutionBreakdown": {
-    "KAIST": 6,
-    "SNU": 29,
-    "Yonsei University": 0,
+    "KAIST": 0,
+    "SNU": 100,
+    "Yonsei University": 1,
     "SKKU": 0,
-    "POSTECH": 2,
-    "Korea University": 18,
-    "IBS": 100,
-    "UNIST": 3,
-    "Hanyang University": 2,
-    "KIST": 0,
-    "GIST": 5,
-    "Kyung Hee University": 1,
-    "Pusan National University": 1
+    "POSTECH": 0,
+    "Korea University": 0,
+    "IBS": 0,
+    "UNIST": 8,
+    "Hanyang University": 0,
+    "KIST": 7,
+    "GIST": 27,
+    "Kyung Hee University": 21,
+    "Pusan National University": 0
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 87,
-    "Cancer Research": 20,
-    "Biomedical": 21,
-    "Neuroscience": 14,
-    "Materials Science": 4,
+    "Multidisciplinary": 76,
+    "Biomedical": 31,
+    "Neuroscience": 8,
+    "Cancer Research": 21,
+    "Materials Science": 10,
     "Computer Science": 4
   },
-  "multiInstitutional": 12,
+  "multiInstitutional": 14,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,10 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "<em>Limosilactobacillus reuteri</em> ATG-F4 Improves the Muscle Strength and Muscle Mass of Mice with Immobilization-Induced Muscular Atrophy",
-    "date": "2025-10-19T10:00:00.000Z",
+    "title": "BPH1 negatively regulates ABA signaling via AtSAP9 degradation",
+    "date": "2025-10-20T10:00:00.000Z",
     "institutions": [
-      "IBS",
-      "KAIST"
+      "SNU"
     ]
   }
 }
