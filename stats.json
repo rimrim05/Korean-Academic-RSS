@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-10-20T19:22:36.311Z",
+  "lastUpdate": "2025-10-21T07:38:25.977Z",
   "totalItems": 150,
-  "totalArchived": 17481,
-  "newPapersAdded": 61,
+  "totalArchived": 17505,
+  "newPapersAdded": 24,
   "institutionBreakdown": {
-    "KAIST": 0,
+    "KAIST": 30,
     "SNU": 100,
     "Yonsei University": 1,
     "SKKU": 0,
-    "POSTECH": 0,
+    "POSTECH": 4,
     "Korea University": 0,
     "IBS": 0,
-    "UNIST": 8,
-    "Hanyang University": 0,
-    "KIST": 7,
-    "GIST": 27,
-    "Kyung Hee University": 21,
-    "Pusan National University": 0
+    "UNIST": 7,
+    "Hanyang University": 10,
+    "KIST": 4,
+    "GIST": 11,
+    "Kyung Hee University": 0,
+    "Pusan National University": 11
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 76,
-    "Biomedical": 31,
-    "Neuroscience": 8,
+    "Neuroscience": 9,
+    "Materials Science": 11,
+    "Multidisciplinary": 82,
     "Cancer Research": 21,
-    "Materials Science": 10,
-    "Computer Science": 4
+    "Biomedical": 25,
+    "Computer Science": 2
   },
-  "multiInstitutional": 14,
+  "multiInstitutional": 21,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,10 +44,10 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "BPH1 negatively regulates ABA signaling via AtSAP9 degradation",
+    "title": "From stress to Alzheimer's: A circuit-based framework for prefrontal cognitive dysfunction",
     "date": "2025-10-20T10:00:00.000Z",
     "institutions": [
-      "SNU"
+      "KAIST"
     ]
   }
 }
