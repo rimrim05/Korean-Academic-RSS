@@ -1,32 +1,25 @@
 {
-  "lastUpdate": "2025-10-21T07:38:25.977Z",
-  "totalItems": 150,
+  "lastUpdate": "2025-10-21T19:22:01.524Z",
+  "totalItems": 0,
   "totalArchived": 17505,
-  "newPapersAdded": 24,
+  "newPapersAdded": 0,
   "institutionBreakdown": {
-    "KAIST": 30,
-    "SNU": 100,
-    "Yonsei University": 1,
+    "KAIST": 0,
+    "SNU": 0,
+    "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 4,
+    "POSTECH": 0,
     "Korea University": 0,
     "IBS": 0,
-    "UNIST": 7,
-    "Hanyang University": 10,
-    "KIST": 4,
-    "GIST": 11,
+    "UNIST": 0,
+    "Hanyang University": 0,
+    "KIST": 0,
+    "GIST": 0,
     "Kyung Hee University": 0,
-    "Pusan National University": 11
+    "Pusan National University": 0
   },
-  "subjectAreaBreakdown": {
-    "Neuroscience": 9,
-    "Materials Science": 11,
-    "Multidisciplinary": 82,
-    "Cancer Research": 21,
-    "Biomedical": 25,
-    "Computer Science": 2
-  },
-  "multiInstitutional": 21,
+  "subjectAreaBreakdown": {},
+  "multiInstitutional": 0,
   "institutions": [
     "KAIST",
     "SNU",
@@ -43,11 +36,5 @@
     "Pusan National University"
   ],
   "mlClassificationEnabled": false,
-  "latestItem": {
-    "title": "From stress to Alzheimer's: A circuit-based framework for prefrontal cognitive dysfunction",
-    "date": "2025-10-20T10:00:00.000Z",
-    "institutions": [
-      "KAIST"
-    ]
-  }
+  "latestItem": null
 }
