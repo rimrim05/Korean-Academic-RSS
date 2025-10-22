@@ -1,25 +1,32 @@
 {
-  "lastUpdate": "2025-10-22T07:37:42.191Z",
-  "totalItems": 0,
-  "totalArchived": 17505,
-  "newPapersAdded": 0,
+  "lastUpdate": "2025-10-22T19:19:30.193Z",
+  "totalItems": 150,
+  "totalArchived": 17649,
+  "newPapersAdded": 144,
   "institutionBreakdown": {
-    "KAIST": 0,
-    "SNU": 0,
+    "KAIST": 28,
+    "SNU": 59,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 0,
-    "Korea University": 0,
+    "POSTECH": 5,
+    "Korea University": 59,
     "IBS": 0,
-    "UNIST": 0,
-    "Hanyang University": 0,
-    "KIST": 0,
-    "GIST": 0,
-    "Kyung Hee University": 0,
-    "Pusan National University": 0
+    "UNIST": 4,
+    "Hanyang University": 4,
+    "KIST": 4,
+    "GIST": 7,
+    "Kyung Hee University": 5,
+    "Pusan National University": 6
   },
-  "subjectAreaBreakdown": {},
-  "multiInstitutional": 0,
+  "subjectAreaBreakdown": {
+    "Multidisciplinary": 99,
+    "Materials Science": 18,
+    "Cancer Research": 12,
+    "Computer Science": 2,
+    "Biomedical": 13,
+    "Neuroscience": 6
+  },
+  "multiInstitutional": 28,
   "institutions": [
     "KAIST",
     "SNU",
@@ -36,5 +43,11 @@
     "Pusan National University"
   ],
   "mlClassificationEnabled": false,
-  "latestItem": null
+  "latestItem": {
+    "title": "Complete genome of Leuconostoc mesenteroides B22051 from Panax ginseng Meyer C. A. in South Korea",
+    "date": "2025-10-22T10:00:00.000Z",
+    "institutions": [
+      "KIST"
+    ]
+  }
 }
