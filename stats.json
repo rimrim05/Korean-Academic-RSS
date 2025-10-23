@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-10-22T19:19:30.193Z",
+  "lastUpdate": "2025-10-23T07:37:50.220Z",
   "totalItems": 150,
-  "totalArchived": 17649,
-  "newPapersAdded": 144,
+  "totalArchived": 17919,
+  "newPapersAdded": 270,
   "institutionBreakdown": {
-    "KAIST": 28,
-    "SNU": 59,
+    "KAIST": 12,
+    "SNU": 81,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 5,
-    "Korea University": 59,
-    "IBS": 0,
-    "UNIST": 4,
+    "POSTECH": 4,
+    "Korea University": 64,
+    "IBS": 9,
+    "UNIST": 1,
     "Hanyang University": 4,
-    "KIST": 4,
-    "GIST": 7,
-    "Kyung Hee University": 5,
-    "Pusan National University": 6
+    "KIST": 3,
+    "GIST": 1,
+    "Kyung Hee University": 8,
+    "Pusan National University": 0
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 99,
-    "Materials Science": 18,
-    "Cancer Research": 12,
-    "Computer Science": 2,
-    "Biomedical": 13,
-    "Neuroscience": 6
+    "Multidisciplinary": 84,
+    "Cancer Research": 19,
+    "Biomedical": 25,
+    "Neuroscience": 5,
+    "Computer Science": 3,
+    "Materials Science": 14
   },
-  "multiInstitutional": 28,
+  "multiInstitutional": 32,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,10 +44,10 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Complete genome of Leuconostoc mesenteroides B22051 from Panax ginseng Meyer C. A. in South Korea",
-    "date": "2025-10-22T10:00:00.000Z",
+    "title": "Augmented reality-assisted infraclavicular first rib resection for arterial and venous thoracic outlet syndrome: a case series",
+    "date": "2025-10-23T10:00:00.000Z",
     "institutions": [
-      "KIST"
+      "Korea University"
     ]
   }
 }
