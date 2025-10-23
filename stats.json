@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-10-23T07:37:50.220Z",
+  "lastUpdate": "2025-10-23T19:20:55.787Z",
   "totalItems": 150,
-  "totalArchived": 17919,
-  "newPapersAdded": 270,
+  "totalArchived": 18089,
+  "newPapersAdded": 170,
   "institutionBreakdown": {
-    "KAIST": 12,
-    "SNU": 81,
+    "KAIST": 4,
+    "SNU": 36,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 4,
-    "Korea University": 64,
-    "IBS": 9,
-    "UNIST": 1,
-    "Hanyang University": 4,
-    "KIST": 3,
+    "POSTECH": 1,
+    "Korea University": 34,
+    "IBS": 85,
+    "UNIST": 0,
+    "Hanyang University": 3,
+    "KIST": 1,
     "GIST": 1,
-    "Kyung Hee University": 8,
+    "Kyung Hee University": 3,
     "Pusan National University": 0
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 84,
-    "Cancer Research": 19,
-    "Biomedical": 25,
-    "Neuroscience": 5,
-    "Computer Science": 3,
-    "Materials Science": 14
+    "Multidisciplinary": 80,
+    "Computer Science": 5,
+    "Biomedical": 33,
+    "Materials Science": 7,
+    "Cancer Research": 17,
+    "Neuroscience": 8
   },
-  "multiInstitutional": 32,
+  "multiInstitutional": 16,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,10 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Augmented reality-assisted infraclavicular first rib resection for arterial and venous thoracic outlet syndrome: a case series",
+    "title": "Macular hole following vitrectomy for rhegmatogenous retinal detachment: a comparative study of epiretinal membrane-related factors",
     "date": "2025-10-23T10:00:00.000Z",
     "institutions": [
-      "Korea University"
+      "IBS",
+      "KAIST"
     ]
   }
 }
