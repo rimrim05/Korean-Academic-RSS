@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-10-23T19:20:55.787Z",
+  "lastUpdate": "2025-10-24T07:36:23.520Z",
   "totalItems": 150,
-  "totalArchived": 18089,
-  "newPapersAdded": 170,
+  "totalArchived": 18252,
+  "newPapersAdded": 163,
   "institutionBreakdown": {
-    "KAIST": 4,
-    "SNU": 36,
+    "KAIST": 8,
+    "SNU": 67,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 1,
-    "Korea University": 34,
-    "IBS": 85,
-    "UNIST": 0,
-    "Hanyang University": 3,
-    "KIST": 1,
-    "GIST": 1,
-    "Kyung Hee University": 3,
+    "POSTECH": 3,
+    "Korea University": 79,
+    "IBS": 23,
+    "UNIST": 2,
+    "Hanyang University": 8,
+    "KIST": 2,
+    "GIST": 3,
+    "Kyung Hee University": 4,
     "Pusan National University": 0
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 80,
-    "Computer Science": 5,
-    "Biomedical": 33,
-    "Materials Science": 7,
-    "Cancer Research": 17,
-    "Neuroscience": 8
+    "Biomedical": 21,
+    "Multidisciplinary": 90,
+    "Cancer Research": 14,
+    "Computer Science": 6,
+    "Neuroscience": 7,
+    "Materials Science": 12
   },
-  "multiInstitutional": 16,
+  "multiInstitutional": 35,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,10 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Macular hole following vitrectomy for rhegmatogenous retinal detachment: a comparative study of epiretinal membrane-related factors",
-    "date": "2025-10-23T10:00:00.000Z",
+    "title": "Feasibility of using Simple Diet Self-Assessment Tool (SDSAT) to explore patterns of dietary intake for patients undergoing chemotherapy",
+    "date": "2025-10-24T10:00:00.000Z",
     "institutions": [
-      "IBS",
-      "KAIST"
+      "IBS"
     ]
   }
 }
