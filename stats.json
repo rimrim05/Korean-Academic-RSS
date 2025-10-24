@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-10-24T07:36:23.520Z",
+  "lastUpdate": "2025-10-24T19:20:44.775Z",
   "totalItems": 150,
-  "totalArchived": 18252,
-  "newPapersAdded": 163,
+  "totalArchived": 18425,
+  "newPapersAdded": 173,
   "institutionBreakdown": {
-    "KAIST": 8,
-    "SNU": 67,
+    "KAIST": 9,
+    "SNU": 43,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 3,
-    "Korea University": 79,
-    "IBS": 23,
-    "UNIST": 2,
-    "Hanyang University": 8,
-    "KIST": 2,
-    "GIST": 3,
-    "Kyung Hee University": 4,
-    "Pusan National University": 0
+    "POSTECH": 1,
+    "Korea University": 33,
+    "IBS": 84,
+    "UNIST": 0,
+    "Hanyang University": 0,
+    "KIST": 1,
+    "GIST": 1,
+    "Kyung Hee University": 2,
+    "Pusan National University": 1
   },
   "subjectAreaBreakdown": {
-    "Biomedical": 21,
-    "Multidisciplinary": 90,
-    "Cancer Research": 14,
-    "Computer Science": 6,
-    "Neuroscience": 7,
-    "Materials Science": 12
+    "Multidisciplinary": 76,
+    "Materials Science": 10,
+    "Cancer Research": 22,
+    "Biomedical": 31,
+    "Computer Science": 5,
+    "Neuroscience": 6
   },
-  "multiInstitutional": 35,
+  "multiInstitutional": 18,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,10 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Feasibility of using Simple Diet Self-Assessment Tool (SDSAT) to explore patterns of dietary intake for patients undergoing chemotherapy",
+    "title": "Metal artifact reduction algorithm with conditional latent diffusion model for dental cone-beam CT",
     "date": "2025-10-24T10:00:00.000Z",
     "institutions": [
-      "IBS"
+      "IBS",
+      "KAIST"
     ]
   }
 }
