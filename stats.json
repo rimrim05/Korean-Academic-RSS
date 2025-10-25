@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-10-25T07:35:12.448Z",
+  "lastUpdate": "2025-10-25T19:19:15.870Z",
   "totalItems": 150,
-  "totalArchived": 18615,
-  "newPapersAdded": 190,
+  "totalArchived": 18748,
+  "newPapersAdded": 133,
   "institutionBreakdown": {
-    "KAIST": 18,
-    "SNU": 85,
+    "KAIST": 19,
+    "SNU": 33,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 4,
-    "Korea University": 62,
-    "IBS": 14,
+    "POSTECH": 1,
+    "Korea University": 20,
+    "IBS": 100,
     "UNIST": 1,
-    "Hanyang University": 3,
-    "KIST": 2,
+    "Hanyang University": 4,
+    "KIST": 0,
     "GIST": 2,
-    "Kyung Hee University": 6,
+    "Kyung Hee University": 3,
     "Pusan National University": 2
   },
   "subjectAreaBreakdown": {
-    "Biomedical": 25,
-    "Multidisciplinary": 81,
     "Neuroscience": 6,
-    "Materials Science": 7,
-    "Cancer Research": 24,
+    "Cancer Research": 13,
+    "Multidisciplinary": 69,
+    "Biomedical": 38,
+    "Materials Science": 17,
     "Computer Science": 7
   },
-  "multiInstitutional": 39,
+  "multiInstitutional": 23,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,9 +44,12 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "High-acceleration pancreatobiliary MRI with deep learning-based super-resolution reconstruction for evaluating presumed pancreatic intraductal papillary mucinous neoplasm",
+    "title": "Color Dependence of OLED Phototherapy for Cognitive Function and Beta-Amyloid Reduction through ADAM17 and BACE1",
     "date": "2025-10-25T10:00:00.000Z",
     "institutions": [
+      "IBS",
+      "KAIST",
+      "Kyung Hee University",
       "SNU"
     ]
   }
