@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-10-24T19:20:44.775Z",
+  "lastUpdate": "2025-10-25T07:35:12.448Z",
   "totalItems": 150,
-  "totalArchived": 18425,
-  "newPapersAdded": 173,
+  "totalArchived": 18615,
+  "newPapersAdded": 190,
   "institutionBreakdown": {
-    "KAIST": 9,
-    "SNU": 43,
+    "KAIST": 18,
+    "SNU": 85,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 1,
-    "Korea University": 33,
-    "IBS": 84,
-    "UNIST": 0,
-    "Hanyang University": 0,
-    "KIST": 1,
-    "GIST": 1,
-    "Kyung Hee University": 2,
-    "Pusan National University": 1
+    "POSTECH": 4,
+    "Korea University": 62,
+    "IBS": 14,
+    "UNIST": 1,
+    "Hanyang University": 3,
+    "KIST": 2,
+    "GIST": 2,
+    "Kyung Hee University": 6,
+    "Pusan National University": 2
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 76,
-    "Materials Science": 10,
-    "Cancer Research": 22,
-    "Biomedical": 31,
-    "Computer Science": 5,
-    "Neuroscience": 6
+    "Biomedical": 25,
+    "Multidisciplinary": 81,
+    "Neuroscience": 6,
+    "Materials Science": 7,
+    "Cancer Research": 24,
+    "Computer Science": 7
   },
-  "multiInstitutional": 18,
+  "multiInstitutional": 39,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,10 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Metal artifact reduction algorithm with conditional latent diffusion model for dental cone-beam CT",
-    "date": "2025-10-24T10:00:00.000Z",
+    "title": "High-acceleration pancreatobiliary MRI with deep learning-based super-resolution reconstruction for evaluating presumed pancreatic intraductal papillary mucinous neoplasm",
+    "date": "2025-10-25T10:00:00.000Z",
     "institutions": [
-      "IBS",
-      "KAIST"
+      "SNU"
     ]
   }
 }
