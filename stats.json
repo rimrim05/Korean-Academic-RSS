@@ -1,30 +1,30 @@
 {
-  "lastUpdate": "2025-10-25T19:19:15.870Z",
+  "lastUpdate": "2025-10-26T07:34:51.559Z",
   "totalItems": 150,
-  "totalArchived": 18748,
-  "newPapersAdded": 133,
+  "totalArchived": 18868,
+  "newPapersAdded": 120,
   "institutionBreakdown": {
-    "KAIST": 19,
-    "SNU": 33,
+    "KAIST": 7,
+    "SNU": 40,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 1,
-    "Korea University": 20,
-    "IBS": 100,
-    "UNIST": 1,
+    "POSTECH": 0,
+    "Korea University": 38,
+    "IBS": 90,
+    "UNIST": 0,
     "Hanyang University": 4,
-    "KIST": 0,
-    "GIST": 2,
-    "Kyung Hee University": 3,
-    "Pusan National University": 2
+    "KIST": 2,
+    "GIST": 1,
+    "Kyung Hee University": 6,
+    "Pusan National University": 1
   },
   "subjectAreaBreakdown": {
-    "Neuroscience": 6,
-    "Cancer Research": 13,
-    "Multidisciplinary": 69,
-    "Biomedical": 38,
-    "Materials Science": 17,
-    "Computer Science": 7
+    "Cancer Research": 19,
+    "Multidisciplinary": 80,
+    "Neuroscience": 7,
+    "Materials Science": 13,
+    "Biomedical": 29,
+    "Computer Science": 2
   },
   "multiInstitutional": 23,
   "institutions": [
@@ -44,12 +44,12 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Color Dependence of OLED Phototherapy for Cognitive Function and Beta-Amyloid Reduction through ADAM17 and BACE1",
+    "title": "Transcriptomic profiling in human lung organoids uncovers metallothionein response as a signature of PHMG-p-induced lung toxicity",
     "date": "2025-10-25T10:00:00.000Z",
     "institutions": [
+      "GIST",
       "IBS",
       "KAIST",
-      "Kyung Hee University",
       "SNU"
     ]
   }
