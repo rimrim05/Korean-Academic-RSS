@@ -1,10 +1,10 @@
 {
-  "lastUpdate": "2025-10-26T07:34:51.559Z",
+  "lastUpdate": "2025-10-26T19:19:31.392Z",
   "totalItems": 150,
-  "totalArchived": 18868,
-  "newPapersAdded": 120,
+  "totalArchived": 18882,
+  "newPapersAdded": 14,
   "institutionBreakdown": {
-    "KAIST": 7,
+    "KAIST": 8,
     "SNU": 40,
     "Yonsei University": 0,
     "SKKU": 0,
@@ -19,14 +19,14 @@
     "Pusan National University": 1
   },
   "subjectAreaBreakdown": {
-    "Cancer Research": 19,
-    "Multidisciplinary": 80,
+    "Multidisciplinary": 79,
+    "Cancer Research": 23,
+    "Biomedical": 28,
     "Neuroscience": 7,
-    "Materials Science": 13,
-    "Biomedical": 29,
+    "Materials Science": 11,
     "Computer Science": 2
   },
-  "multiInstitutional": 23,
+  "multiInstitutional": 24,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,13 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Transcriptomic profiling in human lung organoids uncovers metallothionein response as a signature of PHMG-p-induced lung toxicity",
-    "date": "2025-10-25T10:00:00.000Z",
+    "title": "Pathogenicity and pathobiological characterization of a recombinant genotype I/II African swine fever virus in pigs",
+    "date": "2025-10-26T10:00:00.000Z",
     "institutions": [
-      "GIST",
       "IBS",
-      "KAIST",
-      "SNU"
+      "KAIST"
     ]
   }
 }
