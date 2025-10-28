@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-10-28T07:37:57.356Z",
+  "lastUpdate": "2025-10-28T19:21:05.261Z",
   "totalItems": 150,
-  "totalArchived": 19218,
-  "newPapersAdded": 135,
+  "totalArchived": 19417,
+  "newPapersAdded": 199,
   "institutionBreakdown": {
-    "KAIST": 12,
-    "SNU": 67,
+    "KAIST": 7,
+    "SNU": 51,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 5,
-    "Korea University": 56,
-    "IBS": 34,
+    "POSTECH": 3,
+    "Korea University": 49,
+    "IBS": 58,
     "UNIST": 1,
-    "Hanyang University": 1,
-    "KIST": 2,
-    "GIST": 2,
-    "Kyung Hee University": 9,
+    "Hanyang University": 4,
+    "KIST": 5,
+    "GIST": 0,
+    "Kyung Hee University": 6,
     "Pusan National University": 1
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 65,
-    "Materials Science": 17,
-    "Cancer Research": 16,
-    "Biomedical": 42,
-    "Computer Science": 5,
-    "Neuroscience": 5
+    "Biomedical": 39,
+    "Cancer Research": 14,
+    "Multidisciplinary": 77,
+    "Neuroscience": 7,
+    "Materials Science": 12,
+    "Computer Science": 1
   },
-  "multiInstitutional": 30,
+  "multiInstitutional": 25,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,13 +44,10 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Adherence to Animal Research: Reporting of In Vivo Experiments Guidelines in Stem Cell Studies in Animal Models of Parkinson's Disease: A Systematic Review",
-    "date": "2025-10-27T10:00:00.000Z",
+    "title": "Membrane Tethering of Honeybee Antimicrobial Peptides in Drosophila Enhances Pathogen Defense at the Cost of Stress-Induced Host Vulnerability",
+    "date": "2025-10-28T10:00:00.000Z",
     "institutions": [
-      "IBS",
-      "KAIST",
-      "Kyung Hee University",
-      "SNU"
+      "KAIST"
     ]
   }
 }
