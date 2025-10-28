@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-10-27T19:21:04.243Z",
+  "lastUpdate": "2025-10-28T07:37:57.356Z",
   "totalItems": 150,
-  "totalArchived": 19083,
-  "newPapersAdded": 201,
+  "totalArchived": 19218,
+  "newPapersAdded": 135,
   "institutionBreakdown": {
-    "KAIST": 8,
-    "SNU": 40,
+    "KAIST": 12,
+    "SNU": 67,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 3,
-    "Korea University": 42,
-    "IBS": 74,
-    "UNIST": 0,
-    "Hanyang University": 0,
-    "KIST": 1,
+    "POSTECH": 5,
+    "Korea University": 56,
+    "IBS": 34,
+    "UNIST": 1,
+    "Hanyang University": 1,
+    "KIST": 2,
     "GIST": 2,
-    "Kyung Hee University": 8,
-    "Pusan National University": 0
+    "Kyung Hee University": 9,
+    "Pusan National University": 1
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 81,
-    "Biomedical": 24,
-    "Materials Science": 19,
+    "Multidisciplinary": 65,
+    "Materials Science": 17,
+    "Cancer Research": 16,
+    "Biomedical": 42,
     "Computer Science": 5,
-    "Neuroscience": 10,
-    "Cancer Research": 11
+    "Neuroscience": 5
   },
-  "multiInstitutional": 22,
+  "multiInstitutional": 30,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,7 +44,7 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Colossal Spin Hall Conductivity in Charge-Massive Topologically Nontrivial Semimetal Phase of Bi<sub>1-<em>x</em></sub>Sb<sub><em>x</em></sub> (012)",
+    "title": "Adherence to Animal Research: Reporting of In Vivo Experiments Guidelines in Stem Cell Studies in Animal Models of Parkinson's Disease: A Systematic Review",
     "date": "2025-10-27T10:00:00.000Z",
     "institutions": [
       "IBS",
