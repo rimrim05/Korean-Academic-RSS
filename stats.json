@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-10-28T19:21:05.261Z",
+  "lastUpdate": "2025-10-29T07:38:10.044Z",
   "totalItems": 150,
-  "totalArchived": 19417,
-  "newPapersAdded": 199,
+  "totalArchived": 19641,
+  "newPapersAdded": 224,
   "institutionBreakdown": {
-    "KAIST": 7,
-    "SNU": 51,
+    "KAIST": 19,
+    "SNU": 100,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 3,
-    "Korea University": 49,
-    "IBS": 58,
-    "UNIST": 1,
-    "Hanyang University": 4,
+    "POSTECH": 4,
+    "Korea University": 53,
+    "IBS": 4,
+    "UNIST": 0,
+    "Hanyang University": 9,
     "KIST": 5,
     "GIST": 0,
-    "Kyung Hee University": 6,
-    "Pusan National University": 1
+    "Kyung Hee University": 8,
+    "Pusan National University": 3
   },
   "subjectAreaBreakdown": {
-    "Biomedical": 39,
-    "Cancer Research": 14,
-    "Multidisciplinary": 77,
-    "Neuroscience": 7,
+    "Cancer Research": 19,
+    "Biomedical": 32,
+    "Multidisciplinary": 76,
+    "Neuroscience": 8,
     "Materials Science": 12,
-    "Computer Science": 1
+    "Computer Science": 3
   },
-  "multiInstitutional": 25,
+  "multiInstitutional": 42,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,9 +44,10 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Membrane Tethering of Honeybee Antimicrobial Peptides in Drosophila Enhances Pathogen Defense at the Cost of Stress-Induced Host Vulnerability",
+    "title": "Simultaneous Targeting of Multiple Hallmarks of Cancer With Recombinant Methioninase, Rapamycin and Chloroquine Is Specific and Synergistic to MiaPaCa-2 Pancreatic-Cancer Cells in Contrast to Hs-27 Normal Fibroblasts",
     "date": "2025-10-28T10:00:00.000Z",
     "institutions": [
+      "IBS",
       "KAIST"
     ]
   }
