@@ -1,30 +1,30 @@
 {
-  "lastUpdate": "2025-10-29T19:20:56.095Z",
+  "lastUpdate": "2025-10-30T07:36:43.299Z",
   "totalItems": 150,
-  "totalArchived": 19984,
-  "newPapersAdded": 343,
+  "totalArchived": 20161,
+  "newPapersAdded": 177,
   "institutionBreakdown": {
-    "KAIST": 31,
+    "KAIST": 45,
     "SNU": 100,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 3,
-    "Korea University": 34,
-    "IBS": 4,
+    "POSTECH": 5,
+    "Korea University": 21,
+    "IBS": 11,
     "UNIST": 0,
-    "Hanyang University": 3,
+    "Hanyang University": 4,
     "KIST": 2,
     "GIST": 6,
-    "Kyung Hee University": 8,
-    "Pusan National University": 4
+    "Kyung Hee University": 9,
+    "Pusan National University": 2
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 72,
-    "Neuroscience": 6,
-    "Computer Science": 6,
-    "Biomedical": 37,
-    "Cancer Research": 16,
-    "Materials Science": 13
+    "Neuroscience": 10,
+    "Biomedical": 34,
+    "Multidisciplinary": 80,
+    "Computer Science": 7,
+    "Cancer Research": 13,
+    "Materials Science": 6
   },
   "multiInstitutional": 39,
   "institutions": [
@@ -44,12 +44,13 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Programmable Helicity and Macrocycle Symmetry in β-Peptides via Site-Selective Thioamide Substitution",
+    "title": "Ataxin-3 Overexpression via Adeno-associated Viral Vector Injection in the Primate Cerebellum: A Novel Model of Spinocerebellar Ataxia Type 3",
     "date": "2025-10-29T10:00:00.000Z",
     "institutions": [
-      "GIST",
       "IBS",
-      "KAIST"
+      "KAIST",
+      "Korea University",
+      "SNU"
     ]
   }
 }
