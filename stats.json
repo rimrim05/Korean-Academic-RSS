@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-10-31T07:36:31.949Z",
+  "lastUpdate": "2025-10-31T19:20:14.467Z",
   "totalItems": 150,
-  "totalArchived": 20506,
-  "newPapersAdded": 169,
+  "totalArchived": 20690,
+  "newPapersAdded": 184,
   "institutionBreakdown": {
-    "KAIST": 14,
-    "SNU": 77,
+    "KAIST": 6,
+    "SNU": 47,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 1,
-    "Korea University": 74,
-    "IBS": 8,
-    "UNIST": 0,
-    "Hanyang University": 8,
-    "KIST": 2,
-    "GIST": 3,
-    "Kyung Hee University": 9,
-    "Pusan National University": 3
+    "POSTECH": 0,
+    "Korea University": 41,
+    "IBS": 73,
+    "UNIST": 1,
+    "Hanyang University": 2,
+    "KIST": 0,
+    "GIST": 0,
+    "Kyung Hee University": 4,
+    "Pusan National University": 2
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 80,
-    "Biomedical": 30,
-    "Cancer Research": 20,
-    "Materials Science": 9,
-    "Computer Science": 5,
-    "Neuroscience": 6
+    "Multidisciplinary": 76,
+    "Materials Science": 18,
+    "Neuroscience": 8,
+    "Biomedical": 29,
+    "Cancer Research": 15,
+    "Computer Science": 4
   },
-  "multiInstitutional": 38,
+  "multiInstitutional": 20,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,15 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Perceptions of newborn care among North Korean refugee women in South Korea: a qualitative study using focus group interview: comparison between pregnant and non-pregnant groups",
-    "date": "2025-10-30T10:00:00.000Z",
+    "title": "Therapeutic effects of Poncirus fructus on colonic dysfunction and visceral pain in a zymosan-induced irritable bowel syndrome mouse model through interstitial cells of Cajal and ion channel modulation",
+    "date": "2025-10-31T10:00:00.000Z",
     "institutions": [
       "IBS",
-      "KAIST"
+      "KAIST",
+      "Korea University",
+      "Kyung Hee University",
+      "Pusan National University",
+      "SNU"
     ]
   }
 }
