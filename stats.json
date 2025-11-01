@@ -1,16 +1,16 @@
 {
-  "lastUpdate": "2025-10-31T19:20:14.467Z",
+  "lastUpdate": "2025-11-01T07:34:49.766Z",
   "totalItems": 150,
-  "totalArchived": 20690,
-  "newPapersAdded": 184,
+  "totalArchived": 20828,
+  "newPapersAdded": 138,
   "institutionBreakdown": {
-    "KAIST": 6,
-    "SNU": 47,
+    "KAIST": 10,
+    "SNU": 61,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 0,
-    "Korea University": 41,
-    "IBS": 73,
+    "POSTECH": 1,
+    "Korea University": 68,
+    "IBS": 29,
     "UNIST": 1,
     "Hanyang University": 2,
     "KIST": 0,
@@ -19,14 +19,14 @@
     "Pusan National University": 2
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 76,
-    "Materials Science": 18,
-    "Neuroscience": 8,
-    "Biomedical": 29,
-    "Cancer Research": 15,
-    "Computer Science": 4
+    "Multidisciplinary": 77,
+    "Computer Science": 4,
+    "Materials Science": 17,
+    "Neuroscience": 5,
+    "Biomedical": 32,
+    "Cancer Research": 15
   },
-  "multiInstitutional": 20,
+  "multiInstitutional": 21,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,14 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Therapeutic effects of Poncirus fructus on colonic dysfunction and visceral pain in a zymosan-induced irritable bowel syndrome mouse model through interstitial cells of Cajal and ion channel modulation",
+    "title": "Lacrimispora sanguinis sp. nov., isolated from human blood",
     "date": "2025-10-31T10:00:00.000Z",
     "institutions": [
       "IBS",
       "KAIST",
-      "Korea University",
-      "Kyung Hee University",
-      "Pusan National University",
       "SNU"
     ]
   }
