@@ -1,31 +1,31 @@
 {
-  "lastUpdate": "2025-11-02T07:35:21.303Z",
+  "lastUpdate": "2025-11-02T19:18:26.311Z",
   "totalItems": 150,
-  "totalArchived": 21166,
-  "newPapersAdded": 152,
+  "totalArchived": 21199,
+  "newPapersAdded": 33,
   "institutionBreakdown": {
-    "KAIST": 7,
-    "SNU": 43,
+    "KAIST": 8,
+    "SNU": 46,
     "Yonsei University": 0,
     "SKKU": 0,
     "POSTECH": 2,
-    "Korea University": 46,
-    "IBS": 64,
+    "Korea University": 52,
+    "IBS": 54,
     "UNIST": 0,
     "Hanyang University": 2,
     "KIST": 0,
-    "GIST": 1,
-    "Kyung Hee University": 1,
+    "GIST": 2,
+    "Kyung Hee University": 2,
     "Pusan National University": 0
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 88,
-    "Cancer Research": 13,
+    "Biomedical": 39,
+    "Multidisciplinary": 81,
+    "Cancer Research": 16,
     "Neuroscience": 8,
-    "Biomedical": 35,
     "Materials Science": 6
   },
-  "multiInstitutional": 14,
+  "multiInstitutional": 13,
   "institutions": [
     "KAIST",
     "SNU",
@@ -43,11 +43,13 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "TCR signaling via NFATc1 constrains IL-15-induced bystander activation of human memory CD8<sup>+</sup> T cells",
-    "date": "2025-11-01T10:00:00.000Z",
+    "title": "Renal function-dependent risk of early invasive strategy in patients with non-ST-segment elevation myocardial infarction: insight from KAMIR-NIH and KRAMI-RCC",
+    "date": "2025-11-02T11:00:00.000Z",
     "institutions": [
+      "GIST",
       "IBS",
-      "KAIST"
+      "KAIST",
+      "SNU"
     ]
   }
 }
