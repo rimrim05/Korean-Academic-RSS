@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-11-03T07:37:57.849Z",
+  "lastUpdate": "2025-11-03T19:20:59.110Z",
   "totalItems": 150,
-  "totalArchived": 21328,
-  "newPapersAdded": 129,
+  "totalArchived": 21533,
+  "newPapersAdded": 205,
   "institutionBreakdown": {
-    "KAIST": 9,
-    "SNU": 24,
+    "KAIST": 13,
+    "SNU": 54,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 1,
-    "Korea University": 19,
-    "IBS": 100,
-    "UNIST": 0,
-    "Hanyang University": 1,
-    "KIST": 0,
+    "POSTECH": 2,
+    "Korea University": 42,
+    "IBS": 58,
+    "UNIST": 1,
+    "Hanyang University": 0,
+    "KIST": 3,
     "GIST": 3,
-    "Kyung Hee University": 1,
-    "Pusan National University": 1
+    "Kyung Hee University": 5,
+    "Pusan National University": 0
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 88,
-    "Biomedical": 35,
-    "Cancer Research": 11,
-    "Neuroscience": 9,
-    "Materials Science": 6,
-    "Computer Science": 1
+    "Multidisciplinary": 77,
+    "Biomedical": 29,
+    "Materials Science": 16,
+    "Cancer Research": 14,
+    "Computer Science": 5,
+    "Neuroscience": 9
   },
-  "multiInstitutional": 7,
+  "multiInstitutional": 22,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,9 +44,10 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Degradation of veterinary antibiotics with biochar addition in the simulated liquid fertilization process",
-    "date": "2025-11-02T11:00:00.000Z",
+    "title": "Global diversification of coastal Cafius rove beetles (Coleoptera: Staphylinidae) driven by ocean currents since the early Miocene",
+    "date": "2025-11-03T11:00:00.000Z",
     "institutions": [
+      "IBS",
       "KAIST"
     ]
   }
