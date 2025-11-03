@@ -1,31 +1,32 @@
 {
-  "lastUpdate": "2025-11-02T19:18:26.311Z",
+  "lastUpdate": "2025-11-03T07:37:57.849Z",
   "totalItems": 150,
-  "totalArchived": 21199,
-  "newPapersAdded": 33,
+  "totalArchived": 21328,
+  "newPapersAdded": 129,
   "institutionBreakdown": {
-    "KAIST": 8,
-    "SNU": 46,
+    "KAIST": 9,
+    "SNU": 24,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 2,
-    "Korea University": 52,
-    "IBS": 54,
+    "POSTECH": 1,
+    "Korea University": 19,
+    "IBS": 100,
     "UNIST": 0,
-    "Hanyang University": 2,
+    "Hanyang University": 1,
     "KIST": 0,
-    "GIST": 2,
-    "Kyung Hee University": 2,
-    "Pusan National University": 0
+    "GIST": 3,
+    "Kyung Hee University": 1,
+    "Pusan National University": 1
   },
   "subjectAreaBreakdown": {
-    "Biomedical": 39,
-    "Multidisciplinary": 81,
-    "Cancer Research": 16,
-    "Neuroscience": 8,
-    "Materials Science": 6
+    "Multidisciplinary": 88,
+    "Biomedical": 35,
+    "Cancer Research": 11,
+    "Neuroscience": 9,
+    "Materials Science": 6,
+    "Computer Science": 1
   },
-  "multiInstitutional": 13,
+  "multiInstitutional": 7,
   "institutions": [
     "KAIST",
     "SNU",
@@ -43,13 +44,10 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Renal function-dependent risk of early invasive strategy in patients with non-ST-segment elevation myocardial infarction: insight from KAMIR-NIH and KRAMI-RCC",
+    "title": "Degradation of veterinary antibiotics with biochar addition in the simulated liquid fertilization process",
     "date": "2025-11-02T11:00:00.000Z",
     "institutions": [
-      "GIST",
-      "IBS",
-      "KAIST",
-      "SNU"
+      "KAIST"
     ]
   }
 }
