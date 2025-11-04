@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-11-04T07:38:37.103Z",
+  "lastUpdate": "2025-11-04T19:21:29.604Z",
   "totalItems": 150,
-  "totalArchived": 21693,
+  "totalArchived": 21853,
   "newPapersAdded": 160,
   "institutionBreakdown": {
-    "KAIST": 21,
-    "SNU": 94,
+    "KAIST": 3,
+    "SNU": 35,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 5,
-    "Korea University": 53,
-    "IBS": 10,
-    "UNIST": 2,
-    "Hanyang University": 1,
-    "KIST": 4,
-    "GIST": 5,
-    "Kyung Hee University": 8,
-    "Pusan National University": 0
+    "POSTECH": 0,
+    "Korea University": 27,
+    "IBS": 95,
+    "UNIST": 0,
+    "Hanyang University": 0,
+    "KIST": 2,
+    "GIST": 2,
+    "Kyung Hee University": 3,
+    "Pusan National University": 1
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 76,
-    "Biomedical": 29,
-    "Cancer Research": 20,
-    "Materials Science": 14,
-    "Neuroscience": 6,
-    "Computer Science": 5
+    "Multidisciplinary": 71,
+    "Biomedical": 42,
+    "Neuroscience": 11,
+    "Cancer Research": 14,
+    "Computer Science": 4,
+    "Materials Science": 8
   },
-  "multiInstitutional": 38,
+  "multiInstitutional": 15,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,10 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "School adjustment and mental health among adolescents: a network analysis",
+    "title": "Deciphering Charge Transfer and Hydrogen Bonding Characteristics from Liquid Water XAS Spectra",
     "date": "2025-11-04T11:00:00.000Z",
     "institutions": [
-      "IBS"
+      "IBS",
+      "KAIST"
     ]
   }
 }
