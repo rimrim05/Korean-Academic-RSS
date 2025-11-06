@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-11-05T19:22:18.442Z",
+  "lastUpdate": "2025-11-06T07:37:11.042Z",
   "totalItems": 150,
-  "totalArchived": 22176,
-  "newPapersAdded": 157,
+  "totalArchived": 22359,
+  "newPapersAdded": 183,
   "institutionBreakdown": {
-    "KAIST": 8,
-    "SNU": 26,
+    "KAIST": 18,
+    "SNU": 65,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 0,
-    "Korea University": 31,
-    "IBS": 99,
+    "POSTECH": 2,
+    "Korea University": 70,
+    "IBS": 20,
     "UNIST": 0,
-    "Hanyang University": 4,
+    "Hanyang University": 6,
     "KIST": 2,
-    "GIST": 3,
-    "Kyung Hee University": 2,
+    "GIST": 4,
+    "Kyung Hee University": 5,
     "Pusan National University": 0
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 80,
-    "Materials Science": 14,
     "Biomedical": 36,
-    "Cancer Research": 13,
-    "Neuroscience": 5,
-    "Computer Science": 2
+    "Multidisciplinary": 75,
+    "Materials Science": 7,
+    "Cancer Research": 23,
+    "Neuroscience": 8,
+    "Computer Science": 1
   },
-  "multiInstitutional": 18,
+  "multiInstitutional": 34,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,7 +44,7 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Biomolecular condensates: molecular structure, biological functions, diseases, and therapeutic targets",
+    "title": "Clinical evaluation of a functional diet containing Siraitia grosvenorii residual extract for atopic dermatitis in dogs: a self-controlled study",
     "date": "2025-11-05T11:00:00.000Z",
     "institutions": [
       "IBS",
