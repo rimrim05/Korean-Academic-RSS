@@ -1,31 +1,32 @@
 {
-  "lastUpdate": "2025-11-06T19:21:09.996Z",
+  "lastUpdate": "2025-11-07T07:37:45.440Z",
   "totalItems": 150,
-  "totalArchived": 22522,
-  "newPapersAdded": 163,
+  "totalArchived": 22731,
+  "newPapersAdded": 209,
   "institutionBreakdown": {
-    "KAIST": 13,
-    "SNU": 40,
+    "KAIST": 25,
+    "SNU": 95,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 0,
-    "Korea University": 22,
-    "IBS": 91,
+    "POSTECH": 1,
+    "Korea University": 48,
+    "IBS": 8,
     "UNIST": 0,
-    "Hanyang University": 3,
+    "Hanyang University": 7,
     "KIST": 3,
-    "GIST": 2,
-    "Kyung Hee University": 5,
-    "Pusan National University": 4
+    "GIST": 6,
+    "Kyung Hee University": 7,
+    "Pusan National University": 7
   },
   "subjectAreaBreakdown": {
-    "Biomedical": 36,
-    "Multidisciplinary": 68,
-    "Neuroscience": 11,
-    "Materials Science": 11,
-    "Cancer Research": 24
+    "Materials Science": 10,
+    "Biomedical": 35,
+    "Multidisciplinary": 78,
+    "Cancer Research": 21,
+    "Neuroscience": 4,
+    "Computer Science": 2
   },
-  "multiInstitutional": 19,
+  "multiInstitutional": 39,
   "institutions": [
     "KAIST",
     "SNU",
@@ -43,7 +44,7 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Perceptions of Effective Nursing Handover Education: A Mixed-Methods Study",
+    "title": "Atomic-Scale Tailoring of Ni-Rich Cathodes for the Development of Commercial Li-Ion Batteries: From Laboratory to Market",
     "date": "2025-11-06T11:00:00.000Z",
     "institutions": [
       "IBS",
