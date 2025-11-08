@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-11-08T07:35:09.274Z",
+  "lastUpdate": "2025-11-08T19:19:02.642Z",
   "totalItems": 150,
-  "totalArchived": 23058,
-  "newPapersAdded": 171,
+  "totalArchived": 23137,
+  "newPapersAdded": 79,
   "institutionBreakdown": {
-    "KAIST": 14,
-    "SNU": 66,
+    "KAIST": 17,
+    "SNU": 70,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 6,
-    "Korea University": 59,
-    "IBS": 28,
+    "POSTECH": 8,
+    "Korea University": 15,
+    "IBS": 67,
     "UNIST": 1,
     "Hanyang University": 2,
     "KIST": 1,
-    "GIST": 4,
-    "Kyung Hee University": 4,
-    "Pusan National University": 1
+    "GIST": 5,
+    "Kyung Hee University": 5,
+    "Pusan National University": 4
   },
   "subjectAreaBreakdown": {
-    "Cancer Research": 17,
+    "Biomedical": 35,
+    "Neuroscience": 8,
     "Multidisciplinary": 74,
-    "Biomedical": 31,
-    "Neuroscience": 7,
-    "Materials Science": 14,
-    "Computer Science": 7
+    "Computer Science": 4,
+    "Materials Science": 12,
+    "Cancer Research": 17
   },
-  "multiInstitutional": 27,
+  "multiInstitutional": 31,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,10 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Factors affecting post-traumatic growth in hematopoietic stem cell transplantation patients in South Korea: a descriptive survey study",
+    "title": "Professional fulfillment in interventional radiology",
     "date": "2025-11-08T11:00:00.000Z",
     "institutions": [
-      "SNU"
+      "IBS",
+      "KAIST"
     ]
   }
 }
