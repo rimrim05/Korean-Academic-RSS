@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-11-07T19:21:26.156Z",
+  "lastUpdate": "2025-11-08T07:35:09.274Z",
   "totalItems": 150,
-  "totalArchived": 22887,
-  "newPapersAdded": 156,
+  "totalArchived": 23058,
+  "newPapersAdded": 171,
   "institutionBreakdown": {
-    "KAIST": 8,
-    "SNU": 29,
+    "KAIST": 14,
+    "SNU": 66,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 2,
-    "Korea University": 30,
-    "IBS": 98,
-    "UNIST": 0,
-    "Hanyang University": 1,
+    "POSTECH": 6,
+    "Korea University": 59,
+    "IBS": 28,
+    "UNIST": 1,
+    "Hanyang University": 2,
     "KIST": 1,
-    "GIST": 2,
-    "Kyung Hee University": 2,
-    "Pusan National University": 0
+    "GIST": 4,
+    "Kyung Hee University": 4,
+    "Pusan National University": 1
   },
   "subjectAreaBreakdown": {
-    "Materials Science": 11,
-    "Multidisciplinary": 77,
-    "Computer Science": 4,
+    "Cancer Research": 17,
+    "Multidisciplinary": 74,
     "Biomedical": 31,
-    "Cancer Research": 21,
-    "Neuroscience": 6
+    "Neuroscience": 7,
+    "Materials Science": 14,
+    "Computer Science": 7
   },
-  "multiInstitutional": 19,
+  "multiInstitutional": 27,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,10 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Embedded 3D Printing of Newtonian Fluids in Elasto-viscoplastic Matrix",
-    "date": "2025-11-07T11:00:00.000Z",
+    "title": "Factors affecting post-traumatic growth in hematopoietic stem cell transplantation patients in South Korea: a descriptive survey study",
+    "date": "2025-11-08T11:00:00.000Z",
     "institutions": [
-      "IBS",
-      "KAIST"
+      "SNU"
     ]
   }
 }
