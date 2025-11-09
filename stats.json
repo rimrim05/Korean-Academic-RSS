@@ -1,16 +1,16 @@
 {
-  "lastUpdate": "2025-11-09T07:35:54.070Z",
+  "lastUpdate": "2025-11-09T19:18:34.395Z",
   "totalItems": 150,
-  "totalArchived": 23279,
-  "newPapersAdded": 142,
+  "totalArchived": 23327,
+  "newPapersAdded": 48,
   "institutionBreakdown": {
     "KAIST": 11,
-    "SNU": 29,
+    "SNU": 31,
     "Yonsei University": 0,
     "SKKU": 0,
     "POSTECH": 2,
-    "Korea University": 29,
-    "IBS": 91,
+    "Korea University": 35,
+    "IBS": 80,
     "UNIST": 0,
     "Hanyang University": 1,
     "KIST": 0,
@@ -19,14 +19,14 @@
     "Pusan National University": 2
   },
   "subjectAreaBreakdown": {
-    "Computer Science": 6,
+    "Biomedical": 31,
+    "Computer Science": 7,
+    "Multidisciplinary": 79,
+    "Cancer Research": 15,
     "Neuroscience": 10,
-    "Multidisciplinary": 82,
-    "Biomedical": 26,
-    "Materials Science": 10,
-    "Cancer Research": 16
+    "Materials Science": 8
   },
-  "multiInstitutional": 16,
+  "multiInstitutional": 13,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,10 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Transcriptional regulatory networks of the human gut symbiont Bacteroides thetaiotaomicron are uncovered using machine learning",
-    "date": "2025-11-08T11:00:00.000Z",
+    "title": "Sarcopenia in Atrial Fibrillation: A Risk Factor for Adverse Outcomes in a UK Biobank Study",
+    "date": "2025-11-09T11:00:00.000Z",
     "institutions": [
-      "IBS",
-      "KAIST"
+      "SNU"
     ]
   }
 }
