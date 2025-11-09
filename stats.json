@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-11-08T19:19:02.642Z",
+  "lastUpdate": "2025-11-09T07:35:54.070Z",
   "totalItems": 150,
-  "totalArchived": 23137,
-  "newPapersAdded": 79,
+  "totalArchived": 23279,
+  "newPapersAdded": 142,
   "institutionBreakdown": {
-    "KAIST": 17,
-    "SNU": 70,
+    "KAIST": 11,
+    "SNU": 29,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 8,
-    "Korea University": 15,
-    "IBS": 67,
-    "UNIST": 1,
-    "Hanyang University": 2,
-    "KIST": 1,
-    "GIST": 5,
-    "Kyung Hee University": 5,
-    "Pusan National University": 4
+    "POSTECH": 2,
+    "Korea University": 29,
+    "IBS": 91,
+    "UNIST": 0,
+    "Hanyang University": 1,
+    "KIST": 0,
+    "GIST": 0,
+    "Kyung Hee University": 4,
+    "Pusan National University": 2
   },
   "subjectAreaBreakdown": {
-    "Biomedical": 35,
-    "Neuroscience": 8,
-    "Multidisciplinary": 74,
-    "Computer Science": 4,
-    "Materials Science": 12,
-    "Cancer Research": 17
+    "Computer Science": 6,
+    "Neuroscience": 10,
+    "Multidisciplinary": 82,
+    "Biomedical": 26,
+    "Materials Science": 10,
+    "Cancer Research": 16
   },
-  "multiInstitutional": 31,
+  "multiInstitutional": 16,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,7 +44,7 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Professional fulfillment in interventional radiology",
+    "title": "Transcriptional regulatory networks of the human gut symbiont Bacteroides thetaiotaomicron are uncovered using machine learning",
     "date": "2025-11-08T11:00:00.000Z",
     "institutions": [
       "IBS",
