@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-11-10T19:21:30.003Z",
+  "lastUpdate": "2025-11-11T07:38:42.689Z",
   "totalItems": 150,
-  "totalArchived": 23698,
-  "newPapersAdded": 229,
+  "totalArchived": 23848,
+  "newPapersAdded": 150,
   "institutionBreakdown": {
-    "KAIST": 16,
-    "SNU": 63,
+    "KAIST": 22,
+    "SNU": 98,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 2,
-    "Korea University": 73,
-    "IBS": 27,
-    "UNIST": 0,
-    "Hanyang University": 6,
-    "KIST": 3,
-    "GIST": 3,
-    "Kyung Hee University": 7,
-    "Pusan National University": 1
+    "POSTECH": 4,
+    "Korea University": 57,
+    "IBS": 5,
+    "UNIST": 1,
+    "Hanyang University": 10,
+    "KIST": 4,
+    "GIST": 4,
+    "Kyung Hee University": 11,
+    "Pusan National University": 2
   },
   "subjectAreaBreakdown": {
+    "Multidisciplinary": 82,
+    "Materials Science": 11,
+    "Neuroscience": 6,
     "Biomedical": 29,
-    "Materials Science": 9,
-    "Multidisciplinary": 91,
-    "Computer Science": 3,
-    "Cancer Research": 12,
-    "Neuroscience": 6
+    "Computer Science": 7,
+    "Cancer Research": 15
   },
-  "multiInstitutional": 34,
+  "multiInstitutional": 46,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,7 +44,7 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Structural insights into the antiviral efficacy of AG7404 against human rhinovirus 3C proteases",
+    "title": "Identification, characterization, antimicrobial activity and biocontrol potential of four endophytic fungi isolated from Amazonian plants",
     "date": "2025-11-10T11:00:00.000Z",
     "institutions": [
       "IBS",
