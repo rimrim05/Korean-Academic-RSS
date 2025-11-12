@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-11-11T19:21:38.125Z",
+  "lastUpdate": "2025-11-12T07:38:30.011Z",
   "totalItems": 150,
-  "totalArchived": 24011,
-  "newPapersAdded": 163,
+  "totalArchived": 24185,
+  "newPapersAdded": 174,
   "institutionBreakdown": {
-    "KAIST": 8,
-    "SNU": 39,
+    "KAIST": 15,
+    "SNU": 73,
     "Yonsei University": 0,
     "SKKU": 0,
     "POSTECH": 0,
-    "Korea University": 30,
-    "IBS": 92,
-    "UNIST": 1,
-    "Hanyang University": 1,
+    "Korea University": 68,
+    "IBS": 10,
+    "UNIST": 2,
+    "Hanyang University": 7,
     "KIST": 1,
-    "GIST": 2,
+    "GIST": 3,
     "Kyung Hee University": 0,
-    "Pusan National University": 3
+    "Pusan National University": 4
   },
   "subjectAreaBreakdown": {
-    "Biomedical": 37,
-    "Cancer Research": 16,
-    "Multidisciplinary": 81,
+    "Multidisciplinary": 75,
+    "Cancer Research": 26,
+    "Biomedical": 29,
     "Materials Science": 5,
-    "Computer Science": 4,
-    "Neuroscience": 7
+    "Computer Science": 6,
+    "Neuroscience": 9
   },
-  "multiInstitutional": 22,
+  "multiInstitutional": 30,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,12 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Social support and depression status are risk factors of frailty in systemic lupus erythematosus patients: multicentre retrospective analysis using the Systemic Lupus Erythematosus International Collaborating Clinics-Frailty Index",
+    "title": "Ca<sup>2+</sup>-driven PDIA6 biomolecular condensation ensures proinsulin folding",
     "date": "2025-11-11T11:00:00.000Z",
     "institutions": [
       "IBS",
-      "KAIST",
-      "SNU"
+      "KAIST"
     ]
   }
 }
