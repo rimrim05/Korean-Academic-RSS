@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-11-12T07:38:30.011Z",
+  "lastUpdate": "2025-11-12T19:22:26.046Z",
   "totalItems": 150,
-  "totalArchived": 24185,
-  "newPapersAdded": 174,
+  "totalArchived": 24376,
+  "newPapersAdded": 191,
   "institutionBreakdown": {
-    "KAIST": 15,
-    "SNU": 73,
+    "KAIST": 9,
+    "SNU": 57,
     "Yonsei University": 0,
     "SKKU": 0,
     "POSTECH": 0,
-    "Korea University": 68,
-    "IBS": 10,
-    "UNIST": 2,
-    "Hanyang University": 7,
+    "Korea University": 47,
+    "IBS": 64,
+    "UNIST": 0,
+    "Hanyang University": 2,
     "KIST": 1,
-    "GIST": 3,
-    "Kyung Hee University": 0,
-    "Pusan National University": 4
+    "GIST": 7,
+    "Kyung Hee University": 8,
+    "Pusan National University": 3
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 75,
-    "Cancer Research": 26,
-    "Biomedical": 29,
-    "Materials Science": 5,
-    "Computer Science": 6,
-    "Neuroscience": 9
+    "Cancer Research": 17,
+    "Multidisciplinary": 78,
+    "Biomedical": 41,
+    "Neuroscience": 7,
+    "Computer Science": 1,
+    "Materials Science": 6
   },
-  "multiInstitutional": 30,
+  "multiInstitutional": 32,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,8 +44,8 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Ca<sup>2+</sup>-driven PDIA6 biomolecular condensation ensures proinsulin folding",
-    "date": "2025-11-11T11:00:00.000Z",
+    "title": "Advancing Arsenic Water Treatment Using UiO-66 and Its Functionalized Metal-Organic Framework Analogs",
+    "date": "2025-11-12T11:00:00.000Z",
     "institutions": [
       "IBS",
       "KAIST"
