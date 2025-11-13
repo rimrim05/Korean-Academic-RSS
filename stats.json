@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-11-12T19:22:26.046Z",
+  "lastUpdate": "2025-11-13T07:38:34.024Z",
   "totalItems": 150,
-  "totalArchived": 24376,
-  "newPapersAdded": 191,
+  "totalArchived": 24591,
+  "newPapersAdded": 215,
   "institutionBreakdown": {
-    "KAIST": 9,
-    "SNU": 57,
+    "KAIST": 20,
+    "SNU": 100,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 0,
-    "Korea University": 47,
-    "IBS": 64,
-    "UNIST": 0,
-    "Hanyang University": 2,
-    "KIST": 1,
+    "POSTECH": 1,
+    "Korea University": 53,
+    "IBS": 11,
+    "UNIST": 2,
+    "Hanyang University": 4,
+    "KIST": 0,
     "GIST": 7,
-    "Kyung Hee University": 8,
+    "Kyung Hee University": 11,
     "Pusan National University": 3
   },
   "subjectAreaBreakdown": {
-    "Cancer Research": 17,
     "Multidisciplinary": 78,
-    "Biomedical": 41,
-    "Neuroscience": 7,
-    "Computer Science": 1,
-    "Materials Science": 6
+    "Computer Science": 5,
+    "Biomedical": 37,
+    "Cancer Research": 19,
+    "Materials Science": 7,
+    "Neuroscience": 4
   },
-  "multiInstitutional": 32,
+  "multiInstitutional": 46,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Advancing Arsenic Water Treatment Using UiO-66 and Its Functionalized Metal-Organic Framework Analogs",
-    "date": "2025-11-12T11:00:00.000Z",
+    "title": "Pravastatin for the prevention of recurrent hypertensive disorders of pregnancy: study protocol for a randomized, open-label, parallel-group, three-arm trial",
+    "date": "2025-11-13T11:00:00.000Z",
     "institutions": [
       "IBS",
-      "KAIST"
+      "Korea University"
     ]
   }
 }
