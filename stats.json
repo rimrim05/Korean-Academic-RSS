@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-11-13T07:38:34.024Z",
+  "lastUpdate": "2025-11-13T19:21:31.339Z",
   "totalItems": 150,
-  "totalArchived": 24591,
-  "newPapersAdded": 215,
+  "totalArchived": 24874,
+  "newPapersAdded": 283,
   "institutionBreakdown": {
-    "KAIST": 20,
+    "KAIST": 24,
     "SNU": 100,
     "Yonsei University": 0,
     "SKKU": 0,
     "POSTECH": 1,
-    "Korea University": 53,
-    "IBS": 11,
-    "UNIST": 2,
-    "Hanyang University": 4,
+    "Korea University": 45,
+    "IBS": 8,
+    "UNIST": 0,
+    "Hanyang University": 5,
     "KIST": 0,
     "GIST": 7,
-    "Kyung Hee University": 11,
-    "Pusan National University": 3
+    "Kyung Hee University": 8,
+    "Pusan National University": 4
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 78,
-    "Computer Science": 5,
-    "Biomedical": 37,
-    "Cancer Research": 19,
-    "Materials Science": 7,
-    "Neuroscience": 4
+    "Materials Science": 10,
+    "Biomedical": 33,
+    "Cancer Research": 34,
+    "Multidisciplinary": 62,
+    "Neuroscience": 7,
+    "Computer Science": 4
   },
-  "multiInstitutional": 46,
+  "multiInstitutional": 39,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Pravastatin for the prevention of recurrent hypertensive disorders of pregnancy: study protocol for a randomized, open-label, parallel-group, three-arm trial",
+    "title": "Molecular Dynamics-Based Optimization of Glyme Electrolytes",
     "date": "2025-11-13T11:00:00.000Z",
     "institutions": [
       "IBS",
-      "Korea University"
+      "KAIST"
     ]
   }
 }
