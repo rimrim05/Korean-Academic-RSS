@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-11-13T19:21:31.339Z",
+  "lastUpdate": "2025-11-14T07:37:56.356Z",
   "totalItems": 150,
-  "totalArchived": 24874,
-  "newPapersAdded": 283,
+  "totalArchived": 25049,
+  "newPapersAdded": 175,
   "institutionBreakdown": {
-    "KAIST": 24,
+    "KAIST": 34,
     "SNU": 100,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 1,
-    "Korea University": 45,
+    "POSTECH": 2,
+    "Korea University": 40,
     "IBS": 8,
     "UNIST": 0,
-    "Hanyang University": 5,
+    "Hanyang University": 7,
     "KIST": 0,
-    "GIST": 7,
-    "Kyung Hee University": 8,
-    "Pusan National University": 4
+    "GIST": 4,
+    "Kyung Hee University": 9,
+    "Pusan National University": 5
   },
   "subjectAreaBreakdown": {
-    "Materials Science": 10,
-    "Biomedical": 33,
-    "Cancer Research": 34,
-    "Multidisciplinary": 62,
-    "Neuroscience": 7,
-    "Computer Science": 4
+    "Cancer Research": 29,
+    "Multidisciplinary": 67,
+    "Materials Science": 9,
+    "Biomedical": 32,
+    "Neuroscience": 8,
+    "Computer Science": 5
   },
-  "multiInstitutional": 39,
+  "multiInstitutional": 48,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,7 +44,7 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Molecular Dynamics-Based Optimization of Glyme Electrolytes",
+    "title": "Directly reprogrammed NK cells driven by BCL11B depletion enhance targeted immunotherapy against pancreatic ductal adenocarcinoma",
     "date": "2025-11-13T11:00:00.000Z",
     "institutions": [
       "IBS",
