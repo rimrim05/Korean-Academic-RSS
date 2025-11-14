@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-11-14T07:37:56.356Z",
+  "lastUpdate": "2025-11-14T19:21:24.113Z",
   "totalItems": 150,
-  "totalArchived": 25049,
-  "newPapersAdded": 175,
+  "totalArchived": 25216,
+  "newPapersAdded": 167,
   "institutionBreakdown": {
-    "KAIST": 34,
-    "SNU": 100,
+    "KAIST": 5,
+    "SNU": 40,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 2,
-    "Korea University": 40,
-    "IBS": 8,
+    "POSTECH": 1,
+    "Korea University": 33,
+    "IBS": 88,
     "UNIST": 0,
-    "Hanyang University": 7,
-    "KIST": 0,
-    "GIST": 4,
-    "Kyung Hee University": 9,
-    "Pusan National University": 5
+    "Hanyang University": 3,
+    "KIST": 3,
+    "GIST": 2,
+    "Kyung Hee University": 2,
+    "Pusan National University": 2
   },
   "subjectAreaBreakdown": {
-    "Cancer Research": 29,
-    "Multidisciplinary": 67,
-    "Materials Science": 9,
-    "Biomedical": 32,
-    "Neuroscience": 8,
+    "Materials Science": 8,
+    "Biomedical": 31,
+    "Multidisciplinary": 72,
+    "Cancer Research": 18,
+    "Neuroscience": 16,
     "Computer Science": 5
   },
-  "multiInstitutional": 48,
+  "multiInstitutional": 24,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,8 +44,8 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Directly reprogrammed NK cells driven by BCL11B depletion enhance targeted immunotherapy against pancreatic ductal adenocarcinoma",
-    "date": "2025-11-13T11:00:00.000Z",
+    "title": "Carbene-Metal-Amide Materials Design: Tailoring π-Extended Amides for High-Performance Organic Light-Emitting Diodes",
+    "date": "2025-11-14T11:00:00.000Z",
     "institutions": [
       "IBS",
       "KAIST"
