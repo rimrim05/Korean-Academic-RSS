@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-11-15T19:18:28.906Z",
+  "lastUpdate": "2025-11-16T07:35:46.969Z",
   "totalItems": 150,
-  "totalArchived": 25495,
-  "newPapersAdded": 100,
+  "totalArchived": 25658,
+  "newPapersAdded": 163,
   "institutionBreakdown": {
-    "KAIST": 10,
-    "SNU": 48,
+    "KAIST": 5,
+    "SNU": 33,
     "Yonsei University": 0,
     "SKKU": 0,
     "POSTECH": 1,
-    "Korea University": 16,
-    "IBS": 91,
+    "Korea University": 49,
+    "IBS": 77,
     "UNIST": 0,
-    "Hanyang University": 3,
-    "KIST": 3,
-    "GIST": 6,
-    "Kyung Hee University": 4,
-    "Pusan National University": 2
+    "Hanyang University": 1,
+    "KIST": 2,
+    "GIST": 3,
+    "Kyung Hee University": 6,
+    "Pusan National University": 0
   },
   "subjectAreaBreakdown": {
-    "Cancer Research": 19,
-    "Biomedical": 37,
-    "Materials Science": 6,
-    "Multidisciplinary": 76,
-    "Neuroscience": 7,
-    "Computer Science": 5
+    "Multidisciplinary": 89,
+    "Cancer Research": 15,
+    "Biomedical": 32,
+    "Neuroscience": 9,
+    "Computer Science": 2,
+    "Materials Science": 3
   },
-  "multiInstitutional": 26,
+  "multiInstitutional": 21,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,12 +44,12 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Atranorin Impedes Glioma Invasiveness and Progression by Inhibiting the Epithelial-Mesenchymal Transition and Stemness in Monotherapy and in Combination Therapy With Temozolomide",
+    "title": "Decanoyl glycol chitosan: A novel pH-responsive thermogel for injectable drug delivery",
     "date": "2025-11-15T11:00:00.000Z",
     "institutions": [
-      "GIST",
       "IBS",
-      "KAIST"
+      "KAIST",
+      "Kyung Hee University"
     ]
   }
 }
