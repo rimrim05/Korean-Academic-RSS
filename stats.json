@@ -1,32 +1,31 @@
 {
-  "lastUpdate": "2025-11-17T07:38:21.291Z",
+  "lastUpdate": "2025-11-17T19:21:45.047Z",
   "totalItems": 150,
-  "totalArchived": 25811,
-  "newPapersAdded": 130,
+  "totalArchived": 25942,
+  "newPapersAdded": 131,
   "institutionBreakdown": {
-    "KAIST": 8,
-    "SNU": 25,
+    "KAIST": 5,
+    "SNU": 44,
     "Yonsei University": 0,
     "SKKU": 0,
     "POSTECH": 0,
-    "Korea University": 21,
+    "Korea University": 13,
     "IBS": 100,
     "UNIST": 1,
-    "Hanyang University": 0,
-    "KIST": 3,
-    "GIST": 2,
-    "Kyung Hee University": 8,
-    "Pusan National University": 3
+    "Hanyang University": 2,
+    "KIST": 2,
+    "GIST": 3,
+    "Kyung Hee University": 5,
+    "Pusan National University": 2
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 85,
-    "Biomedical": 26,
-    "Cancer Research": 22,
-    "Materials Science": 7,
-    "Computer Science": 4,
-    "Neuroscience": 6
+    "Multidisciplinary": 79,
+    "Biomedical": 24,
+    "Cancer Research": 16,
+    "Neuroscience": 7,
+    "Materials Science": 24
   },
-  "multiInstitutional": 16,
+  "multiInstitutional": 18,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,13 +43,12 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Thermophilic composting of dewatered sewage sludge under subzero temperatures using a full-scale pre-fermentation reactor: A 10-day valorisation strategy for year-round operation",
-    "date": "2025-11-16T11:00:00.000Z",
+    "title": "Non-Halogenated Solvent Processed Shortwave Infrared Organic Photodetectors Using Sub-1 eV Bandgap Acceptor with Cyano Substitution",
+    "date": "2025-11-17T11:00:00.000Z",
     "institutions": [
       "IBS",
       "KAIST",
-      "KIST",
-      "SNU"
+      "Pusan National University"
     ]
   }
 }
