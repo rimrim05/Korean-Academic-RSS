@@ -1,31 +1,32 @@
 {
-  "lastUpdate": "2025-11-17T19:21:45.047Z",
+  "lastUpdate": "2025-11-18T07:38:46.789Z",
   "totalItems": 150,
-  "totalArchived": 25942,
-  "newPapersAdded": 131,
+  "totalArchived": 26183,
+  "newPapersAdded": 241,
   "institutionBreakdown": {
-    "KAIST": 5,
-    "SNU": 44,
+    "KAIST": 14,
+    "SNU": 97,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 0,
-    "Korea University": 13,
-    "IBS": 100,
-    "UNIST": 1,
-    "Hanyang University": 2,
-    "KIST": 2,
-    "GIST": 3,
-    "Kyung Hee University": 5,
-    "Pusan National University": 2
+    "POSTECH": 1,
+    "Korea University": 52,
+    "IBS": 16,
+    "UNIST": 0,
+    "Hanyang University": 6,
+    "KIST": 3,
+    "GIST": 7,
+    "Kyung Hee University": 6,
+    "Pusan National University": 4
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 79,
-    "Biomedical": 24,
+    "Computer Science": 6,
+    "Multidisciplinary": 74,
+    "Biomedical": 30,
+    "Materials Science": 14,
     "Cancer Research": 16,
-    "Neuroscience": 7,
-    "Materials Science": 24
+    "Neuroscience": 10
   },
-  "multiInstitutional": 18,
+  "multiInstitutional": 41,
   "institutions": [
     "KAIST",
     "SNU",
@@ -43,12 +44,10 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Non-Halogenated Solvent Processed Shortwave Infrared Organic Photodetectors Using Sub-1 eV Bandgap Acceptor with Cyano Substitution",
-    "date": "2025-11-17T11:00:00.000Z",
+    "title": "Integrating machine learning and molecular dynamics simulation to decipher the molecular network of dioxin-associated liposarcoma",
+    "date": "2025-11-18T11:00:00.000Z",
     "institutions": [
-      "IBS",
-      "KAIST",
-      "Pusan National University"
+      "IBS"
     ]
   }
 }
