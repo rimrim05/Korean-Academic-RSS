@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-11-18T19:21:45.680Z",
+  "lastUpdate": "2025-11-19T07:38:20.805Z",
   "totalItems": 150,
-  "totalArchived": 26356,
-  "newPapersAdded": 173,
+  "totalArchived": 26530,
+  "newPapersAdded": 174,
   "institutionBreakdown": {
-    "KAIST": 6,
-    "SNU": 36,
+    "KAIST": 16,
+    "SNU": 75,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 1,
-    "Korea University": 35,
-    "IBS": 81,
+    "POSTECH": 2,
+    "Korea University": 69,
+    "IBS": 17,
     "UNIST": 0,
-    "Hanyang University": 3,
-    "KIST": 2,
-    "GIST": 0,
-    "Kyung Hee University": 2,
+    "Hanyang University": 9,
+    "KIST": 4,
+    "GIST": 3,
+    "Kyung Hee University": 4,
     "Pusan National University": 2
   },
   "subjectAreaBreakdown": {
-    "Materials Science": 8,
-    "Biomedical": 32,
-    "Multidisciplinary": 82,
+    "Multidisciplinary": 85,
+    "Computer Science": 3,
+    "Materials Science": 10,
     "Neuroscience": 8,
-    "Cancer Research": 19,
-    "Computer Science": 1
+    "Biomedical": 29,
+    "Cancer Research": 15
   },
-  "multiInstitutional": 15,
+  "multiInstitutional": 35,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,10 +44,9 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Mechanistic Transformation of CuI Nanoparticles Into Oxidation-Resistant 2D Copper Nanoplates",
-    "date": "2025-11-18T11:00:00.000Z",
+    "title": "Does experience translate? A multicenter evaluation of the learning curve in single-port robotic prostatectomy based on prior multiport proficiency",
+    "date": "2025-11-19T11:00:00.000Z",
     "institutions": [
-      "KAIST",
       "SNU"
     ]
   }
