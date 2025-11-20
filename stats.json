@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-11-19T19:22:25.906Z",
+  "lastUpdate": "2025-11-20T07:37:52.580Z",
   "totalItems": 150,
-  "totalArchived": 26764,
-  "newPapersAdded": 234,
+  "totalArchived": 26938,
+  "newPapersAdded": 174,
   "institutionBreakdown": {
-    "KAIST": 16,
-    "SNU": 75,
+    "KAIST": 22,
+    "SNU": 100,
     "Yonsei University": 0,
     "SKKU": 0,
     "POSTECH": 6,
-    "Korea University": 69,
-    "IBS": 22,
+    "Korea University": 57,
+    "IBS": 4,
     "UNIST": 3,
-    "Hanyang University": 6,
-    "KIST": 2,
+    "Hanyang University": 9,
+    "KIST": 4,
     "GIST": 4,
     "Kyung Hee University": 5,
-    "Pusan National University": 5
+    "Pusan National University": 4
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 81,
-    "Materials Science": 21,
-    "Computer Science": 7,
-    "Cancer Research": 20,
-    "Biomedical": 19,
-    "Neuroscience": 2
+    "Multidisciplinary": 76,
+    "Neuroscience": 5,
+    "Biomedical": 21,
+    "Materials Science": 16,
+    "Computer Science": 5,
+    "Cancer Research": 27
   },
-  "multiInstitutional": 50,
+  "multiInstitutional": 54,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,7 +44,7 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Identifying biomechanical and neurophysiological risk factors for postoperative neurologic deterioration in OPLL surgery: A study using ROC curve and path analysis",
+    "title": "Altered pedunculopontine pathways in freezing of gait: a diffusion tensor imaging study based on dopaminergic degeneration status",
     "date": "2025-11-19T11:00:00.000Z",
     "institutions": [
       "IBS",
