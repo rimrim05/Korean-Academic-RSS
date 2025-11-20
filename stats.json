@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-11-20T07:37:52.580Z",
+  "lastUpdate": "2025-11-20T19:21:38.381Z",
   "totalItems": 150,
-  "totalArchived": 26938,
-  "newPapersAdded": 174,
+  "totalArchived": 27113,
+  "newPapersAdded": 175,
   "institutionBreakdown": {
-    "KAIST": 22,
-    "SNU": 100,
+    "KAIST": 5,
+    "SNU": 37,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 6,
-    "Korea University": 57,
-    "IBS": 4,
-    "UNIST": 3,
-    "Hanyang University": 9,
-    "KIST": 4,
-    "GIST": 4,
-    "Kyung Hee University": 5,
-    "Pusan National University": 4
+    "POSTECH": 3,
+    "Korea University": 40,
+    "IBS": 78,
+    "UNIST": 0,
+    "Hanyang University": 0,
+    "KIST": 1,
+    "GIST": 2,
+    "Kyung Hee University": 1,
+    "Pusan National University": 1
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 76,
-    "Neuroscience": 5,
-    "Biomedical": 21,
-    "Materials Science": 16,
-    "Computer Science": 5,
-    "Cancer Research": 27
+    "Materials Science": 12,
+    "Multidisciplinary": 81,
+    "Computer Science": 4,
+    "Cancer Research": 18,
+    "Neuroscience": 8,
+    "Biomedical": 27
   },
-  "multiInstitutional": 54,
+  "multiInstitutional": 16,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,12 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Altered pedunculopontine pathways in freezing of gait: a diffusion tensor imaging study based on dopaminergic degeneration status",
-    "date": "2025-11-19T11:00:00.000Z",
+    "title": "Large Room-Temperature Exchange Bias in Y<sub>3</sub>Fe<sub>5</sub>O<sub>12</sub> via Antiparallel Exchange Interaction with Magnetically Pinned CoFe<sub>2</sub>O<sub>4</sub> Nanoparticles",
+    "date": "2025-11-20T11:00:00.000Z",
     "institutions": [
-      "IBS",
       "KAIST",
-      "SNU"
+      "POSTECH"
     ]
   }
 }
