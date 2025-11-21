@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-11-20T19:21:38.381Z",
+  "lastUpdate": "2025-11-21T07:38:34.655Z",
   "totalItems": 150,
-  "totalArchived": 27113,
-  "newPapersAdded": 175,
+  "totalArchived": 27302,
+  "newPapersAdded": 189,
   "institutionBreakdown": {
-    "KAIST": 5,
-    "SNU": 37,
+    "KAIST": 10,
+    "SNU": 81,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 3,
-    "Korea University": 40,
-    "IBS": 78,
+    "POSTECH": 5,
+    "Korea University": 68,
+    "IBS": 6,
     "UNIST": 0,
-    "Hanyang University": 0,
-    "KIST": 1,
-    "GIST": 2,
-    "Kyung Hee University": 1,
-    "Pusan National University": 1
+    "Hanyang University": 2,
+    "KIST": 3,
+    "GIST": 3,
+    "Kyung Hee University": 2,
+    "Pusan National University": 4
   },
   "subjectAreaBreakdown": {
-    "Materials Science": 12,
-    "Multidisciplinary": 81,
-    "Computer Science": 4,
-    "Cancer Research": 18,
-    "Neuroscience": 8,
-    "Biomedical": 27
+    "Computer Science": 6,
+    "Biomedical": 21,
+    "Multidisciplinary": 92,
+    "Materials Science": 10,
+    "Cancer Research": 14,
+    "Neuroscience": 7
   },
-  "multiInstitutional": 16,
+  "multiInstitutional": 28,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Large Room-Temperature Exchange Bias in Y<sub>3</sub>Fe<sub>5</sub>O<sub>12</sub> via Antiparallel Exchange Interaction with Magnetically Pinned CoFe<sub>2</sub>O<sub>4</sub> Nanoparticles",
+    "title": "Prediction of tractor drawbar pull under different tillage tools using machine learning and low-cost sensors",
     "date": "2025-11-20T11:00:00.000Z",
     "institutions": [
-      "KAIST",
-      "POSTECH"
+      "IBS",
+      "KAIST"
     ]
   }
 }
