@@ -1,32 +1,31 @@
 {
-  "lastUpdate": "2025-11-21T07:38:34.655Z",
+  "lastUpdate": "2025-11-21T19:22:43.612Z",
   "totalItems": 150,
-  "totalArchived": 27302,
-  "newPapersAdded": 189,
+  "totalArchived": 27477,
+  "newPapersAdded": 175,
   "institutionBreakdown": {
-    "KAIST": 10,
-    "SNU": 81,
+    "KAIST": 14,
+    "SNU": 36,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 5,
-    "Korea University": 68,
-    "IBS": 6,
+    "POSTECH": 0,
+    "Korea University": 44,
+    "IBS": 77,
     "UNIST": 0,
     "Hanyang University": 2,
-    "KIST": 3,
-    "GIST": 3,
-    "Kyung Hee University": 2,
-    "Pusan National University": 4
+    "KIST": 1,
+    "GIST": 1,
+    "Kyung Hee University": 3,
+    "Pusan National University": 1
   },
   "subjectAreaBreakdown": {
-    "Computer Science": 6,
-    "Biomedical": 21,
-    "Multidisciplinary": 92,
-    "Materials Science": 10,
-    "Cancer Research": 14,
-    "Neuroscience": 7
+    "Multidisciplinary": 91,
+    "Biomedical": 26,
+    "Neuroscience": 10,
+    "Cancer Research": 19,
+    "Materials Science": 4
   },
-  "multiInstitutional": 28,
+  "multiInstitutional": 20,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,8 +43,8 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Prediction of tractor drawbar pull under different tillage tools using machine learning and low-cost sensors",
-    "date": "2025-11-20T11:00:00.000Z",
+    "title": "Comprehensive in silico analysis of Acinetobacter isolates from South Korea reveals genomic diversity, antimicrobial resistance, virulence factors, and evolutionary dynamics",
+    "date": "2025-11-21T11:00:00.000Z",
     "institutions": [
       "IBS",
       "KAIST"
