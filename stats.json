@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-11-22T07:34:57.363Z",
+  "lastUpdate": "2025-11-22T19:20:11.726Z",
   "totalItems": 150,
-  "totalArchived": 27658,
-  "newPapersAdded": 181,
+  "totalArchived": 27787,
+  "newPapersAdded": 129,
   "institutionBreakdown": {
-    "KAIST": 20,
-    "SNU": 71,
+    "KAIST": 19,
+    "SNU": 18,
     "Yonsei University": 0,
     "SKKU": 0,
     "POSTECH": 1,
-    "Korea University": 75,
-    "IBS": 15,
-    "UNIST": 1,
-    "Hanyang University": 7,
+    "Korea University": 28,
+    "IBS": 100,
+    "UNIST": 3,
+    "Hanyang University": 3,
     "KIST": 1,
-    "GIST": 1,
-    "Kyung Hee University": 5,
-    "Pusan National University": 3
+    "GIST": 2,
+    "Kyung Hee University": 3,
+    "Pusan National University": 1
   },
   "subjectAreaBreakdown": {
-    "Computer Science": 1,
-    "Multidisciplinary": 86,
-    "Cancer Research": 15,
-    "Neuroscience": 6,
+    "Neuroscience": 11,
+    "Multidisciplinary": 87,
+    "Materials Science": 8,
     "Biomedical": 32,
-    "Materials Science": 10
+    "Computer Science": 1,
+    "Cancer Research": 11
   },
-  "multiInstitutional": 35,
+  "multiInstitutional": 19,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,13 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Data-driven machine learning models for predicting engineering properties in deep-sea sediments",
+    "title": "Putaminal hypermetabolism identifies Lewy body co-pathology in Alzheimer's disease",
     "date": "2025-11-22T11:00:00.000Z",
     "institutions": [
       "Hanyang University",
-      "Korea University",
-      "SNU",
-      "UNIST"
+      "SNU"
     ]
   }
 }
