@@ -1,31 +1,32 @@
 {
-  "lastUpdate": "2025-11-21T19:22:43.612Z",
+  "lastUpdate": "2025-11-22T07:34:57.363Z",
   "totalItems": 150,
-  "totalArchived": 27477,
-  "newPapersAdded": 175,
+  "totalArchived": 27658,
+  "newPapersAdded": 181,
   "institutionBreakdown": {
-    "KAIST": 14,
-    "SNU": 36,
+    "KAIST": 20,
+    "SNU": 71,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 0,
-    "Korea University": 44,
-    "IBS": 77,
-    "UNIST": 0,
-    "Hanyang University": 2,
+    "POSTECH": 1,
+    "Korea University": 75,
+    "IBS": 15,
+    "UNIST": 1,
+    "Hanyang University": 7,
     "KIST": 1,
     "GIST": 1,
-    "Kyung Hee University": 3,
-    "Pusan National University": 1
+    "Kyung Hee University": 5,
+    "Pusan National University": 3
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 91,
-    "Biomedical": 26,
-    "Neuroscience": 10,
-    "Cancer Research": 19,
-    "Materials Science": 4
+    "Computer Science": 1,
+    "Multidisciplinary": 86,
+    "Cancer Research": 15,
+    "Neuroscience": 6,
+    "Biomedical": 32,
+    "Materials Science": 10
   },
-  "multiInstitutional": 20,
+  "multiInstitutional": 35,
   "institutions": [
     "KAIST",
     "SNU",
@@ -43,11 +44,13 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Comprehensive in silico analysis of Acinetobacter isolates from South Korea reveals genomic diversity, antimicrobial resistance, virulence factors, and evolutionary dynamics",
-    "date": "2025-11-21T11:00:00.000Z",
+    "title": "Data-driven machine learning models for predicting engineering properties in deep-sea sediments",
+    "date": "2025-11-22T11:00:00.000Z",
     "institutions": [
-      "IBS",
-      "KAIST"
+      "Hanyang University",
+      "Korea University",
+      "SNU",
+      "UNIST"
     ]
   }
 }
