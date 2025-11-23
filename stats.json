@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-11-22T19:20:11.726Z",
+  "lastUpdate": "2025-11-23T07:35:53.343Z",
   "totalItems": 150,
-  "totalArchived": 27787,
-  "newPapersAdded": 129,
+  "totalArchived": 27959,
+  "newPapersAdded": 172,
   "institutionBreakdown": {
-    "KAIST": 19,
-    "SNU": 18,
+    "KAIST": 7,
+    "SNU": 40,
     "Yonsei University": 0,
     "SKKU": 0,
     "POSTECH": 1,
-    "Korea University": 28,
-    "IBS": 100,
-    "UNIST": 3,
+    "Korea University": 64,
+    "IBS": 49,
+    "UNIST": 2,
     "Hanyang University": 3,
     "KIST": 1,
     "GIST": 2,
-    "Kyung Hee University": 3,
-    "Pusan National University": 1
+    "Kyung Hee University": 4,
+    "Pusan National University": 0
   },
   "subjectAreaBreakdown": {
-    "Neuroscience": 11,
-    "Multidisciplinary": 87,
-    "Materials Science": 8,
-    "Biomedical": 32,
-    "Computer Science": 1,
-    "Cancer Research": 11
+    "Multidisciplinary": 76,
+    "Biomedical": 22,
+    "Neuroscience": 13,
+    "Cancer Research": 28,
+    "Materials Science": 7,
+    "Computer Science": 4
   },
-  "multiInstitutional": 19,
+  "multiInstitutional": 16,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,10 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Putaminal hypermetabolism identifies Lewy body co-pathology in Alzheimer's disease",
+    "title": "Methane dynamics in gas chimneys linking geochemical and microbial methane cycling in the Ulleung basin",
     "date": "2025-11-22T11:00:00.000Z",
     "institutions": [
-      "Hanyang University",
+      "IBS",
+      "KAIST",
       "SNU"
     ]
   }
