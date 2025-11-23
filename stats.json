@@ -1,16 +1,16 @@
 {
-  "lastUpdate": "2025-11-23T07:35:53.343Z",
+  "lastUpdate": "2025-11-23T19:21:18.076Z",
   "totalItems": 150,
-  "totalArchived": 27959,
-  "newPapersAdded": 172,
+  "totalArchived": 27976,
+  "newPapersAdded": 17,
   "institutionBreakdown": {
     "KAIST": 7,
-    "SNU": 40,
+    "SNU": 43,
     "Yonsei University": 0,
     "SKKU": 0,
     "POSTECH": 1,
-    "Korea University": 64,
-    "IBS": 49,
+    "Korea University": 65,
+    "IBS": 45,
     "UNIST": 2,
     "Hanyang University": 3,
     "KIST": 1,
@@ -19,14 +19,14 @@
     "Pusan National University": 0
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 76,
-    "Biomedical": 22,
-    "Neuroscience": 13,
-    "Cancer Research": 28,
-    "Materials Science": 7,
-    "Computer Science": 4
+    "Multidisciplinary": 74,
+    "Cancer Research": 27,
+    "Computer Science": 5,
+    "Biomedical": 24,
+    "Materials Science": 8,
+    "Neuroscience": 12
   },
-  "multiInstitutional": 16,
+  "multiInstitutional": 17,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,9 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Methane dynamics in gas chimneys linking geochemical and microbial methane cycling in the Ulleung basin",
-    "date": "2025-11-22T11:00:00.000Z",
+    "title": "Cosmetic and Quality of Life Outcomes of Supraclavicular vs Conventional Thyroidectomy Incisions in Unilateral Papillary Thyroid Carcinoma",
+    "date": "2025-11-23T11:00:00.000Z",
     "institutions": [
-      "IBS",
-      "KAIST",
       "SNU"
     ]
   }
