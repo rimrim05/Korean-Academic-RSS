@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-11-23T19:21:18.076Z",
+  "lastUpdate": "2025-11-24T07:38:20.871Z",
   "totalItems": 150,
-  "totalArchived": 27976,
-  "newPapersAdded": 17,
+  "totalArchived": 28123,
+  "newPapersAdded": 147,
   "institutionBreakdown": {
-    "KAIST": 7,
-    "SNU": 43,
+    "KAIST": 6,
+    "SNU": 27,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 1,
-    "Korea University": 65,
-    "IBS": 45,
-    "UNIST": 2,
+    "POSTECH": 0,
+    "Korea University": 32,
+    "IBS": 100,
+    "UNIST": 0,
     "Hanyang University": 3,
-    "KIST": 1,
-    "GIST": 2,
+    "KIST": 0,
+    "GIST": 1,
     "Kyung Hee University": 4,
-    "Pusan National University": 0
+    "Pusan National University": 2
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 74,
-    "Cancer Research": 27,
-    "Computer Science": 5,
-    "Biomedical": 24,
-    "Materials Science": 8,
-    "Neuroscience": 12
+    "Biomedical": 32,
+    "Multidisciplinary": 69,
+    "Cancer Research": 21,
+    "Neuroscience": 16,
+    "Computer Science": 6,
+    "Materials Science": 6
   },
-  "multiInstitutional": 17,
+  "multiInstitutional": 18,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,10 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Cosmetic and Quality of Life Outcomes of Supraclavicular vs Conventional Thyroidectomy Incisions in Unilateral Papillary Thyroid Carcinoma",
+    "title": "Validation of the Korean Version of the Center for Epidemiologic Studies Depression Scale-Revised in Korean Adolescents",
     "date": "2025-11-23T11:00:00.000Z",
     "institutions": [
-      "SNU"
+      "IBS",
+      "KAIST"
     ]
   }
 }
