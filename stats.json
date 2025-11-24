@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-11-24T07:38:20.871Z",
+  "lastUpdate": "2025-11-24T19:19:56.278Z",
   "totalItems": 150,
-  "totalArchived": 28123,
-  "newPapersAdded": 147,
+  "totalArchived": 28363,
+  "newPapersAdded": 240,
   "institutionBreakdown": {
-    "KAIST": 6,
-    "SNU": 27,
+    "KAIST": 11,
+    "SNU": 76,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 0,
-    "Korea University": 32,
-    "IBS": 100,
-    "UNIST": 0,
-    "Hanyang University": 3,
-    "KIST": 0,
+    "POSTECH": 2,
+    "Korea University": 64,
+    "IBS": 21,
+    "UNIST": 2,
+    "Hanyang University": 4,
+    "KIST": 2,
     "GIST": 1,
-    "Kyung Hee University": 4,
-    "Pusan National University": 2
+    "Kyung Hee University": 8,
+    "Pusan National University": 3
   },
   "subjectAreaBreakdown": {
-    "Biomedical": 32,
-    "Multidisciplinary": 69,
-    "Cancer Research": 21,
-    "Neuroscience": 16,
-    "Computer Science": 6,
-    "Materials Science": 6
+    "Biomedical": 27,
+    "Materials Science": 14,
+    "Multidisciplinary": 85,
+    "Cancer Research": 14,
+    "Computer Science": 7,
+    "Neuroscience": 3
   },
-  "multiInstitutional": 18,
+  "multiInstitutional": 33,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,8 +44,8 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Validation of the Korean Version of the Center for Epidemiologic Studies Depression Scale-Revised in Korean Adolescents",
-    "date": "2025-11-23T11:00:00.000Z",
+    "title": "Quality of Life and Treatment Satisfaction in People with HIV Switching to Bictegravir/Emtricitabine/Tenofovir Alafenamide: Pooled Analysis from Observational Cohort Studies",
+    "date": "2025-11-24T11:00:00.000Z",
     "institutions": [
       "IBS",
       "KAIST"
