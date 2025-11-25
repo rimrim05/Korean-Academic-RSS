@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-11-25T07:38:53.251Z",
+  "lastUpdate": "2025-11-25T19:23:31.293Z",
   "totalItems": 150,
-  "totalArchived": 28496,
-  "newPapersAdded": 133,
+  "totalArchived": 28711,
+  "newPapersAdded": 215,
   "institutionBreakdown": {
-    "KAIST": 19,
-    "SNU": 96,
+    "KAIST": 9,
+    "SNU": 75,
     "Yonsei University": 0,
     "SKKU": 0,
     "POSTECH": 2,
-    "Korea University": 53,
-    "IBS": 10,
-    "UNIST": 2,
-    "Hanyang University": 6,
-    "KIST": 4,
-    "GIST": 1,
-    "Kyung Hee University": 11,
-    "Pusan National University": 4
+    "Korea University": 48,
+    "IBS": 40,
+    "UNIST": 1,
+    "Hanyang University": 4,
+    "KIST": 1,
+    "GIST": 3,
+    "Kyung Hee University": 2,
+    "Pusan National University": 1
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 83,
-    "Neuroscience": 4,
-    "Cancer Research": 16,
-    "Biomedical": 31,
-    "Materials Science": 11,
-    "Computer Science": 5
+    "Multidisciplinary": 66,
+    "Computer Science": 7,
+    "Neuroscience": 8,
+    "Cancer Research": 21,
+    "Biomedical": 39,
+    "Materials Science": 9
   },
-  "multiInstitutional": 44,
+  "multiInstitutional": 32,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,12 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "A viral codon usage strategy enhances antigen production and protection in SFTSV mRNA vaccination",
+    "title": "Evaluation of Aquamicrobium lusatiense NLF 2-7 as a Biocontrol Agent in Manure Composting: Effects on Odorous Compounds and Microbial Community Under Mesophilic Conditions",
     "date": "2025-11-25T11:00:00.000Z",
     "institutions": [
       "IBS",
-      "KAIST",
-      "SNU"
+      "KAIST"
     ]
   }
 }
