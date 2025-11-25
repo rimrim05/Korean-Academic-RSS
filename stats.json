@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-11-24T19:19:56.278Z",
+  "lastUpdate": "2025-11-25T07:38:53.251Z",
   "totalItems": 150,
-  "totalArchived": 28363,
-  "newPapersAdded": 240,
+  "totalArchived": 28496,
+  "newPapersAdded": 133,
   "institutionBreakdown": {
-    "KAIST": 11,
-    "SNU": 76,
+    "KAIST": 19,
+    "SNU": 96,
     "Yonsei University": 0,
     "SKKU": 0,
     "POSTECH": 2,
-    "Korea University": 64,
-    "IBS": 21,
+    "Korea University": 53,
+    "IBS": 10,
     "UNIST": 2,
-    "Hanyang University": 4,
-    "KIST": 2,
+    "Hanyang University": 6,
+    "KIST": 4,
     "GIST": 1,
-    "Kyung Hee University": 8,
-    "Pusan National University": 3
+    "Kyung Hee University": 11,
+    "Pusan National University": 4
   },
   "subjectAreaBreakdown": {
-    "Biomedical": 27,
-    "Materials Science": 14,
-    "Multidisciplinary": 85,
-    "Cancer Research": 14,
-    "Computer Science": 7,
-    "Neuroscience": 3
+    "Multidisciplinary": 83,
+    "Neuroscience": 4,
+    "Cancer Research": 16,
+    "Biomedical": 31,
+    "Materials Science": 11,
+    "Computer Science": 5
   },
-  "multiInstitutional": 33,
+  "multiInstitutional": 44,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,12 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Quality of Life and Treatment Satisfaction in People with HIV Switching to Bictegravir/Emtricitabine/Tenofovir Alafenamide: Pooled Analysis from Observational Cohort Studies",
-    "date": "2025-11-24T11:00:00.000Z",
+    "title": "A viral codon usage strategy enhances antigen production and protection in SFTSV mRNA vaccination",
+    "date": "2025-11-25T11:00:00.000Z",
     "institutions": [
       "IBS",
-      "KAIST"
+      "KAIST",
+      "SNU"
     ]
   }
 }
