@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-11-25T19:23:31.293Z",
+  "lastUpdate": "2025-11-26T07:38:12.032Z",
   "totalItems": 150,
-  "totalArchived": 28711,
-  "newPapersAdded": 215,
+  "totalArchived": 28902,
+  "newPapersAdded": 191,
   "institutionBreakdown": {
-    "KAIST": 9,
-    "SNU": 75,
+    "KAIST": 20,
+    "SNU": 100,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 2,
-    "Korea University": 48,
-    "IBS": 40,
-    "UNIST": 1,
-    "Hanyang University": 4,
-    "KIST": 1,
-    "GIST": 3,
-    "Kyung Hee University": 2,
-    "Pusan National University": 1
+    "POSTECH": 5,
+    "Korea University": 49,
+    "IBS": 14,
+    "UNIST": 4,
+    "Hanyang University": 5,
+    "KIST": 5,
+    "GIST": 7,
+    "Kyung Hee University": 7,
+    "Pusan National University": 5
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 66,
-    "Computer Science": 7,
-    "Neuroscience": 8,
-    "Cancer Research": 21,
-    "Biomedical": 39,
-    "Materials Science": 9
+    "Biomedical": 33,
+    "Cancer Research": 25,
+    "Multidisciplinary": 74,
+    "Materials Science": 7,
+    "Computer Science": 3,
+    "Neuroscience": 8
   },
-  "multiInstitutional": 32,
+  "multiInstitutional": 49,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,12 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Evaluation of Aquamicrobium lusatiense NLF 2-7 as a Biocontrol Agent in Manure Composting: Effects on Odorous Compounds and Microbial Community Under Mesophilic Conditions",
-    "date": "2025-11-25T11:00:00.000Z",
+    "title": "Integrated Care of Older Patients with Frailty in Primary Care (ICOOP-Frail): a pilot randomized controlled trial and cost-effectiveness analysis",
+    "date": "2025-11-26T11:00:00.000Z",
     "institutions": [
-      "IBS",
-      "KAIST"
+      "GIST",
+      "Kyung Hee University",
+      "SNU"
     ]
   }
 }
