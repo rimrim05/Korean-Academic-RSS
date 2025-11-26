@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-11-26T07:38:12.032Z",
+  "lastUpdate": "2025-11-26T19:21:03.927Z",
   "totalItems": 150,
-  "totalArchived": 28902,
-  "newPapersAdded": 191,
+  "totalArchived": 29137,
+  "newPapersAdded": 235,
   "institutionBreakdown": {
-    "KAIST": 20,
-    "SNU": 100,
+    "KAIST": 13,
+    "SNU": 72,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 5,
-    "Korea University": 49,
-    "IBS": 14,
-    "UNIST": 4,
-    "Hanyang University": 5,
-    "KIST": 5,
-    "GIST": 7,
-    "Kyung Hee University": 7,
-    "Pusan National University": 5
+    "POSTECH": 1,
+    "Korea University": 60,
+    "IBS": 24,
+    "UNIST": 0,
+    "Hanyang University": 1,
+    "KIST": 1,
+    "GIST": 3,
+    "Kyung Hee University": 5,
+    "Pusan National University": 1
   },
   "subjectAreaBreakdown": {
-    "Biomedical": 33,
-    "Cancer Research": 25,
-    "Multidisciplinary": 74,
-    "Materials Science": 7,
-    "Computer Science": 3,
-    "Neuroscience": 8
+    "Biomedical": 34,
+    "Multidisciplinary": 70,
+    "Materials Science": 15,
+    "Cancer Research": 22,
+    "Neuroscience": 5,
+    "Computer Science": 4
   },
-  "multiInstitutional": 49,
+  "multiInstitutional": 25,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,12 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Integrated Care of Older Patients with Frailty in Primary Care (ICOOP-Frail): a pilot randomized controlled trial and cost-effectiveness analysis",
+    "title": "Methyltransferase Detection Based on Target-Responsive Transcription Amplification of Light-Up Aptamer",
     "date": "2025-11-26T11:00:00.000Z",
     "institutions": [
-      "GIST",
-      "Kyung Hee University",
-      "SNU"
+      "IBS",
+      "KAIST"
     ]
   }
 }
