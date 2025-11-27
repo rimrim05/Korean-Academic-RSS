@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-11-27T07:39:42.891Z",
+  "lastUpdate": "2025-11-27T19:21:10.936Z",
   "totalItems": 150,
-  "totalArchived": 29322,
-  "newPapersAdded": 185,
+  "totalArchived": 29668,
+  "newPapersAdded": 346,
   "institutionBreakdown": {
-    "KAIST": 23,
+    "KAIST": 26,
     "SNU": 100,
     "Yonsei University": 0,
     "SKKU": 0,
     "POSTECH": 4,
-    "Korea University": 34,
-    "IBS": 17,
+    "Korea University": 41,
+    "IBS": 14,
     "UNIST": 1,
-    "Hanyang University": 1,
-    "KIST": 1,
-    "GIST": 2,
-    "Kyung Hee University": 5,
-    "Pusan National University": 2
+    "Hanyang University": 3,
+    "KIST": 4,
+    "GIST": 5,
+    "Kyung Hee University": 19,
+    "Pusan National University": 1
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 81,
-    "Biomedical": 33,
-    "Computer Science": 2,
-    "Materials Science": 15,
-    "Neuroscience": 4,
-    "Cancer Research": 15
+    "Multidisciplinary": 70,
+    "Biomedical": 31,
+    "Materials Science": 17,
+    "Cancer Research": 21,
+    "Computer Science": 5,
+    "Neuroscience": 6
   },
-  "multiInstitutional": 35,
+  "multiInstitutional": 56,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,10 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Long-term Storage of Diluted Antibody in Tris-buffered Saline with Tween 20",
+    "title": "<em>Microbulbifer discodermiae</em> sp. nov. and <em>Microbulbifer jejuensis</em> sp. nov., isolated from marine sponges",
     "date": "2025-11-27T11:00:00.000Z",
     "institutions": [
-      "SNU"
+      "IBS",
+      "KAIST"
     ]
   }
 }
