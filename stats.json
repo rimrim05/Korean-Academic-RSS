@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-11-27T19:21:10.936Z",
+  "lastUpdate": "2025-11-28T07:38:19.537Z",
   "totalItems": 150,
-  "totalArchived": 29668,
-  "newPapersAdded": 346,
+  "totalArchived": 29868,
+  "newPapersAdded": 200,
   "institutionBreakdown": {
-    "KAIST": 26,
+    "KAIST": 44,
     "SNU": 100,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 4,
-    "Korea University": 41,
-    "IBS": 14,
-    "UNIST": 1,
-    "Hanyang University": 3,
-    "KIST": 4,
-    "GIST": 5,
-    "Kyung Hee University": 19,
-    "Pusan National University": 1
+    "POSTECH": 9,
+    "Korea University": 31,
+    "IBS": 19,
+    "UNIST": 0,
+    "Hanyang University": 4,
+    "KIST": 5,
+    "GIST": 8,
+    "Kyung Hee University": 16,
+    "Pusan National University": 3
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 70,
-    "Biomedical": 31,
-    "Materials Science": 17,
-    "Cancer Research": 21,
-    "Computer Science": 5,
-    "Neuroscience": 6
+    "Multidisciplinary": 81,
+    "Cancer Research": 15,
+    "Biomedical": 28,
+    "Materials Science": 11,
+    "Neuroscience": 6,
+    "Computer Science": 9
   },
-  "multiInstitutional": 56,
+  "multiInstitutional": 63,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "<em>Microbulbifer discodermiae</em> sp. nov. and <em>Microbulbifer jejuensis</em> sp. nov., isolated from marine sponges",
-    "date": "2025-11-27T11:00:00.000Z",
+    "title": "Nonlinear kinematic impacts on nanofluid flow across rough surface with numerical simulation",
+    "date": "2025-11-28T11:00:00.000Z",
     "institutions": [
-      "IBS",
-      "KAIST"
+      "Korea University",
+      "SNU"
     ]
   }
 }
