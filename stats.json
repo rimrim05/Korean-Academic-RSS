@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-11-28T07:38:19.537Z",
+  "lastUpdate": "2025-11-28T19:21:26.591Z",
   "totalItems": 150,
-  "totalArchived": 29868,
-  "newPapersAdded": 200,
+  "totalArchived": 30054,
+  "newPapersAdded": 186,
   "institutionBreakdown": {
-    "KAIST": 44,
-    "SNU": 100,
+    "KAIST": 5,
+    "SNU": 46,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 9,
-    "Korea University": 31,
-    "IBS": 19,
+    "POSTECH": 1,
+    "Korea University": 45,
+    "IBS": 70,
     "UNIST": 0,
-    "Hanyang University": 4,
-    "KIST": 5,
-    "GIST": 8,
-    "Kyung Hee University": 16,
-    "Pusan National University": 3
+    "Hanyang University": 2,
+    "KIST": 2,
+    "GIST": 1,
+    "Kyung Hee University": 9,
+    "Pusan National University": 4
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 81,
-    "Cancer Research": 15,
-    "Biomedical": 28,
-    "Materials Science": 11,
-    "Neuroscience": 6,
-    "Computer Science": 9
+    "Multidisciplinary": 70,
+    "Biomedical": 49,
+    "Neuroscience": 7,
+    "Cancer Research": 16,
+    "Materials Science": 6,
+    "Computer Science": 2
   },
-  "multiInstitutional": 63,
+  "multiInstitutional": 26,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,10 +44,14 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Nonlinear kinematic impacts on nanofluid flow across rough surface with numerical simulation",
+    "title": "Structural polymorphism in bent-core liquid crystals: from helical nanofilaments to heliconical-layered microcylinders with light-responsive properties",
     "date": "2025-11-28T11:00:00.000Z",
     "institutions": [
+      "GIST",
+      "IBS",
+      "KAIST",
       "Korea University",
+      "POSTECH",
       "SNU"
     ]
   }
