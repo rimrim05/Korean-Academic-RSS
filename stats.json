@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-11-29T07:36:22.140Z",
+  "lastUpdate": "2025-11-29T19:20:45.165Z",
   "totalItems": 150,
-  "totalArchived": 30223,
-  "newPapersAdded": 169,
+  "totalArchived": 30359,
+  "newPapersAdded": 136,
   "institutionBreakdown": {
-    "KAIST": 9,
-    "SNU": 72,
+    "KAIST": 8,
+    "SNU": 22,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 1,
-    "Korea University": 26,
-    "IBS": 65,
+    "POSTECH": 2,
+    "Korea University": 38,
+    "IBS": 99,
     "UNIST": 0,
-    "Hanyang University": 5,
+    "Hanyang University": 1,
     "KIST": 2,
-    "GIST": 2,
-    "Kyung Hee University": 15,
-    "Pusan National University": 5
+    "GIST": 0,
+    "Kyung Hee University": 6,
+    "Pusan National University": 0
   },
   "subjectAreaBreakdown": {
-    "Cancer Research": 23,
-    "Biomedical": 21,
-    "Multidisciplinary": 81,
-    "Neuroscience": 11,
-    "Materials Science": 11,
-    "Computer Science": 3
+    "Multidisciplinary": 78,
+    "Biomedical": 37,
+    "Cancer Research": 15,
+    "Materials Science": 7,
+    "Neuroscience": 12,
+    "Computer Science": 1
   },
-  "multiInstitutional": 42,
+  "multiInstitutional": 21,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Cost-effectiveness of chest radiography using artificial intelligence for lung cancer screening in South Korea",
+    "title": "Lacticaseibacillus Casei KGC1201 Isolated from Panax Ginseng Mitigates Dextran Sulfate Sodium-Induced Colitis by Modulating the Gut Environment",
     "date": "2025-11-29T11:00:00.000Z",
     "institutions": [
-      "Kyung Hee University",
-      "SNU"
+      "IBS",
+      "KAIST"
     ]
   }
 }
