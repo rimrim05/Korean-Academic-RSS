@@ -1,31 +1,32 @@
 {
-  "lastUpdate": "2025-12-01T07:41:53.549Z",
+  "lastUpdate": "2025-12-01T19:27:47.668Z",
   "totalItems": 150,
-  "totalArchived": 30728,
-  "newPapersAdded": 153,
+  "totalArchived": 30924,
+  "newPapersAdded": 196,
   "institutionBreakdown": {
-    "KAIST": 4,
-    "SNU": 36,
+    "KAIST": 7,
+    "SNU": 51,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 1,
-    "Korea University": 32,
-    "IBS": 86,
-    "UNIST": 2,
+    "POSTECH": 3,
+    "Korea University": 47,
+    "IBS": 63,
+    "UNIST": 3,
     "Hanyang University": 0,
-    "KIST": 2,
-    "GIST": 1,
+    "KIST": 3,
+    "GIST": 2,
     "Kyung Hee University": 3,
-    "Pusan National University": 0
+    "Pusan National University": 1
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 75,
-    "Materials Science": 16,
-    "Biomedical": 33,
-    "Cancer Research": 21,
-    "Neuroscience": 5
+    "Multidisciplinary": 70,
+    "Materials Science": 13,
+    "Neuroscience": 8,
+    "Biomedical": 39,
+    "Cancer Research": 16,
+    "Computer Science": 4
   },
-  "multiInstitutional": 16,
+  "multiInstitutional": 25,
   "institutions": [
     "KAIST",
     "SNU",
@@ -43,11 +44,15 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Quantized Decay Charges in Non-Hermitian Networks Characterized by Directed Graphs",
-    "date": "2025-11-30T11:00:00.000Z",
+    "title": "Architecting Layered CoFeOOH for the Oxygen Evolution Reaction: Engineering Structure for an Anion Exchange Membrane Water Electrolyzer",
+    "date": "2025-12-01T11:00:00.000Z",
     "institutions": [
       "IBS",
-      "KAIST"
+      "KAIST",
+      "POSTECH",
+      "Pusan National University",
+      "SNU",
+      "UNIST"
     ]
   }
 }
