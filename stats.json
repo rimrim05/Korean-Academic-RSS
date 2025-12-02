@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-12-02T07:41:08.255Z",
+  "lastUpdate": "2025-12-02T19:26:01.193Z",
   "totalItems": 150,
-  "totalArchived": 31084,
-  "newPapersAdded": 160,
+  "totalArchived": 31257,
+  "newPapersAdded": 173,
   "institutionBreakdown": {
-    "KAIST": 11,
-    "SNU": 97,
+    "KAIST": 5,
+    "SNU": 40,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 4,
-    "Korea University": 59,
-    "IBS": 18,
-    "UNIST": 3,
-    "Hanyang University": 0,
-    "KIST": 7,
-    "GIST": 3,
-    "Kyung Hee University": 6,
-    "Pusan National University": 2
+    "POSTECH": 0,
+    "Korea University": 36,
+    "IBS": 81,
+    "UNIST": 0,
+    "Hanyang University": 3,
+    "KIST": 3,
+    "GIST": 1,
+    "Kyung Hee University": 5,
+    "Pusan National University": 0
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 70,
-    "Biomedical": 35,
-    "Materials Science": 15,
-    "Cancer Research": 19,
-    "Neuroscience": 6,
-    "Computer Science": 5
+    "Biomedical": 34,
+    "Multidisciplinary": 76,
+    "Cancer Research": 17,
+    "Materials Science": 8,
+    "Neuroscience": 9,
+    "Computer Science": 6
   },
-  "multiInstitutional": 47,
+  "multiInstitutional": 17,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Antiemetic use during pregnancy and child neurodevelopment: population-based birth cohort study",
+    "title": "Triterpenoids and sterols from <em>Pseudocydonia sinensis</em> fruits and their anti-inflammatory activity",
     "date": "2025-12-02T11:00:00.000Z",
     "institutions": [
-      "Korea University",
-      "SNU"
+      "IBS",
+      "KAIST"
     ]
   }
 }
