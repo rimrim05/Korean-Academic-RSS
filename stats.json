@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-12-01T19:27:47.668Z",
+  "lastUpdate": "2025-12-02T07:41:08.255Z",
   "totalItems": 150,
-  "totalArchived": 30924,
-  "newPapersAdded": 196,
+  "totalArchived": 31084,
+  "newPapersAdded": 160,
   "institutionBreakdown": {
-    "KAIST": 7,
-    "SNU": 51,
+    "KAIST": 11,
+    "SNU": 97,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 3,
-    "Korea University": 47,
-    "IBS": 63,
+    "POSTECH": 4,
+    "Korea University": 59,
+    "IBS": 18,
     "UNIST": 3,
     "Hanyang University": 0,
-    "KIST": 3,
-    "GIST": 2,
-    "Kyung Hee University": 3,
-    "Pusan National University": 1
+    "KIST": 7,
+    "GIST": 3,
+    "Kyung Hee University": 6,
+    "Pusan National University": 2
   },
   "subjectAreaBreakdown": {
     "Multidisciplinary": 70,
-    "Materials Science": 13,
-    "Neuroscience": 8,
-    "Biomedical": 39,
-    "Cancer Research": 16,
-    "Computer Science": 4
+    "Biomedical": 35,
+    "Materials Science": 15,
+    "Cancer Research": 19,
+    "Neuroscience": 6,
+    "Computer Science": 5
   },
-  "multiInstitutional": 25,
+  "multiInstitutional": 47,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,15 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Architecting Layered CoFeOOH for the Oxygen Evolution Reaction: Engineering Structure for an Anion Exchange Membrane Water Electrolyzer",
-    "date": "2025-12-01T11:00:00.000Z",
+    "title": "Antiemetic use during pregnancy and child neurodevelopment: population-based birth cohort study",
+    "date": "2025-12-02T11:00:00.000Z",
     "institutions": [
-      "IBS",
-      "KAIST",
-      "POSTECH",
-      "Pusan National University",
-      "SNU",
-      "UNIST"
+      "Korea University",
+      "SNU"
     ]
   }
 }
