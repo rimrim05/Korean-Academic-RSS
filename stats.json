@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-12-03T07:40:50.014Z",
+  "lastUpdate": "2025-12-03T19:23:59.854Z",
   "totalItems": 150,
-  "totalArchived": 31450,
-  "newPapersAdded": 193,
+  "totalArchived": 31621,
+  "newPapersAdded": 171,
   "institutionBreakdown": {
-    "KAIST": 13,
-    "SNU": 96,
+    "KAIST": 9,
+    "SNU": 37,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 0,
-    "Korea University": 64,
-    "IBS": 8,
+    "POSTECH": 1,
+    "Korea University": 26,
+    "IBS": 88,
     "UNIST": 0,
-    "Hanyang University": 7,
-    "KIST": 3,
-    "GIST": 5,
-    "Kyung Hee University": 13,
-    "Pusan National University": 2
+    "Hanyang University": 2,
+    "KIST": 2,
+    "GIST": 3,
+    "Kyung Hee University": 2,
+    "Pusan National University": 4
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 74,
-    "Biomedical": 43,
-    "Cancer Research": 19,
-    "Computer Science": 2,
-    "Materials Science": 4,
-    "Neuroscience": 8
+    "Multidisciplinary": 78,
+    "Neuroscience": 5,
+    "Materials Science": 6,
+    "Biomedical": 36,
+    "Cancer Research": 21,
+    "Computer Science": 4
   },
-  "multiInstitutional": 44,
+  "multiInstitutional": 13,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,13 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Associations between usual source of care characteristics and health outcomes in diabetes mellitus: a focus on medication adherence and healthy behaviors",
-    "date": "2025-12-02T11:00:00.000Z",
+    "title": "Double-Layer Self-Locking Origami Based on Opposite Folding Motion",
+    "date": "2025-12-03T11:00:00.000Z",
     "institutions": [
       "IBS",
-      "KAIST"
+      "KAIST",
+      "KIST",
+      "SNU"
     ]
   }
 }
