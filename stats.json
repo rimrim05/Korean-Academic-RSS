@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-12-02T19:26:01.193Z",
+  "lastUpdate": "2025-12-03T07:40:50.014Z",
   "totalItems": 150,
-  "totalArchived": 31257,
-  "newPapersAdded": 173,
+  "totalArchived": 31450,
+  "newPapersAdded": 193,
   "institutionBreakdown": {
-    "KAIST": 5,
-    "SNU": 40,
+    "KAIST": 13,
+    "SNU": 96,
     "Yonsei University": 0,
     "SKKU": 0,
     "POSTECH": 0,
-    "Korea University": 36,
-    "IBS": 81,
+    "Korea University": 64,
+    "IBS": 8,
     "UNIST": 0,
-    "Hanyang University": 3,
+    "Hanyang University": 7,
     "KIST": 3,
-    "GIST": 1,
-    "Kyung Hee University": 5,
-    "Pusan National University": 0
+    "GIST": 5,
+    "Kyung Hee University": 13,
+    "Pusan National University": 2
   },
   "subjectAreaBreakdown": {
-    "Biomedical": 34,
-    "Multidisciplinary": 76,
-    "Cancer Research": 17,
-    "Materials Science": 8,
-    "Neuroscience": 9,
-    "Computer Science": 6
+    "Multidisciplinary": 74,
+    "Biomedical": 43,
+    "Cancer Research": 19,
+    "Computer Science": 2,
+    "Materials Science": 4,
+    "Neuroscience": 8
   },
-  "multiInstitutional": 17,
+  "multiInstitutional": 44,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,7 +44,7 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Triterpenoids and sterols from <em>Pseudocydonia sinensis</em> fruits and their anti-inflammatory activity",
+    "title": "Associations between usual source of care characteristics and health outcomes in diabetes mellitus: a focus on medication adherence and healthy behaviors",
     "date": "2025-12-02T11:00:00.000Z",
     "institutions": [
       "IBS",
