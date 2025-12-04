@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-12-04T07:39:58.150Z",
+  "lastUpdate": "2025-12-04T19:24:29.120Z",
   "totalItems": 150,
-  "totalArchived": 31807,
-  "newPapersAdded": 186,
+  "totalArchived": 31994,
+  "newPapersAdded": 187,
   "institutionBreakdown": {
-    "KAIST": 24,
-    "SNU": 75,
+    "KAIST": 3,
+    "SNU": 51,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 2,
-    "Korea University": 70,
-    "IBS": 9,
-    "UNIST": 0,
-    "Hanyang University": 3,
-    "KIST": 4,
+    "POSTECH": 3,
+    "Korea University": 38,
+    "IBS": 71,
+    "UNIST": 1,
+    "Hanyang University": 1,
+    "KIST": 0,
     "GIST": 4,
     "Kyung Hee University": 4,
-    "Pusan National University": 5
+    "Pusan National University": 0
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 82,
-    "Biomedical": 33,
-    "Cancer Research": 19,
-    "Materials Science": 6,
-    "Neuroscience": 6,
-    "Computer Science": 4
+    "Biomedical": 42,
+    "Materials Science": 8,
+    "Cancer Research": 20,
+    "Multidisciplinary": 72,
+    "Neuroscience": 7,
+    "Computer Science": 1
   },
-  "multiInstitutional": 33,
+  "multiInstitutional": 23,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,10 +44,12 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Social determinants of health and life expectancy in US adults",
+    "title": "Empagliflozin and Dapagliflozin Outcomes in Heart Failure",
     "date": "2025-12-04T11:00:00.000Z",
     "institutions": [
-      "IBS"
+      "IBS",
+      "KAIST",
+      "SNU"
     ]
   }
 }
