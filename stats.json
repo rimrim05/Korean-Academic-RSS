@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-12-03T19:23:59.854Z",
+  "lastUpdate": "2025-12-04T07:39:58.150Z",
   "totalItems": 150,
-  "totalArchived": 31621,
-  "newPapersAdded": 171,
+  "totalArchived": 31807,
+  "newPapersAdded": 186,
   "institutionBreakdown": {
-    "KAIST": 9,
-    "SNU": 37,
+    "KAIST": 24,
+    "SNU": 75,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 1,
-    "Korea University": 26,
-    "IBS": 88,
+    "POSTECH": 2,
+    "Korea University": 70,
+    "IBS": 9,
     "UNIST": 0,
-    "Hanyang University": 2,
-    "KIST": 2,
-    "GIST": 3,
-    "Kyung Hee University": 2,
-    "Pusan National University": 4
+    "Hanyang University": 3,
+    "KIST": 4,
+    "GIST": 4,
+    "Kyung Hee University": 4,
+    "Pusan National University": 5
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 78,
-    "Neuroscience": 5,
+    "Multidisciplinary": 82,
+    "Biomedical": 33,
+    "Cancer Research": 19,
     "Materials Science": 6,
-    "Biomedical": 36,
-    "Cancer Research": 21,
+    "Neuroscience": 6,
     "Computer Science": 4
   },
-  "multiInstitutional": 13,
+  "multiInstitutional": 33,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,13 +44,10 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Double-Layer Self-Locking Origami Based on Opposite Folding Motion",
-    "date": "2025-12-03T11:00:00.000Z",
+    "title": "Social determinants of health and life expectancy in US adults",
+    "date": "2025-12-04T11:00:00.000Z",
     "institutions": [
-      "IBS",
-      "KAIST",
-      "KIST",
-      "SNU"
+      "IBS"
     ]
   }
 }
