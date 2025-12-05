@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-12-04T19:24:29.120Z",
+  "lastUpdate": "2025-12-05T07:39:25.179Z",
   "totalItems": 150,
-  "totalArchived": 31994,
-  "newPapersAdded": 187,
+  "totalArchived": 32176,
+  "newPapersAdded": 182,
   "institutionBreakdown": {
-    "KAIST": 3,
-    "SNU": 51,
+    "KAIST": 8,
+    "SNU": 100,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 3,
-    "Korea University": 38,
-    "IBS": 71,
+    "POSTECH": 4,
+    "Korea University": 59,
+    "IBS": 11,
     "UNIST": 1,
-    "Hanyang University": 1,
+    "Hanyang University": 4,
     "KIST": 0,
     "GIST": 4,
-    "Kyung Hee University": 4,
-    "Pusan National University": 0
+    "Kyung Hee University": 9,
+    "Pusan National University": 2
   },
   "subjectAreaBreakdown": {
-    "Biomedical": 42,
-    "Materials Science": 8,
-    "Cancer Research": 20,
-    "Multidisciplinary": 72,
-    "Neuroscience": 7,
-    "Computer Science": 1
+    "Multidisciplinary": 77,
+    "Neuroscience": 5,
+    "Biomedical": 37,
+    "Materials Science": 9,
+    "Cancer Research": 18,
+    "Computer Science": 4
   },
-  "multiInstitutional": 23,
+  "multiInstitutional": 45,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,12 +44,10 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Empagliflozin and Dapagliflozin Outcomes in Heart Failure",
-    "date": "2025-12-04T11:00:00.000Z",
+    "title": "Containment and response strategies for mpox outbreaks: a systematic review",
+    "date": "2025-12-05T11:00:00.000Z",
     "institutions": [
-      "IBS",
-      "KAIST",
-      "SNU"
+      "IBS"
     ]
   }
 }
