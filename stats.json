@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-12-06T07:35:54.156Z",
+  "lastUpdate": "2025-12-06T19:20:54.791Z",
   "totalItems": 150,
-  "totalArchived": 32505,
-  "newPapersAdded": 173,
+  "totalArchived": 32624,
+  "newPapersAdded": 119,
   "institutionBreakdown": {
-    "KAIST": 11,
-    "SNU": 67,
+    "KAIST": 12,
+    "SNU": 41,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 2,
-    "Korea University": 65,
-    "IBS": 30,
+    "POSTECH": 1,
+    "Korea University": 24,
+    "IBS": 94,
     "UNIST": 0,
-    "Hanyang University": 3,
+    "Hanyang University": 2,
     "KIST": 2,
-    "GIST": 2,
-    "Kyung Hee University": 5,
-    "Pusan National University": 3
+    "GIST": 1,
+    "Kyung Hee University": 0,
+    "Pusan National University": 1
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 72,
-    "Biomedical": 31,
-    "Cancer Research": 14,
-    "Materials Science": 14,
-    "Computer Science": 6,
-    "Neuroscience": 13
+    "Multidisciplinary": 95,
+    "Neuroscience": 7,
+    "Materials Science": 10,
+    "Biomedical": 23,
+    "Cancer Research": 13,
+    "Computer Science": 2
   },
-  "multiInstitutional": 30,
+  "multiInstitutional": 22,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,12 +44,12 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Electron-conductive binder for silicon negative electrode enabling low-pressure all-solid-state batteries",
-    "date": "2025-12-05T11:00:00.000Z",
+    "title": "Nanoprinting with Crystal Engineering for Perovskite Lasers",
+    "date": "2025-12-06T11:00:00.000Z",
     "institutions": [
       "IBS",
       "KAIST",
-      "SNU"
+      "POSTECH"
     ]
   }
 }
