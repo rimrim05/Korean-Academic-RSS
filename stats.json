@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-12-05T19:22:55.894Z",
+  "lastUpdate": "2025-12-06T07:35:54.156Z",
   "totalItems": 150,
-  "totalArchived": 32332,
-  "newPapersAdded": 156,
+  "totalArchived": 32505,
+  "newPapersAdded": 173,
   "institutionBreakdown": {
-    "KAIST": 5,
-    "SNU": 28,
+    "KAIST": 11,
+    "SNU": 67,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 1,
-    "Korea University": 26,
-    "IBS": 100,
+    "POSTECH": 2,
+    "Korea University": 65,
+    "IBS": 30,
     "UNIST": 0,
-    "Hanyang University": 2,
+    "Hanyang University": 3,
     "KIST": 2,
     "GIST": 2,
-    "Kyung Hee University": 3,
+    "Kyung Hee University": 5,
     "Pusan National University": 3
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 85,
+    "Multidisciplinary": 72,
+    "Biomedical": 31,
+    "Cancer Research": 14,
     "Materials Science": 14,
-    "Neuroscience": 5,
-    "Biomedical": 29,
-    "Computer Science": 4,
-    "Cancer Research": 13
+    "Computer Science": 6,
+    "Neuroscience": 13
   },
-  "multiInstitutional": 17,
+  "multiInstitutional": 30,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,12 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Total Synthesis of (+)-Norsecurinamine B",
+    "title": "Electron-conductive binder for silicon negative electrode enabling low-pressure all-solid-state batteries",
     "date": "2025-12-05T11:00:00.000Z",
     "institutions": [
       "IBS",
-      "KAIST"
+      "KAIST",
+      "SNU"
     ]
   }
 }
