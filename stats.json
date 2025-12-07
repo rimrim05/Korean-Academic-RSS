@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-12-06T19:20:54.791Z",
+  "lastUpdate": "2025-12-07T07:35:57.050Z",
   "totalItems": 150,
-  "totalArchived": 32624,
-  "newPapersAdded": 119,
+  "totalArchived": 32771,
+  "newPapersAdded": 147,
   "institutionBreakdown": {
-    "KAIST": 12,
-    "SNU": 41,
+    "KAIST": 7,
+    "SNU": 42,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 1,
-    "Korea University": 24,
-    "IBS": 94,
-    "UNIST": 0,
+    "POSTECH": 3,
+    "Korea University": 40,
+    "IBS": 75,
+    "UNIST": 2,
     "Hanyang University": 2,
     "KIST": 2,
-    "GIST": 1,
-    "Kyung Hee University": 0,
+    "GIST": 5,
+    "Kyung Hee University": 4,
     "Pusan National University": 1
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 95,
-    "Neuroscience": 7,
-    "Materials Science": 10,
-    "Biomedical": 23,
-    "Cancer Research": 13,
-    "Computer Science": 2
+    "Neuroscience": 13,
+    "Multidisciplinary": 97,
+    "Biomedical": 21,
+    "Cancer Research": 14,
+    "Materials Science": 4,
+    "Computer Science": 1
   },
-  "multiInstitutional": 22,
+  "multiInstitutional": 25,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,12 +44,12 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Nanoprinting with Crystal Engineering for Perovskite Lasers",
+    "title": "Harnessing theta-gamma coupled brainwaves using ultrasound for spinal astrocyte revitalization and sustained neuropathic pain relief in mice",
     "date": "2025-12-06T11:00:00.000Z",
     "institutions": [
       "IBS",
       "KAIST",
-      "POSTECH"
+      "UNIST"
     ]
   }
 }
