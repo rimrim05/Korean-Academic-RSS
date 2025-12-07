@@ -1,16 +1,16 @@
 {
-  "lastUpdate": "2025-12-07T07:35:57.050Z",
+  "lastUpdate": "2025-12-07T19:20:48.820Z",
   "totalItems": 150,
-  "totalArchived": 32771,
-  "newPapersAdded": 147,
+  "totalArchived": 32777,
+  "newPapersAdded": 6,
   "institutionBreakdown": {
     "KAIST": 7,
     "SNU": 42,
     "Yonsei University": 0,
     "SKKU": 0,
     "POSTECH": 3,
-    "Korea University": 40,
-    "IBS": 75,
+    "Korea University": 41,
+    "IBS": 74,
     "UNIST": 2,
     "Hanyang University": 2,
     "KIST": 2,
@@ -19,10 +19,10 @@
     "Pusan National University": 1
   },
   "subjectAreaBreakdown": {
-    "Neuroscience": 13,
-    "Multidisciplinary": 97,
+    "Multidisciplinary": 98,
+    "Cancer Research": 13,
     "Biomedical": 21,
-    "Cancer Research": 14,
+    "Neuroscience": 13,
     "Materials Science": 4,
     "Computer Science": 1
   },
@@ -44,12 +44,10 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Harnessing theta-gamma coupled brainwaves using ultrasound for spinal astrocyte revitalization and sustained neuropathic pain relief in mice",
-    "date": "2025-12-06T11:00:00.000Z",
+    "title": "Nucleotide-Dependent Actin Conformations Revealed by Multiscale Enhanced Sampling",
+    "date": "2025-12-07T11:00:00.000Z",
     "institutions": [
-      "IBS",
-      "KAIST",
-      "UNIST"
+      "Korea University"
     ]
   }
 }
