@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-12-08T07:42:33.320Z",
+  "lastUpdate": "2025-12-08T19:24:17.963Z",
   "totalItems": 150,
-  "totalArchived": 32912,
-  "newPapersAdded": 135,
+  "totalArchived": 33126,
+  "newPapersAdded": 214,
   "institutionBreakdown": {
-    "KAIST": 9,
-    "SNU": 23,
+    "KAIST": 18,
+    "SNU": 66,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 3,
-    "Korea University": 25,
-    "IBS": 100,
-    "UNIST": 2,
-    "Hanyang University": 0,
+    "POSTECH": 1,
+    "Korea University": 37,
+    "IBS": 48,
+    "UNIST": 1,
+    "Hanyang University": 7,
     "KIST": 2,
-    "GIST": 4,
+    "GIST": 2,
     "Kyung Hee University": 3,
-    "Pusan National University": 2
+    "Pusan National University": 0
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 77,
-    "Cancer Research": 19,
+    "Multidisciplinary": 79,
+    "Cancer Research": 15,
+    "Computer Science": 7,
+    "Materials Science": 9,
     "Biomedical": 33,
-    "Neuroscience": 7,
-    "Materials Science": 8,
-    "Computer Science": 6
+    "Neuroscience": 7
   },
-  "multiInstitutional": 17,
+  "multiInstitutional": 28,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,9 +44,10 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Non-aqueous leaching of critical metals from black mass of spent lithium-ion batteries using a reusable acidic organophosphorus extractant",
-    "date": "2025-12-07T11:00:00.000Z",
+    "title": "<em>Flavobacterium adiutor</em> sp. nov., a newly identified freshwater bacterium potentially supporting <em>Microcystis</em> growth via oxidative stress reduction",
+    "date": "2025-12-08T11:00:00.000Z",
     "institutions": [
+      "IBS",
       "KAIST"
     ]
   }
