@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-12-08T19:24:17.963Z",
+  "lastUpdate": "2025-12-09T07:41:11.008Z",
   "totalItems": 150,
-  "totalArchived": 33126,
-  "newPapersAdded": 214,
+  "totalArchived": 33300,
+  "newPapersAdded": 174,
   "institutionBreakdown": {
-    "KAIST": 18,
-    "SNU": 66,
+    "KAIST": 23,
+    "SNU": 100,
     "Yonsei University": 0,
     "SKKU": 0,
     "POSTECH": 1,
-    "Korea University": 37,
-    "IBS": 48,
+    "Korea University": 42,
+    "IBS": 5,
     "UNIST": 1,
-    "Hanyang University": 7,
-    "KIST": 2,
+    "Hanyang University": 8,
+    "KIST": 3,
     "GIST": 2,
-    "Kyung Hee University": 3,
+    "Kyung Hee University": 6,
     "Pusan National University": 0
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 79,
-    "Cancer Research": 15,
-    "Computer Science": 7,
-    "Materials Science": 9,
     "Biomedical": 33,
+    "Multidisciplinary": 76,
+    "Computer Science": 7,
+    "Cancer Research": 19,
+    "Materials Science": 8,
     "Neuroscience": 7
   },
-  "multiInstitutional": 28,
+  "multiInstitutional": 35,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,10 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "<em>Flavobacterium adiutor</em> sp. nov., a newly identified freshwater bacterium potentially supporting <em>Microcystis</em> growth via oxidative stress reduction",
-    "date": "2025-12-08T11:00:00.000Z",
+    "title": "Role of common host genome variants in Childhood Acute Lymphoblastic Leukemia",
+    "date": "2025-12-09T11:00:00.000Z",
     "institutions": [
-      "IBS",
-      "KAIST"
+      "IBS"
     ]
   }
 }
