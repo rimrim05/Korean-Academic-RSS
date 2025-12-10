@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-12-09T19:20:38.466Z",
+  "lastUpdate": "2025-12-10T07:42:16.572Z",
   "totalItems": 150,
-  "totalArchived": 33476,
-  "newPapersAdded": 176,
+  "totalArchived": 33668,
+  "newPapersAdded": 192,
   "institutionBreakdown": {
-    "KAIST": 8,
-    "SNU": 49,
+    "KAIST": 15,
+    "SNU": 100,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 4,
-    "Korea University": 33,
-    "IBS": 80,
+    "POSTECH": 6,
+    "Korea University": 62,
+    "IBS": 6,
     "UNIST": 3,
-    "Hanyang University": 5,
+    "Hanyang University": 9,
     "KIST": 3,
-    "GIST": 1,
-    "Kyung Hee University": 2,
-    "Pusan National University": 1
+    "GIST": 3,
+    "Kyung Hee University": 10,
+    "Pusan National University": 2
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 74,
-    "Cancer Research": 17,
-    "Materials Science": 17,
-    "Biomedical": 35,
-    "Neuroscience": 5,
-    "Computer Science": 2
+    "Multidisciplinary": 79,
+    "Materials Science": 16,
+    "Computer Science": 4,
+    "Biomedical": 34,
+    "Cancer Research": 12,
+    "Neuroscience": 5
   },
-  "multiInstitutional": 33,
+  "multiInstitutional": 53,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,10 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Hahella aquimaris sp. nov., a bacterium producing prodigiosin isolated from aquaculture seawater",
-    "date": "2025-12-09T11:00:00.000Z",
+    "title": "Sweet orange essential oil and (+)-limonene prevent oxidative stress, reduce inflammation, and apoptosis in differentiated SH-SY5Y neuroblastoma/BV-2 microglia co-culture neurodegeneration models",
+    "date": "2025-12-10T11:00:00.000Z",
     "institutions": [
-      "IBS",
-      "KAIST"
+      "IBS"
     ]
   }
 }
