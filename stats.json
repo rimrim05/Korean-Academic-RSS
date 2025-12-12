@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-12-11T19:26:08.651Z",
+  "lastUpdate": "2025-12-12T07:41:46.084Z",
   "totalItems": 150,
-  "totalArchived": 34332,
-  "newPapersAdded": 282,
+  "totalArchived": 34410,
+  "newPapersAdded": 78,
   "institutionBreakdown": {
-    "KAIST": 18,
+    "KAIST": 19,
     "SNU": 100,
     "Yonsei University": 0,
     "SKKU": 0,
     "POSTECH": 4,
-    "Korea University": 49,
-    "IBS": 10,
+    "Korea University": 47,
+    "IBS": 8,
     "UNIST": 0,
     "Hanyang University": 7,
-    "KIST": 2,
+    "KIST": 3,
     "GIST": 3,
-    "Kyung Hee University": 9,
+    "Kyung Hee University": 8,
     "Pusan National University": 1
   },
   "subjectAreaBreakdown": {
-    "Materials Science": 8,
-    "Biomedical": 37,
-    "Multidisciplinary": 78,
+    "Multidisciplinary": 77,
+    "Materials Science": 6,
+    "Biomedical": 39,
     "Cancer Research": 20,
-    "Neuroscience": 4,
+    "Neuroscience": 5,
     "Computer Science": 3
   },
-  "multiInstitutional": 40,
+  "multiInstitutional": 38,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,13 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Carbonic Anhydrase-Inspired Zn-Single-Atom Nanozyme with High Stability for Enhanced CO<sub>2</sub> Hydration Performance",
+    "title": "How cells tame noise while maintaining ultrasensitive transcriptional responses",
     "date": "2025-12-11T11:00:00.000Z",
     "institutions": [
       "IBS",
-      "KAIST"
+      "KAIST",
+      "Korea University",
+      "SNU"
     ]
   }
 }
