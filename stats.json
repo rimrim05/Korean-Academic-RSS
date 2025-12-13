@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-12-13T07:38:04.794Z",
+  "lastUpdate": "2025-12-13T19:21:17.131Z",
   "totalItems": 150,
-  "totalArchived": 34858,
-  "newPapersAdded": 217,
+  "totalArchived": 34989,
+  "newPapersAdded": 131,
   "institutionBreakdown": {
-    "KAIST": 17,
-    "SNU": 95,
+    "KAIST": 22,
+    "SNU": 31,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 2,
-    "Korea University": 65,
-    "IBS": 12,
+    "POSTECH": 0,
+    "Korea University": 19,
+    "IBS": 100,
     "UNIST": 0,
-    "Hanyang University": 8,
-    "KIST": 13,
-    "GIST": 1,
-    "Kyung Hee University": 10,
+    "Hanyang University": 3,
+    "KIST": 7,
+    "GIST": 2,
+    "Kyung Hee University": 4,
     "Pusan National University": 5
   },
   "subjectAreaBreakdown": {
-    "Cancer Research": 18,
-    "Biomedical": 30,
-    "Multidisciplinary": 76,
-    "Neuroscience": 8,
-    "Materials Science": 14,
-    "Computer Science": 4
+    "Biomedical": 34,
+    "Multidisciplinary": 82,
+    "Computer Science": 2,
+    "Materials Science": 11,
+    "Neuroscience": 10,
+    "Cancer Research": 11
   },
-  "multiInstitutional": 51,
+  "multiInstitutional": 25,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,10 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Utilising multi-modal data-driven network analysis to identify monotherapy and combinational therapy targets in SOX2-dependent squamous cell lung cancer",
+    "title": "Risk Factors Influencing Survival in T-Cell Lymphoblastic Lymphoma and T-Cell Acute Lymphoblastic Leukemia",
     "date": "2025-12-13T11:00:00.000Z",
     "institutions": [
       "IBS",
+      "KAIST",
       "SNU"
     ]
   }
