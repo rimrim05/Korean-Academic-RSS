@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-12-12T19:23:22.867Z",
+  "lastUpdate": "2025-12-13T07:38:04.794Z",
   "totalItems": 150,
-  "totalArchived": 34641,
-  "newPapersAdded": 231,
+  "totalArchived": 34858,
+  "newPapersAdded": 217,
   "institutionBreakdown": {
-    "KAIST": 15,
-    "SNU": 35,
+    "KAIST": 17,
+    "SNU": 95,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 0,
-    "Korea University": 15,
-    "IBS": 100,
+    "POSTECH": 2,
+    "Korea University": 65,
+    "IBS": 12,
     "UNIST": 0,
-    "Hanyang University": 0,
-    "KIST": 3,
-    "GIST": 3,
-    "Kyung Hee University": 3,
-    "Pusan National University": 7
+    "Hanyang University": 8,
+    "KIST": 13,
+    "GIST": 1,
+    "Kyung Hee University": 10,
+    "Pusan National University": 5
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 66,
-    "Biomedical": 41,
-    "Cancer Research": 20,
-    "Materials Science": 8,
-    "Computer Science": 8,
-    "Neuroscience": 7
+    "Cancer Research": 18,
+    "Biomedical": 30,
+    "Multidisciplinary": 76,
+    "Neuroscience": 8,
+    "Materials Science": 14,
+    "Computer Science": 4
   },
-  "multiInstitutional": 20,
+  "multiInstitutional": 51,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Combined Metal-Metal and Metal-Ligand Cooperativity in Dicopper-Catalyzed Azide-Alkyne Cycloaddition Reactions",
-    "date": "2025-12-12T11:00:00.000Z",
+    "title": "Utilising multi-modal data-driven network analysis to identify monotherapy and combinational therapy targets in SOX2-dependent squamous cell lung cancer",
+    "date": "2025-12-13T11:00:00.000Z",
     "institutions": [
       "IBS",
-      "KAIST"
+      "SNU"
     ]
   }
 }
