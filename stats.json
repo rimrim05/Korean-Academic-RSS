@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-12-15T19:26:11.825Z",
+  "lastUpdate": "2025-12-16T07:42:40.997Z",
   "totalItems": 150,
-  "totalArchived": 35496,
-  "newPapersAdded": 199,
+  "totalArchived": 35640,
+  "newPapersAdded": 144,
   "institutionBreakdown": {
-    "KAIST": 6,
-    "SNU": 48,
+    "KAIST": 14,
+    "SNU": 76,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 4,
-    "Korea University": 50,
-    "IBS": 58,
-    "UNIST": 0,
-    "Hanyang University": 2,
-    "KIST": 3,
-    "GIST": 2,
-    "Kyung Hee University": 1,
+    "POSTECH": 5,
+    "Korea University": 71,
+    "IBS": 12,
+    "UNIST": 1,
+    "Hanyang University": 5,
+    "KIST": 5,
+    "GIST": 3,
+    "Kyung Hee University": 2,
     "Pusan National University": 1
   },
   "subjectAreaBreakdown": {
     "Multidisciplinary": 81,
-    "Biomedical": 28,
     "Computer Science": 3,
-    "Materials Science": 11,
-    "Cancer Research": 21,
+    "Biomedical": 27,
+    "Cancer Research": 20,
+    "Materials Science": 13,
     "Neuroscience": 6
   },
-  "multiInstitutional": 19,
+  "multiInstitutional": 31,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,12 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Safety and Efficacy of Hairy Scalp Donors in Thick Split-Thickness Skin Grafting: Complications and Outcomes of Grafts",
+    "title": "Quantitative separation of planar Nernst effects in harmonic Hall measurements of spin-orbit torques in Pt/Co/HfO/Ta multilayers",
     "date": "2025-12-15T11:00:00.000Z",
     "institutions": [
       "IBS",
-      "KAIST"
+      "KAIST",
+      "Korea University"
     ]
   }
 }
