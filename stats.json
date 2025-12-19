@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-12-18T19:22:31.760Z",
+  "lastUpdate": "2025-12-19T07:40:46.207Z",
   "totalItems": 150,
-  "totalArchived": 36517,
-  "newPapersAdded": 165,
+  "totalArchived": 36697,
+  "newPapersAdded": 180,
   "institutionBreakdown": {
-    "KAIST": 2,
-    "SNU": 39,
+    "KAIST": 8,
+    "SNU": 78,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 0,
-    "Korea University": 33,
-    "IBS": 94,
+    "POSTECH": 1,
+    "Korea University": 77,
+    "IBS": 11,
     "UNIST": 0,
-    "Hanyang University": 2,
-    "KIST": 2,
-    "GIST": 2,
-    "Kyung Hee University": 5,
-    "Pusan National University": 2
+    "Hanyang University": 3,
+    "KIST": 4,
+    "GIST": 1,
+    "Kyung Hee University": 7,
+    "Pusan National University": 3
   },
   "subjectAreaBreakdown": {
+    "Computer Science": 7,
+    "Multidisciplinary": 81,
+    "Cancer Research": 23,
     "Biomedical": 30,
-    "Multidisciplinary": 86,
-    "Materials Science": 6,
-    "Cancer Research": 16,
-    "Computer Science": 8,
-    "Neuroscience": 4
+    "Neuroscience": 5,
+    "Materials Science": 4
   },
-  "multiInstitutional": 21,
+  "multiInstitutional": 34,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,15 +44,10 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Type 2 Biomarkers as Mediators of Clinical Remission With Biologics in Severe Asthma",
-    "date": "2025-12-18T11:00:00.000Z",
+    "title": "Rootstock-mediated salinity resilience in cucumber (Cucumis sativus L.): integrating physiological traits, genomic stability and machine learning",
+    "date": "2025-12-19T11:00:00.000Z",
     "institutions": [
-      "IBS",
-      "KAIST",
-      "Korea University",
-      "Kyung Hee University",
-      "Pusan National University",
-      "SNU"
+      "IBS"
     ]
   }
 }
