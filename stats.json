@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-12-20T07:36:41.706Z",
+  "lastUpdate": "2025-12-20T19:21:20.827Z",
   "totalItems": 150,
-  "totalArchived": 37050,
-  "newPapersAdded": 207,
+  "totalArchived": 37141,
+  "newPapersAdded": 91,
   "institutionBreakdown": {
-    "KAIST": 20,
-    "SNU": 93,
+    "KAIST": 24,
+    "SNU": 60,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 4,
-    "Korea University": 73,
-    "IBS": 13,
+    "POSTECH": 2,
+    "Korea University": 28,
+    "IBS": 76,
     "UNIST": 1,
-    "Hanyang University": 4,
-    "KIST": 4,
-    "GIST": 2,
-    "Kyung Hee University": 7,
-    "Pusan National University": 4
+    "Hanyang University": 3,
+    "KIST": 3,
+    "GIST": 3,
+    "Kyung Hee University": 4,
+    "Pusan National University": 3
   },
   "subjectAreaBreakdown": {
-    "Materials Science": 8,
-    "Computer Science": 7,
-    "Multidisciplinary": 80,
-    "Biomedical": 24,
-    "Cancer Research": 24,
-    "Neuroscience": 7
+    "Materials Science": 12,
+    "Neuroscience": 8,
+    "Multidisciplinary": 81,
+    "Biomedical": 30,
+    "Cancer Research": 14,
+    "Computer Science": 5
   },
-  "multiInstitutional": 57,
+  "multiInstitutional": 41,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,9 +44,10 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Scalable Production of Tailor-Designed MXene-Hydrogel Core-Shell Fibers via Dual Stress-Guided Alignment during Thermal Drawing",
-    "date": "2025-12-19T11:00:00.000Z",
+    "title": "Ionic Defect Analysis and Suppression for Highly Efficient and Stable Perovskite Solar Cells and Mini-Modules",
+    "date": "2025-12-20T11:00:00.000Z",
     "institutions": [
+      "Hanyang University",
       "IBS",
       "KAIST",
       "SNU"
