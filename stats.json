@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-12-20T19:21:20.827Z",
+  "lastUpdate": "2025-12-21T07:37:50.411Z",
   "totalItems": 150,
-  "totalArchived": 37141,
-  "newPapersAdded": 91,
+  "totalArchived": 37277,
+  "newPapersAdded": 136,
   "institutionBreakdown": {
-    "KAIST": 24,
-    "SNU": 60,
+    "KAIST": 5,
+    "SNU": 29,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 2,
-    "Korea University": 28,
-    "IBS": 76,
+    "POSTECH": 1,
+    "Korea University": 36,
+    "IBS": 97,
     "UNIST": 1,
     "Hanyang University": 3,
-    "KIST": 3,
-    "GIST": 3,
-    "Kyung Hee University": 4,
-    "Pusan National University": 3
+    "KIST": 0,
+    "GIST": 0,
+    "Kyung Hee University": 1,
+    "Pusan National University": 0
   },
   "subjectAreaBreakdown": {
-    "Materials Science": 12,
-    "Neuroscience": 8,
-    "Multidisciplinary": 81,
-    "Biomedical": 30,
-    "Cancer Research": 14,
-    "Computer Science": 5
+    "Multidisciplinary": 82,
+    "Materials Science": 7,
+    "Neuroscience": 10,
+    "Cancer Research": 21,
+    "Computer Science": 5,
+    "Biomedical": 25
   },
-  "multiInstitutional": 41,
+  "multiInstitutional": 19,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,12 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Ionic Defect Analysis and Suppression for Highly Efficient and Stable Perovskite Solar Cells and Mini-Modules",
+    "title": "Synthetic biology strategies for engineering probiotics and commensal bacteria for diagnostics and therapeutics",
     "date": "2025-12-20T11:00:00.000Z",
     "institutions": [
-      "Hanyang University",
-      "IBS",
       "KAIST",
+      "Korea University",
       "SNU"
     ]
   }
