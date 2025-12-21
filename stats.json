@@ -1,8 +1,8 @@
 {
-  "lastUpdate": "2025-12-21T07:37:50.411Z",
+  "lastUpdate": "2025-12-21T19:21:25.350Z",
   "totalItems": 150,
-  "totalArchived": 37277,
-  "newPapersAdded": 136,
+  "totalArchived": 37279,
+  "newPapersAdded": 2,
   "institutionBreakdown": {
     "KAIST": 5,
     "SNU": 29,
@@ -19,12 +19,12 @@
     "Pusan National University": 0
   },
   "subjectAreaBreakdown": {
+    "Biomedical": 26,
     "Multidisciplinary": 82,
     "Materials Science": 7,
     "Neuroscience": 10,
-    "Cancer Research": 21,
-    "Computer Science": 5,
-    "Biomedical": 25
+    "Cancer Research": 20,
+    "Computer Science": 5
   },
   "multiInstitutional": 19,
   "institutions": [
@@ -44,12 +44,10 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Synthetic biology strategies for engineering probiotics and commensal bacteria for diagnostics and therapeutics",
-    "date": "2025-12-20T11:00:00.000Z",
+    "title": "Association of Escherichia coli Infection and fimh Virulence With Benign Prostatic Hyperplasia in Ghanaian Patients",
+    "date": "2025-12-21T11:00:00.000Z",
     "institutions": [
-      "KAIST",
-      "Korea University",
-      "SNU"
+      "IBS"
     ]
   }
 }
