@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-12-23T07:42:56.017Z",
+  "lastUpdate": "2025-12-23T19:23:22.877Z",
   "totalItems": 150,
-  "totalArchived": 37803,
-  "newPapersAdded": 167,
+  "totalArchived": 37988,
+  "newPapersAdded": 185,
   "institutionBreakdown": {
-    "KAIST": 15,
-    "SNU": 100,
+    "KAIST": 4,
+    "SNU": 53,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 5,
-    "Korea University": 54,
-    "IBS": 6,
-    "UNIST": 3,
-    "Hanyang University": 9,
-    "KIST": 6,
-    "GIST": 4,
-    "Kyung Hee University": 6,
-    "Pusan National University": 4
+    "POSTECH": 1,
+    "Korea University": 33,
+    "IBS": 68,
+    "UNIST": 1,
+    "Hanyang University": 2,
+    "KIST": 1,
+    "GIST": 2,
+    "Kyung Hee University": 5,
+    "Pusan National University": 0
   },
   "subjectAreaBreakdown": {
-    "Biomedical": 31,
-    "Cancer Research": 15,
-    "Multidisciplinary": 83,
-    "Materials Science": 10,
-    "Computer Science": 7,
-    "Neuroscience": 4
+    "Multidisciplinary": 87,
+    "Computer Science": 2,
+    "Cancer Research": 12,
+    "Neuroscience": 8,
+    "Materials Science": 7,
+    "Biomedical": 34
   },
-  "multiInstitutional": 50,
+  "multiInstitutional": 17,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,10 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Real-World outcomes of oral anticoagulation in patients with atrial fibrillation at high risk of both bleeding anand Asia-Pacificd stroke: observational evidence from three international registries from middle East, Europe",
+    "title": "Endoscopic Transcanal Repair of Temporomandibular Joint Herniation: A Preliminary Report",
     "date": "2025-12-23T11:00:00.000Z",
     "institutions": [
-      "IBS"
+      "IBS",
+      "KAIST"
     ]
   }
 }
