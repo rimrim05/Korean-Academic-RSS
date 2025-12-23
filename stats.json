@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-12-22T19:23:34.941Z",
+  "lastUpdate": "2025-12-23T07:42:56.017Z",
   "totalItems": 150,
-  "totalArchived": 37636,
-  "newPapersAdded": 209,
+  "totalArchived": 37803,
+  "newPapersAdded": 167,
   "institutionBreakdown": {
-    "KAIST": 14,
-    "SNU": 63,
+    "KAIST": 15,
+    "SNU": 100,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 4,
-    "Korea University": 47,
-    "IBS": 47,
+    "POSTECH": 5,
+    "Korea University": 54,
+    "IBS": 6,
     "UNIST": 3,
     "Hanyang University": 9,
     "KIST": 6,
     "GIST": 4,
-    "Kyung Hee University": 5,
+    "Kyung Hee University": 6,
     "Pusan National University": 4
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 81,
-    "Cancer Research": 11,
-    "Materials Science": 15,
-    "Computer Science": 4,
-    "Biomedical": 32,
-    "Neuroscience": 7
+    "Biomedical": 31,
+    "Cancer Research": 15,
+    "Multidisciplinary": 83,
+    "Materials Science": 10,
+    "Computer Science": 7,
+    "Neuroscience": 4
   },
-  "multiInstitutional": 41,
+  "multiInstitutional": 50,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,12 +44,10 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Multi-omics analysis identifies SMPD1 as a key contributor in sphingolipid pathway for Type 2 diabetes pathogenesis",
-    "date": "2025-12-22T11:00:00.000Z",
+    "title": "Real-World outcomes of oral anticoagulation in patients with atrial fibrillation at high risk of both bleeding anand Asia-Pacificd stroke: observational evidence from three international registries from middle East, Europe",
+    "date": "2025-12-23T11:00:00.000Z",
     "institutions": [
-      "GIST",
-      "IBS",
-      "KAIST"
+      "IBS"
     ]
   }
 }
