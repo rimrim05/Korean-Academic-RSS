@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-12-23T19:23:22.877Z",
+  "lastUpdate": "2025-12-24T07:42:52.345Z",
   "totalItems": 150,
-  "totalArchived": 37988,
-  "newPapersAdded": 185,
+  "totalArchived": 38206,
+  "newPapersAdded": 218,
   "institutionBreakdown": {
-    "KAIST": 4,
-    "SNU": 53,
+    "KAIST": 20,
+    "SNU": 100,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 1,
-    "Korea University": 33,
-    "IBS": 68,
+    "POSTECH": 3,
+    "Korea University": 40,
+    "IBS": 14,
     "UNIST": 1,
-    "Hanyang University": 2,
-    "KIST": 1,
-    "GIST": 2,
-    "Kyung Hee University": 5,
-    "Pusan National University": 0
+    "Hanyang University": 5,
+    "KIST": 6,
+    "GIST": 3,
+    "Kyung Hee University": 7,
+    "Pusan National University": 3
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 87,
-    "Computer Science": 2,
     "Cancer Research": 12,
-    "Neuroscience": 8,
-    "Materials Science": 7,
-    "Biomedical": 34
+    "Multidisciplinary": 72,
+    "Biomedical": 32,
+    "Materials Science": 9,
+    "Neuroscience": 21,
+    "Computer Science": 4
   },
-  "multiInstitutional": 17,
+  "multiInstitutional": 44,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,10 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Endoscopic Transcanal Repair of Temporomandibular Joint Herniation: A Preliminary Report",
-    "date": "2025-12-23T11:00:00.000Z",
+    "title": "Reducing adverse effects in hypofractionated radiotherapy for prostate cancer: Clinical evidence and emerging mitigation strategies",
+    "date": "2025-12-24T11:00:00.000Z",
     "institutions": [
-      "IBS",
-      "KAIST"
+      "Korea University"
     ]
   }
 }
