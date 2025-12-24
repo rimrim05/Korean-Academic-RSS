@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-12-24T07:42:52.345Z",
+  "lastUpdate": "2025-12-24T19:22:24.204Z",
   "totalItems": 150,
-  "totalArchived": 38206,
-  "newPapersAdded": 218,
+  "totalArchived": 38425,
+  "newPapersAdded": 219,
   "institutionBreakdown": {
-    "KAIST": 20,
-    "SNU": 100,
+    "KAIST": 12,
+    "SNU": 65,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 3,
-    "Korea University": 40,
-    "IBS": 14,
-    "UNIST": 1,
-    "Hanyang University": 5,
-    "KIST": 6,
-    "GIST": 3,
-    "Kyung Hee University": 7,
-    "Pusan National University": 3
+    "POSTECH": 0,
+    "Korea University": 51,
+    "IBS": 34,
+    "UNIST": 0,
+    "Hanyang University": 6,
+    "KIST": 1,
+    "GIST": 1,
+    "Kyung Hee University": 3,
+    "Pusan National University": 1
   },
   "subjectAreaBreakdown": {
-    "Cancer Research": 12,
-    "Multidisciplinary": 72,
-    "Biomedical": 32,
-    "Materials Science": 9,
-    "Neuroscience": 21,
-    "Computer Science": 4
+    "Multidisciplinary": 77,
+    "Computer Science": 5,
+    "Cancer Research": 16,
+    "Biomedical": 35,
+    "Neuroscience": 9,
+    "Materials Science": 8
   },
-  "multiInstitutional": 44,
+  "multiInstitutional": 21,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,10 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Reducing adverse effects in hypofractionated radiotherapy for prostate cancer: Clinical evidence and emerging mitigation strategies",
+    "title": "Optimizing Humoral Immunity for Durable and Broad Protection in Flavivirus Vaccines",
     "date": "2025-12-24T11:00:00.000Z",
     "institutions": [
-      "Korea University"
+      "IBS",
+      "KAIST"
     ]
   }
 }
