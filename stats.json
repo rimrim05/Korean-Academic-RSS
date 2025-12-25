@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-12-25T07:40:27.595Z",
+  "lastUpdate": "2025-12-25T19:22:07.656Z",
   "totalItems": 150,
-  "totalArchived": 38601,
-  "newPapersAdded": 176,
+  "totalArchived": 38739,
+  "newPapersAdded": 138,
   "institutionBreakdown": {
     "KAIST": 19,
-    "SNU": 100,
+    "SNU": 28,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 3,
-    "Korea University": 46,
-    "IBS": 8,
-    "UNIST": 0,
-    "Hanyang University": 7,
-    "KIST": 2,
-    "GIST": 2,
-    "Kyung Hee University": 10,
-    "Pusan National University": 3
+    "POSTECH": 4,
+    "Korea University": 21,
+    "IBS": 100,
+    "UNIST": 2,
+    "Hanyang University": 1,
+    "KIST": 1,
+    "GIST": 1,
+    "Kyung Hee University": 2,
+    "Pusan National University": 4
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 71,
+    "Multidisciplinary": 63,
+    "Cancer Research": 6,
+    "Neuroscience": 46,
     "Biomedical": 29,
-    "Neuroscience": 21,
-    "Computer Science": 5,
-    "Cancer Research": 15,
-    "Materials Science": 9
+    "Materials Science": 2,
+    "Computer Science": 4
   },
-  "multiInstitutional": 35,
+  "multiInstitutional": 20,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,12 +44,14 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Rapidly progressive destructive arthrosis (RPDA) of the glenohumeral joint: a radiologic classification and mid-term outcomes following shoulder arthroplasty",
-    "date": "2025-12-24T11:00:00.000Z",
+    "title": "Correlated Interlayer Quantum Hall State in Large-Angle Twisted Trilayer Graphene",
+    "date": "2025-12-25T11:00:00.000Z",
     "institutions": [
       "IBS",
       "KAIST",
-      "SNU"
+      "POSTECH",
+      "SNU",
+      "UNIST"
     ]
   }
 }
