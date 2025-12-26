@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-12-25T19:22:07.656Z",
+  "lastUpdate": "2025-12-26T07:40:38.611Z",
   "totalItems": 150,
-  "totalArchived": 38739,
-  "newPapersAdded": 138,
+  "totalArchived": 38905,
+  "newPapersAdded": 166,
   "institutionBreakdown": {
-    "KAIST": 19,
-    "SNU": 28,
+    "KAIST": 11,
+    "SNU": 63,
     "Yonsei University": 0,
     "SKKU": 0,
     "POSTECH": 4,
-    "Korea University": 21,
-    "IBS": 100,
+    "Korea University": 46,
+    "IBS": 52,
     "UNIST": 2,
-    "Hanyang University": 1,
-    "KIST": 1,
-    "GIST": 1,
-    "Kyung Hee University": 2,
-    "Pusan National University": 4
+    "Hanyang University": 7,
+    "KIST": 3,
+    "GIST": 3,
+    "Kyung Hee University": 7,
+    "Pusan National University": 5
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 63,
-    "Cancer Research": 6,
-    "Neuroscience": 46,
-    "Biomedical": 29,
-    "Materials Science": 2,
-    "Computer Science": 4
+    "Neuroscience": 16,
+    "Multidisciplinary": 74,
+    "Biomedical": 33,
+    "Cancer Research": 18,
+    "Computer Science": 6,
+    "Materials Science": 3
   },
-  "multiInstitutional": 20,
+  "multiInstitutional": 39,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,14 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Correlated Interlayer Quantum Hall State in Large-Angle Twisted Trilayer Graphene",
+    "title": "Dementia Care Research and Psychosocial Factors",
     "date": "2025-12-25T11:00:00.000Z",
     "institutions": [
       "IBS",
-      "KAIST",
-      "POSTECH",
-      "SNU",
-      "UNIST"
+      "KAIST"
     ]
   }
 }
