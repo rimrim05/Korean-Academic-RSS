@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-12-26T19:22:17.279Z",
+  "lastUpdate": "2025-12-27T07:37:19.777Z",
   "totalItems": 150,
-  "totalArchived": 39090,
-  "newPapersAdded": 185,
+  "totalArchived": 39244,
+  "newPapersAdded": 154,
   "institutionBreakdown": {
-    "KAIST": 12,
-    "SNU": 46,
+    "KAIST": 19,
+    "SNU": 83,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 2,
-    "Korea University": 34,
-    "IBS": 76,
+    "POSTECH": 4,
+    "Korea University": 57,
+    "IBS": 20,
     "UNIST": 1,
-    "Hanyang University": 2,
-    "KIST": 2,
-    "GIST": 2,
-    "Kyung Hee University": 3,
-    "Pusan National University": 0
+    "Hanyang University": 7,
+    "KIST": 3,
+    "GIST": 4,
+    "Kyung Hee University": 8,
+    "Pusan National University": 3
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 75,
-    "Neuroscience": 18,
+    "Cancer Research": 17,
+    "Multidisciplinary": 78,
     "Materials Science": 9,
-    "Computer Science": 2,
-    "Biomedical": 29,
-    "Cancer Research": 17
+    "Neuroscience": 13,
+    "Computer Science": 3,
+    "Biomedical": 30
   },
-  "multiInstitutional": 23,
+  "multiInstitutional": 40,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,15 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Hexoctahedron in a Nanoframe: Tailoring Stationary and Open Nanogaps for Single-Particle Surface-Enhanced Raman Scattering",
+    "title": "Tumor Control After Radiosurgery in Sporadic and Neurofibromatosis Type 2 Vestibular Schwannomas",
     "date": "2025-12-26T11:00:00.000Z",
     "institutions": [
       "IBS",
-      "KAIST"
+      "KAIST",
+      "Korea University",
+      "Kyung Hee University",
+      "Pusan National University",
+      "SNU"
     ]
   }
 }
