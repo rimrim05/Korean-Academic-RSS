@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-12-27T19:21:42.477Z",
+  "lastUpdate": "2025-12-28T07:39:09.705Z",
   "totalItems": 150,
-  "totalArchived": 39291,
-  "newPapersAdded": 47,
+  "totalArchived": 39438,
+  "newPapersAdded": 147,
   "institutionBreakdown": {
-    "KAIST": 20,
-    "SNU": 90,
+    "KAIST": 8,
+    "SNU": 30,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 4,
-    "Korea University": 26,
-    "IBS": 45,
-    "UNIST": 1,
-    "Hanyang University": 7,
-    "KIST": 3,
-    "GIST": 5,
-    "Kyung Hee University": 8,
+    "POSTECH": 0,
+    "Korea University": 33,
+    "IBS": 94,
+    "UNIST": 0,
+    "Hanyang University": 1,
+    "KIST": 0,
+    "GIST": 2,
+    "Kyung Hee University": 2,
     "Pusan National University": 2
   },
   "subjectAreaBreakdown": {
-    "Materials Science": 13,
-    "Multidisciplinary": 76,
-    "Biomedical": 35,
-    "Cancer Research": 15,
-    "Neuroscience": 10,
-    "Computer Science": 1
+    "Multidisciplinary": 75,
+    "Biomedical": 34,
+    "Computer Science": 6,
+    "Cancer Research": 20,
+    "Materials Science": 8,
+    "Neuroscience": 7
   },
-  "multiInstitutional": 42,
+  "multiInstitutional": 19,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,10 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Visibly Transparent Monolithic Perovskite/Organic Tandem Solar Cells Achieving Over 6% Light-Utilization Efficiency",
-    "date": "2025-12-27T11:00:00.000Z",
+    "title": "Convergent DNA methylation abnormalities at enhancers and bivalent promoters in human growth disorders",
+    "date": "2025-12-28T11:00:00.000Z",
     "institutions": [
       "IBS",
-      "KAIST",
       "SNU"
     ]
   }
