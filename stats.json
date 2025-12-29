@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-12-28T19:21:43.640Z",
+  "lastUpdate": "2025-12-29T07:45:13.224Z",
   "totalItems": 150,
-  "totalArchived": 39449,
-  "newPapersAdded": 11,
+  "totalArchived": 39580,
+  "newPapersAdded": 131,
   "institutionBreakdown": {
-    "KAIST": 8,
-    "SNU": 30,
+    "KAIST": 12,
+    "SNU": 27,
     "Yonsei University": 0,
     "SKKU": 0,
     "POSTECH": 0,
-    "Korea University": 35,
-    "IBS": 92,
+    "Korea University": 23,
+    "IBS": 100,
     "UNIST": 0,
-    "Hanyang University": 1,
+    "Hanyang University": 0,
     "KIST": 0,
     "GIST": 2,
-    "Kyung Hee University": 2,
-    "Pusan National University": 2
+    "Kyung Hee University": 1,
+    "Pusan National University": 3
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 78,
-    "Biomedical": 32,
-    "Cancer Research": 21,
-    "Neuroscience": 7,
-    "Computer Science": 6,
-    "Materials Science": 6
+    "Multidisciplinary": 81,
+    "Materials Science": 8,
+    "Biomedical": 29,
+    "Cancer Research": 17,
+    "Computer Science": 3,
+    "Neuroscience": 12
   },
-  "multiInstitutional": 19,
+  "multiInstitutional": 15,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,10 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Convergent DNA methylation abnormalities at enhancers and bivalent promoters in human growth disorders",
+    "title": "Maple-seed-inspired asymmetric microdisk resonators",
     "date": "2025-12-28T11:00:00.000Z",
     "institutions": [
-      "IBS",
-      "SNU"
+      "KAIST"
     ]
   }
 }
