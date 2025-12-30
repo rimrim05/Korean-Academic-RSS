@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-12-29T19:22:50.321Z",
+  "lastUpdate": "2025-12-30T07:41:41.741Z",
   "totalItems": 150,
-  "totalArchived": 39769,
-  "newPapersAdded": 189,
+  "totalArchived": 39901,
+  "newPapersAdded": 132,
   "institutionBreakdown": {
-    "KAIST": 5,
-    "SNU": 52,
+    "KAIST": 8,
+    "SNU": 79,
     "Yonsei University": 0,
     "SKKU": 0,
     "POSTECH": 3,
-    "Korea University": 46,
-    "IBS": 64,
+    "Korea University": 64,
+    "IBS": 24,
     "UNIST": 0,
     "Hanyang University": 3,
     "KIST": 2,
     "GIST": 2,
-    "Kyung Hee University": 5,
-    "Pusan National University": 1
+    "Kyung Hee University": 7,
+    "Pusan National University": 2
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 71,
-    "Cancer Research": 16,
-    "Neuroscience": 10,
-    "Materials Science": 7,
-    "Biomedical": 42,
-    "Computer Science": 4
+    "Multidisciplinary": 72,
+    "Biomedical": 33,
+    "Cancer Research": 19,
+    "Materials Science": 9,
+    "Computer Science": 7,
+    "Neuroscience": 10
   },
-  "multiInstitutional": 29,
+  "multiInstitutional": 34,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,14 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Cooperative ETS transcription factors are required for lymphatic endothelial cell integrity and resilience",
+    "title": "Recommendation for use of 15- and 20-valent pneumococcal conjugate vaccines in Korean infants and children",
     "date": "2025-12-29T11:00:00.000Z",
     "institutions": [
       "IBS",
-      "KAIST"
+      "KAIST",
+      "Korea University",
+      "Pusan National University",
+      "SNU"
     ]
   }
 }
