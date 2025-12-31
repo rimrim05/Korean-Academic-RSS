@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2025-12-31T07:42:43.409Z",
+  "lastUpdate": "2025-12-31T19:22:07.140Z",
   "totalItems": 150,
-  "totalArchived": 40352,
-  "newPapersAdded": 155,
+  "totalArchived": 40598,
+  "newPapersAdded": 246,
   "institutionBreakdown": {
-    "KAIST": 21,
-    "SNU": 100,
+    "KAIST": 16,
+    "SNU": 90,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 4,
-    "Korea University": 45,
-    "IBS": 8,
+    "POSTECH": 5,
+    "Korea University": 40,
+    "IBS": 21,
     "UNIST": 0,
-    "Hanyang University": 6,
-    "KIST": 4,
-    "GIST": 4,
-    "Kyung Hee University": 16,
-    "Pusan National University": 6
+    "Hanyang University": 7,
+    "KIST": 2,
+    "GIST": 3,
+    "Kyung Hee University": 12,
+    "Pusan National University": 2
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 91,
-    "Biomedical": 34,
-    "Cancer Research": 15,
-    "Computer Science": 3,
-    "Neuroscience": 2,
-    "Materials Science": 5
+    "Multidisciplinary": 75,
+    "Computer Science": 6,
+    "Biomedical": 28,
+    "Materials Science": 15,
+    "Cancer Research": 23,
+    "Neuroscience": 3
   },
-  "multiInstitutional": 50,
+  "multiInstitutional": 39,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,10 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Dapagliflozin modulates plasma lipidomic profile and urinary metabolite excretion in type 2 diabetes",
+    "title": "Effect of Interpersonal Needs and Attitudes Toward Suicide on Suicide Risk in Middle-Aged Korean Women",
     "date": "2025-12-31T11:00:00.000Z",
     "institutions": [
-      "IBS"
+      "IBS",
+      "KAIST"
     ]
   }
 }
