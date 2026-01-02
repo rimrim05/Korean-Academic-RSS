@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-01-02T07:42:32.611Z",
+  "lastUpdate": "2026-01-02T19:19:08.583Z",
   "totalItems": 150,
-  "totalArchived": 41012,
-  "newPapersAdded": 137,
+  "totalArchived": 41152,
+  "newPapersAdded": 140,
   "institutionBreakdown": {
-    "KAIST": 8,
-    "SNU": 48,
+    "KAIST": 13,
+    "SNU": 30,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 2,
-    "Korea University": 31,
-    "IBS": 76,
+    "POSTECH": 1,
+    "Korea University": 14,
+    "IBS": 100,
     "UNIST": 2,
-    "Hanyang University": 6,
+    "Hanyang University": 3,
     "KIST": 2,
-    "GIST": 2,
-    "Kyung Hee University": 7,
-    "Pusan National University": 2
+    "GIST": 5,
+    "Kyung Hee University": 3,
+    "Pusan National University": 3
   },
   "subjectAreaBreakdown": {
-    "Biomedical": 22,
-    "Multidisciplinary": 94,
-    "Materials Science": 12,
-    "Neuroscience": 6,
-    "Cancer Research": 10,
-    "Computer Science": 6
+    "Multidisciplinary": 83,
+    "Biomedical": 32,
+    "Cancer Research": 12,
+    "Neuroscience": 11,
+    "Computer Science": 2,
+    "Materials Science": 10
   },
-  "multiInstitutional": 31,
+  "multiInstitutional": 19,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Wholistic report generation for Breast ultrasound using LangChain",
-    "date": "2026-01-01T11:00:00.000Z",
+    "title": "The traffic controller: GARLH4 dictates neuroligin synapse-type preference",
+    "date": "2026-01-02T11:00:00.000Z",
     "institutions": [
-      "KAIST",
-      "SNU"
+      "IBS",
+      "KAIST"
     ]
   }
 }
