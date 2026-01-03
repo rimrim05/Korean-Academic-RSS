@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-01-03T07:37:58.977Z",
+  "lastUpdate": "2026-01-03T19:21:40.899Z",
   "totalItems": 150,
-  "totalArchived": 41288,
-  "newPapersAdded": 136,
+  "totalArchived": 41406,
+  "newPapersAdded": 118,
   "institutionBreakdown": {
-    "KAIST": 11,
-    "SNU": 46,
+    "KAIST": 13,
+    "SNU": 33,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 2,
-    "Korea University": 36,
-    "IBS": 74,
+    "POSTECH": 0,
+    "Korea University": 25,
+    "IBS": 99,
     "UNIST": 1,
-    "Hanyang University": 1,
+    "Hanyang University": 0,
     "KIST": 1,
-    "GIST": 3,
-    "Kyung Hee University": 5,
-    "Pusan National University": 1
+    "GIST": 2,
+    "Kyung Hee University": 3,
+    "Pusan National University": 2
   },
   "subjectAreaBreakdown": {
-    "Materials Science": 10,
-    "Multidisciplinary": 85,
-    "Neuroscience": 10,
+    "Multidisciplinary": 83,
     "Biomedical": 26,
-    "Computer Science": 6,
-    "Cancer Research": 13
+    "Cancer Research": 19,
+    "Neuroscience": 10,
+    "Computer Science": 4,
+    "Materials Science": 8
   },
-  "multiInstitutional": 22,
+  "multiInstitutional": 18,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,10 +44,12 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Riemannian denoising model for molecular structure optimization with chemical accuracy",
-    "date": "2026-01-02T11:00:00.000Z",
+    "title": "<sup>225</sup>Ac-NOTA-trastuzumab human dosimetry using inter-radionuclide and biological half-life based allometric extrapolation method",
+    "date": "2026-01-03T11:00:00.000Z",
     "institutions": [
-      "KAIST"
+      "IBS",
+      "KAIST",
+      "SNU"
     ]
   }
 }
