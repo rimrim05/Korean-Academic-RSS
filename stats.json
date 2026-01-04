@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-01-04T07:40:13.953Z",
+  "lastUpdate": "2026-01-04T19:21:51.117Z",
   "totalItems": 150,
-  "totalArchived": 41521,
-  "newPapersAdded": 115,
+  "totalArchived": 41654,
+  "newPapersAdded": 133,
   "institutionBreakdown": {
-    "KAIST": 17,
-    "SNU": 22,
+    "KAIST": 11,
+    "SNU": 32,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 2,
-    "Korea University": 27,
+    "POSTECH": 1,
+    "Korea University": 19,
     "IBS": 100,
-    "UNIST": 1,
+    "UNIST": 0,
     "Hanyang University": 5,
-    "KIST": 1,
+    "KIST": 0,
     "GIST": 2,
-    "Kyung Hee University": 2,
-    "Pusan National University": 5
+    "Kyung Hee University": 1,
+    "Pusan National University": 1
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 75,
-    "Materials Science": 10,
-    "Cancer Research": 22,
-    "Biomedical": 29,
-    "Neuroscience": 9,
-    "Computer Science": 5
+    "Biomedical": 32,
+    "Multidisciplinary": 84,
+    "Neuroscience": 3,
+    "Cancer Research": 27,
+    "Materials Science": 2,
+    "Computer Science": 2
   },
-  "multiInstitutional": 24,
+  "multiInstitutional": 16,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,13 +44,12 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Family structure, adolescent mental health, and the role of advisors in the cultural and social context of South Korea",
-    "date": "2026-01-03T11:00:00.000Z",
+    "title": "Designing 5' UTR sequences improves the capacity of mRNA therapeutics in preclinical models of aging and obesity",
+    "date": "2026-01-04T11:00:00.000Z",
     "institutions": [
-      "Hanyang University",
+      "GIST",
       "IBS",
-      "KAIST",
-      "SNU"
+      "KAIST"
     ]
   }
 }
