@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-01-03T19:21:40.899Z",
+  "lastUpdate": "2026-01-04T07:40:13.953Z",
   "totalItems": 150,
-  "totalArchived": 41406,
-  "newPapersAdded": 118,
+  "totalArchived": 41521,
+  "newPapersAdded": 115,
   "institutionBreakdown": {
-    "KAIST": 13,
-    "SNU": 33,
+    "KAIST": 17,
+    "SNU": 22,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 0,
-    "Korea University": 25,
-    "IBS": 99,
+    "POSTECH": 2,
+    "Korea University": 27,
+    "IBS": 100,
     "UNIST": 1,
-    "Hanyang University": 0,
+    "Hanyang University": 5,
     "KIST": 1,
     "GIST": 2,
-    "Kyung Hee University": 3,
-    "Pusan National University": 2
+    "Kyung Hee University": 2,
+    "Pusan National University": 5
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 83,
-    "Biomedical": 26,
-    "Cancer Research": 19,
-    "Neuroscience": 10,
-    "Computer Science": 4,
-    "Materials Science": 8
+    "Multidisciplinary": 75,
+    "Materials Science": 10,
+    "Cancer Research": 22,
+    "Biomedical": 29,
+    "Neuroscience": 9,
+    "Computer Science": 5
   },
-  "multiInstitutional": 18,
+  "multiInstitutional": 24,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,9 +44,10 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "<sup>225</sup>Ac-NOTA-trastuzumab human dosimetry using inter-radionuclide and biological half-life based allometric extrapolation method",
+    "title": "Family structure, adolescent mental health, and the role of advisors in the cultural and social context of South Korea",
     "date": "2026-01-03T11:00:00.000Z",
     "institutions": [
+      "Hanyang University",
       "IBS",
       "KAIST",
       "SNU"
