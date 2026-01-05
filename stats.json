@@ -1,31 +1,32 @@
 {
-  "lastUpdate": "2026-01-05T07:46:54.544Z",
+  "lastUpdate": "2026-01-05T19:26:53.930Z",
   "totalItems": 150,
-  "totalArchived": 41801,
-  "newPapersAdded": 147,
+  "totalArchived": 41979,
+  "newPapersAdded": 178,
   "institutionBreakdown": {
-    "KAIST": 5,
-    "SNU": 44,
+    "KAIST": 8,
+    "SNU": 42,
     "Yonsei University": 0,
     "SKKU": 0,
     "POSTECH": 2,
     "Korea University": 40,
-    "IBS": 70,
+    "IBS": 80,
     "UNIST": 0,
-    "Hanyang University": 6,
-    "KIST": 1,
-    "GIST": 4,
-    "Kyung Hee University": 1,
-    "Pusan National University": 0
+    "Hanyang University": 0,
+    "KIST": 2,
+    "GIST": 1,
+    "Kyung Hee University": 6,
+    "Pusan National University": 2
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 81,
-    "Biomedical": 34,
-    "Cancer Research": 20,
-    "Materials Science": 9,
-    "Neuroscience": 6
+    "Multidisciplinary": 86,
+    "Biomedical": 25,
+    "Materials Science": 18,
+    "Cancer Research": 12,
+    "Computer Science": 2,
+    "Neuroscience": 7
   },
-  "multiInstitutional": 20,
+  "multiInstitutional": 21,
   "institutions": [
     "KAIST",
     "SNU",
@@ -43,10 +44,9 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Confining Li⁺ Solvation in Core-Shell Metal-Organic Frameworks for Stable Lithium Metal Batteries at 100 °C",
-    "date": "2026-01-04T11:00:00.000Z",
+    "title": "Directing Ultramicropore Architecture in Carbon Molecular Sieve Membranes with Lanthanum for High-Fidelity Gas Separation",
+    "date": "2026-01-05T11:00:00.000Z",
     "institutions": [
-      "GIST",
       "IBS",
       "KAIST"
     ]
