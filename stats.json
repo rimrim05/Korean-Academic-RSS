@@ -1,32 +1,31 @@
 {
-  "lastUpdate": "2026-01-04T19:21:51.117Z",
+  "lastUpdate": "2026-01-05T07:46:54.544Z",
   "totalItems": 150,
-  "totalArchived": 41654,
-  "newPapersAdded": 133,
+  "totalArchived": 41801,
+  "newPapersAdded": 147,
   "institutionBreakdown": {
-    "KAIST": 11,
-    "SNU": 32,
+    "KAIST": 5,
+    "SNU": 44,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 1,
-    "Korea University": 19,
-    "IBS": 100,
+    "POSTECH": 2,
+    "Korea University": 40,
+    "IBS": 70,
     "UNIST": 0,
-    "Hanyang University": 5,
-    "KIST": 0,
-    "GIST": 2,
+    "Hanyang University": 6,
+    "KIST": 1,
+    "GIST": 4,
     "Kyung Hee University": 1,
-    "Pusan National University": 1
+    "Pusan National University": 0
   },
   "subjectAreaBreakdown": {
-    "Biomedical": 32,
-    "Multidisciplinary": 84,
-    "Neuroscience": 3,
-    "Cancer Research": 27,
-    "Materials Science": 2,
-    "Computer Science": 2
+    "Multidisciplinary": 81,
+    "Biomedical": 34,
+    "Cancer Research": 20,
+    "Materials Science": 9,
+    "Neuroscience": 6
   },
-  "multiInstitutional": 16,
+  "multiInstitutional": 20,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,7 +43,7 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Designing 5' UTR sequences improves the capacity of mRNA therapeutics in preclinical models of aging and obesity",
+    "title": "Confining Li⁺ Solvation in Core-Shell Metal-Organic Frameworks for Stable Lithium Metal Batteries at 100 °C",
     "date": "2026-01-04T11:00:00.000Z",
     "institutions": [
       "GIST",
