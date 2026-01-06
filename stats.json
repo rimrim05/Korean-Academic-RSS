@@ -1,32 +1,31 @@
 {
-  "lastUpdate": "2026-01-06T07:45:22.417Z",
+  "lastUpdate": "2026-01-06T19:24:01.960Z",
   "totalItems": 150,
-  "totalArchived": 41982,
-  "newPapersAdded": 3,
+  "totalArchived": 42168,
+  "newPapersAdded": 186,
   "institutionBreakdown": {
-    "KAIST": 8,
-    "SNU": 42,
+    "KAIST": 13,
+    "SNU": 46,
     "Yonsei University": 0,
     "SKKU": 0,
     "POSTECH": 2,
-    "Korea University": 40,
-    "IBS": 80,
-    "UNIST": 0,
-    "Hanyang University": 0,
-    "KIST": 2,
-    "GIST": 1,
-    "Kyung Hee University": 6,
+    "Korea University": 42,
+    "IBS": 70,
+    "UNIST": 1,
+    "Hanyang University": 3,
+    "KIST": 0,
+    "GIST": 0,
+    "Kyung Hee University": 1,
     "Pusan National University": 2
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 86,
-    "Biomedical": 25,
-    "Materials Science": 18,
-    "Cancer Research": 12,
-    "Computer Science": 2,
-    "Neuroscience": 7
+    "Multidisciplinary": 80,
+    "Materials Science": 10,
+    "Biomedical": 35,
+    "Neuroscience": 9,
+    "Cancer Research": 16
   },
-  "multiInstitutional": 21,
+  "multiInstitutional": 23,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,8 +43,8 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Directing Ultramicropore Architecture in Carbon Molecular Sieve Membranes with Lanthanum for High-Fidelity Gas Separation",
-    "date": "2026-01-05T11:00:00.000Z",
+    "title": "Corrigendum to: Molecular identification of severe fever with thrombocytopenia syndrome virus in deer ked: implications for disease transmission (One Health, volume 21, article number 101107)",
+    "date": "2026-01-06T11:00:00.000Z",
     "institutions": [
       "IBS",
       "KAIST"
