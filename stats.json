@@ -1,31 +1,32 @@
 {
-  "lastUpdate": "2026-01-06T19:24:01.960Z",
+  "lastUpdate": "2026-01-07T07:45:00.917Z",
   "totalItems": 150,
-  "totalArchived": 42168,
-  "newPapersAdded": 186,
+  "totalArchived": 42390,
+  "newPapersAdded": 222,
   "institutionBreakdown": {
-    "KAIST": 13,
-    "SNU": 46,
+    "KAIST": 22,
+    "SNU": 100,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 2,
-    "Korea University": 42,
-    "IBS": 70,
+    "POSTECH": 5,
+    "Korea University": 54,
+    "IBS": 16,
     "UNIST": 1,
-    "Hanyang University": 3,
-    "KIST": 0,
-    "GIST": 0,
-    "Kyung Hee University": 1,
-    "Pusan National University": 2
+    "Hanyang University": 6,
+    "KIST": 3,
+    "GIST": 5,
+    "Kyung Hee University": 7,
+    "Pusan National University": 4
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 80,
-    "Materials Science": 10,
-    "Biomedical": 35,
-    "Neuroscience": 9,
-    "Cancer Research": 16
+    "Multidisciplinary": 85,
+    "Biomedical": 32,
+    "Materials Science": 8,
+    "Neuroscience": 4,
+    "Cancer Research": 16,
+    "Computer Science": 5
   },
-  "multiInstitutional": 23,
+  "multiInstitutional": 55,
   "institutions": [
     "KAIST",
     "SNU",
@@ -43,11 +44,12 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Corrigendum to: Molecular identification of severe fever with thrombocytopenia syndrome virus in deer ked: implications for disease transmission (One Health, volume 21, article number 101107)",
-    "date": "2026-01-06T11:00:00.000Z",
+    "title": "Systemic control of HNF1B-driven redox homeostasis by N6-adenosine methylation",
+    "date": "2026-01-07T11:00:00.000Z",
     "institutions": [
       "IBS",
-      "KAIST"
+      "KAIST",
+      "SNU"
     ]
   }
 }
