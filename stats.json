@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-01-08T19:26:26.567Z",
+  "lastUpdate": "2026-01-09T07:44:42.760Z",
   "totalItems": 150,
-  "totalArchived": 42911,
-  "newPapersAdded": 153,
+  "totalArchived": 43136,
+  "newPapersAdded": 225,
   "institutionBreakdown": {
-    "KAIST": 9,
-    "SNU": 27,
+    "KAIST": 29,
+    "SNU": 92,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 2,
-    "Korea University": 25,
-    "IBS": 100,
-    "UNIST": 0,
-    "Hanyang University": 1,
-    "KIST": 2,
-    "GIST": 2,
-    "Kyung Hee University": 1,
-    "Pusan National University": 2
+    "POSTECH": 5,
+    "Korea University": 44,
+    "IBS": 18,
+    "UNIST": 1,
+    "Hanyang University": 5,
+    "KIST": 3,
+    "GIST": 3,
+    "Kyung Hee University": 5,
+    "Pusan National University": 3
   },
   "subjectAreaBreakdown": {
-    "Materials Science": 9,
-    "Multidisciplinary": 88,
-    "Cancer Research": 9,
-    "Neuroscience": 6,
-    "Biomedical": 33,
-    "Computer Science": 5
+    "Multidisciplinary": 76,
+    "Biomedical": 26,
+    "Cancer Research": 24,
+    "Neuroscience": 9,
+    "Computer Science": 2,
+    "Materials Science": 13
   },
-  "multiInstitutional": 18,
+  "multiInstitutional": 45,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "MoS<sub>2</sub>-functionalized sulfonated polystyrene for adsorption of rhodamine B",
-    "date": "2026-01-08T11:00:00.000Z",
+    "title": "From least concerned to endangered? An integrated approach to determine the distribution, suitable habitat, and future of Dryophytes immaculatus",
+    "date": "2026-01-09T11:00:00.000Z",
     "institutions": [
       "IBS",
-      "KAIST"
+      "SNU"
     ]
   }
 }
