@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-01-10T07:37:55.942Z",
+  "lastUpdate": "2026-01-10T19:21:48.304Z",
   "totalItems": 150,
-  "totalArchived": 43523,
-  "newPapersAdded": 181,
+  "totalArchived": 43769,
+  "newPapersAdded": 246,
   "institutionBreakdown": {
-    "KAIST": 17,
+    "KAIST": 7,
     "SNU": 100,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 4,
-    "Korea University": 48,
-    "IBS": 8,
+    "POSTECH": 1,
+    "Korea University": 46,
+    "IBS": 17,
     "UNIST": 0,
-    "Hanyang University": 5,
-    "KIST": 2,
-    "GIST": 5,
-    "Kyung Hee University": 10,
-    "Pusan National University": 1
+    "Hanyang University": 7,
+    "KIST": 1,
+    "GIST": 2,
+    "Kyung Hee University": 14,
+    "Pusan National University": 2
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 82,
+    "Biomedical": 39,
+    "Multidisciplinary": 75,
+    "Cancer Research": 20,
     "Neuroscience": 7,
-    "Biomedical": 36,
-    "Cancer Research": 18,
-    "Computer Science": 6,
-    "Materials Science": 1
+    "Materials Science": 4,
+    "Computer Science": 5
   },
-  "multiInstitutional": 39,
+  "multiInstitutional": 37,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,14 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Anti-Inflammatory and bone-protective effects of Pimpinella brachycarpa extract in a rat periodontitis model",
-    "date": "2026-01-09T11:00:00.000Z",
+    "title": "Re: Comments on \"Potentially Inappropriate Medication Use in Patients With Parkinson's Disease: Analysis of Korean National Health Insurance Claims Data\"",
+    "date": "2026-01-10T11:00:00.000Z",
     "institutions": [
       "IBS",
-      "KAIST"
+      "KAIST",
+      "Korea University",
+      "Kyung Hee University",
+      "SNU"
     ]
   }
 }
