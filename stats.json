@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-01-09T19:26:55.395Z",
+  "lastUpdate": "2026-01-10T07:37:55.942Z",
   "totalItems": 150,
-  "totalArchived": 43342,
-  "newPapersAdded": 206,
+  "totalArchived": 43523,
+  "newPapersAdded": 181,
   "institutionBreakdown": {
-    "KAIST": 10,
-    "SNU": 68,
+    "KAIST": 17,
+    "SNU": 100,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 1,
-    "Korea University": 35,
-    "IBS": 52,
+    "POSTECH": 4,
+    "Korea University": 48,
+    "IBS": 8,
     "UNIST": 0,
-    "Hanyang University": 4,
-    "KIST": 0,
-    "GIST": 4,
-    "Kyung Hee University": 6,
-    "Pusan National University": 2
+    "Hanyang University": 5,
+    "KIST": 2,
+    "GIST": 5,
+    "Kyung Hee University": 10,
+    "Pusan National University": 1
   },
   "subjectAreaBreakdown": {
-    "Neuroscience": 10,
-    "Multidisciplinary": 78,
-    "Biomedical": 35,
+    "Multidisciplinary": 82,
+    "Neuroscience": 7,
+    "Biomedical": 36,
     "Cancer Research": 18,
-    "Computer Science": 3,
-    "Materials Science": 6
+    "Computer Science": 6,
+    "Materials Science": 1
   },
-  "multiInstitutional": 25,
+  "multiInstitutional": 39,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,12 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Biomarkers",
+    "title": "Anti-Inflammatory and bone-protective effects of Pimpinella brachycarpa extract in a rat periodontitis model",
     "date": "2026-01-09T11:00:00.000Z",
     "institutions": [
       "IBS",
-      "KAIST",
-      "SNU"
+      "KAIST"
     ]
   }
 }
