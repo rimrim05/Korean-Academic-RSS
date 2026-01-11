@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-01-10T19:21:48.304Z",
+  "lastUpdate": "2026-01-11T07:39:35.800Z",
   "totalItems": 150,
-  "totalArchived": 43769,
-  "newPapersAdded": 246,
+  "totalArchived": 43940,
+  "newPapersAdded": 171,
   "institutionBreakdown": {
-    "KAIST": 7,
+    "KAIST": 12,
     "SNU": 100,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 1,
-    "Korea University": 46,
-    "IBS": 17,
+    "POSTECH": 3,
+    "Korea University": 52,
+    "IBS": 3,
     "UNIST": 0,
-    "Hanyang University": 7,
-    "KIST": 1,
+    "Hanyang University": 9,
+    "KIST": 0,
     "GIST": 2,
-    "Kyung Hee University": 14,
+    "Kyung Hee University": 11,
     "Pusan National University": 2
   },
   "subjectAreaBreakdown": {
-    "Biomedical": 39,
-    "Multidisciplinary": 75,
-    "Cancer Research": 20,
-    "Neuroscience": 7,
-    "Materials Science": 4,
-    "Computer Science": 5
+    "Multidisciplinary": 70,
+    "Biomedical": 48,
+    "Cancer Research": 15,
+    "Neuroscience": 6,
+    "Materials Science": 9,
+    "Computer Science": 2
   },
-  "multiInstitutional": 37,
+  "multiInstitutional": 39,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,14 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Re: Comments on \"Potentially Inappropriate Medication Use in Patients With Parkinson's Disease: Analysis of Korean National Health Insurance Claims Data\"",
+    "title": "An attention enhanced CNN ensemble for interpretable and accurate cotton leaf disease classification",
     "date": "2026-01-10T11:00:00.000Z",
     "institutions": [
       "IBS",
-      "KAIST",
-      "Korea University",
-      "Kyung Hee University",
-      "SNU"
+      "KAIST"
     ]
   }
 }
