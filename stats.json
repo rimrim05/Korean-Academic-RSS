@@ -1,16 +1,16 @@
 {
-  "lastUpdate": "2026-01-11T07:39:35.800Z",
+  "lastUpdate": "2026-01-11T19:21:49.832Z",
   "totalItems": 150,
-  "totalArchived": 43940,
-  "newPapersAdded": 171,
+  "totalArchived": 43953,
+  "newPapersAdded": 13,
   "institutionBreakdown": {
     "KAIST": 12,
     "SNU": 100,
     "Yonsei University": 0,
     "SKKU": 0,
     "POSTECH": 3,
-    "Korea University": 52,
-    "IBS": 3,
+    "Korea University": 45,
+    "IBS": 13,
     "UNIST": 0,
     "Hanyang University": 9,
     "KIST": 0,
@@ -19,14 +19,14 @@
     "Pusan National University": 2
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 70,
-    "Biomedical": 48,
-    "Cancer Research": 15,
-    "Neuroscience": 6,
-    "Materials Science": 9,
+    "Multidisciplinary": 67,
+    "Biomedical": 49,
+    "Cancer Research": 19,
+    "Neuroscience": 5,
+    "Materials Science": 8,
     "Computer Science": 2
   },
-  "multiInstitutional": 39,
+  "multiInstitutional": 41,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "An attention enhanced CNN ensemble for interpretable and accurate cotton leaf disease classification",
-    "date": "2026-01-10T11:00:00.000Z",
+    "title": "CoBRA: compound binding site prediction using RNA language model",
+    "date": "2026-01-11T11:00:00.000Z",
     "institutions": [
-      "IBS",
-      "KAIST"
+      "Korea University",
+      "SNU"
     ]
   }
 }
