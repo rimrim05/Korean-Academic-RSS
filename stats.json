@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-01-12T07:46:05.699Z",
+  "lastUpdate": "2026-01-12T19:26:26.401Z",
   "totalItems": 150,
-  "totalArchived": 44097,
-  "newPapersAdded": 144,
+  "totalArchived": 44286,
+  "newPapersAdded": 189,
   "institutionBreakdown": {
-    "KAIST": 8,
-    "SNU": 29,
+    "KAIST": 7,
+    "SNU": 61,
     "Yonsei University": 0,
     "SKKU": 0,
     "POSTECH": 2,
-    "Korea University": 29,
-    "IBS": 100,
-    "UNIST": 0,
-    "Hanyang University": 3,
-    "KIST": 2,
-    "GIST": 4,
+    "Korea University": 31,
+    "IBS": 68,
+    "UNIST": 1,
+    "Hanyang University": 6,
+    "KIST": 3,
+    "GIST": 1,
     "Kyung Hee University": 3,
-    "Pusan National University": 0
+    "Pusan National University": 2
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 70,
-    "Neuroscience": 15,
-    "Biomedical": 40,
-    "Materials Science": 5,
-    "Cancer Research": 16,
-    "Computer Science": 4
+    "Multidisciplinary": 79,
+    "Biomedical": 27,
+    "Neuroscience": 9,
+    "Computer Science": 4,
+    "Materials Science": 10,
+    "Cancer Research": 21
   },
-  "multiInstitutional": 25,
+  "multiInstitutional": 26,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,8 +44,8 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Proteolysis-targeting Chimera efficacy prediction using a deep-learning-QSP model",
-    "date": "2026-01-11T11:00:00.000Z",
+    "title": "Electronic coupling in a synthetic model of the Cu-cofactor unit of the P<sub>M</sub> state in cytochrome <em>c</em> oxidase",
+    "date": "2026-01-12T11:00:00.000Z",
     "institutions": [
       "IBS",
       "KAIST"
