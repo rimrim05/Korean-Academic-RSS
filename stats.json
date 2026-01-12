@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-01-11T19:21:49.832Z",
+  "lastUpdate": "2026-01-12T07:46:05.699Z",
   "totalItems": 150,
-  "totalArchived": 43953,
-  "newPapersAdded": 13,
+  "totalArchived": 44097,
+  "newPapersAdded": 144,
   "institutionBreakdown": {
-    "KAIST": 12,
-    "SNU": 100,
+    "KAIST": 8,
+    "SNU": 29,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 3,
-    "Korea University": 45,
-    "IBS": 13,
+    "POSTECH": 2,
+    "Korea University": 29,
+    "IBS": 100,
     "UNIST": 0,
-    "Hanyang University": 9,
-    "KIST": 0,
-    "GIST": 2,
-    "Kyung Hee University": 11,
-    "Pusan National University": 2
+    "Hanyang University": 3,
+    "KIST": 2,
+    "GIST": 4,
+    "Kyung Hee University": 3,
+    "Pusan National University": 0
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 67,
-    "Biomedical": 49,
-    "Cancer Research": 19,
-    "Neuroscience": 5,
-    "Materials Science": 8,
-    "Computer Science": 2
+    "Multidisciplinary": 70,
+    "Neuroscience": 15,
+    "Biomedical": 40,
+    "Materials Science": 5,
+    "Cancer Research": 16,
+    "Computer Science": 4
   },
-  "multiInstitutional": 41,
+  "multiInstitutional": 25,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "CoBRA: compound binding site prediction using RNA language model",
+    "title": "Proteolysis-targeting Chimera efficacy prediction using a deep-learning-QSP model",
     "date": "2026-01-11T11:00:00.000Z",
     "institutions": [
-      "Korea University",
-      "SNU"
+      "IBS",
+      "KAIST"
     ]
   }
 }
