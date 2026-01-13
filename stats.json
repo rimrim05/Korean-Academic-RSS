@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-01-12T19:26:26.401Z",
+  "lastUpdate": "2026-01-13T07:44:02.334Z",
   "totalItems": 150,
-  "totalArchived": 44286,
-  "newPapersAdded": 189,
+  "totalArchived": 44436,
+  "newPapersAdded": 150,
   "institutionBreakdown": {
-    "KAIST": 7,
-    "SNU": 61,
+    "KAIST": 13,
+    "SNU": 87,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 2,
-    "Korea University": 31,
-    "IBS": 68,
-    "UNIST": 1,
-    "Hanyang University": 6,
+    "POSTECH": 4,
+    "Korea University": 60,
+    "IBS": 12,
+    "UNIST": 4,
+    "Hanyang University": 9,
     "KIST": 3,
-    "GIST": 1,
+    "GIST": 2,
     "Kyung Hee University": 3,
     "Pusan National University": 2
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 79,
-    "Biomedical": 27,
-    "Neuroscience": 9,
-    "Computer Science": 4,
+    "Biomedical": 24,
+    "Multidisciplinary": 85,
+    "Computer Science": 5,
     "Materials Science": 10,
-    "Cancer Research": 21
+    "Neuroscience": 8,
+    "Cancer Research": 18
   },
-  "multiInstitutional": 26,
+  "multiInstitutional": 39,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,10 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Electronic coupling in a synthetic model of the Cu-cofactor unit of the P<sub>M</sub> state in cytochrome <em>c</em> oxidase",
-    "date": "2026-01-12T11:00:00.000Z",
+    "title": "Long-term safety and treatment discontinuation patterns of OnabotulinumtoxinA for post-stroke spasticity: a retrospective study",
+    "date": "2026-01-13T11:00:00.000Z",
     "institutions": [
-      "IBS",
-      "KAIST"
+      "Korea University"
     ]
   }
 }
