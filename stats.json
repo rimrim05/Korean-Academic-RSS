@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-01-13T07:44:02.334Z",
+  "lastUpdate": "2026-01-13T19:26:54.913Z",
   "totalItems": 150,
-  "totalArchived": 44436,
-  "newPapersAdded": 150,
+  "totalArchived": 44597,
+  "newPapersAdded": 161,
   "institutionBreakdown": {
-    "KAIST": 13,
-    "SNU": 87,
+    "KAIST": 8,
+    "SNU": 32,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 4,
-    "Korea University": 60,
-    "IBS": 12,
-    "UNIST": 4,
-    "Hanyang University": 9,
+    "POSTECH": 0,
+    "Korea University": 28,
+    "IBS": 94,
+    "UNIST": 0,
+    "Hanyang University": 1,
     "KIST": 3,
-    "GIST": 2,
+    "GIST": 1,
     "Kyung Hee University": 3,
-    "Pusan National University": 2
+    "Pusan National University": 0
   },
   "subjectAreaBreakdown": {
-    "Biomedical": 24,
-    "Multidisciplinary": 85,
-    "Computer Science": 5,
-    "Materials Science": 10,
-    "Neuroscience": 8,
-    "Cancer Research": 18
+    "Materials Science": 6,
+    "Multidisciplinary": 86,
+    "Cancer Research": 13,
+    "Biomedical": 35,
+    "Computer Science": 2,
+    "Neuroscience": 8
   },
-  "multiInstitutional": 39,
+  "multiInstitutional": 16,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,10 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Long-term safety and treatment discontinuation patterns of OnabotulinumtoxinA for post-stroke spasticity: a retrospective study",
+    "title": "Surface-Oxidized Heterojunction In<sub>2</sub>O<sub>3</sub>/InN Core-Shell Nanorods on V-Grooved Si(111) for Enhanced Self-Powered Near-Infrared Photodetection",
     "date": "2026-01-13T11:00:00.000Z",
     "institutions": [
-      "Korea University"
+      "IBS",
+      "KAIST"
     ]
   }
 }
