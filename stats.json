@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-01-13T19:26:54.913Z",
+  "lastUpdate": "2026-01-14T07:45:20.249Z",
   "totalItems": 150,
-  "totalArchived": 44597,
-  "newPapersAdded": 161,
+  "totalArchived": 44761,
+  "newPapersAdded": 164,
   "institutionBreakdown": {
-    "KAIST": 8,
-    "SNU": 32,
+    "KAIST": 18,
+    "SNU": 69,
     "Yonsei University": 0,
     "SKKU": 0,
     "POSTECH": 0,
-    "Korea University": 28,
-    "IBS": 94,
-    "UNIST": 0,
+    "Korea University": 60,
+    "IBS": 28,
+    "UNIST": 1,
     "Hanyang University": 1,
-    "KIST": 3,
-    "GIST": 1,
-    "Kyung Hee University": 3,
+    "KIST": 5,
+    "GIST": 2,
+    "Kyung Hee University": 9,
     "Pusan National University": 0
   },
   "subjectAreaBreakdown": {
-    "Materials Science": 6,
-    "Multidisciplinary": 86,
-    "Cancer Research": 13,
-    "Biomedical": 35,
-    "Computer Science": 2,
-    "Neuroscience": 8
+    "Multidisciplinary": 92,
+    "Cancer Research": 16,
+    "Materials Science": 10,
+    "Biomedical": 24,
+    "Neuroscience": 6,
+    "Computer Science": 2
   },
-  "multiInstitutional": 16,
+  "multiInstitutional": 35,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,10 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Surface-Oxidized Heterojunction In<sub>2</sub>O<sub>3</sub>/InN Core-Shell Nanorods on V-Grooved Si(111) for Enhanced Self-Powered Near-Infrared Photodetection",
-    "date": "2026-01-13T11:00:00.000Z",
+    "title": "Patterns, risk factors and management of CD19-directed chimeric antigen receptor T-cell therapy failure in CNS lymphoma",
+    "date": "2026-01-14T11:00:00.000Z",
     "institutions": [
-      "IBS",
-      "KAIST"
+      "IBS"
     ]
   }
 }
