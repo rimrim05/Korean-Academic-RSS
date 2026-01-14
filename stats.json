@@ -1,30 +1,30 @@
 {
-  "lastUpdate": "2026-01-14T07:45:20.249Z",
+  "lastUpdate": "2026-01-14T19:26:20.789Z",
   "totalItems": 150,
-  "totalArchived": 44761,
-  "newPapersAdded": 164,
+  "totalArchived": 44960,
+  "newPapersAdded": 199,
   "institutionBreakdown": {
-    "KAIST": 18,
-    "SNU": 69,
+    "KAIST": 25,
+    "SNU": 72,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 0,
-    "Korea University": 60,
-    "IBS": 28,
-    "UNIST": 1,
-    "Hanyang University": 1,
-    "KIST": 5,
-    "GIST": 2,
-    "Kyung Hee University": 9,
-    "Pusan National University": 0
+    "POSTECH": 4,
+    "Korea University": 31,
+    "IBS": 53,
+    "UNIST": 0,
+    "Hanyang University": 4,
+    "KIST": 1,
+    "GIST": 3,
+    "Kyung Hee University": 2,
+    "Pusan National University": 4
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 92,
-    "Cancer Research": 16,
-    "Materials Science": 10,
-    "Biomedical": 24,
-    "Neuroscience": 6,
-    "Computer Science": 2
+    "Multidisciplinary": 80,
+    "Biomedical": 37,
+    "Cancer Research": 14,
+    "Neuroscience": 7,
+    "Materials Science": 7,
+    "Computer Science": 5
   },
   "multiInstitutional": 35,
   "institutions": [
@@ -44,10 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Patterns, risk factors and management of CD19-directed chimeric antigen receptor T-cell therapy failure in CNS lymphoma",
+    "title": "Single-Atom Catalysts Unlock Advanced Oxidation Pathways for Sustainable Precious Metal Recovery",
     "date": "2026-01-14T11:00:00.000Z",
     "institutions": [
-      "IBS"
+      "IBS",
+      "KAIST"
     ]
   }
 }
