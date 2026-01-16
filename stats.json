@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-01-15T19:31:21.575Z",
+  "lastUpdate": "2026-01-16T07:43:56.244Z",
   "totalItems": 150,
-  "totalArchived": 45101,
-  "newPapersAdded": 141,
+  "totalArchived": 45282,
+  "newPapersAdded": 181,
   "institutionBreakdown": {
-    "KAIST": 22,
-    "SNU": 23,
+    "KAIST": 4,
+    "SNU": 22,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 2,
-    "Korea University": 21,
+    "POSTECH": 0,
+    "Korea University": 29,
     "IBS": 100,
     "UNIST": 0,
-    "Hanyang University": 0,
+    "Hanyang University": 3,
     "KIST": 1,
-    "GIST": 1,
-    "Kyung Hee University": 0,
-    "Pusan National University": 3
+    "GIST": 2,
+    "Kyung Hee University": 3,
+    "Pusan National University": 1
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 71,
-    "Materials Science": 12,
-    "Cancer Research": 20,
-    "Biomedical": 38,
-    "Neuroscience": 5,
-    "Computer Science": 4
+    "Multidisciplinary": 76,
+    "Materials Science": 15,
+    "Biomedical": 30,
+    "Neuroscience": 10,
+    "Cancer Research": 14,
+    "Computer Science": 5
   },
-  "multiInstitutional": 18,
+  "multiInstitutional": 12,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,13 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "GPCRact: a hierarchical framework for predicting ligand-induced GPCR activity via allosteric communication modeling",
+    "title": "A hierarchical shell locks and stabilizes perovskite nanocrystals with near-unity quantum yield",
     "date": "2026-01-15T11:00:00.000Z",
     "institutions": [
+      "Hanyang University",
       "IBS",
-      "KAIST"
+      "KAIST",
+      "SNU"
     ]
   }
 }
