@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-01-17T07:37:59.832Z",
+  "lastUpdate": "2026-01-17T19:21:25.182Z",
   "totalItems": 150,
-  "totalArchived": 45628,
-  "newPapersAdded": 309,
+  "totalArchived": 45700,
+  "newPapersAdded": 72,
   "institutionBreakdown": {
-    "KAIST": 23,
-    "SNU": 91,
+    "KAIST": 28,
+    "SNU": 76,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 2,
-    "Korea University": 62,
-    "IBS": 7,
-    "UNIST": 1,
-    "Hanyang University": 8,
+    "POSTECH": 3,
+    "Korea University": 22,
+    "IBS": 56,
+    "UNIST": 0,
+    "Hanyang University": 6,
     "KIST": 0,
-    "GIST": 2,
-    "Kyung Hee University": 9,
+    "GIST": 3,
+    "Kyung Hee University": 7,
     "Pusan National University": 1
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 83,
-    "Materials Science": 9,
-    "Biomedical": 31,
-    "Cancer Research": 21,
-    "Neuroscience": 5,
-    "Computer Science": 1
+    "Multidisciplinary": 89,
+    "Materials Science": 13,
+    "Cancer Research": 15,
+    "Biomedical": 27,
+    "Neuroscience": 3,
+    "Computer Science": 3
   },
-  "multiInstitutional": 42,
+  "multiInstitutional": 38,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,8 +44,8 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "A comprehensive study of the crystal structure and dynamics of [N(C<sub>3</sub>H<sub>7</sub>)<sub>4</sub>]<sub>2</sub>Cd<sub>2</sub>Cl<sub>6</sub>",
-    "date": "2026-01-16T11:00:00.000Z",
+    "title": "The Role of Information Uses and Trust in COVID-19 and Influenza Vaccine Hesitancy Among Undergraduate Students in the United States and Republic of Korea: A Cross-Sectional Study",
+    "date": "2026-01-17T11:00:00.000Z",
     "institutions": [
       "IBS",
       "KAIST"
