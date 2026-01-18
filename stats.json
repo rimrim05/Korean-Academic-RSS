@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-01-17T19:21:25.182Z",
+  "lastUpdate": "2026-01-18T07:39:14.487Z",
   "totalItems": 150,
-  "totalArchived": 45700,
-  "newPapersAdded": 72,
+  "totalArchived": 45841,
+  "newPapersAdded": 141,
   "institutionBreakdown": {
-    "KAIST": 28,
-    "SNU": 76,
+    "KAIST": 9,
+    "SNU": 29,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 3,
-    "Korea University": 22,
-    "IBS": 56,
+    "POSTECH": 2,
+    "Korea University": 31,
+    "IBS": 91,
     "UNIST": 0,
-    "Hanyang University": 6,
+    "Hanyang University": 2,
     "KIST": 0,
     "GIST": 3,
-    "Kyung Hee University": 7,
+    "Kyung Hee University": 2,
     "Pusan National University": 1
   },
   "subjectAreaBreakdown": {
     "Multidisciplinary": 89,
-    "Materials Science": 13,
-    "Cancer Research": 15,
-    "Biomedical": 27,
-    "Neuroscience": 3,
-    "Computer Science": 3
+    "Biomedical": 26,
+    "Materials Science": 8,
+    "Cancer Research": 17,
+    "Computer Science": 5,
+    "Neuroscience": 5
   },
-  "multiInstitutional": 38,
+  "multiInstitutional": 14,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,9 +44,10 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "The Role of Information Uses and Trust in COVID-19 and Influenza Vaccine Hesitancy Among Undergraduate Students in the United States and Republic of Korea: A Cross-Sectional Study",
+    "title": "Fusion yield enhancement via secondary beam-target reactions in laser-cluster experiments",
     "date": "2026-01-17T11:00:00.000Z",
     "institutions": [
+      "GIST",
       "IBS",
       "KAIST"
     ]
