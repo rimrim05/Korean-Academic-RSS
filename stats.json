@@ -1,8 +1,8 @@
 {
-  "lastUpdate": "2026-01-18T07:39:14.487Z",
+  "lastUpdate": "2026-01-18T19:22:19.147Z",
   "totalItems": 150,
-  "totalArchived": 45841,
-  "newPapersAdded": 141,
+  "totalArchived": 45846,
+  "newPapersAdded": 5,
   "institutionBreakdown": {
     "KAIST": 9,
     "SNU": 29,
@@ -19,10 +19,10 @@
     "Pusan National University": 1
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 89,
-    "Biomedical": 26,
-    "Materials Science": 8,
-    "Cancer Research": 17,
+    "Multidisciplinary": 91,
+    "Materials Science": 9,
+    "Biomedical": 24,
+    "Cancer Research": 16,
     "Computer Science": 5,
     "Neuroscience": 5
   },
@@ -44,12 +44,10 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Fusion yield enhancement via secondary beam-target reactions in laser-cluster experiments",
-    "date": "2026-01-17T11:00:00.000Z",
+    "title": "Trypanocidal Effects of Polyprenylated Benzophenone Enriched Brazilian Red Propolis Extract and Its Isolated Constituent",
+    "date": "2026-01-18T11:00:00.000Z",
     "institutions": [
-      "GIST",
-      "IBS",
-      "KAIST"
+      "IBS"
     ]
   }
 }
