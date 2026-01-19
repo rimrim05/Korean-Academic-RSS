@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-01-19T07:48:07.283Z",
+  "lastUpdate": "2026-01-19T19:25:44.336Z",
   "totalItems": 150,
-  "totalArchived": 45986,
-  "newPapersAdded": 140,
+  "totalArchived": 46216,
+  "newPapersAdded": 230,
   "institutionBreakdown": {
-    "KAIST": 11,
-    "SNU": 29,
+    "KAIST": 9,
+    "SNU": 55,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 1,
-    "Korea University": 32,
-    "IBS": 100,
+    "POSTECH": 2,
+    "Korea University": 69,
+    "IBS": 31,
     "UNIST": 1,
-    "Hanyang University": 4,
-    "KIST": 2,
+    "Hanyang University": 3,
+    "KIST": 1,
     "GIST": 2,
-    "Kyung Hee University": 2,
-    "Pusan National University": 3
+    "Kyung Hee University": 6,
+    "Pusan National University": 2
   },
   "subjectAreaBreakdown": {
+    "Multidisciplinary": 83,
+    "Materials Science": 11,
+    "Cancer Research": 11,
     "Biomedical": 36,
-    "Multidisciplinary": 74,
-    "Computer Science": 5,
-    "Neuroscience": 10,
-    "Cancer Research": 18,
-    "Materials Science": 7
+    "Neuroscience": 6,
+    "Computer Science": 3
   },
-  "multiInstitutional": 26,
+  "multiInstitutional": 24,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,12 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Risk of total hip arthroplasty following lumbar fusion surgery in a nationwide cohort study",
-    "date": "2026-01-18T11:00:00.000Z",
+    "title": "Cell density-dependent nuclear-cytoplasmic shuttling of SETDB1 integrates with Hippo signaling to regulate YAP1-mediated transcription",
+    "date": "2026-01-19T11:00:00.000Z",
     "institutions": [
       "IBS",
-      "KAIST",
-      "SNU"
+      "KAIST"
     ]
   }
 }
