@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-01-21T07:48:18.985Z",
+  "lastUpdate": "2026-01-21T19:34:25.914Z",
   "totalItems": 150,
-  "totalArchived": 46700,
-  "newPapersAdded": 163,
+  "totalArchived": 46931,
+  "newPapersAdded": 231,
   "institutionBreakdown": {
-    "KAIST": 17,
-    "SNU": 84,
+    "KAIST": 12,
+    "SNU": 76,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 4,
-    "Korea University": 69,
-    "IBS": 10,
-    "UNIST": 1,
-    "Hanyang University": 5,
-    "KIST": 4,
-    "GIST": 5,
-    "Kyung Hee University": 4,
-    "Pusan National University": 4
+    "POSTECH": 2,
+    "Korea University": 56,
+    "IBS": 23,
+    "UNIST": 3,
+    "Hanyang University": 8,
+    "KIST": 2,
+    "GIST": 4,
+    "Kyung Hee University": 5,
+    "Pusan National University": 2
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 76,
-    "Computer Science": 3,
-    "Cancer Research": 14,
-    "Biomedical": 34,
-    "Materials Science": 13,
-    "Neuroscience": 10
+    "Multidisciplinary": 79,
+    "Materials Science": 8,
+    "Cancer Research": 9,
+    "Biomedical": 45,
+    "Neuroscience": 6,
+    "Computer Science": 3
   },
-  "multiInstitutional": 41,
+  "multiInstitutional": 34,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,9 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Transcutaneous auricular vagus nerve stimulation promotes recovery from otitis media by activating the α7nAChR-mediated anti-inflammatory pathway",
+    "title": "Membrane Modulus as the Governing Factor in the Mechanism of Catalyst Layer Transfer for Membrane Electrode Assemblies",
     "date": "2026-01-21T11:00:00.000Z",
     "institutions": [
+      "Hanyang University",
+      "KAIST",
       "SNU"
     ]
   }
