@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-01-22T07:47:22.394Z",
+  "lastUpdate": "2026-01-22T19:31:16.845Z",
   "totalItems": 150,
-  "totalArchived": 47110,
-  "newPapersAdded": 179,
+  "totalArchived": 47281,
+  "newPapersAdded": 171,
   "institutionBreakdown": {
-    "KAIST": 18,
-    "SNU": 100,
+    "KAIST": 8,
+    "SNU": 48,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 4,
-    "Korea University": 47,
-    "IBS": 8,
-    "UNIST": 3,
-    "Hanyang University": 9,
-    "KIST": 7,
-    "GIST": 5,
-    "Kyung Hee University": 8,
-    "Pusan National University": 4
+    "POSTECH": 2,
+    "Korea University": 28,
+    "IBS": 82,
+    "UNIST": 2,
+    "Hanyang University": 1,
+    "KIST": 1,
+    "GIST": 1,
+    "Kyung Hee University": 4,
+    "Pusan National University": 2
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 72,
-    "Biomedical": 42,
-    "Materials Science": 10,
-    "Computer Science": 4,
+    "Materials Science": 7,
+    "Multidisciplinary": 93,
     "Neuroscience": 9,
-    "Cancer Research": 13
+    "Cancer Research": 14,
+    "Biomedical": 25,
+    "Computer Science": 2
   },
-  "multiInstitutional": 46,
+  "multiInstitutional": 22,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,13 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Commensal microbe-derived butyrate enhances T follicular helper cell function to boost mucosal vaccine efficacy",
+    "title": "Roles of Glia in Synapse Nano-organization",
     "date": "2026-01-22T11:00:00.000Z",
     "institutions": [
       "IBS",
-      "KIST",
-      "POSTECH",
-      "SNU"
+      "KAIST"
     ]
   }
 }
