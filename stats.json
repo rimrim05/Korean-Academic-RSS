@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-01-23T07:45:10.811Z",
+  "lastUpdate": "2026-01-23T19:30:13.114Z",
   "totalItems": 150,
-  "totalArchived": 47470,
-  "newPapersAdded": 189,
+  "totalArchived": 47651,
+  "newPapersAdded": 181,
   "institutionBreakdown": {
-    "KAIST": 14,
-    "SNU": 98,
-    "Yonsei University": 0,
+    "KAIST": 19,
+    "SNU": 48,
+    "Yonsei University": 1,
     "SKKU": 0,
-    "POSTECH": 4,
-    "Korea University": 60,
-    "IBS": 14,
+    "POSTECH": 2,
+    "Korea University": 33,
+    "IBS": 76,
     "UNIST": 1,
-    "Hanyang University": 5,
-    "KIST": 3,
-    "GIST": 2,
-    "Kyung Hee University": 8,
-    "Pusan National University": 3
+    "Hanyang University": 6,
+    "KIST": 2,
+    "GIST": 3,
+    "Kyung Hee University": 3,
+    "Pusan National University": 2
   },
   "subjectAreaBreakdown": {
-    "Biomedical": 31,
-    "Multidisciplinary": 81,
-    "Materials Science": 9,
-    "Neuroscience": 5,
-    "Cancer Research": 19,
-    "Computer Science": 5
+    "Materials Science": 11,
+    "Cancer Research": 15,
+    "Multidisciplinary": 90,
+    "Computer Science": 4,
+    "Biomedical": 24,
+    "Neuroscience": 6
   },
-  "multiInstitutional": 45,
+  "multiInstitutional": 32,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,14 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Effectiveness and safety of motion style acupuncture treatment for acute neck pain: a multicenter randomized controlled trial",
-    "date": "2026-01-22T11:00:00.000Z",
+    "title": "π-Conjugation-extended benzoimidazoisoindolone-based n-type ladder polymers for highly air-robust aqueous sodium-ion electrochromic energy storage",
+    "date": "2026-01-23T11:00:00.000Z",
     "institutions": [
       "IBS",
-      "KAIST",
-      "Kyung Hee University",
-      "Pusan National University",
-      "SNU"
+      "KAIST"
     ]
   }
 }
