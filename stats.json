@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-01-22T19:31:16.845Z",
+  "lastUpdate": "2026-01-23T07:45:10.811Z",
   "totalItems": 150,
-  "totalArchived": 47281,
-  "newPapersAdded": 171,
+  "totalArchived": 47470,
+  "newPapersAdded": 189,
   "institutionBreakdown": {
-    "KAIST": 8,
-    "SNU": 48,
+    "KAIST": 14,
+    "SNU": 98,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 2,
-    "Korea University": 28,
-    "IBS": 82,
-    "UNIST": 2,
-    "Hanyang University": 1,
-    "KIST": 1,
-    "GIST": 1,
-    "Kyung Hee University": 4,
-    "Pusan National University": 2
+    "POSTECH": 4,
+    "Korea University": 60,
+    "IBS": 14,
+    "UNIST": 1,
+    "Hanyang University": 5,
+    "KIST": 3,
+    "GIST": 2,
+    "Kyung Hee University": 8,
+    "Pusan National University": 3
   },
   "subjectAreaBreakdown": {
-    "Materials Science": 7,
-    "Multidisciplinary": 93,
-    "Neuroscience": 9,
-    "Cancer Research": 14,
-    "Biomedical": 25,
-    "Computer Science": 2
+    "Biomedical": 31,
+    "Multidisciplinary": 81,
+    "Materials Science": 9,
+    "Neuroscience": 5,
+    "Cancer Research": 19,
+    "Computer Science": 5
   },
-  "multiInstitutional": 22,
+  "multiInstitutional": 45,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,14 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Roles of Glia in Synapse Nano-organization",
+    "title": "Effectiveness and safety of motion style acupuncture treatment for acute neck pain: a multicenter randomized controlled trial",
     "date": "2026-01-22T11:00:00.000Z",
     "institutions": [
       "IBS",
-      "KAIST"
+      "KAIST",
+      "Kyung Hee University",
+      "Pusan National University",
+      "SNU"
     ]
   }
 }
