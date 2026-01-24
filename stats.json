@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-01-23T19:30:13.114Z",
+  "lastUpdate": "2026-01-24T07:41:16.523Z",
   "totalItems": 150,
-  "totalArchived": 47651,
-  "newPapersAdded": 181,
+  "totalArchived": 47823,
+  "newPapersAdded": 172,
   "institutionBreakdown": {
-    "KAIST": 19,
-    "SNU": 48,
+    "KAIST": 23,
+    "SNU": 92,
     "Yonsei University": 1,
     "SKKU": 0,
-    "POSTECH": 2,
-    "Korea University": 33,
-    "IBS": 76,
+    "POSTECH": 3,
+    "Korea University": 56,
+    "IBS": 9,
     "UNIST": 1,
-    "Hanyang University": 6,
-    "KIST": 2,
-    "GIST": 3,
-    "Kyung Hee University": 3,
-    "Pusan National University": 2
+    "Hanyang University": 9,
+    "KIST": 3,
+    "GIST": 4,
+    "Kyung Hee University": 8,
+    "Pusan National University": 3
   },
   "subjectAreaBreakdown": {
-    "Materials Science": 11,
-    "Cancer Research": 15,
-    "Multidisciplinary": 90,
+    "Multidisciplinary": 95,
+    "Biomedical": 21,
+    "Materials Science": 8,
+    "Cancer Research": 13,
     "Computer Science": 4,
-    "Biomedical": 24,
-    "Neuroscience": 6
+    "Neuroscience": 9
   },
-  "multiInstitutional": 32,
+  "multiInstitutional": 49,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,10 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "π-Conjugation-extended benzoimidazoisoindolone-based n-type ladder polymers for highly air-robust aqueous sodium-ion electrochromic energy storage",
-    "date": "2026-01-23T11:00:00.000Z",
+    "title": "Consensus on core POCUS applications for Korean emergency medicine training: a Delphi study",
+    "date": "2026-01-24T11:00:00.000Z",
     "institutions": [
-      "IBS",
-      "KAIST"
+      "SNU"
     ]
   }
 }
