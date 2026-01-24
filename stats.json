@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-01-24T07:41:16.523Z",
+  "lastUpdate": "2026-01-24T19:22:45.840Z",
   "totalItems": 150,
-  "totalArchived": 47823,
-  "newPapersAdded": 172,
+  "totalArchived": 47949,
+  "newPapersAdded": 126,
   "institutionBreakdown": {
-    "KAIST": 23,
-    "SNU": 92,
-    "Yonsei University": 1,
+    "KAIST": 25,
+    "SNU": 25,
+    "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 3,
-    "Korea University": 56,
-    "IBS": 9,
+    "POSTECH": 1,
+    "Korea University": 21,
+    "IBS": 100,
     "UNIST": 1,
-    "Hanyang University": 9,
-    "KIST": 3,
+    "Hanyang University": 4,
+    "KIST": 0,
     "GIST": 4,
-    "Kyung Hee University": 8,
-    "Pusan National University": 3
+    "Kyung Hee University": 5,
+    "Pusan National University": 2
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 95,
-    "Biomedical": 21,
-    "Materials Science": 8,
-    "Cancer Research": 13,
-    "Computer Science": 4,
-    "Neuroscience": 9
+    "Materials Science": 9,
+    "Multidisciplinary": 87,
+    "Biomedical": 28,
+    "Cancer Research": 19,
+    "Neuroscience": 5,
+    "Computer Science": 2
   },
-  "multiInstitutional": 49,
+  "multiInstitutional": 26,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,10 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Consensus on core POCUS applications for Korean emergency medicine training: a Delphi study",
+    "title": "New beam hardened data correction and its application to artifact reduction in CT images",
     "date": "2026-01-24T11:00:00.000Z",
     "institutions": [
-      "SNU"
+      "IBS",
+      "KAIST"
     ]
   }
 }
