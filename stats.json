@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-01-25T07:40:21.515Z",
+  "lastUpdate": "2026-01-25T19:23:03.402Z",
   "totalItems": 150,
-  "totalArchived": 48092,
-  "newPapersAdded": 143,
+  "totalArchived": 48116,
+  "newPapersAdded": 24,
   "institutionBreakdown": {
-    "KAIST": 3,
-    "SNU": 31,
+    "KAIST": 4,
+    "SNU": 38,
     "Yonsei University": 0,
     "SKKU": 0,
     "POSTECH": 1,
-    "Korea University": 47,
-    "IBS": 77,
+    "Korea University": 51,
+    "IBS": 70,
     "UNIST": 0,
-    "Hanyang University": 4,
-    "KIST": 1,
+    "Hanyang University": 6,
+    "KIST": 4,
     "GIST": 1,
     "Kyung Hee University": 5,
     "Pusan National University": 1
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 82,
-    "Materials Science": 8,
-    "Computer Science": 2,
-    "Biomedical": 29,
-    "Cancer Research": 18,
-    "Neuroscience": 11
+    "Biomedical": 33,
+    "Materials Science": 12,
+    "Computer Science": 4,
+    "Multidisciplinary": 78,
+    "Cancer Research": 13,
+    "Neuroscience": 10
   },
-  "multiInstitutional": 16,
+  "multiInstitutional": 21,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,12 +44,12 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Comparative analysis of signal decomposition methods for regional sea level trend estimation: a case study of the Korean peninsula",
-    "date": "2026-01-24T11:00:00.000Z",
+    "title": "Label-Free SERS Fingerprinting of Neuroprotein Conformational Dynamics in Human Saliva",
+    "date": "2026-01-25T11:00:00.000Z",
     "institutions": [
       "IBS",
       "KAIST",
-      "KIST",
+      "Korea University",
       "SNU"
     ]
   }
