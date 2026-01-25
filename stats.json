@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-01-24T19:22:45.840Z",
+  "lastUpdate": "2026-01-25T07:40:21.515Z",
   "totalItems": 150,
-  "totalArchived": 47949,
-  "newPapersAdded": 126,
+  "totalArchived": 48092,
+  "newPapersAdded": 143,
   "institutionBreakdown": {
-    "KAIST": 25,
-    "SNU": 25,
+    "KAIST": 3,
+    "SNU": 31,
     "Yonsei University": 0,
     "SKKU": 0,
     "POSTECH": 1,
-    "Korea University": 21,
-    "IBS": 100,
-    "UNIST": 1,
+    "Korea University": 47,
+    "IBS": 77,
+    "UNIST": 0,
     "Hanyang University": 4,
-    "KIST": 0,
-    "GIST": 4,
+    "KIST": 1,
+    "GIST": 1,
     "Kyung Hee University": 5,
-    "Pusan National University": 2
+    "Pusan National University": 1
   },
   "subjectAreaBreakdown": {
-    "Materials Science": 9,
-    "Multidisciplinary": 87,
-    "Biomedical": 28,
-    "Cancer Research": 19,
-    "Neuroscience": 5,
-    "Computer Science": 2
+    "Multidisciplinary": 82,
+    "Materials Science": 8,
+    "Computer Science": 2,
+    "Biomedical": 29,
+    "Cancer Research": 18,
+    "Neuroscience": 11
   },
-  "multiInstitutional": 26,
+  "multiInstitutional": 16,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,13 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "New beam hardened data correction and its application to artifact reduction in CT images",
+    "title": "Comparative analysis of signal decomposition methods for regional sea level trend estimation: a case study of the Korean peninsula",
     "date": "2026-01-24T11:00:00.000Z",
     "institutions": [
       "IBS",
-      "KAIST"
+      "KAIST",
+      "KIST",
+      "SNU"
     ]
   }
 }
