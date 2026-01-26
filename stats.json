@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-01-26T07:46:33.263Z",
+  "lastUpdate": "2026-01-26T19:31:00.128Z",
   "totalItems": 150,
-  "totalArchived": 48246,
-  "newPapersAdded": 130,
+  "totalArchived": 48423,
+  "newPapersAdded": 177,
   "institutionBreakdown": {
-    "KAIST": 6,
-    "SNU": 36,
+    "KAIST": 8,
+    "SNU": 51,
     "Yonsei University": 0,
     "SKKU": 0,
     "POSTECH": 0,
-    "Korea University": 30,
-    "IBS": 100,
-    "UNIST": 1,
-    "Hanyang University": 6,
-    "KIST": 6,
+    "Korea University": 25,
+    "IBS": 83,
+    "UNIST": 0,
+    "Hanyang University": 4,
+    "KIST": 1,
     "GIST": 3,
-    "Kyung Hee University": 7,
-    "Pusan National University": 3
+    "Kyung Hee University": 3,
+    "Pusan National University": 1
   },
   "subjectAreaBreakdown": {
-    "Materials Science": 16,
-    "Biomedical": 32,
-    "Multidisciplinary": 75,
-    "Cancer Research": 17,
-    "Neuroscience": 5,
-    "Computer Science": 5
+    "Multidisciplinary": 85,
+    "Biomedical": 26,
+    "Cancer Research": 15,
+    "Neuroscience": 11,
+    "Computer Science": 5,
+    "Materials Science": 8
   },
-  "multiInstitutional": 28,
+  "multiInstitutional": 25,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,13 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Dipole-Driven Charge Trapping in Monolayer Janus MoSSe for Ultrathin Nonvolatile Memory Devices",
-    "date": "2026-01-25T11:00:00.000Z",
+    "title": "The Longitudinal Impact of Discrimination on Substance Use among Filipino and Korean American Youth",
+    "date": "2026-01-26T11:00:00.000Z",
     "institutions": [
-      "GIST",
       "IBS",
-      "KAIST",
-      "SNU"
+      "KAIST"
     ]
   }
 }
