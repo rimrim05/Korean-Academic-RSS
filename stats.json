@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-01-25T19:23:03.402Z",
+  "lastUpdate": "2026-01-26T07:46:33.263Z",
   "totalItems": 150,
-  "totalArchived": 48116,
-  "newPapersAdded": 24,
+  "totalArchived": 48246,
+  "newPapersAdded": 130,
   "institutionBreakdown": {
-    "KAIST": 4,
-    "SNU": 38,
+    "KAIST": 6,
+    "SNU": 36,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 1,
-    "Korea University": 51,
-    "IBS": 70,
-    "UNIST": 0,
+    "POSTECH": 0,
+    "Korea University": 30,
+    "IBS": 100,
+    "UNIST": 1,
     "Hanyang University": 6,
-    "KIST": 4,
-    "GIST": 1,
-    "Kyung Hee University": 5,
-    "Pusan National University": 1
+    "KIST": 6,
+    "GIST": 3,
+    "Kyung Hee University": 7,
+    "Pusan National University": 3
   },
   "subjectAreaBreakdown": {
-    "Biomedical": 33,
-    "Materials Science": 12,
-    "Computer Science": 4,
-    "Multidisciplinary": 78,
-    "Cancer Research": 13,
-    "Neuroscience": 10
+    "Materials Science": 16,
+    "Biomedical": 32,
+    "Multidisciplinary": 75,
+    "Cancer Research": 17,
+    "Neuroscience": 5,
+    "Computer Science": 5
   },
-  "multiInstitutional": 21,
+  "multiInstitutional": 28,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,12 +44,12 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Label-Free SERS Fingerprinting of Neuroprotein Conformational Dynamics in Human Saliva",
+    "title": "Dipole-Driven Charge Trapping in Monolayer Janus MoSSe for Ultrathin Nonvolatile Memory Devices",
     "date": "2026-01-25T11:00:00.000Z",
     "institutions": [
+      "GIST",
       "IBS",
       "KAIST",
-      "Korea University",
       "SNU"
     ]
   }
