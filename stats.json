@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-01-27T07:47:32.891Z",
+  "lastUpdate": "2026-01-27T19:34:09.566Z",
   "totalItems": 150,
-  "totalArchived": 48632,
-  "newPapersAdded": 209,
+  "totalArchived": 48834,
+  "newPapersAdded": 202,
   "institutionBreakdown": {
-    "KAIST": 18,
-    "SNU": 97,
+    "KAIST": 8,
+    "SNU": 42,
     "Yonsei University": 0,
     "SKKU": 0,
     "POSTECH": 0,
-    "Korea University": 55,
-    "IBS": 8,
+    "Korea University": 62,
+    "IBS": 53,
     "UNIST": 1,
-    "Hanyang University": 7,
-    "KIST": 1,
-    "GIST": 3,
-    "Kyung Hee University": 9,
-    "Pusan National University": 1
+    "Hanyang University": 6,
+    "KIST": 0,
+    "GIST": 4,
+    "Kyung Hee University": 6,
+    "Pusan National University": 4
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 89,
-    "Neuroscience": 7,
-    "Materials Science": 5,
-    "Biomedical": 28,
-    "Cancer Research": 15,
-    "Computer Science": 6
+    "Biomedical": 34,
+    "Cancer Research": 33,
+    "Materials Science": 15,
+    "Multidisciplinary": 62,
+    "Neuroscience": 4,
+    "Computer Science": 2
   },
-  "multiInstitutional": 42,
+  "multiInstitutional": 28,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,12 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Sit-to-Stand Power From 2D Pose Estimation as an Indicator of Muscle Strength in Older Adults",
-    "date": "2026-01-26T11:00:00.000Z",
+    "title": "Effects of Cryotherapy and Thermotherapy Using an E-TEET on Pain, Stress, and Satisfaction Among Patients and Healthcare Providers During Intravenous Catheterization: A Randomized Controlled Trial",
+    "date": "2026-01-27T11:00:00.000Z",
     "institutions": [
       "IBS",
-      "KAIST",
-      "SNU"
+      "KAIST"
     ]
   }
 }
