@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-01-26T19:31:00.128Z",
+  "lastUpdate": "2026-01-27T07:47:32.891Z",
   "totalItems": 150,
-  "totalArchived": 48423,
-  "newPapersAdded": 177,
+  "totalArchived": 48632,
+  "newPapersAdded": 209,
   "institutionBreakdown": {
-    "KAIST": 8,
-    "SNU": 51,
+    "KAIST": 18,
+    "SNU": 97,
     "Yonsei University": 0,
     "SKKU": 0,
     "POSTECH": 0,
-    "Korea University": 25,
-    "IBS": 83,
-    "UNIST": 0,
-    "Hanyang University": 4,
+    "Korea University": 55,
+    "IBS": 8,
+    "UNIST": 1,
+    "Hanyang University": 7,
     "KIST": 1,
     "GIST": 3,
-    "Kyung Hee University": 3,
+    "Kyung Hee University": 9,
     "Pusan National University": 1
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 85,
-    "Biomedical": 26,
+    "Multidisciplinary": 89,
+    "Neuroscience": 7,
+    "Materials Science": 5,
+    "Biomedical": 28,
     "Cancer Research": 15,
-    "Neuroscience": 11,
-    "Computer Science": 5,
-    "Materials Science": 8
+    "Computer Science": 6
   },
-  "multiInstitutional": 25,
+  "multiInstitutional": 42,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,12 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "The Longitudinal Impact of Discrimination on Substance Use among Filipino and Korean American Youth",
+    "title": "Sit-to-Stand Power From 2D Pose Estimation as an Indicator of Muscle Strength in Older Adults",
     "date": "2026-01-26T11:00:00.000Z",
     "institutions": [
       "IBS",
-      "KAIST"
+      "KAIST",
+      "SNU"
     ]
   }
 }
