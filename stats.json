@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-01-29T19:34:40.138Z",
+  "lastUpdate": "2026-01-30T07:57:35.797Z",
   "totalItems": 150,
-  "totalArchived": 49709,
-  "newPapersAdded": 170,
+  "totalArchived": 49887,
+  "newPapersAdded": 178,
   "institutionBreakdown": {
-    "KAIST": 3,
-    "SNU": 43,
+    "KAIST": 11,
+    "SNU": 78,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 0,
-    "Korea University": 30,
-    "IBS": 86,
+    "POSTECH": 1,
+    "Korea University": 78,
+    "IBS": 8,
     "UNIST": 0,
-    "Hanyang University": 5,
-    "KIST": 2,
+    "Hanyang University": 8,
+    "KIST": 3,
     "GIST": 3,
-    "Kyung Hee University": 7,
-    "Pusan National University": 1
+    "Kyung Hee University": 8,
+    "Pusan National University": 2
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 74,
-    "Computer Science": 5,
-    "Cancer Research": 18,
-    "Biomedical": 37,
-    "Neuroscience": 10,
-    "Materials Science": 6
+    "Biomedical": 36,
+    "Multidisciplinary": 83,
+    "Cancer Research": 15,
+    "Computer Science": 2,
+    "Materials Science": 7,
+    "Neuroscience": 7
   },
-  "multiInstitutional": 19,
+  "multiInstitutional": 34,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,10 +44,10 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Assessment of bioelectrical impedance analysis devices for data reliability of body impedance measurements",
-    "date": "2026-01-29T11:00:00.000Z",
+    "title": "Endoscopic tympanoplasty using small intestinal submucosa xenografts for large tympanic membrane perforations: a one-year retrospective cohort study with clinical follow-up",
+    "date": "2026-01-30T11:00:00.000Z",
     "institutions": [
-      "KAIST"
+      "SNU"
     ]
   }
 }
