@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-01-30T07:57:35.797Z",
+  "lastUpdate": "2026-01-30T19:38:17.999Z",
   "totalItems": 150,
-  "totalArchived": 49887,
-  "newPapersAdded": 178,
+  "totalArchived": 50089,
+  "newPapersAdded": 202,
   "institutionBreakdown": {
     "KAIST": 11,
-    "SNU": 78,
+    "SNU": 62,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 1,
-    "Korea University": 78,
-    "IBS": 8,
+    "POSTECH": 0,
+    "Korea University": 43,
+    "IBS": 63,
     "UNIST": 0,
-    "Hanyang University": 8,
-    "KIST": 3,
+    "Hanyang University": 1,
+    "KIST": 0,
     "GIST": 3,
-    "Kyung Hee University": 8,
+    "Kyung Hee University": 5,
     "Pusan National University": 2
   },
   "subjectAreaBreakdown": {
-    "Biomedical": 36,
-    "Multidisciplinary": 83,
-    "Cancer Research": 15,
-    "Computer Science": 2,
-    "Materials Science": 7,
-    "Neuroscience": 7
+    "Multidisciplinary": 76,
+    "Biomedical": 25,
+    "Materials Science": 12,
+    "Neuroscience": 11,
+    "Cancer Research": 25,
+    "Computer Science": 1
   },
-  "multiInstitutional": 34,
+  "multiInstitutional": 28,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,9 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Endoscopic tympanoplasty using small intestinal submucosa xenografts for large tympanic membrane perforations: a one-year retrospective cohort study with clinical follow-up",
+    "title": "Control of Cell Size and Nutrient Utilization by a Novel Regulator <em>mraZ</em> and Its Impact on Polyhydroxybutyrate (PHB) Synthesis in <em>Cupriavidus necator</em> H16",
     "date": "2026-01-30T11:00:00.000Z",
     "institutions": [
+      "IBS",
+      "KAIST",
       "SNU"
     ]
   }
