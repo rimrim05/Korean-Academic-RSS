@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-01-30T19:38:17.999Z",
+  "lastUpdate": "2026-01-31T07:47:24.317Z",
   "totalItems": 150,
-  "totalArchived": 50089,
-  "newPapersAdded": 202,
+  "totalArchived": 50262,
+  "newPapersAdded": 173,
   "institutionBreakdown": {
-    "KAIST": 11,
-    "SNU": 62,
+    "KAIST": 20,
+    "SNU": 97,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 0,
-    "Korea University": 43,
-    "IBS": 63,
+    "POSTECH": 1,
+    "Korea University": 57,
+    "IBS": 11,
     "UNIST": 0,
     "Hanyang University": 1,
-    "KIST": 0,
-    "GIST": 3,
-    "Kyung Hee University": 5,
-    "Pusan National University": 2
+    "KIST": 2,
+    "GIST": 4,
+    "Kyung Hee University": 9,
+    "Pusan National University": 4
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 76,
-    "Biomedical": 25,
-    "Materials Science": 12,
-    "Neuroscience": 11,
-    "Cancer Research": 25,
-    "Computer Science": 1
+    "Biomedical": 27,
+    "Multidisciplinary": 74,
+    "Computer Science": 7,
+    "Cancer Research": 26,
+    "Materials Science": 8,
+    "Neuroscience": 8
   },
-  "multiInstitutional": 28,
+  "multiInstitutional": 38,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,12 +44,10 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Control of Cell Size and Nutrient Utilization by a Novel Regulator <em>mraZ</em> and Its Impact on Polyhydroxybutyrate (PHB) Synthesis in <em>Cupriavidus necator</em> H16",
-    "date": "2026-01-30T11:00:00.000Z",
+    "title": "Comparison of clinical outcomes between metallic and polymeric ureteral stents in malignant ureteral obstruction: a retrospective comparative study",
+    "date": "2026-01-31T11:00:00.000Z",
     "institutions": [
-      "IBS",
-      "KAIST",
-      "SNU"
+      "Korea University"
     ]
   }
 }
