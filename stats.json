@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-02-01T07:53:31.323Z",
+  "lastUpdate": "2026-02-01T19:31:51.896Z",
   "totalItems": 150,
-  "totalArchived": 50553,
-  "newPapersAdded": 160,
+  "totalArchived": 50559,
+  "newPapersAdded": 6,
   "institutionBreakdown": {
     "KAIST": 7,
-    "SNU": 48,
+    "SNU": 51,
     "Yonsei University": 0,
     "SKKU": 0,
     "POSTECH": 2,
-    "Korea University": 49,
-    "IBS": 61,
+    "Korea University": 51,
+    "IBS": 58,
     "UNIST": 0,
     "Hanyang University": 8,
-    "KIST": 1,
+    "KIST": 2,
     "GIST": 3,
     "Kyung Hee University": 6,
     "Pusan National University": 1
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 75,
-    "Biomedical": 41,
+    "Multidisciplinary": 80,
+    "Biomedical": 39,
     "Materials Science": 4,
-    "Cancer Research": 17,
-    "Neuroscience": 4,
+    "Cancer Research": 15,
+    "Neuroscience": 3,
     "Computer Science": 9
   },
-  "multiInstitutional": 26,
+  "multiInstitutional": 28,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Cybersickness-induced EEG responses in curved monitor and head-mounted display",
-    "date": "2026-01-31T11:00:00.000Z",
+    "title": "Pharmacological effects and phenolic constituents of Rheum wittrockii",
+    "date": "2026-02-01T11:00:00.000Z",
     "institutions": [
-      "IBS",
-      "KAIST"
+      "Korea University",
+      "SNU"
     ]
   }
 }
