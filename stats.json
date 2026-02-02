@@ -1,32 +1,31 @@
 {
-  "lastUpdate": "2026-02-01T19:31:51.896Z",
+  "lastUpdate": "2026-02-02T08:01:42.006Z",
   "totalItems": 150,
-  "totalArchived": 50559,
-  "newPapersAdded": 6,
+  "totalArchived": 50702,
+  "newPapersAdded": 143,
   "institutionBreakdown": {
-    "KAIST": 7,
-    "SNU": 51,
+    "KAIST": 13,
+    "SNU": 26,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 2,
-    "Korea University": 51,
-    "IBS": 58,
-    "UNIST": 0,
-    "Hanyang University": 8,
-    "KIST": 2,
-    "GIST": 3,
-    "Kyung Hee University": 6,
-    "Pusan National University": 1
+    "POSTECH": 0,
+    "Korea University": 24,
+    "IBS": 100,
+    "UNIST": 2,
+    "Hanyang University": 0,
+    "KIST": 4,
+    "GIST": 2,
+    "Kyung Hee University": 8,
+    "Pusan National University": 2
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 80,
-    "Biomedical": 39,
-    "Materials Science": 4,
-    "Cancer Research": 15,
-    "Neuroscience": 3,
-    "Computer Science": 9
+    "Multidisciplinary": 89,
+    "Biomedical": 37,
+    "Neuroscience": 8,
+    "Cancer Research": 13,
+    "Computer Science": 3
   },
-  "multiInstitutional": 28,
+  "multiInstitutional": 22,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +43,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Pharmacological effects and phenolic constituents of Rheum wittrockii",
+    "title": "Discovery of pyridomycin derivatives as InhA inhibitors from actinomycetes through molecular networking and an In-House tandem mass library",
     "date": "2026-02-01T11:00:00.000Z",
     "institutions": [
-      "Korea University",
-      "SNU"
+      "IBS",
+      "KAIST"
     ]
   }
 }
