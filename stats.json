@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-02-04T08:01:05.597Z",
+  "lastUpdate": "2026-02-04T19:41:06.950Z",
   "totalItems": 150,
-  "totalArchived": 51281,
-  "newPapersAdded": 139,
+  "totalArchived": 51495,
+  "newPapersAdded": 214,
   "institutionBreakdown": {
-    "KAIST": 7,
-    "SNU": 44,
+    "KAIST": 18,
+    "SNU": 29,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 5,
-    "Korea University": 50,
-    "IBS": 65,
-    "UNIST": 1,
-    "Hanyang University": 2,
-    "KIST": 1,
-    "GIST": 0,
-    "Kyung Hee University": 4,
-    "Pusan National University": 2
+    "POSTECH": 1,
+    "Korea University": 22,
+    "IBS": 100,
+    "UNIST": 2,
+    "Hanyang University": 3,
+    "KIST": 0,
+    "GIST": 1,
+    "Kyung Hee University": 0,
+    "Pusan National University": 3
   },
   "subjectAreaBreakdown": {
-    "Biomedical": 30,
-    "Multidisciplinary": 82,
-    "Neuroscience": 9,
-    "Cancer Research": 21,
-    "Computer Science": 2,
-    "Materials Science": 6
+    "Multidisciplinary": 85,
+    "Materials Science": 14,
+    "Cancer Research": 19,
+    "Neuroscience": 8,
+    "Biomedical": 23,
+    "Computer Science": 1
   },
-  "multiInstitutional": 21,
+  "multiInstitutional": 20,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,10 +44,10 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Dual antiplatelet therapy after percutaneous coronary intervention according to bleeding risk (HOST-BR): an open-label, multicentre, randomised clinical trial",
-    "date": "2026-02-03T11:00:00.000Z",
+    "title": "Perceptually validated auralization of brushless direct current motor-propeller noise via torque ripple-induced rotational speed fluctuation modeling",
+    "date": "2026-02-04T11:00:00.000Z",
     "institutions": [
-      "Hanyang University",
+      "IBS",
       "KAIST",
       "SNU"
     ]
