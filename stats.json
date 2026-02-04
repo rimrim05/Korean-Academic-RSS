@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-02-03T19:47:51.340Z",
+  "lastUpdate": "2026-02-04T08:01:05.597Z",
   "totalItems": 150,
-  "totalArchived": 51142,
-  "newPapersAdded": 171,
+  "totalArchived": 51281,
+  "newPapersAdded": 139,
   "institutionBreakdown": {
-    "KAIST": 13,
-    "SNU": 29,
+    "KAIST": 7,
+    "SNU": 44,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 4,
-    "Korea University": 23,
-    "IBS": 100,
+    "POSTECH": 5,
+    "Korea University": 50,
+    "IBS": 65,
     "UNIST": 1,
     "Hanyang University": 2,
     "KIST": 1,
     "GIST": 0,
-    "Kyung Hee University": 3,
-    "Pusan National University": 3
+    "Kyung Hee University": 4,
+    "Pusan National University": 2
   },
   "subjectAreaBreakdown": {
+    "Biomedical": 30,
     "Multidisciplinary": 82,
-    "Biomedical": 33,
-    "Cancer Research": 15,
-    "Neuroscience": 7,
-    "Computer Science": 6,
-    "Materials Science": 7
+    "Neuroscience": 9,
+    "Cancer Research": 21,
+    "Computer Science": 2,
+    "Materials Science": 6
   },
-  "multiInstitutional": 20,
+  "multiInstitutional": 21,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,13 +44,12 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Microfluidics-guided localized low-temperature modulation of axonal signal propagation",
+    "title": "Dual antiplatelet therapy after percutaneous coronary intervention according to bleeding risk (HOST-BR): an open-label, multicentre, randomised clinical trial",
     "date": "2026-02-03T11:00:00.000Z",
     "institutions": [
-      "IBS",
+      "Hanyang University",
       "KAIST",
-      "SNU",
-      "UNIST"
+      "SNU"
     ]
   }
 }
