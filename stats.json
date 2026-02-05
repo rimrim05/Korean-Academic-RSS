@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-02-05T08:01:57.288Z",
+  "lastUpdate": "2026-02-05T19:40:41.137Z",
   "totalItems": 150,
-  "totalArchived": 51695,
-  "newPapersAdded": 200,
+  "totalArchived": 51829,
+  "newPapersAdded": 134,
   "institutionBreakdown": {
-    "KAIST": 11,
-    "SNU": 74,
+    "KAIST": 16,
+    "SNU": 34,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 5,
-    "Korea University": 78,
-    "IBS": 10,
+    "POSTECH": 1,
+    "Korea University": 18,
+    "IBS": 100,
     "UNIST": 0,
-    "Hanyang University": 1,
-    "KIST": 1,
-    "GIST": 2,
+    "Hanyang University": 2,
+    "KIST": 2,
+    "GIST": 4,
     "Kyung Hee University": 4,
-    "Pusan National University": 0
+    "Pusan National University": 5
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 92,
+    "Multidisciplinary": 78,
+    "Biomedical": 32,
+    "Materials Science": 9,
     "Cancer Research": 15,
-    "Materials Science": 10,
-    "Neuroscience": 5,
     "Computer Science": 4,
-    "Biomedical": 24
+    "Neuroscience": 12
   },
-  "multiInstitutional": 32,
+  "multiInstitutional": 25,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,10 +44,13 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Comparative Analysis of T-Cell and Bone Marrow Chimerism for Relapse Prediction in Acute Leukaemia Post-Transplantation",
+    "title": "A self-regulating wearable OLED patch for accelerated wound healing <em>via</em> photobiomodulation-triggered drug delivery",
     "date": "2026-02-05T11:00:00.000Z",
     "institutions": [
-      "IBS"
+      "IBS",
+      "KAIST",
+      "Kyung Hee University",
+      "SNU"
     ]
   }
 }
