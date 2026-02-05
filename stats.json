@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-02-04T19:41:06.950Z",
+  "lastUpdate": "2026-02-05T08:01:57.288Z",
   "totalItems": 150,
-  "totalArchived": 51495,
-  "newPapersAdded": 214,
+  "totalArchived": 51695,
+  "newPapersAdded": 200,
   "institutionBreakdown": {
-    "KAIST": 18,
-    "SNU": 29,
+    "KAIST": 11,
+    "SNU": 74,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 1,
-    "Korea University": 22,
-    "IBS": 100,
-    "UNIST": 2,
-    "Hanyang University": 3,
-    "KIST": 0,
-    "GIST": 1,
-    "Kyung Hee University": 0,
-    "Pusan National University": 3
+    "POSTECH": 5,
+    "Korea University": 78,
+    "IBS": 10,
+    "UNIST": 0,
+    "Hanyang University": 1,
+    "KIST": 1,
+    "GIST": 2,
+    "Kyung Hee University": 4,
+    "Pusan National University": 0
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 85,
-    "Materials Science": 14,
-    "Cancer Research": 19,
-    "Neuroscience": 8,
-    "Biomedical": 23,
-    "Computer Science": 1
+    "Multidisciplinary": 92,
+    "Cancer Research": 15,
+    "Materials Science": 10,
+    "Neuroscience": 5,
+    "Computer Science": 4,
+    "Biomedical": 24
   },
-  "multiInstitutional": 20,
+  "multiInstitutional": 32,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,12 +44,10 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Perceptually validated auralization of brushless direct current motor-propeller noise via torque ripple-induced rotational speed fluctuation modeling",
-    "date": "2026-02-04T11:00:00.000Z",
+    "title": "Comparative Analysis of T-Cell and Bone Marrow Chimerism for Relapse Prediction in Acute Leukaemia Post-Transplantation",
+    "date": "2026-02-05T11:00:00.000Z",
     "institutions": [
-      "IBS",
-      "KAIST",
-      "SNU"
+      "IBS"
     ]
   }
 }
