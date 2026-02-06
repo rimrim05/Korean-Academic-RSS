@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-02-05T19:40:41.137Z",
+  "lastUpdate": "2026-02-06T08:01:02.467Z",
   "totalItems": 150,
-  "totalArchived": 51829,
-  "newPapersAdded": 134,
+  "totalArchived": 52039,
+  "newPapersAdded": 210,
   "institutionBreakdown": {
-    "KAIST": 16,
-    "SNU": 34,
+    "KAIST": 14,
+    "SNU": 80,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 1,
-    "Korea University": 18,
-    "IBS": 100,
+    "POSTECH": 3,
+    "Korea University": 73,
+    "IBS": 12,
     "UNIST": 0,
-    "Hanyang University": 2,
-    "KIST": 2,
+    "Hanyang University": 5,
+    "KIST": 4,
     "GIST": 4,
-    "Kyung Hee University": 4,
-    "Pusan National University": 5
+    "Kyung Hee University": 7,
+    "Pusan National University": 3
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 78,
-    "Biomedical": 32,
+    "Biomedical": 29,
+    "Cancer Research": 21,
+    "Multidisciplinary": 81,
     "Materials Science": 9,
-    "Cancer Research": 15,
-    "Computer Science": 4,
-    "Neuroscience": 12
+    "Neuroscience": 7,
+    "Computer Science": 3
   },
-  "multiInstitutional": 25,
+  "multiInstitutional": 36,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,13 +44,10 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "A self-regulating wearable OLED patch for accelerated wound healing <em>via</em> photobiomodulation-triggered drug delivery",
-    "date": "2026-02-05T11:00:00.000Z",
+    "title": "Successful experience with high-risk and family screening for Fabry disease in Ninghai County, Zhejiang Province, Eastern China: genotype‒phenotype analysis of the GLA IVS4 + 919G &gt; A variant",
+    "date": "2026-02-06T11:00:00.000Z",
     "institutions": [
-      "IBS",
-      "KAIST",
-      "Kyung Hee University",
-      "SNU"
+      "IBS"
     ]
   }
 }
