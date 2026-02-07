@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-02-07T07:50:16.278Z",
+  "lastUpdate": "2026-02-07T19:31:33.588Z",
   "totalItems": 150,
-  "totalArchived": 52413,
-  "newPapersAdded": 175,
+  "totalArchived": 52528,
+  "newPapersAdded": 115,
   "institutionBreakdown": {
     "KAIST": 19,
-    "SNU": 98,
+    "SNU": 30,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 1,
-    "Korea University": 51,
-    "IBS": 13,
-    "UNIST": 0,
-    "Hanyang University": 6,
+    "POSTECH": 0,
+    "Korea University": 15,
+    "IBS": 100,
+    "UNIST": 1,
+    "Hanyang University": 4,
     "KIST": 2,
     "GIST": 1,
-    "Kyung Hee University": 6,
-    "Pusan National University": 4
+    "Kyung Hee University": 3,
+    "Pusan National University": 3
   },
   "subjectAreaBreakdown": {
-    "Biomedical": 35,
-    "Multidisciplinary": 83,
-    "Cancer Research": 18,
+    "Multidisciplinary": 96,
+    "Cancer Research": 17,
+    "Biomedical": 19,
     "Neuroscience": 5,
-    "Materials Science": 5,
-    "Computer Science": 4
+    "Materials Science": 10,
+    "Computer Science": 3
   },
-  "multiInstitutional": 40,
+  "multiInstitutional": 21,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,7 +44,7 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Extrapericardial tamponade following blunt chest trauma treated with subxiphoid uniportal video-assisted thoracoscopic surgery: a case report",
+    "title": "Sex Differences in Genetic and Environmental Influences on Age at Initiation of Gaming",
     "date": "2026-02-07T11:00:00.000Z",
     "institutions": [
       "SNU"
