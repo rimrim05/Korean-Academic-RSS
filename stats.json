@@ -1,16 +1,16 @@
 {
-  "lastUpdate": "2026-02-08T07:54:26.197Z",
+  "lastUpdate": "2026-02-08T19:32:35.730Z",
   "totalItems": 150,
-  "totalArchived": 52677,
-  "newPapersAdded": 149,
+  "totalArchived": 52682,
+  "newPapersAdded": 5,
   "institutionBreakdown": {
     "KAIST": 4,
-    "SNU": 32,
+    "SNU": 33,
     "Yonsei University": 0,
     "SKKU": 0,
     "POSTECH": 2,
     "Korea University": 36,
-    "IBS": 88,
+    "IBS": 87,
     "UNIST": 1,
     "Hanyang University": 3,
     "KIST": 1,
@@ -20,9 +20,9 @@
   },
   "subjectAreaBreakdown": {
     "Multidisciplinary": 91,
-    "Cancer Research": 15,
+    "Cancer Research": 16,
+    "Biomedical": 24,
     "Neuroscience": 11,
-    "Biomedical": 25,
     "Computer Science": 4,
     "Materials Science": 4
   },
@@ -44,11 +44,9 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Outbreak investigation and genomic analysis reveal hidden transmission networks of KPC-2-producing Enterobacterales in a South Korean hospital",
-    "date": "2026-02-07T11:00:00.000Z",
+    "title": "Relational and Organisational Factors Relating to Job Satisfaction Among Critical Care Nurses",
+    "date": "2026-02-08T11:00:00.000Z",
     "institutions": [
-      "IBS",
-      "KAIST",
       "SNU"
     ]
   }
