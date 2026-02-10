@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-02-10T08:07:45.087Z",
+  "lastUpdate": "2026-02-10T20:03:05.372Z",
   "totalItems": 150,
-  "totalArchived": 53196,
-  "newPapersAdded": 160,
+  "totalArchived": 53341,
+  "newPapersAdded": 145,
   "institutionBreakdown": {
-    "KAIST": 18,
-    "SNU": 100,
+    "KAIST": 5,
+    "SNU": 29,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 3,
-    "Korea University": 50,
-    "IBS": 6,
+    "POSTECH": 0,
+    "Korea University": 22,
+    "IBS": 100,
     "UNIST": 2,
-    "Hanyang University": 8,
-    "KIST": 3,
-    "GIST": 6,
-    "Kyung Hee University": 13,
-    "Pusan National University": 4
+    "Hanyang University": 2,
+    "KIST": 2,
+    "GIST": 3,
+    "Kyung Hee University": 2,
+    "Pusan National University": 3
   },
   "subjectAreaBreakdown": {
     "Multidisciplinary": 84,
-    "Computer Science": 4,
-    "Biomedical": 27,
-    "Cancer Research": 12,
-    "Neuroscience": 14,
-    "Materials Science": 9
+    "Cancer Research": 21,
+    "Materials Science": 12,
+    "Biomedical": 26,
+    "Neuroscience": 5,
+    "Computer Science": 2
   },
-  "multiInstitutional": 49,
+  "multiInstitutional": 16,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Predicting suicidal and self-harm ideation using ecological momentary assessment: deep learning analysis in a general population sample",
+    "title": "Twenty years of microfluidic probes and open-space microfluidics: from origins to emerging directions",
     "date": "2026-02-10T11:00:00.000Z",
     "institutions": [
       "IBS",
-      "SNU"
+      "KAIST"
     ]
   }
 }
