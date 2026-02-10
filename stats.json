@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-02-09T20:03:36.966Z",
+  "lastUpdate": "2026-02-10T08:07:45.087Z",
   "totalItems": 150,
-  "totalArchived": 53036,
-  "newPapersAdded": 219,
+  "totalArchived": 53196,
+  "newPapersAdded": 160,
   "institutionBreakdown": {
-    "KAIST": 14,
-    "SNU": 68,
+    "KAIST": 18,
+    "SNU": 100,
     "Yonsei University": 0,
     "SKKU": 0,
     "POSTECH": 3,
-    "Korea University": 45,
-    "IBS": 39,
-    "UNIST": 1,
-    "Hanyang University": 6,
+    "Korea University": 50,
+    "IBS": 6,
+    "UNIST": 2,
+    "Hanyang University": 8,
     "KIST": 3,
-    "GIST": 5,
-    "Kyung Hee University": 9,
-    "Pusan National University": 3
+    "GIST": 6,
+    "Kyung Hee University": 13,
+    "Pusan National University": 4
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 77,
-    "Cancer Research": 14,
-    "Neuroscience": 13,
-    "Biomedical": 35,
-    "Materials Science": 9,
-    "Computer Science": 2
+    "Multidisciplinary": 84,
+    "Computer Science": 4,
+    "Biomedical": 27,
+    "Cancer Research": 12,
+    "Neuroscience": 14,
+    "Materials Science": 9
   },
-  "multiInstitutional": 34,
+  "multiInstitutional": 49,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,10 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Recent insights into the biological functions of hesperidin",
-    "date": "2026-02-09T11:00:00.000Z",
+    "title": "Predicting suicidal and self-harm ideation using ecological momentary assessment: deep learning analysis in a general population sample",
+    "date": "2026-02-10T11:00:00.000Z",
     "institutions": [
-      "KAIST"
+      "IBS",
+      "SNU"
     ]
   }
 }
