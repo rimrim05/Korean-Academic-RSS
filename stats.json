@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-02-11T08:05:23.258Z",
+  "lastUpdate": "2026-02-11T19:56:41.541Z",
   "totalItems": 150,
-  "totalArchived": 53539,
-  "newPapersAdded": 198,
+  "totalArchived": 53721,
+  "newPapersAdded": 182,
   "institutionBreakdown": {
-    "KAIST": 9,
-    "SNU": 81,
+    "KAIST": 7,
+    "SNU": 45,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 5,
-    "Korea University": 66,
-    "IBS": 16,
-    "UNIST": 1,
-    "Hanyang University": 2,
-    "KIST": 4,
-    "GIST": 6,
-    "Kyung Hee University": 12,
-    "Pusan National University": 3
+    "POSTECH": 0,
+    "Korea University": 33,
+    "IBS": 82,
+    "UNIST": 0,
+    "Hanyang University": 1,
+    "KIST": 3,
+    "GIST": 3,
+    "Kyung Hee University": 4,
+    "Pusan National University": 0
   },
   "subjectAreaBreakdown": {
-    "Biomedical": 32,
-    "Multidisciplinary": 73,
-    "Neuroscience": 8,
-    "Cancer Research": 24,
-    "Computer Science": 2,
-    "Materials Science": 11
+    "Multidisciplinary": 82,
+    "Computer Science": 3,
+    "Biomedical": 37,
+    "Cancer Research": 16,
+    "Materials Science": 11,
+    "Neuroscience": 1
   },
-  "multiInstitutional": 42,
+  "multiInstitutional": 21,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,12 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Efficacy and safety of high-definition transcranial direct current stimulation combined with digital rehabilitation on upper limb function in stroke patients: study protocol for a randomized, double-blind, sham-controlled confirmatory trial",
+    "title": "Overcoming Barriers to Dynamic Phase-Only Modulation in Transmissive Metasurfaces via Diffraction Control",
     "date": "2026-02-11T11:00:00.000Z",
     "institutions": [
-      "GIST",
-      "Korea University",
-      "SNU"
+      "IBS",
+      "KAIST"
     ]
   }
 }
