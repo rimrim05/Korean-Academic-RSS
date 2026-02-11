@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-02-10T20:03:05.372Z",
+  "lastUpdate": "2026-02-11T08:05:23.258Z",
   "totalItems": 150,
-  "totalArchived": 53341,
-  "newPapersAdded": 145,
+  "totalArchived": 53539,
+  "newPapersAdded": 198,
   "institutionBreakdown": {
-    "KAIST": 5,
-    "SNU": 29,
+    "KAIST": 9,
+    "SNU": 81,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 0,
-    "Korea University": 22,
-    "IBS": 100,
-    "UNIST": 2,
+    "POSTECH": 5,
+    "Korea University": 66,
+    "IBS": 16,
+    "UNIST": 1,
     "Hanyang University": 2,
-    "KIST": 2,
-    "GIST": 3,
-    "Kyung Hee University": 2,
+    "KIST": 4,
+    "GIST": 6,
+    "Kyung Hee University": 12,
     "Pusan National University": 3
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 84,
-    "Cancer Research": 21,
-    "Materials Science": 12,
-    "Biomedical": 26,
-    "Neuroscience": 5,
-    "Computer Science": 2
+    "Biomedical": 32,
+    "Multidisciplinary": 73,
+    "Neuroscience": 8,
+    "Cancer Research": 24,
+    "Computer Science": 2,
+    "Materials Science": 11
   },
-  "multiInstitutional": 16,
+  "multiInstitutional": 42,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,12 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Twenty years of microfluidic probes and open-space microfluidics: from origins to emerging directions",
-    "date": "2026-02-10T11:00:00.000Z",
+    "title": "Efficacy and safety of high-definition transcranial direct current stimulation combined with digital rehabilitation on upper limb function in stroke patients: study protocol for a randomized, double-blind, sham-controlled confirmatory trial",
+    "date": "2026-02-11T11:00:00.000Z",
     "institutions": [
-      "IBS",
-      "KAIST"
+      "GIST",
+      "Korea University",
+      "SNU"
     ]
   }
 }
