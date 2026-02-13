@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-02-12T19:51:41.000Z",
+  "lastUpdate": "2026-02-13T08:02:09.400Z",
   "totalItems": 150,
-  "totalArchived": 54086,
-  "newPapersAdded": 189,
+  "totalArchived": 54287,
+  "newPapersAdded": 201,
   "institutionBreakdown": {
-    "KAIST": 5,
-    "SNU": 30,
+    "KAIST": 11,
+    "SNU": 89,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 3,
-    "Korea University": 53,
-    "IBS": 72,
-    "UNIST": 0,
-    "Hanyang University": 0,
+    "POSTECH": 4,
+    "Korea University": 71,
+    "IBS": 5,
+    "UNIST": 1,
+    "Hanyang University": 2,
     "KIST": 0,
-    "GIST": 1,
-    "Kyung Hee University": 1,
-    "Pusan National University": 0
+    "GIST": 2,
+    "Kyung Hee University": 4,
+    "Pusan National University": 2
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 78,
-    "Neuroscience": 4,
-    "Cancer Research": 23,
-    "Biomedical": 35,
-    "Materials Science": 8,
-    "Computer Science": 2
+    "Biomedical": 29,
+    "Cancer Research": 19,
+    "Multidisciplinary": 80,
+    "Neuroscience": 12,
+    "Computer Science": 3,
+    "Materials Science": 7
   },
-  "multiInstitutional": 13,
+  "multiInstitutional": 36,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,12 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Correction: Kim et al. Transcriptomic Analysis of Air-Liquid Interface Culture in Human Lung Organoids Reveals Regulators of Epithelial Differentiation. <em>Cells</em> 2024, <em>13</em>, 1991",
+    "title": "Validation and Psychometric Properties of Behavioral Activation for Depression Scale in Older Adults",
     "date": "2026-02-12T11:00:00.000Z",
     "institutions": [
       "IBS",
-      "KAIST",
-      "SNU"
+      "KAIST"
     ]
   }
 }
