@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-02-14T07:52:38.367Z",
+  "lastUpdate": "2026-02-14T19:31:42.873Z",
   "totalItems": 150,
-  "totalArchived": 54635,
-  "newPapersAdded": 78,
+  "totalArchived": 54821,
+  "newPapersAdded": 186,
   "institutionBreakdown": {
-    "KAIST": 17,
-    "SNU": 100,
+    "KAIST": 25,
+    "SNU": 31,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 4,
-    "Korea University": 57,
-    "IBS": 7,
+    "POSTECH": 2,
+    "Korea University": 16,
+    "IBS": 94,
     "UNIST": 1,
-    "Hanyang University": 5,
-    "KIST": 2,
+    "Hanyang University": 4,
+    "KIST": 0,
     "GIST": 5,
-    "Kyung Hee University": 9,
-    "Pusan National University": 3
+    "Kyung Hee University": 1,
+    "Pusan National University": 2
   },
   "subjectAreaBreakdown": {
+    "Biomedical": 35,
+    "Multidisciplinary": 81,
+    "Cancer Research": 17,
+    "Neuroscience": 6,
     "Computer Science": 6,
-    "Biomedical": 34,
-    "Multidisciplinary": 64,
-    "Materials Science": 8,
-    "Cancer Research": 34,
-    "Neuroscience": 4
+    "Materials Science": 5
   },
-  "multiInstitutional": 44,
+  "multiInstitutional": 23,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,12 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Enhancing reliability in electrical grids: A hybrid machine learning approach for electrical faults classification",
-    "date": "2026-02-13T11:00:00.000Z",
+    "title": "International Multidisciplinary Consensus Report on Definitions, Diagnostic Criteria, and Management of Fatty Pancreas: A Joint Statement Endorsed by EPC, APA, EASD, EASL, ESGAR, ESGE, ESP, ESPCG, ESPEN, ESPGHAN, IAP, JPS, KPBA, LAPSG, and UEG",
+    "date": "2026-02-14T11:00:00.000Z",
     "institutions": [
       "IBS",
-      "KAIST"
+      "Korea University",
+      "SNU"
     ]
   }
 }
