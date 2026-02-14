@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-02-13T19:45:55.071Z",
+  "lastUpdate": "2026-02-14T07:52:38.367Z",
   "totalItems": 150,
-  "totalArchived": 54557,
-  "newPapersAdded": 270,
+  "totalArchived": 54635,
+  "newPapersAdded": 78,
   "institutionBreakdown": {
-    "KAIST": 16,
+    "KAIST": 17,
     "SNU": 100,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 3,
-    "Korea University": 59,
+    "POSTECH": 4,
+    "Korea University": 57,
     "IBS": 7,
     "UNIST": 1,
     "Hanyang University": 5,
-    "KIST": 1,
+    "KIST": 2,
     "GIST": 5,
     "Kyung Hee University": 9,
     "Pusan National University": 3
   },
   "subjectAreaBreakdown": {
-    "Biomedical": 32,
-    "Multidisciplinary": 68,
+    "Computer Science": 6,
+    "Biomedical": 34,
+    "Multidisciplinary": 64,
     "Materials Science": 8,
-    "Cancer Research": 32,
-    "Neuroscience": 5,
-    "Computer Science": 5
+    "Cancer Research": 34,
+    "Neuroscience": 4
   },
-  "multiInstitutional": 42,
+  "multiInstitutional": 44,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,15 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Disability and Relapse Risk in Late-Onset Myelin Oligodendrocyte Glycoprotein Antibody-Associated Disease",
+    "title": "Enhancing reliability in electrical grids: A hybrid machine learning approach for electrical faults classification",
     "date": "2026-02-13T11:00:00.000Z",
     "institutions": [
-      "GIST",
       "IBS",
-      "KAIST",
-      "Korea University",
-      "Kyung Hee University",
-      "SNU"
+      "KAIST"
     ]
   }
 }
