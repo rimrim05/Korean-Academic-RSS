@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-02-16T08:04:12.198Z",
+  "lastUpdate": "2026-02-16T19:37:26.542Z",
   "totalItems": 150,
-  "totalArchived": 55135,
-  "newPapersAdded": 134,
+  "totalArchived": 55379,
+  "newPapersAdded": 244,
   "institutionBreakdown": {
-    "KAIST": 7,
-    "SNU": 25,
+    "KAIST": 20,
+    "SNU": 70,
     "Yonsei University": 0,
     "SKKU": 0,
     "POSTECH": 0,
-    "Korea University": 31,
-    "IBS": 100,
+    "Korea University": 60,
+    "IBS": 20,
     "UNIST": 0,
-    "Hanyang University": 1,
+    "Hanyang University": 6,
     "KIST": 2,
-    "GIST": 3,
-    "Kyung Hee University": 3,
-    "Pusan National University": 3
+    "GIST": 4,
+    "Kyung Hee University": 5,
+    "Pusan National University": 4
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 79,
-    "Biomedical": 35,
-    "Computer Science": 3,
-    "Cancer Research": 17,
-    "Neuroscience": 15,
-    "Materials Science": 1
+    "Multidisciplinary": 84,
+    "Biomedical": 37,
+    "Materials Science": 10,
+    "Cancer Research": 10,
+    "Computer Science": 5,
+    "Neuroscience": 4
   },
-  "multiInstitutional": 18,
+  "multiInstitutional": 28,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,12 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "scMix: Learning Temporal Dynamics of Gene Expression under Irregular Time Intervals",
-    "date": "2026-02-15T11:00:00.000Z",
+    "title": "Renal Recovery Benefit of Living Versus Deceased Donor Liver Transplantation in Recipients With High Model for End-Stage Liver Disease Scores: A Propensity Score-matched Study",
+    "date": "2026-02-16T11:00:00.000Z",
     "institutions": [
       "IBS",
-      "KAIST"
+      "KAIST",
+      "SNU"
     ]
   }
 }
