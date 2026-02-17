@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-02-16T19:37:26.542Z",
+  "lastUpdate": "2026-02-17T08:03:44.002Z",
   "totalItems": 150,
-  "totalArchived": 55379,
-  "newPapersAdded": 244,
+  "totalArchived": 55520,
+  "newPapersAdded": 141,
   "institutionBreakdown": {
-    "KAIST": 20,
-    "SNU": 70,
+    "KAIST": 26,
+    "SNU": 87,
     "Yonsei University": 0,
     "SKKU": 0,
     "POSTECH": 0,
-    "Korea University": 60,
-    "IBS": 20,
-    "UNIST": 0,
-    "Hanyang University": 6,
-    "KIST": 2,
+    "Korea University": 61,
+    "IBS": 9,
+    "UNIST": 1,
+    "Hanyang University": 7,
+    "KIST": 3,
     "GIST": 4,
-    "Kyung Hee University": 5,
+    "Kyung Hee University": 6,
     "Pusan National University": 4
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 84,
-    "Biomedical": 37,
-    "Materials Science": 10,
-    "Cancer Research": 10,
-    "Computer Science": 5,
-    "Neuroscience": 4
+    "Biomedical": 31,
+    "Multidisciplinary": 94,
+    "Materials Science": 5,
+    "Cancer Research": 12,
+    "Computer Science": 3,
+    "Neuroscience": 5
   },
-  "multiInstitutional": 28,
+  "multiInstitutional": 39,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,12 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Renal Recovery Benefit of Living Versus Deceased Donor Liver Transplantation in Recipients With High Model for End-Stage Liver Disease Scores: A Propensity Score-matched Study",
+    "title": "Evolving trends in cochlear implant reimplantation: An analysis of causes and outcomes at a tertiary referral cohort",
     "date": "2026-02-16T11:00:00.000Z",
     "institutions": [
       "IBS",
       "KAIST",
+      "Korea University",
       "SNU"
     ]
   }
