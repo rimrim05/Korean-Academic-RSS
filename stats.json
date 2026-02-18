@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-02-17T19:50:00.812Z",
+  "lastUpdate": "2026-02-18T08:02:41.246Z",
   "totalItems": 150,
-  "totalArchived": 55641,
-  "newPapersAdded": 121,
+  "totalArchived": 55833,
+  "newPapersAdded": 192,
   "institutionBreakdown": {
-    "KAIST": 27,
-    "SNU": 21,
+    "KAIST": 4,
+    "SNU": 55,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 0,
-    "Korea University": 19,
-    "IBS": 100,
-    "UNIST": 1,
-    "Hanyang University": 2,
-    "KIST": 1,
-    "GIST": 1,
-    "Kyung Hee University": 1,
-    "Pusan National University": 1
+    "POSTECH": 2,
+    "Korea University": 55,
+    "IBS": 47,
+    "UNIST": 0,
+    "Hanyang University": 3,
+    "KIST": 0,
+    "GIST": 0,
+    "Kyung Hee University": 3,
+    "Pusan National University": 0
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 95,
-    "Biomedical": 26,
-    "Cancer Research": 8,
-    "Neuroscience": 9,
-    "Materials Science": 10,
-    "Computer Science": 2
+    "Multidisciplinary": 88,
+    "Cancer Research": 15,
+    "Materials Science": 9,
+    "Biomedical": 27,
+    "Computer Science": 5,
+    "Neuroscience": 6
   },
-  "multiInstitutional": 15,
+  "multiInstitutional": 16,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,10 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "A strategy for simulation-driven CT metal artifact reduction toward improving network generalizability",
-    "date": "2026-02-17T11:00:00.000Z",
+    "title": "Post-rehabilitation self-management support on physical activity and nutrition, including mHealth, improves physical capacity, physical activity, and health related quality of life in people with Parkinson's- results from a randomised controlled trial",
+    "date": "2026-02-18T11:00:00.000Z",
     "institutions": [
-      "IBS",
-      "KAIST"
+      "IBS"
     ]
   }
 }
