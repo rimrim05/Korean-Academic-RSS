@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-02-18T19:51:16.492Z",
+  "lastUpdate": "2026-02-19T08:02:20.013Z",
   "totalItems": 150,
-  "totalArchived": 55959,
-  "newPapersAdded": 126,
+  "totalArchived": 56153,
+  "newPapersAdded": 194,
   "institutionBreakdown": {
-    "KAIST": 9,
-    "SNU": 30,
+    "KAIST": 21,
+    "SNU": 49,
     "Yonsei University": 0,
     "SKKU": 0,
     "POSTECH": 0,
-    "Korea University": 21,
-    "IBS": 100,
-    "UNIST": 1,
+    "Korea University": 76,
+    "IBS": 29,
+    "UNIST": 3,
     "Hanyang University": 2,
-    "KIST": 3,
-    "GIST": 2,
-    "Kyung Hee University": 3,
-    "Pusan National University": 1
+    "KIST": 4,
+    "GIST": 5,
+    "Kyung Hee University": 5,
+    "Pusan National University": 2
   },
   "subjectAreaBreakdown": {
-    "Neuroscience": 10,
-    "Multidisciplinary": 71,
+    "Multidisciplinary": 92,
+    "Neuroscience": 9,
     "Computer Science": 5,
-    "Materials Science": 9,
-    "Cancer Research": 18,
-    "Biomedical": 37
+    "Materials Science": 8,
+    "Biomedical": 18,
+    "Cancer Research": 18
   },
-  "multiInstitutional": 15,
+  "multiInstitutional": 27,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,13 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Neuroinflammatory and transcriptional dynamics during SARS-CoV-2 infection in KRT18-hACE2 mouse brain",
+    "title": "The Prognostic Impact of Multiple Adverse Events on Long-Term Mortality Following Acute Myocardial Infarction",
     "date": "2026-02-18T11:00:00.000Z",
     "institutions": [
+      "GIST",
       "IBS",
-      "KAIST"
+      "KAIST",
+      "SNU"
     ]
   }
 }
