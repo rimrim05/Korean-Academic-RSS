@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-02-19T19:41:38.475Z",
+  "lastUpdate": "2026-02-20T08:00:58.804Z",
   "totalItems": 150,
-  "totalArchived": 56289,
-  "newPapersAdded": 136,
+  "totalArchived": 56520,
+  "newPapersAdded": 231,
   "institutionBreakdown": {
-    "KAIST": 17,
-    "SNU": 29,
+    "KAIST": 18,
+    "SNU": 89,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 1,
-    "Korea University": 17,
-    "IBS": 100,
-    "UNIST": 2,
-    "Hanyang University": 3,
-    "KIST": 1,
-    "GIST": 3,
-    "Kyung Hee University": 3,
-    "Pusan National University": 0
+    "POSTECH": 3,
+    "Korea University": 74,
+    "IBS": 8,
+    "UNIST": 1,
+    "Hanyang University": 8,
+    "KIST": 5,
+    "GIST": 5,
+    "Kyung Hee University": 9,
+    "Pusan National University": 3
   },
   "subjectAreaBreakdown": {
-    "Cancer Research": 16,
-    "Multidisciplinary": 72,
+    "Materials Science": 9,
+    "Multidisciplinary": 73,
     "Biomedical": 38,
+    "Cancer Research": 13,
     "Neuroscience": 12,
-    "Materials Science": 10,
-    "Computer Science": 2
+    "Computer Science": 5
   },
-  "multiInstitutional": 20,
+  "multiInstitutional": 55,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,12 +44,12 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "ATP release mediated by TRPM3 enhances invasion in glioblastoma",
+    "title": "Research on enhancing short-term wind power forecasting through feature fusion in a hybrid deep learning framework",
     "date": "2026-02-19T11:00:00.000Z",
     "institutions": [
       "IBS",
       "KAIST",
-      "SNU"
+      "Korea University"
     ]
   }
 }
