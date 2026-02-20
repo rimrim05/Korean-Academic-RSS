@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-02-20T08:00:58.804Z",
+  "lastUpdate": "2026-02-20T19:39:40.237Z",
   "totalItems": 150,
-  "totalArchived": 56520,
-  "newPapersAdded": 231,
+  "totalArchived": 56669,
+  "newPapersAdded": 149,
   "institutionBreakdown": {
-    "KAIST": 18,
-    "SNU": 89,
+    "KAIST": 10,
+    "SNU": 27,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 3,
-    "Korea University": 74,
-    "IBS": 8,
+    "POSTECH": 0,
+    "Korea University": 25,
+    "IBS": 100,
     "UNIST": 1,
-    "Hanyang University": 8,
-    "KIST": 5,
-    "GIST": 5,
-    "Kyung Hee University": 9,
-    "Pusan National University": 3
+    "Hanyang University": 4,
+    "KIST": 1,
+    "GIST": 3,
+    "Kyung Hee University": 5,
+    "Pusan National University": 1
   },
   "subjectAreaBreakdown": {
-    "Materials Science": 9,
-    "Multidisciplinary": 73,
-    "Biomedical": 38,
-    "Cancer Research": 13,
-    "Neuroscience": 12,
-    "Computer Science": 5
+    "Multidisciplinary": 81,
+    "Neuroscience": 17,
+    "Computer Science": 7,
+    "Biomedical": 23,
+    "Cancer Research": 14,
+    "Materials Science": 8
   },
-  "multiInstitutional": 55,
+  "multiInstitutional": 18,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,12 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Research on enhancing short-term wind power forecasting through feature fusion in a hybrid deep learning framework",
-    "date": "2026-02-19T11:00:00.000Z",
+    "title": "HEV-Targeted Antibody-Drug Conjugate Promotes Long-Term Cardiac Allograft Acceptance",
+    "date": "2026-02-20T11:00:00.000Z",
     "institutions": [
       "IBS",
-      "KAIST",
-      "Korea University"
+      "KAIST"
     ]
   }
 }
