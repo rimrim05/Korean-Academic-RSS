@@ -1,30 +1,30 @@
 {
-  "lastUpdate": "2026-02-21T07:50:00.186Z",
+  "lastUpdate": "2026-02-21T19:31:38.705Z",
   "totalItems": 150,
-  "totalArchived": 56859,
-  "newPapersAdded": 190,
+  "totalArchived": 56957,
+  "newPapersAdded": 98,
   "institutionBreakdown": {
-    "KAIST": 17,
-    "SNU": 71,
+    "KAIST": 22,
+    "SNU": 61,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 3,
-    "Korea University": 76,
-    "IBS": 14,
-    "UNIST": 0,
-    "Hanyang University": 6,
+    "POSTECH": 0,
+    "Korea University": 25,
+    "IBS": 74,
+    "UNIST": 2,
+    "Hanyang University": 5,
     "KIST": 3,
     "GIST": 5,
-    "Kyung Hee University": 8,
+    "Kyung Hee University": 6,
     "Pusan National University": 1
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 80,
-    "Biomedical": 32,
-    "Neuroscience": 7,
+    "Materials Science": 7,
+    "Multidisciplinary": 86,
+    "Biomedical": 37,
+    "Cancer Research": 9,
     "Computer Science": 8,
-    "Cancer Research": 21,
-    "Materials Science": 2
+    "Neuroscience": 3
   },
   "multiInstitutional": 37,
   "institutions": [
@@ -44,10 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "SanA Plays a Role in Peptidoglycan Integrity in Escherichia coli",
+    "title": "Scalable Hygroscopic Moisture-Electric Generator With Long-Term Stability for Self-Powered Wound-Healing Stimulation",
     "date": "2026-02-21T11:00:00.000Z",
     "institutions": [
-      "IBS"
+      "IBS",
+      "KAIST"
     ]
   }
 }
