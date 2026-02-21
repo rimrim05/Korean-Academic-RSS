@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-02-20T19:39:40.237Z",
+  "lastUpdate": "2026-02-21T07:50:00.186Z",
   "totalItems": 150,
-  "totalArchived": 56669,
-  "newPapersAdded": 149,
+  "totalArchived": 56859,
+  "newPapersAdded": 190,
   "institutionBreakdown": {
-    "KAIST": 10,
-    "SNU": 27,
+    "KAIST": 17,
+    "SNU": 71,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 0,
-    "Korea University": 25,
-    "IBS": 100,
-    "UNIST": 1,
-    "Hanyang University": 4,
-    "KIST": 1,
-    "GIST": 3,
-    "Kyung Hee University": 5,
+    "POSTECH": 3,
+    "Korea University": 76,
+    "IBS": 14,
+    "UNIST": 0,
+    "Hanyang University": 6,
+    "KIST": 3,
+    "GIST": 5,
+    "Kyung Hee University": 8,
     "Pusan National University": 1
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 81,
-    "Neuroscience": 17,
-    "Computer Science": 7,
-    "Biomedical": 23,
-    "Cancer Research": 14,
-    "Materials Science": 8
+    "Multidisciplinary": 80,
+    "Biomedical": 32,
+    "Neuroscience": 7,
+    "Computer Science": 8,
+    "Cancer Research": 21,
+    "Materials Science": 2
   },
-  "multiInstitutional": 18,
+  "multiInstitutional": 37,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,10 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "HEV-Targeted Antibody-Drug Conjugate Promotes Long-Term Cardiac Allograft Acceptance",
-    "date": "2026-02-20T11:00:00.000Z",
+    "title": "SanA Plays a Role in Peptidoglycan Integrity in Escherichia coli",
+    "date": "2026-02-21T11:00:00.000Z",
     "institutions": [
-      "IBS",
-      "KAIST"
+      "IBS"
     ]
   }
 }
