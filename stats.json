@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-02-22T07:53:05.426Z",
+  "lastUpdate": "2026-02-22T19:32:31.492Z",
   "totalItems": 150,
-  "totalArchived": 56969,
-  "newPapersAdded": 12,
+  "totalArchived": 57107,
+  "newPapersAdded": 138,
   "institutionBreakdown": {
-    "KAIST": 22,
-    "SNU": 49,
+    "KAIST": 4,
+    "SNU": 26,
     "Yonsei University": 0,
     "SKKU": 0,
     "POSTECH": 0,
-    "Korea University": 22,
-    "IBS": 86,
-    "UNIST": 2,
-    "Hanyang University": 5,
-    "KIST": 3,
-    "GIST": 4,
-    "Kyung Hee University": 5,
-    "Pusan National University": 0
+    "Korea University": 31,
+    "IBS": 99,
+    "UNIST": 1,
+    "Hanyang University": 3,
+    "KIST": 0,
+    "GIST": 3,
+    "Kyung Hee University": 0,
+    "Pusan National University": 1
   },
   "subjectAreaBreakdown": {
-    "Materials Science": 7,
-    "Multidisciplinary": 82,
-    "Biomedical": 37,
-    "Cancer Research": 12,
-    "Neuroscience": 5,
-    "Computer Science": 7
+    "Cancer Research": 21,
+    "Multidisciplinary": 79,
+    "Biomedical": 30,
+    "Materials Science": 10,
+    "Neuroscience": 6,
+    "Computer Science": 4
   },
-  "multiInstitutional": 32,
+  "multiInstitutional": 14,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,10 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Scalable Hygroscopic Moisture-Electric Generator With Long-Term Stability for Self-Powered Wound-Healing Stimulation",
-    "date": "2026-02-21T11:00:00.000Z",
+    "title": "Monocytes acquire a tumor-associated IL1B program upon encountering patient-derived colon cancer organoids",
+    "date": "2026-02-22T11:00:00.000Z",
     "institutions": [
-      "IBS",
-      "KAIST"
+      "IBS"
     ]
   }
 }
