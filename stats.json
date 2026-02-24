@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-02-23T19:59:55.861Z",
+  "lastUpdate": "2026-02-24T08:04:24.854Z",
   "totalItems": 150,
-  "totalArchived": 57437,
-  "newPapersAdded": 191,
+  "totalArchived": 57585,
+  "newPapersAdded": 148,
   "institutionBreakdown": {
-    "KAIST": 9,
-    "SNU": 45,
+    "KAIST": 15,
+    "SNU": 73,
     "Yonsei University": 0,
     "SKKU": 0,
     "POSTECH": 3,
-    "Korea University": 43,
-    "IBS": 65,
-    "UNIST": 0,
-    "Hanyang University": 4,
+    "Korea University": 68,
+    "IBS": 15,
+    "UNIST": 1,
+    "Hanyang University": 8,
     "KIST": 1,
     "GIST": 2,
-    "Kyung Hee University": 3,
+    "Kyung Hee University": 5,
     "Pusan National University": 2
   },
   "subjectAreaBreakdown": {
-    "Biomedical": 37,
-    "Multidisciplinary": 73,
-    "Neuroscience": 6,
-    "Computer Science": 4,
-    "Materials Science": 14,
-    "Cancer Research": 16
+    "Cancer Research": 20,
+    "Multidisciplinary": 75,
+    "Biomedical": 32,
+    "Neuroscience": 4,
+    "Computer Science": 5,
+    "Materials Science": 14
   },
-  "multiInstitutional": 24,
+  "multiInstitutional": 36,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,10 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Real-world ocular safety performance of dermatologic laser and intense pulsed light goggles: a clinical safety audit",
-    "date": "2026-02-23T11:00:00.000Z",
+    "title": "Air pollution and lung cancer: an investigation of county-level residual incidence rates with smoking eliminated",
+    "date": "2026-02-24T11:00:00.000Z",
     "institutions": [
-      "IBS",
-      "KAIST"
+      "IBS"
     ]
   }
 }
