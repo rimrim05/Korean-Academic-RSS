@@ -1,32 +1,31 @@
 {
-  "lastUpdate": "2026-02-24T19:51:25.495Z",
+  "lastUpdate": "2026-02-25T08:05:43.591Z",
   "totalItems": 150,
-  "totalArchived": 57731,
-  "newPapersAdded": 146,
+  "totalArchived": 57938,
+  "newPapersAdded": 207,
   "institutionBreakdown": {
-    "KAIST": 10,
-    "SNU": 35,
+    "KAIST": 16,
+    "SNU": 87,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 3,
-    "Korea University": 24,
-    "IBS": 100,
-    "UNIST": 1,
-    "Hanyang University": 4,
-    "KIST": 2,
+    "POSTECH": 6,
+    "Korea University": 61,
+    "IBS": 12,
+    "UNIST": 0,
+    "Hanyang University": 9,
+    "KIST": 3,
     "GIST": 2,
-    "Kyung Hee University": 4,
-    "Pusan National University": 2
+    "Kyung Hee University": 6,
+    "Pusan National University": 4
   },
   "subjectAreaBreakdown": {
-    "Materials Science": 9,
-    "Multidisciplinary": 74,
-    "Biomedical": 49,
-    "Cancer Research": 12,
-    "Neuroscience": 5,
-    "Computer Science": 1
+    "Biomedical": 47,
+    "Multidisciplinary": 72,
+    "Cancer Research": 14,
+    "Materials Science": 10,
+    "Neuroscience": 7
   },
-  "multiInstitutional": 22,
+  "multiInstitutional": 37,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,13 +43,10 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Advanced polymeric membranes for CO<sub>2</sub> separation: fundamentals, materials, and practical challenges",
-    "date": "2026-02-24T11:00:00.000Z",
+    "title": "Ensuring safety of exercise training through non-invasive measurement of cardiac function: A pilot study in adults",
+    "date": "2026-02-25T11:00:00.000Z",
     "institutions": [
-      "Hanyang University",
-      "IBS",
-      "KAIST",
-      "SNU"
+      "Korea University"
     ]
   }
 }
