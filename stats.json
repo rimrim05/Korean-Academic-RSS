@@ -1,31 +1,32 @@
 {
-  "lastUpdate": "2026-02-25T08:05:43.591Z",
+  "lastUpdate": "2026-02-25T19:51:59.366Z",
   "totalItems": 150,
-  "totalArchived": 57938,
-  "newPapersAdded": 207,
+  "totalArchived": 58010,
+  "newPapersAdded": 72,
   "institutionBreakdown": {
-    "KAIST": 16,
-    "SNU": 87,
+    "KAIST": 23,
+    "SNU": 100,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 6,
-    "Korea University": 61,
-    "IBS": 12,
+    "POSTECH": 0,
+    "Korea University": 46,
+    "IBS": 0,
     "UNIST": 0,
-    "Hanyang University": 9,
-    "KIST": 3,
-    "GIST": 2,
-    "Kyung Hee University": 6,
-    "Pusan National University": 4
+    "Hanyang University": 10,
+    "KIST": 2,
+    "GIST": 5,
+    "Kyung Hee University": 0,
+    "Pusan National University": 0
   },
   "subjectAreaBreakdown": {
-    "Biomedical": 47,
-    "Multidisciplinary": 72,
-    "Cancer Research": 14,
-    "Materials Science": 10,
-    "Neuroscience": 7
+    "Neuroscience": 8,
+    "Cancer Research": 12,
+    "Multidisciplinary": 77,
+    "Biomedical": 40,
+    "Materials Science": 11,
+    "Computer Science": 2
   },
-  "multiInstitutional": 37,
+  "multiInstitutional": 30,
   "institutions": [
     "KAIST",
     "SNU",
@@ -43,10 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Ensuring safety of exercise training through non-invasive measurement of cardiac function: A pilot study in adults",
+    "title": "Association of Olfactory Loss With Cognition Is Mediated by Striatal Dopamine Loss and Cerebral Perfusion in Parkinson's Disease",
     "date": "2026-02-25T11:00:00.000Z",
     "institutions": [
-      "Korea University"
+      "KAIST",
+      "SNU"
     ]
   }
 }
