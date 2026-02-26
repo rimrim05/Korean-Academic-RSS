@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-02-25T19:51:59.366Z",
+  "lastUpdate": "2026-02-26T08:03:14.762Z",
   "totalItems": 150,
-  "totalArchived": 58010,
-  "newPapersAdded": 72,
+  "totalArchived": 58011,
+  "newPapersAdded": 1,
   "institutionBreakdown": {
-    "KAIST": 23,
-    "SNU": 100,
+    "KAIST": 0,
+    "SNU": 0,
     "Yonsei University": 0,
     "SKKU": 0,
     "POSTECH": 0,
-    "Korea University": 46,
+    "Korea University": 0,
     "IBS": 0,
     "UNIST": 0,
-    "Hanyang University": 10,
-    "KIST": 2,
-    "GIST": 5,
+    "Hanyang University": 73,
+    "KIST": 0,
+    "GIST": 0,
     "Kyung Hee University": 0,
-    "Pusan National University": 0
+    "Pusan National University": 82
   },
   "subjectAreaBreakdown": {
-    "Neuroscience": 8,
-    "Cancer Research": 12,
-    "Multidisciplinary": 77,
-    "Biomedical": 40,
-    "Materials Science": 11,
+    "Materials Science": 9,
+    "Biomedical": 35,
+    "Neuroscience": 4,
+    "Multidisciplinary": 76,
+    "Cancer Research": 24,
     "Computer Science": 2
   },
-  "multiInstitutional": 30,
+  "multiInstitutional": 5,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,10 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Association of Olfactory Loss With Cognition Is Mediated by Striatal Dopamine Loss and Cerebral Perfusion in Parkinson's Disease",
-    "date": "2026-02-25T11:00:00.000Z",
+    "title": "Advanced polymeric membranes for CO<sub>2</sub> separation: fundamentals, materials, and practical challenges",
+    "date": "2026-02-24T11:00:00.000Z",
     "institutions": [
-      "KAIST",
-      "SNU"
+      "Hanyang University"
     ]
   }
 }
