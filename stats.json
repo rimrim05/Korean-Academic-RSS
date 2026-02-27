@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-02-27T08:01:01.861Z",
+  "lastUpdate": "2026-02-27T19:38:32.075Z",
   "totalItems": 150,
-  "totalArchived": 58191,
-  "newPapersAdded": 116,
+  "totalArchived": 58585,
+  "newPapersAdded": 394,
   "institutionBreakdown": {
-    "KAIST": 43,
-    "SNU": 0,
+    "KAIST": 33,
+    "SNU": 100,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 13,
-    "Korea University": 0,
-    "IBS": 100,
-    "UNIST": 6,
-    "Hanyang University": 0,
-    "KIST": 0,
-    "GIST": 0,
-    "Kyung Hee University": 0,
-    "Pusan National University": 0
+    "POSTECH": 2,
+    "Korea University": 32,
+    "IBS": 3,
+    "UNIST": 0,
+    "Hanyang University": 2,
+    "KIST": 3,
+    "GIST": 3,
+    "Kyung Hee University": 6,
+    "Pusan National University": 2
   },
   "subjectAreaBreakdown": {
-    "Biomedical": 29,
-    "Cancer Research": 17,
-    "Multidisciplinary": 85,
-    "Neuroscience": 11,
-    "Materials Science": 7,
-    "Computer Science": 1
+    "Multidisciplinary": 70,
+    "Biomedical": 32,
+    "Computer Science": 7,
+    "Cancer Research": 21,
+    "Materials Science": 13,
+    "Neuroscience": 7
   },
-  "multiInstitutional": 11,
+  "multiInstitutional": 29,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,12 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Effectiveness and Safety of Evogliptin in Patients With Type 2 Diabetes Mellitus: A Multicenter, Prospective, Observational Study",
-    "date": "2026-02-26T11:00:00.000Z",
+    "title": "Dokdothiocin, an Anti-Neuroinflammatory Thiopeptide from <em>Streptomyces</em> sp. 20A130",
+    "date": "2026-02-27T11:00:00.000Z",
     "institutions": [
-      "IBS",
-      "KAIST"
+      "KAIST",
+      "KIST",
+      "SNU"
     ]
   }
 }
