@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-02-26T19:47:27.972Z",
+  "lastUpdate": "2026-02-27T08:01:01.861Z",
   "totalItems": 150,
-  "totalArchived": 58075,
-  "newPapersAdded": 64,
+  "totalArchived": 58191,
+  "newPapersAdded": 116,
   "institutionBreakdown": {
-    "KAIST": 26,
+    "KAIST": 43,
     "SNU": 0,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 0,
-    "Korea University": 100,
-    "IBS": 0,
-    "UNIST": 0,
-    "Hanyang University": 14,
-    "KIST": 4,
+    "POSTECH": 13,
+    "Korea University": 0,
+    "IBS": 100,
+    "UNIST": 6,
+    "Hanyang University": 0,
+    "KIST": 0,
     "GIST": 0,
-    "Kyung Hee University": 13,
+    "Kyung Hee University": 0,
     "Pusan National University": 0
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 88,
-    "Biomedical": 30,
-    "Materials Science": 11,
-    "Computer Science": 4,
-    "Cancer Research": 12,
-    "Neuroscience": 5
+    "Biomedical": 29,
+    "Cancer Research": 17,
+    "Multidisciplinary": 85,
+    "Neuroscience": 11,
+    "Materials Science": 7,
+    "Computer Science": 1
   },
-  "multiInstitutional": 7,
+  "multiInstitutional": 11,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,9 +44,10 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Paraprobiotic Lactiplantibacillus plantarum MYO ameliorates dexamethasone-induced muscle atrophy: implications for age-related sarcopenia",
+    "title": "Effectiveness and Safety of Evogliptin in Patients With Type 2 Diabetes Mellitus: A Multicenter, Prospective, Observational Study",
     "date": "2026-02-26T11:00:00.000Z",
     "institutions": [
+      "IBS",
       "KAIST"
     ]
   }
