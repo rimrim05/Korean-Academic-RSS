@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-02-27T19:38:32.075Z",
+  "lastUpdate": "2026-02-28T07:45:45.992Z",
   "totalItems": 150,
-  "totalArchived": 58585,
-  "newPapersAdded": 394,
+  "totalArchived": 58757,
+  "newPapersAdded": 172,
   "institutionBreakdown": {
-    "KAIST": 33,
+    "KAIST": 42,
     "SNU": 100,
     "Yonsei University": 0,
     "SKKU": 0,
     "POSTECH": 2,
-    "Korea University": 32,
-    "IBS": 3,
+    "Korea University": 24,
+    "IBS": 5,
     "UNIST": 0,
-    "Hanyang University": 2,
+    "Hanyang University": 1,
     "KIST": 3,
     "GIST": 3,
-    "Kyung Hee University": 6,
-    "Pusan National University": 2
+    "Kyung Hee University": 7,
+    "Pusan National University": 3
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 70,
-    "Biomedical": 32,
-    "Computer Science": 7,
-    "Cancer Research": 21,
+    "Multidisciplinary": 64,
+    "Computer Science": 9,
+    "Neuroscience": 9,
     "Materials Science": 13,
-    "Neuroscience": 7
+    "Cancer Research": 26,
+    "Biomedical": 29
   },
-  "multiInstitutional": 29,
+  "multiInstitutional": 33,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,12 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Dokdothiocin, an Anti-Neuroinflammatory Thiopeptide from <em>Streptomyces</em> sp. 20A130",
+    "title": "Biocatalytic ulvan degradation by Pseudoalteromonas marina: exploring a marine polysaccharide bioconversion system",
     "date": "2026-02-27T11:00:00.000Z",
     "institutions": [
-      "KAIST",
-      "KIST",
-      "SNU"
+      "IBS",
+      "KAIST"
     ]
   }
 }
