@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-02-28T07:45:45.992Z",
+  "lastUpdate": "2026-02-28T19:27:15.213Z",
   "totalItems": 150,
-  "totalArchived": 58757,
-  "newPapersAdded": 172,
+  "totalArchived": 58885,
+  "newPapersAdded": 128,
   "institutionBreakdown": {
-    "KAIST": 42,
-    "SNU": 100,
+    "KAIST": 27,
+    "SNU": 18,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 2,
-    "Korea University": 24,
-    "IBS": 5,
+    "POSTECH": 0,
+    "Korea University": 20,
+    "IBS": 100,
     "UNIST": 0,
     "Hanyang University": 1,
-    "KIST": 3,
-    "GIST": 3,
-    "Kyung Hee University": 7,
-    "Pusan National University": 3
+    "KIST": 1,
+    "GIST": 4,
+    "Kyung Hee University": 4,
+    "Pusan National University": 4
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 64,
-    "Computer Science": 9,
-    "Neuroscience": 9,
-    "Materials Science": 13,
-    "Cancer Research": 26,
-    "Biomedical": 29
+    "Neuroscience": 11,
+    "Biomedical": 27,
+    "Multidisciplinary": 87,
+    "Cancer Research": 12,
+    "Computer Science": 4,
+    "Materials Science": 9
   },
-  "multiInstitutional": 33,
+  "multiInstitutional": 21,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,8 +44,8 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Biocatalytic ulvan degradation by Pseudoalteromonas marina: exploring a marine polysaccharide bioconversion system",
-    "date": "2026-02-27T11:00:00.000Z",
+    "title": "Amyloid fibrils in Alzheimer's disease differently modulate sleep and cortical oscillations in mice depending on the type of amyloid",
+    "date": "2026-02-28T11:00:00.000Z",
     "institutions": [
       "IBS",
       "KAIST"
