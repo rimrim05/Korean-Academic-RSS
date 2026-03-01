@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-03-01T07:50:51.291Z",
+  "lastUpdate": "2026-03-01T19:29:11.435Z",
   "totalItems": 150,
-  "totalArchived": 59019,
-  "newPapersAdded": 134,
+  "totalArchived": 59120,
+  "newPapersAdded": 101,
   "institutionBreakdown": {
-    "KAIST": 10,
-    "SNU": 29,
+    "KAIST": 11,
+    "SNU": 31,
     "Yonsei University": 0,
     "SKKU": 0,
     "POSTECH": 0,
-    "Korea University": 32,
-    "IBS": 84,
+    "Korea University": 24,
+    "IBS": 93,
     "UNIST": 0,
     "Hanyang University": 1,
     "KIST": 0,
-    "GIST": 2,
+    "GIST": 3,
     "Kyung Hee University": 2,
     "Pusan National University": 3
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 88,
-    "Biomedical": 31,
-    "Neuroscience": 9,
-    "Cancer Research": 14,
     "Materials Science": 4,
-    "Computer Science": 4
+    "Cancer Research": 14,
+    "Multidisciplinary": 80,
+    "Biomedical": 30,
+    "Computer Science": 9,
+    "Neuroscience": 13
   },
-  "multiInstitutional": 11,
+  "multiInstitutional": 15,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,9 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "KABP-AB-cx13 for the alleviation of airway inflammation in a mouse model triggered by particulate matter 10(PM<sub>10</sub>) and diesel exhaust particles",
-    "date": "2026-02-28T11:00:00.000Z",
+    "title": "Sub-1-volt, reconfigurable Gires-Tournois resonators for full-coloured monopixel array",
+    "date": "2026-03-01T11:00:00.000Z",
     "institutions": [
+      "GIST",
+      "IBS",
       "KAIST"
     ]
   }
