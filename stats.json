@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-03-02T08:00:57.210Z",
+  "lastUpdate": "2026-03-02T19:40:37.223Z",
   "totalItems": 150,
-  "totalArchived": 59252,
-  "newPapersAdded": 132,
+  "totalArchived": 59461,
+  "newPapersAdded": 209,
   "institutionBreakdown": {
-    "KAIST": 12,
-    "SNU": 19,
+    "KAIST": 13,
+    "SNU": 48,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 1,
-    "Korea University": 29,
-    "IBS": 100,
+    "POSTECH": 2,
+    "Korea University": 51,
+    "IBS": 49,
     "UNIST": 1,
-    "Hanyang University": 1,
+    "Hanyang University": 2,
     "KIST": 1,
-    "GIST": 2,
-    "Kyung Hee University": 1,
-    "Pusan National University": 3
+    "GIST": 0,
+    "Kyung Hee University": 3,
+    "Pusan National University": 1
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 86,
-    "Neuroscience": 9,
     "Materials Science": 12,
-    "Biomedical": 28,
-    "Cancer Research": 9,
-    "Computer Science": 6
+    "Multidisciplinary": 89,
+    "Biomedical": 26,
+    "Computer Science": 3,
+    "Cancer Research": 12,
+    "Neuroscience": 8
   },
-  "multiInstitutional": 17,
+  "multiInstitutional": 21,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,8 +44,8 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Influence of pore structure on grain bulk modulus of underground rock masses under hydro-mechanical conditions",
-    "date": "2026-03-01T11:00:00.000Z",
+    "title": "Quantitative Defect-Property Correlations in Ti<sub>3</sub>C<sub>2</sub>T<sub>x</sub> MXenes via Precursor-Controlled Defect Engineering",
+    "date": "2026-03-02T11:00:00.000Z",
     "institutions": [
       "IBS",
       "KAIST"
