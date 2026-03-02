@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-03-01T19:29:11.435Z",
+  "lastUpdate": "2026-03-02T08:00:57.210Z",
   "totalItems": 150,
-  "totalArchived": 59120,
-  "newPapersAdded": 101,
+  "totalArchived": 59252,
+  "newPapersAdded": 132,
   "institutionBreakdown": {
-    "KAIST": 11,
-    "SNU": 31,
+    "KAIST": 12,
+    "SNU": 19,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 0,
-    "Korea University": 24,
-    "IBS": 93,
-    "UNIST": 0,
+    "POSTECH": 1,
+    "Korea University": 29,
+    "IBS": 100,
+    "UNIST": 1,
     "Hanyang University": 1,
-    "KIST": 0,
-    "GIST": 3,
-    "Kyung Hee University": 2,
+    "KIST": 1,
+    "GIST": 2,
+    "Kyung Hee University": 1,
     "Pusan National University": 3
   },
   "subjectAreaBreakdown": {
-    "Materials Science": 4,
-    "Cancer Research": 14,
-    "Multidisciplinary": 80,
-    "Biomedical": 30,
-    "Computer Science": 9,
-    "Neuroscience": 13
+    "Multidisciplinary": 86,
+    "Neuroscience": 9,
+    "Materials Science": 12,
+    "Biomedical": 28,
+    "Cancer Research": 9,
+    "Computer Science": 6
   },
-  "multiInstitutional": 15,
+  "multiInstitutional": 17,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,10 +44,9 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Sub-1-volt, reconfigurable Gires-Tournois resonators for full-coloured monopixel array",
+    "title": "Influence of pore structure on grain bulk modulus of underground rock masses under hydro-mechanical conditions",
     "date": "2026-03-01T11:00:00.000Z",
     "institutions": [
-      "GIST",
       "IBS",
       "KAIST"
     ]
