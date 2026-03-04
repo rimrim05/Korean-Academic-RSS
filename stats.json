@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-03-04T07:56:13.962Z",
+  "lastUpdate": "2026-03-04T19:41:09.765Z",
   "totalItems": 150,
-  "totalArchived": 59920,
-  "newPapersAdded": 289,
+  "totalArchived": 60067,
+  "newPapersAdded": 147,
   "institutionBreakdown": {
-    "KAIST": 17,
-    "SNU": 100,
+    "KAIST": 12,
+    "SNU": 31,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 5,
-    "Korea University": 57,
-    "IBS": 5,
-    "UNIST": 3,
-    "Hanyang University": 11,
-    "KIST": 7,
+    "POSTECH": 0,
+    "Korea University": 20,
+    "IBS": 100,
+    "UNIST": 2,
+    "Hanyang University": 1,
+    "KIST": 1,
     "GIST": 5,
-    "Kyung Hee University": 7,
+    "Kyung Hee University": 3,
     "Pusan National University": 2
   },
   "subjectAreaBreakdown": {
-    "Materials Science": 9,
-    "Multidisciplinary": 80,
-    "Neuroscience": 7,
-    "Computer Science": 10,
-    "Biomedical": 24,
-    "Cancer Research": 20
+    "Multidisciplinary": 83,
+    "Materials Science": 11,
+    "Biomedical": 27,
+    "Cancer Research": 19,
+    "Computer Science": 4,
+    "Neuroscience": 6
   },
-  "multiInstitutional": 51,
+  "multiInstitutional": 20,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,12 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "1,1-Diethoxyethane enhances aerobic respiration in human mitochondria via activation of AMP-activated protein kinase",
-    "date": "2026-03-03T11:00:00.000Z",
+    "title": "Unveiling the Intramolecular Thermodynamics of Multivalent Proteins: Exploratory Study on Engineered Protein Model",
+    "date": "2026-03-04T11:00:00.000Z",
     "institutions": [
-      "GIST",
-      "KAIST"
+      "IBS",
+      "KAIST",
+      "Pusan National University"
     ]
   }
 }
