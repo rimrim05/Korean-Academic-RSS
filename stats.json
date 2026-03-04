@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-03-03T07:59:42.784Z",
+  "lastUpdate": "2026-03-04T07:56:13.962Z",
   "totalItems": 150,
-  "totalArchived": 59631,
-  "newPapersAdded": 170,
+  "totalArchived": 59920,
+  "newPapersAdded": 289,
   "institutionBreakdown": {
     "KAIST": 17,
-    "SNU": 89,
+    "SNU": 100,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 4,
-    "Korea University": 55,
-    "IBS": 8,
-    "UNIST": 0,
-    "Hanyang University": 2,
-    "KIST": 2,
-    "GIST": 2,
-    "Kyung Hee University": 4,
-    "Pusan National University": 3
+    "POSTECH": 5,
+    "Korea University": 57,
+    "IBS": 5,
+    "UNIST": 3,
+    "Hanyang University": 11,
+    "KIST": 7,
+    "GIST": 5,
+    "Kyung Hee University": 7,
+    "Pusan National University": 2
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 83,
-    "Computer Science": 6,
     "Materials Science": 9,
-    "Biomedical": 33,
-    "Cancer Research": 13,
-    "Neuroscience": 6
+    "Multidisciplinary": 80,
+    "Neuroscience": 7,
+    "Computer Science": 10,
+    "Biomedical": 24,
+    "Cancer Research": 20
   },
-  "multiInstitutional": 33,
+  "multiInstitutional": 51,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,10 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Geographical variation and human health risk assessment of arsenic contamination in locally produced unpolished and polished rice from the Mekong Plain and coastal region of Cambodia",
-    "date": "2026-03-02T11:00:00.000Z",
+    "title": "1,1-Diethoxyethane enhances aerobic respiration in human mitochondria via activation of AMP-activated protein kinase",
+    "date": "2026-03-03T11:00:00.000Z",
     "institutions": [
       "GIST",
-      "IBS",
       "KAIST"
     ]
   }
