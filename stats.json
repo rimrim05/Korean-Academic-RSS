@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-03-05T07:59:12.927Z",
+  "lastUpdate": "2026-03-05T19:56:41.895Z",
   "totalItems": 150,
-  "totalArchived": 60269,
-  "newPapersAdded": 202,
+  "totalArchived": 60439,
+  "newPapersAdded": 170,
   "institutionBreakdown": {
-    "KAIST": 20,
-    "SNU": 86,
+    "KAIST": 3,
+    "SNU": 39,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 0,
-    "Korea University": 64,
-    "IBS": 7,
-    "UNIST": 2,
-    "Hanyang University": 5,
-    "KIST": 1,
-    "GIST": 4,
-    "Kyung Hee University": 5,
-    "Pusan National University": 3
+    "POSTECH": 1,
+    "Korea University": 42,
+    "IBS": 86,
+    "UNIST": 0,
+    "Hanyang University": 2,
+    "KIST": 4,
+    "GIST": 1,
+    "Kyung Hee University": 3,
+    "Pusan National University": 2
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 75,
-    "Materials Science": 4,
-    "Cancer Research": 24,
-    "Biomedical": 31,
-    "Computer Science": 7,
-    "Neuroscience": 9
+    "Multidisciplinary": 85,
+    "Cancer Research": 17,
+    "Biomedical": 32,
+    "Computer Science": 2,
+    "Neuroscience": 6,
+    "Materials Science": 8
   },
-  "multiInstitutional": 32,
+  "multiInstitutional": 21,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,14 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Impact of birth weight on long-term growth and development in children: evidence from a nationwide cohort study",
-    "date": "2026-03-04T11:00:00.000Z",
+    "title": "Functional microarray biochips promote micropatterned adhesion-cytoskeleton-nuclear coupling to guide endothelial force-sensing mechanotransduction",
+    "date": "2026-03-05T11:00:00.000Z",
     "institutions": [
-      "Hanyang University",
       "IBS",
-      "KAIST",
-      "Kyung Hee University",
-      "SNU"
+      "KAIST"
     ]
   }
 }
