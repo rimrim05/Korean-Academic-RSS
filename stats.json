@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-03-06T07:56:15.943Z",
+  "lastUpdate": "2026-03-06T19:38:36.241Z",
   "totalItems": 150,
-  "totalArchived": 60439,
-  "newPapersAdded": 0,
+  "totalArchived": 60723,
+  "newPapersAdded": 284,
   "institutionBreakdown": {
-    "KAIST": 3,
-    "SNU": 39,
+    "KAIST": 6,
+    "SNU": 52,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 1,
-    "Korea University": 42,
-    "IBS": 86,
+    "POSTECH": 2,
+    "Korea University": 43,
+    "IBS": 62,
     "UNIST": 0,
-    "Hanyang University": 2,
-    "KIST": 4,
-    "GIST": 1,
-    "Kyung Hee University": 3,
-    "Pusan National University": 2
+    "Hanyang University": 4,
+    "KIST": 2,
+    "GIST": 0,
+    "Kyung Hee University": 2,
+    "Pusan National University": 1
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 85,
-    "Cancer Research": 17,
-    "Biomedical": 32,
-    "Computer Science": 2,
-    "Neuroscience": 6,
-    "Materials Science": 8
+    "Computer Science": 4,
+    "Multidisciplinary": 91,
+    "Materials Science": 8,
+    "Cancer Research": 21,
+    "Biomedical": 20,
+    "Neuroscience": 6
   },
-  "multiInstitutional": 21,
+  "multiInstitutional": 20,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,12 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Functional microarray biochips promote micropatterned adhesion-cytoskeleton-nuclear coupling to guide endothelial force-sensing mechanotransduction",
-    "date": "2026-03-05T11:00:00.000Z",
+    "title": "Balance biomarker for early differentiation of Parkinson's disease and multiple system atrophy with parkinsonian type",
+    "date": "2026-03-06T11:00:00.000Z",
     "institutions": [
       "IBS",
-      "KAIST"
+      "KAIST",
+      "SNU"
     ]
   }
 }
