@@ -1,16 +1,16 @@
 {
-  "lastUpdate": "2026-03-07T07:47:06.175Z",
+  "lastUpdate": "2026-03-07T19:28:37.983Z",
   "totalItems": 150,
-  "totalArchived": 60909,
-  "newPapersAdded": 186,
+  "totalArchived": 60961,
+  "newPapersAdded": 52,
   "institutionBreakdown": {
     "KAIST": 20,
-    "SNU": 91,
+    "SNU": 92,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 5,
-    "Korea University": 55,
-    "IBS": 12,
+    "POSTECH": 4,
+    "Korea University": 10,
+    "IBS": 51,
     "UNIST": 1,
     "Hanyang University": 5,
     "KIST": 4,
@@ -19,14 +19,14 @@
     "Pusan National University": 3
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 91,
-    "Biomedical": 27,
-    "Materials Science": 8,
-    "Neuroscience": 4,
-    "Computer Science": 3,
-    "Cancer Research": 17
+    "Multidisciplinary": 88,
+    "Cancer Research": 13,
+    "Biomedical": 29,
+    "Materials Science": 12,
+    "Neuroscience": 5,
+    "Computer Science": 3
   },
-  "multiInstitutional": 41,
+  "multiInstitutional": 37,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,12 +44,9 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Etiology-specific prognostic value of ultra-early diffusion-weighted MRI after out-of-hospital cardiac arrest: a multicenter cohort study",
-    "date": "2026-03-06T11:00:00.000Z",
+    "title": "Effects of Oral Health and Functional Characteristics on Taste Sensitivity in Older Adults: Comparative Analysis Using Solution and Taste Strip Tests",
+    "date": "2026-03-07T11:00:00.000Z",
     "institutions": [
-      "GIST",
-      "IBS",
-      "KAIST",
       "SNU"
     ]
   }
