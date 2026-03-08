@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-03-07T19:28:37.983Z",
+  "lastUpdate": "2026-03-08T07:49:04.705Z",
   "totalItems": 150,
-  "totalArchived": 60961,
-  "newPapersAdded": 52,
+  "totalArchived": 61115,
+  "newPapersAdded": 154,
   "institutionBreakdown": {
-    "KAIST": 20,
-    "SNU": 92,
+    "KAIST": 4,
+    "SNU": 34,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 4,
-    "Korea University": 10,
-    "IBS": 51,
+    "POSTECH": 2,
+    "Korea University": 30,
+    "IBS": 89,
     "UNIST": 1,
-    "Hanyang University": 5,
-    "KIST": 4,
+    "Hanyang University": 3,
+    "KIST": 0,
     "GIST": 1,
-    "Kyung Hee University": 7,
-    "Pusan National University": 3
+    "Kyung Hee University": 1,
+    "Pusan National University": 0
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 88,
-    "Cancer Research": 13,
-    "Biomedical": 29,
-    "Materials Science": 12,
-    "Neuroscience": 5,
-    "Computer Science": 3
+    "Multidisciplinary": 84,
+    "Biomedical": 35,
+    "Cancer Research": 15,
+    "Materials Science": 5,
+    "Neuroscience": 7,
+    "Computer Science": 4
   },
-  "multiInstitutional": 37,
+  "multiInstitutional": 11,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,10 +44,13 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Effects of Oral Health and Functional Characteristics on Taste Sensitivity in Older Adults: Comparative Analysis Using Solution and Taste Strip Tests",
+    "title": "Electric double layer structure in concentrated aqueous solution",
     "date": "2026-03-07T11:00:00.000Z",
     "institutions": [
-      "SNU"
+      "IBS",
+      "KAIST",
+      "POSTECH",
+      "UNIST"
     ]
   }
 }
