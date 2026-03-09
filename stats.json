@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-03-08T19:30:32.636Z",
+  "lastUpdate": "2026-03-09T08:01:58.616Z",
   "totalItems": 150,
-  "totalArchived": 61174,
-  "newPapersAdded": 59,
+  "totalArchived": 61274,
+  "newPapersAdded": 100,
   "institutionBreakdown": {
-    "KAIST": 4,
-    "SNU": 44,
+    "KAIST": 6,
+    "SNU": 41,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 2,
-    "Korea University": 36,
-    "IBS": 74,
+    "POSTECH": 1,
+    "Korea University": 13,
+    "IBS": 100,
     "UNIST": 2,
     "Hanyang University": 3,
     "KIST": 0,
     "GIST": 2,
-    "Kyung Hee University": 1,
-    "Pusan National University": 0
+    "Kyung Hee University": 2,
+    "Pusan National University": 1
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 72,
-    "Computer Science": 5,
-    "Biomedical": 40,
-    "Cancer Research": 22,
-    "Neuroscience": 7,
-    "Materials Science": 4
+    "Multidisciplinary": 76,
+    "Biomedical": 37,
+    "Cancer Research": 24,
+    "Computer Science": 1,
+    "Materials Science": 4,
+    "Neuroscience": 8
   },
-  "multiInstitutional": 14,
+  "multiInstitutional": 15,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,10 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Assessing coastal marine pollution monitoring structures using a combined AHP-TOPSIS decision model",
+    "title": "Merger of Heterogeneous and Homogeneous Photocatalysis for Arene C-H Amination",
     "date": "2026-03-08T10:00:00.000Z",
     "institutions": [
-      "SNU"
+      "IBS",
+      "KAIST"
     ]
   }
 }
