@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-03-09T08:01:58.616Z",
+  "lastUpdate": "2026-03-09T19:43:10.442Z",
   "totalItems": 150,
-  "totalArchived": 61274,
-  "newPapersAdded": 100,
+  "totalArchived": 61507,
+  "newPapersAdded": 233,
   "institutionBreakdown": {
-    "KAIST": 6,
-    "SNU": 41,
+    "KAIST": 23,
+    "SNU": 74,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 1,
-    "Korea University": 13,
-    "IBS": 100,
-    "UNIST": 2,
+    "POSTECH": 6,
+    "Korea University": 59,
+    "IBS": 23,
+    "UNIST": 0,
     "Hanyang University": 3,
-    "KIST": 0,
+    "KIST": 6,
     "GIST": 2,
-    "Kyung Hee University": 2,
-    "Pusan National University": 1
+    "Kyung Hee University": 7,
+    "Pusan National University": 3
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 76,
-    "Biomedical": 37,
-    "Cancer Research": 24,
-    "Computer Science": 1,
     "Materials Science": 4,
-    "Neuroscience": 8
+    "Multidisciplinary": 75,
+    "Cancer Research": 19,
+    "Biomedical": 39,
+    "Neuroscience": 7,
+    "Computer Science": 6
   },
-  "multiInstitutional": 15,
+  "multiInstitutional": 43,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,9 +44,10 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Merger of Heterogeneous and Homogeneous Photocatalysis for Arene C-H Amination",
-    "date": "2026-03-08T10:00:00.000Z",
+    "title": "High-throughput and efficient fabrication of engineered skeletal muscle tissue <em>via</em> streamlined 3D multimaterial bioprinting",
+    "date": "2026-03-09T10:00:00.000Z",
     "institutions": [
+      "GIST",
       "IBS",
       "KAIST"
     ]
