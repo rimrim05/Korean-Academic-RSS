@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-03-10T07:58:53.633Z",
+  "lastUpdate": "2026-03-10T19:41:23.845Z",
   "totalItems": 150,
-  "totalArchived": 61674,
-  "newPapersAdded": 167,
+  "totalArchived": 61840,
+  "newPapersAdded": 166,
   "institutionBreakdown": {
-    "KAIST": 32,
-    "SNU": 100,
+    "KAIST": 7,
+    "SNU": 37,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 7,
-    "Korea University": 41,
-    "IBS": 12,
-    "UNIST": 0,
-    "Hanyang University": 4,
-    "KIST": 6,
-    "GIST": 4,
-    "Kyung Hee University": 12,
-    "Pusan National University": 4
+    "POSTECH": 0,
+    "Korea University": 40,
+    "IBS": 86,
+    "UNIST": 1,
+    "Hanyang University": 0,
+    "KIST": 4,
+    "GIST": 3,
+    "Kyung Hee University": 0,
+    "Pusan National University": 1
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 76,
-    "Biomedical": 30,
-    "Cancer Research": 28,
-    "Materials Science": 4,
-    "Neuroscience": 8,
-    "Computer Science": 4
+    "Multidisciplinary": 93,
+    "Computer Science": 4,
+    "Cancer Research": 6,
+    "Neuroscience": 7,
+    "Biomedical": 32,
+    "Materials Science": 8
   },
-  "multiInstitutional": 51,
+  "multiInstitutional": 18,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,9 +44,10 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Workflows for Stable Cell Line Generation: Chemical Transfection and Viral Transduction",
-    "date": "2026-03-09T10:00:00.000Z",
+    "title": "A spring-loaded grip-and-pull mechanism for stepwise RNA duplex unwinding by Xrn1",
+    "date": "2026-03-10T10:00:00.000Z",
     "institutions": [
+      "GIST",
       "IBS",
       "KAIST"
     ]
