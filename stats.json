@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-03-09T19:43:10.442Z",
+  "lastUpdate": "2026-03-10T07:58:53.633Z",
   "totalItems": 150,
-  "totalArchived": 61507,
-  "newPapersAdded": 233,
+  "totalArchived": 61674,
+  "newPapersAdded": 167,
   "institutionBreakdown": {
-    "KAIST": 23,
-    "SNU": 74,
+    "KAIST": 32,
+    "SNU": 100,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 6,
-    "Korea University": 59,
-    "IBS": 23,
+    "POSTECH": 7,
+    "Korea University": 41,
+    "IBS": 12,
     "UNIST": 0,
-    "Hanyang University": 3,
+    "Hanyang University": 4,
     "KIST": 6,
-    "GIST": 2,
-    "Kyung Hee University": 7,
-    "Pusan National University": 3
+    "GIST": 4,
+    "Kyung Hee University": 12,
+    "Pusan National University": 4
   },
   "subjectAreaBreakdown": {
+    "Multidisciplinary": 76,
+    "Biomedical": 30,
+    "Cancer Research": 28,
     "Materials Science": 4,
-    "Multidisciplinary": 75,
-    "Cancer Research": 19,
-    "Biomedical": 39,
-    "Neuroscience": 7,
-    "Computer Science": 6
+    "Neuroscience": 8,
+    "Computer Science": 4
   },
-  "multiInstitutional": 43,
+  "multiInstitutional": 51,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,10 +44,9 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "High-throughput and efficient fabrication of engineered skeletal muscle tissue <em>via</em> streamlined 3D multimaterial bioprinting",
+    "title": "Workflows for Stable Cell Line Generation: Chemical Transfection and Viral Transduction",
     "date": "2026-03-09T10:00:00.000Z",
     "institutions": [
-      "GIST",
       "IBS",
       "KAIST"
     ]
