@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-03-10T19:41:23.845Z",
+  "lastUpdate": "2026-03-11T07:59:43.650Z",
   "totalItems": 150,
-  "totalArchived": 61840,
-  "newPapersAdded": 166,
+  "totalArchived": 62013,
+  "newPapersAdded": 173,
   "institutionBreakdown": {
-    "KAIST": 7,
-    "SNU": 37,
+    "KAIST": 15,
+    "SNU": 79,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 0,
-    "Korea University": 40,
-    "IBS": 86,
-    "UNIST": 1,
-    "Hanyang University": 0,
-    "KIST": 4,
-    "GIST": 3,
-    "Kyung Hee University": 0,
-    "Pusan National University": 1
+    "POSTECH": 1,
+    "Korea University": 77,
+    "IBS": 14,
+    "UNIST": 0,
+    "Hanyang University": 5,
+    "KIST": 5,
+    "GIST": 7,
+    "Kyung Hee University": 2,
+    "Pusan National University": 2
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 93,
-    "Computer Science": 4,
-    "Cancer Research": 6,
-    "Neuroscience": 7,
-    "Biomedical": 32,
-    "Materials Science": 8
+    "Biomedical": 22,
+    "Cancer Research": 16,
+    "Multidisciplinary": 96,
+    "Computer Science": 3,
+    "Materials Science": 8,
+    "Neuroscience": 5
   },
-  "multiInstitutional": 18,
+  "multiInstitutional": 44,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,12 +44,16 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "A spring-loaded grip-and-pull mechanism for stepwise RNA duplex unwinding by Xrn1",
+    "title": "Effectiveness and Safety of Biodegradable Polymer-Coated Everolimus-Eluting Stent in Multivessel Coronary Artery Disease in Routine Clinical Practice: A Korean Multicenter, Prospective, and Observational Study",
     "date": "2026-03-10T10:00:00.000Z",
     "institutions": [
       "GIST",
+      "Hanyang University",
       "IBS",
-      "KAIST"
+      "KAIST",
+      "Korea University",
+      "Pusan National University",
+      "SNU"
     ]
   }
 }
