@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-03-11T07:59:43.650Z",
+  "lastUpdate": "2026-03-11T19:43:43.868Z",
   "totalItems": 150,
-  "totalArchived": 62013,
-  "newPapersAdded": 173,
+  "totalArchived": 62240,
+  "newPapersAdded": 227,
   "institutionBreakdown": {
-    "KAIST": 15,
-    "SNU": 79,
+    "KAIST": 13,
+    "SNU": 64,
     "Yonsei University": 0,
     "SKKU": 0,
     "POSTECH": 1,
-    "Korea University": 77,
-    "IBS": 14,
+    "Korea University": 64,
+    "IBS": 31,
     "UNIST": 0,
-    "Hanyang University": 5,
-    "KIST": 5,
-    "GIST": 7,
-    "Kyung Hee University": 2,
-    "Pusan National University": 2
+    "Hanyang University": 4,
+    "KIST": 2,
+    "GIST": 3,
+    "Kyung Hee University": 3,
+    "Pusan National University": 3
   },
   "subjectAreaBreakdown": {
-    "Biomedical": 22,
-    "Cancer Research": 16,
-    "Multidisciplinary": 96,
-    "Computer Science": 3,
-    "Materials Science": 8,
-    "Neuroscience": 5
+    "Multidisciplinary": 70,
+    "Cancer Research": 15,
+    "Computer Science": 10,
+    "Materials Science": 16,
+    "Neuroscience": 7,
+    "Biomedical": 32
   },
-  "multiInstitutional": 44,
+  "multiInstitutional": 29,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,15 +44,12 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Effectiveness and Safety of Biodegradable Polymer-Coated Everolimus-Eluting Stent in Multivessel Coronary Artery Disease in Routine Clinical Practice: A Korean Multicenter, Prospective, and Observational Study",
-    "date": "2026-03-10T10:00:00.000Z",
+    "title": "Interpretation of Photogenerated Charge Carrier Transfer Dynamics Using Interactive Surface-Molecular System",
+    "date": "2026-03-11T10:00:00.000Z",
     "institutions": [
-      "GIST",
       "Hanyang University",
       "IBS",
       "KAIST",
-      "Korea University",
-      "Pusan National University",
       "SNU"
     ]
   }
