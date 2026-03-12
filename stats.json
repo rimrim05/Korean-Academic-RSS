@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-03-11T19:43:43.868Z",
+  "lastUpdate": "2026-03-12T08:00:15.873Z",
   "totalItems": 150,
-  "totalArchived": 62240,
-  "newPapersAdded": 227,
+  "totalArchived": 62404,
+  "newPapersAdded": 164,
   "institutionBreakdown": {
-    "KAIST": 13,
-    "SNU": 64,
+    "KAIST": 19,
+    "SNU": 100,
     "Yonsei University": 0,
     "SKKU": 0,
     "POSTECH": 1,
-    "Korea University": 64,
-    "IBS": 31,
+    "Korea University": 54,
+    "IBS": 3,
     "UNIST": 0,
-    "Hanyang University": 4,
-    "KIST": 2,
-    "GIST": 3,
-    "Kyung Hee University": 3,
+    "Hanyang University": 8,
+    "KIST": 3,
+    "GIST": 8,
+    "Kyung Hee University": 4,
     "Pusan National University": 3
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 70,
+    "Multidisciplinary": 73,
+    "Computer Science": 9,
+    "Biomedical": 36,
     "Cancer Research": 15,
-    "Computer Science": 10,
-    "Materials Science": 16,
-    "Neuroscience": 7,
-    "Biomedical": 32
+    "Materials Science": 14,
+    "Neuroscience": 3
   },
-  "multiInstitutional": 29,
+  "multiInstitutional": 42,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,9 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Interpretation of Photogenerated Charge Carrier Transfer Dynamics Using Interactive Surface-Molecular System",
+    "title": "Alcohol-induced oxidative stress triggers mitochondrial Ca²⁺ release through the permeability transition pore",
     "date": "2026-03-11T10:00:00.000Z",
     "institutions": [
-      "Hanyang University",
-      "IBS",
       "KAIST",
       "SNU"
     ]
