@@ -1,32 +1,31 @@
 {
-  "lastUpdate": "2026-03-12T08:00:15.873Z",
+  "lastUpdate": "2026-03-12T19:45:34.811Z",
   "totalItems": 150,
-  "totalArchived": 62404,
-  "newPapersAdded": 164,
+  "totalArchived": 62603,
+  "newPapersAdded": 199,
   "institutionBreakdown": {
-    "KAIST": 19,
-    "SNU": 100,
+    "KAIST": 11,
+    "SNU": 55,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 1,
-    "Korea University": 54,
-    "IBS": 3,
+    "POSTECH": 3,
+    "Korea University": 36,
+    "IBS": 63,
     "UNIST": 0,
-    "Hanyang University": 8,
-    "KIST": 3,
-    "GIST": 8,
-    "Kyung Hee University": 4,
-    "Pusan National University": 3
+    "Hanyang University": 4,
+    "KIST": 2,
+    "GIST": 1,
+    "Kyung Hee University": 6,
+    "Pusan National University": 1
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 73,
-    "Computer Science": 9,
-    "Biomedical": 36,
+    "Biomedical": 26,
     "Cancer Research": 15,
-    "Materials Science": 14,
-    "Neuroscience": 3
+    "Multidisciplinary": 87,
+    "Materials Science": 13,
+    "Neuroscience": 9
   },
-  "multiInstitutional": 42,
+  "multiInstitutional": 26,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +43,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Alcohol-induced oxidative stress triggers mitochondrial Ca²⁺ release through the permeability transition pore",
-    "date": "2026-03-11T10:00:00.000Z",
+    "title": "Mass-Produced and High-Performance Nanowell Biosensor Fabricated via Semiconductor Manufacturing for Rapid and Accurate COVID-19 Diagnosis in the Clinical Field",
+    "date": "2026-03-12T10:00:00.000Z",
     "institutions": [
-      "KAIST",
-      "SNU"
+      "IBS",
+      "KAIST"
     ]
   }
 }
