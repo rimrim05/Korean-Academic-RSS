@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-03-13T08:00:32.476Z",
+  "lastUpdate": "2026-03-13T19:37:45.484Z",
   "totalItems": 150,
-  "totalArchived": 62765,
-  "newPapersAdded": 162,
+  "totalArchived": 62997,
+  "newPapersAdded": 232,
   "institutionBreakdown": {
-    "KAIST": 14,
-    "SNU": 85,
+    "KAIST": 12,
+    "SNU": 74,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 3,
-    "Korea University": 71,
-    "IBS": 2,
-    "UNIST": 1,
-    "Hanyang University": 6,
-    "KIST": 2,
+    "POSTECH": 2,
+    "Korea University": 53,
+    "IBS": 27,
+    "UNIST": 0,
+    "Hanyang University": 2,
+    "KIST": 1,
     "GIST": 2,
-    "Kyung Hee University": 8,
+    "Kyung Hee University": 5,
     "Pusan National University": 3
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 82,
-    "Biomedical": 29,
-    "Cancer Research": 16,
-    "Materials Science": 10,
-    "Neuroscience": 10,
-    "Computer Science": 3
+    "Multidisciplinary": 102,
+    "Computer Science": 4,
+    "Biomedical": 23,
+    "Cancer Research": 9,
+    "Materials Science": 7,
+    "Neuroscience": 5
   },
-  "multiInstitutional": 36,
+  "multiInstitutional": 22,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Standing on the Shoulders of Giant Ribosomes: UPF1-dependent Surveillance of Translation Dynamics to Proteostasis",
-    "date": "2026-03-12T10:00:00.000Z",
+    "title": "Evaluating Joint Position Sense With 3D Motion Capture System: The Effect of Muscle Activation Without a Reference Angle in Shoulder Movements",
+    "date": "2026-03-13T10:00:00.000Z",
     "institutions": [
-      "KAIST",
-      "UNIST"
+      "IBS",
+      "KAIST"
     ]
   }
 }
