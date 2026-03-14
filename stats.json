@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-03-14T07:53:54.895Z",
+  "lastUpdate": "2026-03-14T19:34:44.898Z",
   "totalItems": 150,
-  "totalArchived": 63165,
-  "newPapersAdded": 168,
+  "totalArchived": 63379,
+  "newPapersAdded": 214,
   "institutionBreakdown": {
     "KAIST": 18,
-    "SNU": 100,
+    "SNU": 61,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 3,
-    "Korea University": 53,
-    "IBS": 4,
-    "UNIST": 1,
-    "Hanyang University": 3,
-    "KIST": 3,
-    "GIST": 5,
-    "Kyung Hee University": 11,
-    "Pusan National University": 3
+    "POSTECH": 1,
+    "Korea University": 38,
+    "IBS": 49,
+    "UNIST": 0,
+    "Hanyang University": 1,
+    "KIST": 0,
+    "GIST": 1,
+    "Kyung Hee University": 8,
+    "Pusan National University": 4
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 92,
-    "Computer Science": 5,
-    "Biomedical": 29,
-    "Cancer Research": 10,
-    "Neuroscience": 4,
-    "Materials Science": 10
+    "Multidisciplinary": 74,
+    "Computer Science": 4,
+    "Cancer Research": 18,
+    "Neuroscience": 11,
+    "Biomedical": 30,
+    "Materials Science": 13
   },
-  "multiInstitutional": 38,
+  "multiInstitutional": 26,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,12 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Bioinspired Tripartite Synaptor with Conjoined Twin Transistors for Homeostasis in Neuromorphic Hardware",
-    "date": "2026-03-13T10:00:00.000Z",
+    "title": "Comprehensive Comparison of Front- and Back-Illuminated Single-Photon Avalanche Diodes in 110 nm Standard CMOS Image Sensor Technology",
+    "date": "2026-03-14T10:00:00.000Z",
     "institutions": [
       "IBS",
-      "KAIST"
+      "KAIST",
+      "SNU"
     ]
   }
 }
