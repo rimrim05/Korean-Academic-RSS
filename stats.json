@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-03-15T07:58:15.759Z",
+  "lastUpdate": "2026-03-15T19:35:13.739Z",
   "totalItems": 150,
-  "totalArchived": 63379,
-  "newPapersAdded": 0,
+  "totalArchived": 63545,
+  "newPapersAdded": 166,
   "institutionBreakdown": {
-    "KAIST": 18,
-    "SNU": 61,
+    "KAIST": 25,
+    "SNU": 30,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 1,
-    "Korea University": 38,
-    "IBS": 49,
+    "POSTECH": 0,
+    "Korea University": 11,
+    "IBS": 99,
     "UNIST": 0,
-    "Hanyang University": 1,
-    "KIST": 0,
+    "Hanyang University": 3,
+    "KIST": 1,
     "GIST": 1,
-    "Kyung Hee University": 8,
-    "Pusan National University": 4
+    "Kyung Hee University": 5,
+    "Pusan National University": 3
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 74,
-    "Computer Science": 4,
-    "Cancer Research": 18,
-    "Neuroscience": 11,
-    "Biomedical": 30,
-    "Materials Science": 13
+    "Materials Science": 4,
+    "Biomedical": 22,
+    "Multidisciplinary": 99,
+    "Cancer Research": 15,
+    "Neuroscience": 7,
+    "Computer Science": 3
   },
-  "multiInstitutional": 26,
+  "multiInstitutional": 23,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,12 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Comprehensive Comparison of Front- and Back-Illuminated Single-Photon Avalanche Diodes in 110 nm Standard CMOS Image Sensor Technology",
-    "date": "2026-03-14T10:00:00.000Z",
+    "title": "Development of reference material from Rift Valley fever virus RNA",
+    "date": "2026-03-15T10:00:00.000Z",
     "institutions": [
       "IBS",
-      "KAIST",
-      "SNU"
+      "KAIST"
     ]
   }
 }
