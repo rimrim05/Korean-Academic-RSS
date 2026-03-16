@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-03-16T08:35:58.935Z",
+  "lastUpdate": "2026-03-16T19:54:02.829Z",
   "totalItems": 150,
-  "totalArchived": 63662,
-  "newPapersAdded": 117,
+  "totalArchived": 63850,
+  "newPapersAdded": 188,
   "institutionBreakdown": {
-    "KAIST": 15,
-    "SNU": 27,
+    "KAIST": 9,
+    "SNU": 48,
     "Yonsei University": 0,
     "SKKU": 0,
     "POSTECH": 0,
-    "Korea University": 21,
-    "IBS": 100,
-    "UNIST": 0,
-    "Hanyang University": 2,
-    "KIST": 1,
-    "GIST": 2,
-    "Kyung Hee University": 1,
-    "Pusan National University": 5
+    "Korea University": 41,
+    "IBS": 69,
+    "UNIST": 1,
+    "Hanyang University": 5,
+    "KIST": 0,
+    "GIST": 1,
+    "Kyung Hee University": 4,
+    "Pusan National University": 1
   },
   "subjectAreaBreakdown": {
+    "Biomedical": 29,
+    "Multidisciplinary": 91,
+    "Neuroscience": 7,
     "Cancer Research": 15,
-    "Multidisciplinary": 86,
-    "Biomedical": 31,
     "Materials Science": 5,
-    "Neuroscience": 9,
-    "Computer Science": 4
+    "Computer Science": 3
   },
-  "multiInstitutional": 16,
+  "multiInstitutional": 23,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,10 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Effect of different poloxamers on anti-cancer activities of targeting folic acid-fucoidan nanogels for multi-drug delivery",
+    "title": "Low-intensity extracorporeal shock wave therapy ameliorates fibrosis and renal function in a preclinical model of chronic kidney disease",
     "date": "2026-03-16T10:00:00.000Z",
     "institutions": [
-      "Korea University",
-      "SNU"
+      "KAIST"
     ]
   }
 }
