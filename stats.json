@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-03-15T19:35:13.739Z",
+  "lastUpdate": "2026-03-16T08:35:58.935Z",
   "totalItems": 150,
-  "totalArchived": 63545,
-  "newPapersAdded": 166,
+  "totalArchived": 63662,
+  "newPapersAdded": 117,
   "institutionBreakdown": {
-    "KAIST": 25,
-    "SNU": 30,
+    "KAIST": 15,
+    "SNU": 27,
     "Yonsei University": 0,
     "SKKU": 0,
     "POSTECH": 0,
-    "Korea University": 11,
-    "IBS": 99,
+    "Korea University": 21,
+    "IBS": 100,
     "UNIST": 0,
-    "Hanyang University": 3,
+    "Hanyang University": 2,
     "KIST": 1,
-    "GIST": 1,
-    "Kyung Hee University": 5,
-    "Pusan National University": 3
+    "GIST": 2,
+    "Kyung Hee University": 1,
+    "Pusan National University": 5
   },
   "subjectAreaBreakdown": {
-    "Materials Science": 4,
-    "Biomedical": 22,
-    "Multidisciplinary": 99,
     "Cancer Research": 15,
-    "Neuroscience": 7,
-    "Computer Science": 3
+    "Multidisciplinary": 86,
+    "Biomedical": 31,
+    "Materials Science": 5,
+    "Neuroscience": 9,
+    "Computer Science": 4
   },
-  "multiInstitutional": 23,
+  "multiInstitutional": 16,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Development of reference material from Rift Valley fever virus RNA",
-    "date": "2026-03-15T10:00:00.000Z",
+    "title": "Effect of different poloxamers on anti-cancer activities of targeting folic acid-fucoidan nanogels for multi-drug delivery",
+    "date": "2026-03-16T10:00:00.000Z",
     "institutions": [
-      "IBS",
-      "KAIST"
+      "Korea University",
+      "SNU"
     ]
   }
 }
