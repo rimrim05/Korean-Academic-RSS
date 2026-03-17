@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-03-16T19:54:02.829Z",
+  "lastUpdate": "2026-03-17T08:06:07.277Z",
   "totalItems": 150,
-  "totalArchived": 63850,
-  "newPapersAdded": 188,
+  "totalArchived": 64040,
+  "newPapersAdded": 190,
   "institutionBreakdown": {
-    "KAIST": 9,
-    "SNU": 48,
+    "KAIST": 15,
+    "SNU": 92,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 0,
-    "Korea University": 41,
-    "IBS": 69,
+    "POSTECH": 3,
+    "Korea University": 66,
+    "IBS": 1,
     "UNIST": 1,
-    "Hanyang University": 5,
-    "KIST": 0,
-    "GIST": 1,
-    "Kyung Hee University": 4,
-    "Pusan National University": 1
+    "Hanyang University": 7,
+    "KIST": 2,
+    "GIST": 0,
+    "Kyung Hee University": 6,
+    "Pusan National University": 2
   },
   "subjectAreaBreakdown": {
-    "Biomedical": 29,
-    "Multidisciplinary": 91,
+    "Multidisciplinary": 77,
     "Neuroscience": 7,
-    "Cancer Research": 15,
-    "Materials Science": 5,
+    "Biomedical": 42,
+    "Materials Science": 9,
+    "Cancer Research": 12,
     "Computer Science": 3
   },
-  "multiInstitutional": 23,
+  "multiInstitutional": 36,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,9 +44,10 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Low-intensity extracorporeal shock wave therapy ameliorates fibrosis and renal function in a preclinical model of chronic kidney disease",
+    "title": "Reconsidering postoperative basal infusion for opioid-sparing analgesia after total knee arthroplasty",
     "date": "2026-03-16T10:00:00.000Z",
     "institutions": [
+      "IBS",
       "KAIST"
     ]
   }
