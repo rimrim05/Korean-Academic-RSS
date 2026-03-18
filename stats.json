@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-03-18T08:04:03.365Z",
+  "lastUpdate": "2026-03-18T19:51:35.159Z",
   "totalItems": 150,
-  "totalArchived": 64323,
-  "newPapersAdded": 96,
+  "totalArchived": 64564,
+  "newPapersAdded": 241,
   "institutionBreakdown": {
     "KAIST": 12,
-    "SNU": 55,
+    "SNU": 72,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 3,
-    "Korea University": 50,
-    "IBS": 53,
+    "POSTECH": 1,
+    "Korea University": 60,
+    "IBS": 36,
     "UNIST": 1,
-    "Hanyang University": 8,
-    "KIST": 0,
-    "GIST": 0,
-    "Kyung Hee University": 1,
-    "Pusan National University": 0
+    "Hanyang University": 9,
+    "KIST": 3,
+    "GIST": 3,
+    "Kyung Hee University": 6,
+    "Pusan National University": 8
   },
   "subjectAreaBreakdown": {
-    "Materials Science": 8,
-    "Biomedical": 29,
+    "Multidisciplinary": 76,
+    "Materials Science": 18,
+    "Cancer Research": 14,
+    "Biomedical": 37,
     "Computer Science": 4,
-    "Cancer Research": 18,
-    "Multidisciplinary": 84,
-    "Neuroscience": 7
+    "Neuroscience": 1
   },
-  "multiInstitutional": 21,
+  "multiInstitutional": 45,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,12 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Junction Geometry-Dependent Nonlinear Optical Responses and Diode Effects of MoSe<sub>2</sub>-WSe<sub>2</sub> Heterostructures Synthesized Using Liquid Precursors",
-    "date": "2026-03-17T10:00:00.000Z",
+    "title": "Triterpenoids Bend and Bind Lipid Membranes into 20 nm Stable Nanocages",
+    "date": "2026-03-18T10:00:00.000Z",
     "institutions": [
       "IBS",
-      "KAIST",
-      "UNIST"
+      "KAIST"
     ]
   }
 }
