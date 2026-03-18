@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-03-17T19:55:58.530Z",
+  "lastUpdate": "2026-03-18T08:04:03.365Z",
   "totalItems": 150,
-  "totalArchived": 64227,
-  "newPapersAdded": 187,
+  "totalArchived": 64323,
+  "newPapersAdded": 96,
   "institutionBreakdown": {
-    "KAIST": 8,
-    "SNU": 40,
+    "KAIST": 12,
+    "SNU": 55,
     "Yonsei University": 0,
     "SKKU": 0,
     "POSTECH": 3,
-    "Korea University": 44,
-    "IBS": 71,
-    "UNIST": 0,
-    "Hanyang University": 4,
-    "KIST": 1,
+    "Korea University": 50,
+    "IBS": 53,
+    "UNIST": 1,
+    "Hanyang University": 8,
+    "KIST": 0,
     "GIST": 0,
     "Kyung Hee University": 1,
     "Pusan National University": 0
   },
   "subjectAreaBreakdown": {
-    "Biomedical": 26,
-    "Cancer Research": 21,
     "Materials Science": 8,
-    "Multidisciplinary": 85,
-    "Computer Science": 2,
-    "Neuroscience": 8
+    "Biomedical": 29,
+    "Computer Science": 4,
+    "Cancer Research": 18,
+    "Multidisciplinary": 84,
+    "Neuroscience": 7
   },
-  "multiInstitutional": 16,
+  "multiInstitutional": 21,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,12 +44,12 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Care Continuity and Risk of Glaucoma Surgery in Newly Diagnosed Primary Open-Angle Glaucoma",
+    "title": "Junction Geometry-Dependent Nonlinear Optical Responses and Diode Effects of MoSe<sub>2</sub>-WSe<sub>2</sub> Heterostructures Synthesized Using Liquid Precursors",
     "date": "2026-03-17T10:00:00.000Z",
     "institutions": [
       "IBS",
       "KAIST",
-      "SNU"
+      "UNIST"
     ]
   }
 }
