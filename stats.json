@@ -1,32 +1,31 @@
 {
-  "lastUpdate": "2026-03-19T08:01:31.390Z",
+  "lastUpdate": "2026-03-19T19:49:47.183Z",
   "totalItems": 150,
-  "totalArchived": 64766,
-  "newPapersAdded": 202,
+  "totalArchived": 64972,
+  "newPapersAdded": 206,
   "institutionBreakdown": {
-    "KAIST": 26,
-    "SNU": 100,
+    "KAIST": 12,
+    "SNU": 55,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 1,
-    "Korea University": 52,
-    "IBS": 3,
-    "UNIST": 2,
-    "Hanyang University": 8,
-    "KIST": 1,
-    "GIST": 5,
-    "Kyung Hee University": 10,
-    "Pusan National University": 7
+    "POSTECH": 4,
+    "Korea University": 51,
+    "IBS": 51,
+    "UNIST": 1,
+    "Hanyang University": 3,
+    "KIST": 2,
+    "GIST": 2,
+    "Kyung Hee University": 5,
+    "Pusan National University": 0
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 77,
-    "Biomedical": 37,
-    "Materials Science": 10,
-    "Cancer Research": 17,
-    "Computer Science": 8,
-    "Neuroscience": 1
+    "Biomedical": 28,
+    "Multidisciplinary": 85,
+    "Cancer Research": 23,
+    "Materials Science": 9,
+    "Neuroscience": 5
   },
-  "multiInstitutional": 51,
+  "multiInstitutional": 26,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,8 +43,8 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Transition-Metal Hydride Catalysis Meets Nitrenoid Transfer: Design Principles for Precision C-N Bond Formation",
-    "date": "2026-03-18T10:00:00.000Z",
+    "title": "Association of health screening participation with cardiovascular mortality and suicide in patients with schizophrenia and bipolar disorder",
+    "date": "2026-03-19T10:00:00.000Z",
     "institutions": [
       "IBS",
       "KAIST"
