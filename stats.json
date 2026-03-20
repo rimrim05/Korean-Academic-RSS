@@ -1,16 +1,16 @@
 {
-  "lastUpdate": "2026-03-19T19:49:47.183Z",
+  "lastUpdate": "2026-03-20T08:00:13.604Z",
   "totalItems": 150,
-  "totalArchived": 64972,
-  "newPapersAdded": 206,
+  "totalArchived": 64976,
+  "newPapersAdded": 4,
   "institutionBreakdown": {
-    "KAIST": 12,
-    "SNU": 55,
+    "KAIST": 13,
+    "SNU": 56,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 4,
+    "POSTECH": 5,
     "Korea University": 51,
-    "IBS": 51,
+    "IBS": 50,
     "UNIST": 1,
     "Hanyang University": 3,
     "KIST": 2,
@@ -19,13 +19,13 @@
     "Pusan National University": 0
   },
   "subjectAreaBreakdown": {
+    "Multidisciplinary": 86,
     "Biomedical": 28,
-    "Multidisciplinary": 85,
     "Cancer Research": 23,
-    "Materials Science": 9,
+    "Materials Science": 8,
     "Neuroscience": 5
   },
-  "multiInstitutional": 26,
+  "multiInstitutional": 27,
   "institutions": [
     "KAIST",
     "SNU",
@@ -43,11 +43,12 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Association of health screening participation with cardiovascular mortality and suicide in patients with schizophrenia and bipolar disorder",
+    "title": "Highly efficient, deep-ultraviolet luminescence in hBN moiré quantum wells",
     "date": "2026-03-19T10:00:00.000Z",
     "institutions": [
       "IBS",
-      "KAIST"
+      "KAIST",
+      "POSTECH"
     ]
   }
 }
