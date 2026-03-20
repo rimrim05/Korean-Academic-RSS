@@ -1,31 +1,31 @@
 {
-  "lastUpdate": "2026-03-20T08:00:13.604Z",
+  "lastUpdate": "2026-03-20T19:39:56.785Z",
   "totalItems": 150,
-  "totalArchived": 64976,
-  "newPapersAdded": 4,
+  "totalArchived": 65251,
+  "newPapersAdded": 275,
   "institutionBreakdown": {
-    "KAIST": 13,
-    "SNU": 56,
+    "KAIST": 11,
+    "SNU": 53,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 5,
-    "Korea University": 51,
-    "IBS": 50,
+    "POSTECH": 2,
+    "Korea University": 59,
+    "IBS": 55,
     "UNIST": 1,
-    "Hanyang University": 3,
-    "KIST": 2,
-    "GIST": 2,
-    "Kyung Hee University": 5,
+    "Hanyang University": 4,
+    "KIST": 4,
+    "GIST": 1,
+    "Kyung Hee University": 6,
     "Pusan National University": 0
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 86,
-    "Biomedical": 28,
-    "Cancer Research": 23,
-    "Materials Science": 8,
-    "Neuroscience": 5
+    "Multidisciplinary": 69,
+    "Materials Science": 15,
+    "Neuroscience": 7,
+    "Cancer Research": 30,
+    "Biomedical": 29
   },
-  "multiInstitutional": 27,
+  "multiInstitutional": 38,
   "institutions": [
     "KAIST",
     "SNU",
@@ -43,12 +43,13 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Highly efficient, deep-ultraviolet luminescence in hBN moiré quantum wells",
-    "date": "2026-03-19T10:00:00.000Z",
+    "title": "Aggregation of polyampholytes: Influence of salt concentration",
+    "date": "2026-03-20T10:00:00.000Z",
     "institutions": [
       "IBS",
       "KAIST",
-      "POSTECH"
+      "KIST",
+      "SNU"
     ]
   }
 }
