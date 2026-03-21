@@ -1,31 +1,32 @@
 {
-  "lastUpdate": "2026-03-20T19:39:56.785Z",
+  "lastUpdate": "2026-03-21T07:50:38.773Z",
   "totalItems": 150,
-  "totalArchived": 65251,
-  "newPapersAdded": 275,
+  "totalArchived": 65423,
+  "newPapersAdded": 172,
   "institutionBreakdown": {
-    "KAIST": 11,
-    "SNU": 53,
+    "KAIST": 21,
+    "SNU": 94,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 2,
-    "Korea University": 59,
-    "IBS": 55,
-    "UNIST": 1,
-    "Hanyang University": 4,
-    "KIST": 4,
-    "GIST": 1,
-    "Kyung Hee University": 6,
-    "Pusan National University": 0
+    "POSTECH": 3,
+    "Korea University": 61,
+    "IBS": 4,
+    "UNIST": 2,
+    "Hanyang University": 6,
+    "KIST": 5,
+    "GIST": 3,
+    "Kyung Hee University": 8,
+    "Pusan National University": 1
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 69,
-    "Materials Science": 15,
+    "Multidisciplinary": 71,
+    "Cancer Research": 32,
+    "Materials Science": 14,
     "Neuroscience": 7,
-    "Cancer Research": 30,
-    "Biomedical": 29
+    "Biomedical": 21,
+    "Computer Science": 5
   },
-  "multiInstitutional": 38,
+  "multiInstitutional": 44,
   "institutions": [
     "KAIST",
     "SNU",
@@ -43,13 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Aggregation of polyampholytes: Influence of salt concentration",
+    "title": "Retraction notice to \"Economic and health impacts of PM2.5 pollution in China's urban air: Assessing the financial burden\" [Ecotoxicol. Environ. Saf. 303C (2025) 118575]",
     "date": "2026-03-20T10:00:00.000Z",
     "institutions": [
       "IBS",
-      "KAIST",
-      "KIST",
-      "SNU"
+      "KAIST"
     ]
   }
 }
