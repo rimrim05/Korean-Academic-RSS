@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-03-22T07:55:11.542Z",
+  "lastUpdate": "2026-03-22T19:34:02.799Z",
   "totalItems": 150,
-  "totalArchived": 65553,
-  "newPapersAdded": 0,
+  "totalArchived": 65703,
+  "newPapersAdded": 150,
   "institutionBreakdown": {
-    "KAIST": 22,
-    "SNU": 24,
+    "KAIST": 6,
+    "SNU": 33,
     "Yonsei University": 0,
     "SKKU": 0,
     "POSTECH": 1,
-    "Korea University": 21,
-    "IBS": 100,
-    "UNIST": 1,
+    "Korea University": 47,
+    "IBS": 75,
+    "UNIST": 0,
     "Hanyang University": 0,
-    "KIST": 2,
-    "GIST": 4,
-    "Kyung Hee University": 1,
-    "Pusan National University": 1
+    "KIST": 1,
+    "GIST": 3,
+    "Kyung Hee University": 2,
+    "Pusan National University": 2
   },
   "subjectAreaBreakdown": {
     "Multidisciplinary": 85,
-    "Neuroscience": 16,
-    "Materials Science": 10,
-    "Biomedical": 21,
-    "Cancer Research": 17,
-    "Computer Science": 1
+    "Biomedical": 30,
+    "Neuroscience": 13,
+    "Computer Science": 5,
+    "Materials Science": 7,
+    "Cancer Research": 10
   },
-  "multiInstitutional": 19,
+  "multiInstitutional": 17,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,12 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Electrolyte-Controlled Stripping Behavior of Electroplated Lithium Toward Efficient Lithium Metal Anodes",
-    "date": "2026-03-21T10:00:00.000Z",
+    "title": "Coupled aerodynamic-electromagnetic modeling for RCS estimation of million-scale chaff clouds with arbitrarily curved 3D geometries",
+    "date": "2026-03-22T10:00:00.000Z",
     "institutions": [
       "IBS",
-      "KAIST"
+      "KAIST",
+      "POSTECH"
     ]
   }
 }
