@@ -1,32 +1,31 @@
 {
-  "lastUpdate": "2026-03-22T19:34:02.799Z",
+  "lastUpdate": "2026-03-23T08:11:42.098Z",
   "totalItems": 150,
-  "totalArchived": 65703,
-  "newPapersAdded": 150,
+  "totalArchived": 65830,
+  "newPapersAdded": 127,
   "institutionBreakdown": {
-    "KAIST": 6,
-    "SNU": 33,
+    "KAIST": 8,
+    "SNU": 26,
     "Yonsei University": 0,
     "SKKU": 0,
     "POSTECH": 1,
-    "Korea University": 47,
-    "IBS": 75,
+    "Korea University": 20,
+    "IBS": 100,
     "UNIST": 0,
-    "Hanyang University": 0,
-    "KIST": 1,
-    "GIST": 3,
+    "Hanyang University": 2,
+    "KIST": 2,
+    "GIST": 4,
     "Kyung Hee University": 2,
-    "Pusan National University": 2
+    "Pusan National University": 6
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 85,
-    "Biomedical": 30,
-    "Neuroscience": 13,
-    "Computer Science": 5,
-    "Materials Science": 7,
-    "Cancer Research": 10
+    "Biomedical": 37,
+    "Multidisciplinary": 96,
+    "Cancer Research": 8,
+    "Neuroscience": 5,
+    "Materials Science": 4
   },
-  "multiInstitutional": 17,
+  "multiInstitutional": 13,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,12 +43,15 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Coupled aerodynamic-electromagnetic modeling for RCS estimation of million-scale chaff clouds with arbitrarily curved 3D geometries",
+    "title": "Disease burden of carbapenem-resistant Enterobacterales infections in Korea",
     "date": "2026-03-22T10:00:00.000Z",
     "institutions": [
+      "GIST",
+      "Hanyang University",
       "IBS",
       "KAIST",
-      "POSTECH"
+      "Pusan National University",
+      "SNU"
     ]
   }
 }
