@@ -1,31 +1,32 @@
 {
-  "lastUpdate": "2026-03-23T08:11:42.098Z",
+  "lastUpdate": "2026-03-23T19:51:17.766Z",
   "totalItems": 150,
-  "totalArchived": 65830,
-  "newPapersAdded": 127,
+  "totalArchived": 66019,
+  "newPapersAdded": 189,
   "institutionBreakdown": {
-    "KAIST": 8,
-    "SNU": 26,
+    "KAIST": 7,
+    "SNU": 47,
     "Yonsei University": 0,
     "SKKU": 0,
     "POSTECH": 1,
-    "Korea University": 20,
-    "IBS": 100,
+    "Korea University": 40,
+    "IBS": 69,
     "UNIST": 0,
-    "Hanyang University": 2,
+    "Hanyang University": 3,
     "KIST": 2,
-    "GIST": 4,
-    "Kyung Hee University": 2,
-    "Pusan National University": 6
+    "GIST": 0,
+    "Kyung Hee University": 6,
+    "Pusan National University": 2
   },
   "subjectAreaBreakdown": {
-    "Biomedical": 37,
-    "Multidisciplinary": 96,
-    "Cancer Research": 8,
-    "Neuroscience": 5,
-    "Materials Science": 4
+    "Biomedical": 30,
+    "Cancer Research": 16,
+    "Multidisciplinary": 77,
+    "Neuroscience": 12,
+    "Computer Science": 3,
+    "Materials Science": 12
   },
-  "multiInstitutional": 13,
+  "multiInstitutional": 23,
   "institutions": [
     "KAIST",
     "SNU",
@@ -43,15 +44,12 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Disease burden of carbapenem-resistant Enterobacterales infections in Korea",
-    "date": "2026-03-22T10:00:00.000Z",
+    "title": "Mode of Birth and Stroke Risk After Childbirth Among Women With Moyamoya Disease",
+    "date": "2026-03-23T10:00:00.000Z",
     "institutions": [
-      "GIST",
-      "Hanyang University",
       "IBS",
       "KAIST",
-      "Pusan National University",
-      "SNU"
+      "Korea University"
     ]
   }
 }
