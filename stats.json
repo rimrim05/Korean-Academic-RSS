@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-03-23T19:51:17.766Z",
+  "lastUpdate": "2026-03-24T08:06:22.043Z",
   "totalItems": 150,
-  "totalArchived": 66019,
-  "newPapersAdded": 189,
+  "totalArchived": 66158,
+  "newPapersAdded": 139,
   "institutionBreakdown": {
-    "KAIST": 7,
-    "SNU": 47,
+    "KAIST": 9,
+    "SNU": 66,
     "Yonsei University": 0,
     "SKKU": 0,
     "POSTECH": 1,
-    "Korea University": 40,
-    "IBS": 69,
+    "Korea University": 63,
+    "IBS": 34,
     "UNIST": 0,
-    "Hanyang University": 3,
-    "KIST": 2,
-    "GIST": 0,
+    "Hanyang University": 4,
+    "KIST": 3,
+    "GIST": 1,
     "Kyung Hee University": 6,
-    "Pusan National University": 2
+    "Pusan National University": 4
   },
   "subjectAreaBreakdown": {
-    "Biomedical": 30,
-    "Cancer Research": 16,
-    "Multidisciplinary": 77,
-    "Neuroscience": 12,
-    "Computer Science": 3,
-    "Materials Science": 12
+    "Materials Science": 7,
+    "Biomedical": 32,
+    "Cancer Research": 20,
+    "Multidisciplinary": 75,
+    "Neuroscience": 10,
+    "Computer Science": 6
   },
-  "multiInstitutional": 23,
+  "multiInstitutional": 35,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,12 +44,12 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Mode of Birth and Stroke Risk After Childbirth Among Women With Moyamoya Disease",
+    "title": "Citrate-enabled process intensification reinforces energy and redox metabolism for sustainable bioproduction using Corynebacterium glutamicum",
     "date": "2026-03-23T10:00:00.000Z",
     "institutions": [
       "IBS",
       "KAIST",
-      "Korea University"
+      "SNU"
     ]
   }
 }
