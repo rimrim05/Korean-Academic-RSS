@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-03-25T08:04:52.685Z",
+  "lastUpdate": "2026-03-25T19:50:12.186Z",
   "totalItems": 150,
-  "totalArchived": 66493,
-  "newPapersAdded": 152,
+  "totalArchived": 66699,
+  "newPapersAdded": 206,
   "institutionBreakdown": {
-    "KAIST": 16,
-    "SNU": 67,
+    "KAIST": 5,
+    "SNU": 52,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 6,
-    "Korea University": 61,
-    "IBS": 24,
+    "POSTECH": 3,
+    "Korea University": 45,
+    "IBS": 56,
     "UNIST": 0,
     "Hanyang University": 3,
     "KIST": 2,
-    "GIST": 1,
-    "Kyung Hee University": 8,
-    "Pusan National University": 3
+    "GIST": 2,
+    "Kyung Hee University": 7,
+    "Pusan National University": 1
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 80,
-    "Biomedical": 30,
-    "Computer Science": 5,
-    "Cancer Research": 19,
-    "Materials Science": 11,
-    "Neuroscience": 5
+    "Cancer Research": 15,
+    "Multidisciplinary": 81,
+    "Materials Science": 6,
+    "Biomedical": 35,
+    "Neuroscience": 9,
+    "Computer Science": 4
   },
-  "multiInstitutional": 31,
+  "multiInstitutional": 24,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,9 +44,10 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Insights into the flavonoid composition and antioxidant activity of Jeramon, a novel Korean lemon cultivar",
-    "date": "2026-03-24T10:00:00.000Z",
+    "title": "Hydroxypropyl Methylcellulose as a Functional Dietary Fiber Preserves Intestinal Barrier Integrity via NF-κB Modulation Under Inflammatory Conditions",
+    "date": "2026-03-25T10:00:00.000Z",
     "institutions": [
+      "IBS",
       "KAIST"
     ]
   }
