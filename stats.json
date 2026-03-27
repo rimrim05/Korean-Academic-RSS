@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-03-27T08:08:12.654Z",
+  "lastUpdate": "2026-03-27T19:43:53.888Z",
   "totalItems": 150,
-  "totalArchived": 67240,
-  "newPapersAdded": 161,
+  "totalArchived": 67420,
+  "newPapersAdded": 180,
   "institutionBreakdown": {
-    "KAIST": 16,
-    "SNU": 100,
+    "KAIST": 7,
+    "SNU": 43,
     "Yonsei University": 0,
     "SKKU": 0,
     "POSTECH": 2,
-    "Korea University": 58,
-    "IBS": 6,
+    "Korea University": 31,
+    "IBS": 79,
     "UNIST": 0,
-    "Hanyang University": 7,
+    "Hanyang University": 3,
     "KIST": 2,
-    "GIST": 3,
-    "Kyung Hee University": 5,
-    "Pusan National University": 3
+    "GIST": 1,
+    "Kyung Hee University": 2,
+    "Pusan National University": 0
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 80,
-    "Computer Science": 8,
-    "Biomedical": 25,
-    "Neuroscience": 9,
-    "Cancer Research": 20,
-    "Materials Science": 8
+    "Biomedical": 37,
+    "Multidisciplinary": 72,
+    "Cancer Research": 16,
+    "Materials Science": 11,
+    "Computer Science": 7,
+    "Neuroscience": 7
   },
-  "multiInstitutional": 38,
+  "multiInstitutional": 16,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,9 +44,10 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Rasmussen's Encephalitis Presenting as Parkinsonism Without Epilepsy",
-    "date": "2026-03-26T10:00:00.000Z",
+    "title": "Promoter hypomethylation of <em>CDH7</em>: a novel epigenetic marker associated with cerebral small vessel disease",
+    "date": "2026-03-27T10:00:00.000Z",
     "institutions": [
+      "GIST",
       "IBS",
       "KAIST"
     ]
