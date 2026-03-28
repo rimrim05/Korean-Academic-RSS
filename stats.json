@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-03-27T19:43:53.888Z",
+  "lastUpdate": "2026-03-28T07:59:15.171Z",
   "totalItems": 150,
-  "totalArchived": 67420,
-  "newPapersAdded": 180,
+  "totalArchived": 67660,
+  "newPapersAdded": 240,
   "institutionBreakdown": {
-    "KAIST": 7,
-    "SNU": 43,
+    "KAIST": 26,
+    "SNU": 100,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 2,
-    "Korea University": 31,
-    "IBS": 79,
+    "POSTECH": 3,
+    "Korea University": 43,
+    "IBS": 3,
     "UNIST": 0,
-    "Hanyang University": 3,
-    "KIST": 2,
-    "GIST": 1,
-    "Kyung Hee University": 2,
-    "Pusan National University": 0
+    "Hanyang University": 4,
+    "KIST": 3,
+    "GIST": 5,
+    "Kyung Hee University": 7,
+    "Pusan National University": 3
   },
   "subjectAreaBreakdown": {
-    "Biomedical": 37,
-    "Multidisciplinary": 72,
-    "Cancer Research": 16,
-    "Materials Science": 11,
-    "Computer Science": 7,
-    "Neuroscience": 7
+    "Multidisciplinary": 86,
+    "Materials Science": 6,
+    "Cancer Research": 17,
+    "Biomedical": 33,
+    "Neuroscience": 6,
+    "Computer Science": 2
   },
-  "multiInstitutional": 16,
+  "multiInstitutional": 38,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,12 +44,12 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Promoter hypomethylation of <em>CDH7</em>: a novel epigenetic marker associated with cerebral small vessel disease",
+    "title": "Tenofovir Alafenamide Promotes Differentiation and Induces Apoptosis of AML Cells by Inhibiting Telomerase Reverse Transcriptase",
     "date": "2026-03-27T10:00:00.000Z",
     "institutions": [
-      "GIST",
       "IBS",
-      "KAIST"
+      "KAIST",
+      "Pusan National University"
     ]
   }
 }
