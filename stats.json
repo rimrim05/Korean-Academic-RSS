@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-03-28T07:59:15.171Z",
+  "lastUpdate": "2026-03-28T19:36:37.515Z",
   "totalItems": 150,
-  "totalArchived": 67660,
-  "newPapersAdded": 240,
+  "totalArchived": 67958,
+  "newPapersAdded": 298,
   "institutionBreakdown": {
-    "KAIST": 26,
+    "KAIST": 22,
     "SNU": 100,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 3,
-    "Korea University": 43,
-    "IBS": 3,
+    "POSTECH": 2,
+    "Korea University": 47,
+    "IBS": 8,
     "UNIST": 0,
-    "Hanyang University": 4,
-    "KIST": 3,
-    "GIST": 5,
-    "Kyung Hee University": 7,
-    "Pusan National University": 3
+    "Hanyang University": 7,
+    "KIST": 1,
+    "GIST": 4,
+    "Kyung Hee University": 9,
+    "Pusan National University": 4
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 86,
-    "Materials Science": 6,
-    "Cancer Research": 17,
-    "Biomedical": 33,
-    "Neuroscience": 6,
-    "Computer Science": 2
+    "Computer Science": 4,
+    "Multidisciplinary": 66,
+    "Materials Science": 16,
+    "Cancer Research": 23,
+    "Biomedical": 34,
+    "Neuroscience": 7
   },
-  "multiInstitutional": 38,
+  "multiInstitutional": 44,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,12 +44,13 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Tenofovir Alafenamide Promotes Differentiation and Induces Apoptosis of AML Cells by Inhibiting Telomerase Reverse Transcriptase",
-    "date": "2026-03-27T10:00:00.000Z",
+    "title": "Streamlining Human-Robot Interaction: Integrating LLM-Based Planning into Modular Robotic Frameworks",
+    "date": "2026-03-28T10:00:00.000Z",
     "institutions": [
       "IBS",
       "KAIST",
-      "Pusan National University"
+      "Korea University",
+      "SNU"
     ]
   }
 }
