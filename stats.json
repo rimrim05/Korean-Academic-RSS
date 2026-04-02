@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-04-02T08:33:36.915Z",
+  "lastUpdate": "2026-04-02T19:52:28.594Z",
   "totalItems": 150,
-  "totalArchived": 69327,
-  "newPapersAdded": 165,
+  "totalArchived": 69505,
+  "newPapersAdded": 178,
   "institutionBreakdown": {
-    "KAIST": 14,
-    "SNU": 72,
+    "KAIST": 8,
+    "SNU": 43,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 2,
-    "Korea University": 69,
-    "IBS": 17,
-    "UNIST": 1,
-    "Hanyang University": 4,
-    "KIST": 1,
-    "GIST": 6,
-    "Kyung Hee University": 8,
-    "Pusan National University": 2
+    "POSTECH": 0,
+    "Korea University": 34,
+    "IBS": 82,
+    "UNIST": 0,
+    "Hanyang University": 0,
+    "KIST": 0,
+    "GIST": 1,
+    "Kyung Hee University": 2,
+    "Pusan National University": 1
   },
   "subjectAreaBreakdown": {
+    "Biomedical": 35,
     "Multidisciplinary": 80,
-    "Biomedical": 34,
-    "Materials Science": 11,
-    "Neuroscience": 5,
-    "Cancer Research": 15,
-    "Computer Science": 5
+    "Neuroscience": 9,
+    "Cancer Research": 13,
+    "Computer Science": 5,
+    "Materials Science": 8
   },
-  "multiInstitutional": 40,
+  "multiInstitutional": 14,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,8 +44,8 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Developmental organization of sensory and sympathetic ganglia",
-    "date": "2026-04-01T10:00:00.000Z",
+    "title": "Deer antler velvet as a multifunctional natural resource for biomedical and nutraceutical applications",
+    "date": "2026-04-02T10:00:00.000Z",
     "institutions": [
       "IBS",
       "KAIST"
