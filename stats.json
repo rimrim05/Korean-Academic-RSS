@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-04-01T19:59:27.954Z",
+  "lastUpdate": "2026-04-02T08:33:36.915Z",
   "totalItems": 150,
-  "totalArchived": 69162,
-  "newPapersAdded": 168,
+  "totalArchived": 69327,
+  "newPapersAdded": 165,
   "institutionBreakdown": {
-    "KAIST": 9,
-    "SNU": 41,
+    "KAIST": 14,
+    "SNU": 72,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 1,
-    "Korea University": 32,
-    "IBS": 86,
+    "POSTECH": 2,
+    "Korea University": 69,
+    "IBS": 17,
     "UNIST": 1,
-    "Hanyang University": 0,
+    "Hanyang University": 4,
     "KIST": 1,
-    "GIST": 5,
-    "Kyung Hee University": 5,
-    "Pusan National University": 1
+    "GIST": 6,
+    "Kyung Hee University": 8,
+    "Pusan National University": 2
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 86,
-    "Biomedical": 32,
-    "Materials Science": 9,
-    "Neuroscience": 3,
-    "Computer Science": 5,
-    "Cancer Research": 15
+    "Multidisciplinary": 80,
+    "Biomedical": 34,
+    "Materials Science": 11,
+    "Neuroscience": 5,
+    "Cancer Research": 15,
+    "Computer Science": 5
   },
-  "multiInstitutional": 23,
+  "multiInstitutional": 40,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,12 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Operando Cu Aggregation-Induced Spin State Modulation in Fe-Cu Single Atom Catalyst for Enhanced Tandem Electrochemical Nitrate Reduction Reaction",
+    "title": "Developmental organization of sensory and sympathetic ganglia",
     "date": "2026-04-01T10:00:00.000Z",
     "institutions": [
       "IBS",
-      "KAIST",
-      "SNU"
+      "KAIST"
     ]
   }
 }
