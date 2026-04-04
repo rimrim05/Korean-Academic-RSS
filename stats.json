@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-04-04T08:01:42.130Z",
+  "lastUpdate": "2026-04-04T19:37:29.743Z",
   "totalItems": 150,
-  "totalArchived": 69995,
-  "newPapersAdded": 155,
+  "totalArchived": 70113,
+  "newPapersAdded": 118,
   "institutionBreakdown": {
-    "KAIST": 12,
-    "SNU": 70,
+    "KAIST": 15,
+    "SNU": 35,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 3,
-    "Korea University": 62,
-    "IBS": 29,
+    "POSTECH": 1,
+    "Korea University": 16,
+    "IBS": 100,
     "UNIST": 1,
-    "Hanyang University": 6,
+    "Hanyang University": 4,
     "KIST": 1,
-    "GIST": 2,
-    "Kyung Hee University": 7,
-    "Pusan National University": 6
+    "GIST": 3,
+    "Kyung Hee University": 4,
+    "Pusan National University": 3
   },
   "subjectAreaBreakdown": {
-    "Biomedical": 49,
-    "Multidisciplinary": 72,
-    "Neuroscience": 6,
-    "Cancer Research": 16,
-    "Computer Science": 6,
-    "Materials Science": 1
+    "Multidisciplinary": 79,
+    "Biomedical": 35,
+    "Cancer Research": 17,
+    "Materials Science": 4,
+    "Neuroscience": 12,
+    "Computer Science": 3
   },
-  "multiInstitutional": 30,
+  "multiInstitutional": 19,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,15 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Trends in Contact Sensitization Among Korean Patients: A Multicenter 6-Year Retrospective Patch Test Study",
-    "date": "2026-04-03T10:00:00.000Z",
+    "title": "Changbudodam-tang ameliorates ovarian dysfunction in experimental polycystic ovary syndrome through modulation of adiponectin-linked AMPK/SIRT1 signaling",
+    "date": "2026-04-04T10:00:00.000Z",
     "institutions": [
-      "Hanyang University",
       "IBS",
-      "KAIST",
-      "Korea University",
-      "Pusan National University",
-      "SNU"
+      "KAIST"
     ]
   }
 }
