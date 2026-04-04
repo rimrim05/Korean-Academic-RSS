@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-04-03T19:42:53.731Z",
+  "lastUpdate": "2026-04-04T08:01:42.130Z",
   "totalItems": 150,
-  "totalArchived": 69840,
-  "newPapersAdded": 170,
+  "totalArchived": 69995,
+  "newPapersAdded": 155,
   "institutionBreakdown": {
-    "KAIST": 6,
-    "SNU": 40,
+    "KAIST": 12,
+    "SNU": 70,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 2,
-    "Korea University": 30,
-    "IBS": 83,
-    "UNIST": 0,
-    "Hanyang University": 1,
-    "KIST": 0,
+    "POSTECH": 3,
+    "Korea University": 62,
+    "IBS": 29,
+    "UNIST": 1,
+    "Hanyang University": 6,
+    "KIST": 1,
     "GIST": 2,
-    "Kyung Hee University": 5,
-    "Pusan National University": 3
+    "Kyung Hee University": 7,
+    "Pusan National University": 6
   },
   "subjectAreaBreakdown": {
-    "Neuroscience": 5,
-    "Multidisciplinary": 74,
-    "Computer Science": 4,
-    "Biomedical": 42,
-    "Cancer Research": 17,
-    "Materials Science": 8
+    "Biomedical": 49,
+    "Multidisciplinary": 72,
+    "Neuroscience": 6,
+    "Cancer Research": 16,
+    "Computer Science": 6,
+    "Materials Science": 1
   },
-  "multiInstitutional": 15,
+  "multiInstitutional": 30,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,15 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Mediation role of estimated pulse wave velocity in the association between physical activity and cognitive function",
+    "title": "Trends in Contact Sensitization Among Korean Patients: A Multicenter 6-Year Retrospective Patch Test Study",
     "date": "2026-04-03T10:00:00.000Z",
     "institutions": [
+      "Hanyang University",
       "IBS",
-      "KAIST"
+      "KAIST",
+      "Korea University",
+      "Pusan National University",
+      "SNU"
     ]
   }
 }
