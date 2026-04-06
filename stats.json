@@ -1,31 +1,32 @@
 {
-  "lastUpdate": "2026-04-05T19:39:13.452Z",
+  "lastUpdate": "2026-04-06T08:51:51.752Z",
   "totalItems": 150,
-  "totalArchived": 70279,
-  "newPapersAdded": 166,
+  "totalArchived": 70409,
+  "newPapersAdded": 130,
   "institutionBreakdown": {
-    "KAIST": 10,
-    "SNU": 46,
+    "KAIST": 6,
+    "SNU": 33,
     "Yonsei University": 0,
     "SKKU": 0,
     "POSTECH": 0,
-    "Korea University": 25,
+    "Korea University": 34,
     "IBS": 94,
     "UNIST": 1,
-    "Hanyang University": 2,
+    "Hanyang University": 1,
     "KIST": 2,
     "GIST": 2,
-    "Kyung Hee University": 3,
-    "Pusan National University": 3
+    "Kyung Hee University": 8,
+    "Pusan National University": 1
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 85,
-    "Cancer Research": 13,
-    "Biomedical": 36,
-    "Materials Science": 7,
-    "Neuroscience": 9
+    "Biomedical": 30,
+    "Cancer Research": 17,
+    "Multidisciplinary": 87,
+    "Neuroscience": 8,
+    "Computer Science": 2,
+    "Materials Science": 6
   },
-  "multiInstitutional": 27,
+  "multiInstitutional": 23,
   "institutions": [
     "KAIST",
     "SNU",
@@ -43,14 +44,12 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Network analysis of item-level neuroticism in recurrent major depression among Korean women",
+    "title": "Clinical impact of a multidisciplinary remote-based hybrid antibiotic stewardship program in critically ill patients during COVID-19 pandemic in Korea: a prospective pilot implementation study",
     "date": "2026-04-05T10:00:00.000Z",
     "institutions": [
       "IBS",
       "KAIST",
-      "Korea University",
       "Kyung Hee University",
-      "Pusan National University",
       "SNU"
     ]
   }
