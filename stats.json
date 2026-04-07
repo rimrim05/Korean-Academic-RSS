@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-04-06T19:54:42.616Z",
+  "lastUpdate": "2026-04-07T08:41:51.426Z",
   "totalItems": 150,
-  "totalArchived": 70609,
-  "newPapersAdded": 200,
+  "totalArchived": 70788,
+  "newPapersAdded": 179,
   "institutionBreakdown": {
-    "KAIST": 13,
-    "SNU": 68,
+    "KAIST": 20,
+    "SNU": 100,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 2,
-    "Korea University": 39,
-    "IBS": 55,
+    "POSTECH": 3,
+    "Korea University": 56,
+    "IBS": 10,
     "UNIST": 0,
-    "Hanyang University": 5,
-    "KIST": 0,
-    "GIST": 0,
-    "Kyung Hee University": 5,
-    "Pusan National University": 0
+    "Hanyang University": 6,
+    "KIST": 1,
+    "GIST": 1,
+    "Kyung Hee University": 8,
+    "Pusan National University": 3
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 86,
-    "Materials Science": 9,
-    "Biomedical": 34,
-    "Cancer Research": 9,
+    "Materials Science": 5,
+    "Multidisciplinary": 84,
+    "Biomedical": 29,
+    "Cancer Research": 20,
     "Neuroscience": 9,
     "Computer Science": 3
   },
-  "multiInstitutional": 25,
+  "multiInstitutional": 39,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,13 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Zincophilic Porous Carbon Interface with Dendrite-Free Zinc Deposition via Selective Ion Regulation for Aqueous Zinc Ion Batteries",
+    "title": "Revealing the transient ionization dynamics and mode-coupling mechanisms of helicon discharge through a self-consistent multiphysics model",
     "date": "2026-04-06T10:00:00.000Z",
     "institutions": [
-      "Hanyang University",
       "IBS",
-      "KAIST",
-      "SNU"
+      "KAIST"
     ]
   }
 }
