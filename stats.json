@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-04-07T08:41:51.426Z",
+  "lastUpdate": "2026-04-07T19:58:39.361Z",
   "totalItems": 150,
-  "totalArchived": 70788,
-  "newPapersAdded": 179,
+  "totalArchived": 70986,
+  "newPapersAdded": 198,
   "institutionBreakdown": {
-    "KAIST": 20,
-    "SNU": 100,
+    "KAIST": 9,
+    "SNU": 67,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 3,
-    "Korea University": 56,
-    "IBS": 10,
+    "POSTECH": 1,
+    "Korea University": 36,
+    "IBS": 58,
     "UNIST": 0,
-    "Hanyang University": 6,
-    "KIST": 1,
-    "GIST": 1,
-    "Kyung Hee University": 8,
-    "Pusan National University": 3
+    "Hanyang University": 8,
+    "KIST": 0,
+    "GIST": 2,
+    "Kyung Hee University": 3,
+    "Pusan National University": 4
   },
   "subjectAreaBreakdown": {
-    "Materials Science": 5,
-    "Multidisciplinary": 84,
-    "Biomedical": 29,
-    "Cancer Research": 20,
-    "Neuroscience": 9,
-    "Computer Science": 3
+    "Multidisciplinary": 90,
+    "Materials Science": 8,
+    "Cancer Research": 19,
+    "Biomedical": 26,
+    "Neuroscience": 2,
+    "Computer Science": 5
   },
-  "multiInstitutional": 39,
+  "multiInstitutional": 27,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,12 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Revealing the transient ionization dynamics and mode-coupling mechanisms of helicon discharge through a self-consistent multiphysics model",
-    "date": "2026-04-06T10:00:00.000Z",
+    "title": "Polystyrene Nanoplastics Induce Inflammasome Activation in Nasal Epithelial Cells via ROS-Mediated Mitochondrial Dysfunction",
+    "date": "2026-04-07T10:00:00.000Z",
     "institutions": [
       "IBS",
-      "KAIST"
+      "KAIST",
+      "SNU"
     ]
   }
 }
