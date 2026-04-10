@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-04-10T08:51:33.754Z",
+  "lastUpdate": "2026-04-10T19:48:48.968Z",
   "totalItems": 150,
-  "totalArchived": 71861,
-  "newPapersAdded": 194,
+  "totalArchived": 72036,
+  "newPapersAdded": 175,
   "institutionBreakdown": {
-    "KAIST": 19,
-    "SNU": 100,
+    "KAIST": 6,
+    "SNU": 41,
     "Yonsei University": 0,
     "SKKU": 0,
     "POSTECH": 2,
-    "Korea University": 42,
-    "IBS": 5,
-    "UNIST": 2,
-    "Hanyang University": 5,
-    "KIST": 5,
-    "GIST": 5,
+    "Korea University": 37,
+    "IBS": 80,
+    "UNIST": 0,
+    "Hanyang University": 2,
+    "KIST": 2,
+    "GIST": 0,
     "Kyung Hee University": 7,
-    "Pusan National University": 6
+    "Pusan National University": 1
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 75,
-    "Biomedical": 41,
-    "Cancer Research": 12,
-    "Neuroscience": 9,
-    "Computer Science": 4,
-    "Materials Science": 9
+    "Multidisciplinary": 85,
+    "Biomedical": 32,
+    "Materials Science": 6,
+    "Cancer Research": 14,
+    "Computer Science": 7,
+    "Neuroscience": 6
   },
-  "multiInstitutional": 35,
+  "multiInstitutional": 20,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,10 +44,10 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Meningeal and infiltrating T-cells are associated with repetitive head trauma and tau-mediated neurodegeneration in chronic traumatic encephalopathy",
+    "title": "Near-Ideal van der Waals NbSe<sub>2</sub> Contacts for WSe<sub>2</sub> CMOS Electronics",
     "date": "2026-04-10T10:00:00.000Z",
     "institutions": [
-      "IBS"
+      "KAIST"
     ]
   }
 }
