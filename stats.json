@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-04-12T08:10:57.343Z",
+  "lastUpdate": "2026-04-12T19:42:37.833Z",
   "totalItems": 150,
-  "totalArchived": 72256,
-  "newPapersAdded": 0,
+  "totalArchived": 72443,
+  "newPapersAdded": 187,
   "institutionBreakdown": {
-    "KAIST": 12,
-    "SNU": 87,
+    "KAIST": 5,
+    "SNU": 33,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 2,
-    "Korea University": 31,
-    "IBS": 45,
-    "UNIST": 1,
-    "Hanyang University": 4,
-    "KIST": 3,
+    "POSTECH": 1,
+    "Korea University": 23,
+    "IBS": 100,
+    "UNIST": 0,
+    "Hanyang University": 5,
+    "KIST": 1,
     "GIST": 2,
-    "Kyung Hee University": 10,
+    "Kyung Hee University": 2,
     "Pusan National University": 2
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 86,
-    "Biomedical": 34,
-    "Cancer Research": 14,
-    "Neuroscience": 2,
-    "Materials Science": 10,
+    "Multidisciplinary": 80,
+    "Cancer Research": 19,
+    "Biomedical": 35,
+    "Neuroscience": 6,
+    "Materials Science": 6,
     "Computer Science": 4
   },
-  "multiInstitutional": 37,
+  "multiInstitutional": 16,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,9 +44,15 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "COP1 regulates the abundance and stability of the Arabidopsis retromer protein AtVPS29 via the proteasome pathway",
-    "date": "2026-04-11T10:00:00.000Z",
+    "title": "Recent Advances in Radiative Cooling: From Fundamentals to Commercial Applications",
+    "date": "2026-04-12T10:00:00.000Z",
     "institutions": [
+      "GIST",
+      "Hanyang University",
+      "IBS",
+      "KAIST",
+      "Korea University",
+      "POSTECH",
       "SNU"
     ]
   }
