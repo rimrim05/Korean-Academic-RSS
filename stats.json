@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-04-12T19:42:37.833Z",
+  "lastUpdate": "2026-04-13T09:17:27.880Z",
   "totalItems": 150,
-  "totalArchived": 72443,
-  "newPapersAdded": 187,
+  "totalArchived": 72590,
+  "newPapersAdded": 147,
   "institutionBreakdown": {
-    "KAIST": 5,
-    "SNU": 33,
+    "KAIST": 4,
+    "SNU": 37,
     "Yonsei University": 0,
     "SKKU": 0,
     "POSTECH": 1,
-    "Korea University": 23,
-    "IBS": 100,
+    "Korea University": 48,
+    "IBS": 79,
     "UNIST": 0,
-    "Hanyang University": 5,
+    "Hanyang University": 4,
     "KIST": 1,
     "GIST": 2,
     "Kyung Hee University": 2,
-    "Pusan National University": 2
+    "Pusan National University": 0
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 80,
-    "Cancer Research": 19,
-    "Biomedical": 35,
-    "Neuroscience": 6,
-    "Materials Science": 6,
-    "Computer Science": 4
+    "Cancer Research": 16,
+    "Multidisciplinary": 76,
+    "Neuroscience": 5,
+    "Biomedical": 42,
+    "Computer Science": 7,
+    "Materials Science": 4
   },
-  "multiInstitutional": 16,
+  "multiInstitutional": 19,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,16 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Recent Advances in Radiative Cooling: From Fundamentals to Commercial Applications",
+    "title": "Simultaneous LC-MS/MS method for the quantification of 5-flucytosine, ganciclovir, and valganciclovir to support combined prodrug-activated gene therapy",
     "date": "2026-04-12T10:00:00.000Z",
     "institutions": [
-      "GIST",
-      "Hanyang University",
       "IBS",
-      "KAIST",
-      "Korea University",
-      "POSTECH",
-      "SNU"
+      "KAIST"
     ]
   }
 }
