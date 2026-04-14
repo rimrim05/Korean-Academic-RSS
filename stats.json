@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-04-13T20:10:06.070Z",
+  "lastUpdate": "2026-04-14T08:59:15.136Z",
   "totalItems": 150,
-  "totalArchived": 72851,
-  "newPapersAdded": 261,
+  "totalArchived": 73020,
+  "newPapersAdded": 169,
   "institutionBreakdown": {
-    "KAIST": 15,
-    "SNU": 92,
+    "KAIST": 26,
+    "SNU": 100,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 2,
-    "Korea University": 64,
-    "IBS": 6,
-    "UNIST": 0,
-    "Hanyang University": 3,
-    "KIST": 1,
+    "POSTECH": 3,
+    "Korea University": 44,
+    "IBS": 7,
+    "UNIST": 1,
+    "Hanyang University": 5,
+    "KIST": 2,
     "GIST": 7,
-    "Kyung Hee University": 4,
-    "Pusan National University": 0
+    "Kyung Hee University": 3,
+    "Pusan National University": 1
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 91,
-    "Biomedical": 30,
-    "Materials Science": 6,
-    "Computer Science": 1,
-    "Cancer Research": 18,
-    "Neuroscience": 4
+    "Cancer Research": 19,
+    "Biomedical": 34,
+    "Multidisciplinary": 81,
+    "Neuroscience": 4,
+    "Materials Science": 10,
+    "Computer Science": 2
   },
-  "multiInstitutional": 36,
+  "multiInstitutional": 40,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,12 +44,12 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Low-Heat and Near-Silent Pneumatic Source Driven by Integrated Endothermic-Exothermic Chemical Reactions for Soft Robots",
-    "date": "2026-04-13T10:00:00.000Z",
+    "title": "M. canadensis and its active component salvianolic acid B overcome paclitaxel resistance in gastric cancer via ROS-ER stress signaling",
+    "date": "2026-04-14T10:00:00.000Z",
     "institutions": [
       "IBS",
       "KAIST",
-      "KIST",
+      "Korea University",
       "SNU"
     ]
   }
