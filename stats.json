@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-04-14T08:59:15.136Z",
+  "lastUpdate": "2026-04-14T20:10:42.078Z",
   "totalItems": 150,
-  "totalArchived": 73020,
-  "newPapersAdded": 169,
+  "totalArchived": 73258,
+  "newPapersAdded": 238,
   "institutionBreakdown": {
-    "KAIST": 26,
+    "KAIST": 11,
     "SNU": 100,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 3,
-    "Korea University": 44,
-    "IBS": 7,
+    "POSTECH": 2,
+    "Korea University": 45,
+    "IBS": 22,
     "UNIST": 1,
     "Hanyang University": 5,
-    "KIST": 2,
-    "GIST": 7,
-    "Kyung Hee University": 3,
-    "Pusan National University": 1
+    "KIST": 1,
+    "GIST": 3,
+    "Kyung Hee University": 13,
+    "Pusan National University": 3
   },
   "subjectAreaBreakdown": {
-    "Cancer Research": 19,
-    "Biomedical": 34,
-    "Multidisciplinary": 81,
-    "Neuroscience": 4,
-    "Materials Science": 10,
-    "Computer Science": 2
+    "Multidisciplinary": 71,
+    "Biomedical": 44,
+    "Materials Science": 6,
+    "Cancer Research": 18,
+    "Neuroscience": 5,
+    "Computer Science": 6
   },
-  "multiInstitutional": 40,
+  "multiInstitutional": 46,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,12 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "M. canadensis and its active component salvianolic acid B overcome paclitaxel resistance in gastric cancer via ROS-ER stress signaling",
+    "title": "Ambient Air Pollution and Risk of ARDS and Mortality in Moderate to Severe COVID-19",
     "date": "2026-04-14T10:00:00.000Z",
     "institutions": [
       "IBS",
       "KAIST",
-      "Korea University",
       "SNU"
     ]
   }
