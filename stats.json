@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-04-14T20:10:42.078Z",
+  "lastUpdate": "2026-04-15T08:59:40.370Z",
   "totalItems": 150,
-  "totalArchived": 73258,
-  "newPapersAdded": 238,
+  "totalArchived": 73416,
+  "newPapersAdded": 158,
   "institutionBreakdown": {
-    "KAIST": 11,
+    "KAIST": 18,
     "SNU": 100,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 2,
-    "Korea University": 45,
-    "IBS": 22,
+    "POSTECH": 4,
+    "Korea University": 55,
+    "IBS": 6,
     "UNIST": 1,
     "Hanyang University": 5,
     "KIST": 1,
-    "GIST": 3,
-    "Kyung Hee University": 13,
-    "Pusan National University": 3
+    "GIST": 5,
+    "Kyung Hee University": 11,
+    "Pusan National University": 5
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 71,
-    "Biomedical": 44,
-    "Materials Science": 6,
-    "Cancer Research": 18,
-    "Neuroscience": 5,
-    "Computer Science": 6
+    "Multidisciplinary": 84,
+    "Biomedical": 35,
+    "Cancer Research": 16,
+    "Materials Science": 8,
+    "Neuroscience": 3,
+    "Computer Science": 4
   },
-  "multiInstitutional": 46,
+  "multiInstitutional": 47,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,13 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Ambient Air Pollution and Risk of ARDS and Mortality in Moderate to Severe COVID-19",
+    "title": "Shigella Effector VirA Suppresses Plant Immunity by Compromising PRA1.F3-Dependent Accumulation of FLS2 at the Plasma Membrane",
     "date": "2026-04-14T10:00:00.000Z",
     "institutions": [
       "IBS",
       "KAIST",
+      "Korea University",
+      "POSTECH",
       "SNU"
     ]
   }
