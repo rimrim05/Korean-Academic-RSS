@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-04-16T09:00:41.398Z",
+  "lastUpdate": "2026-04-16T20:03:09.883Z",
   "totalItems": 150,
-  "totalArchived": 73660,
-  "newPapersAdded": 73,
+  "totalArchived": 73891,
+  "newPapersAdded": 231,
   "institutionBreakdown": {
-    "KAIST": 7,
-    "SNU": 36,
+    "KAIST": 6,
+    "SNU": 39,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 2,
-    "Korea University": 32,
+    "POSTECH": 1,
+    "Korea University": 34,
     "IBS": 85,
     "UNIST": 0,
-    "Hanyang University": 2,
-    "KIST": 2,
-    "GIST": 1,
-    "Kyung Hee University": 1,
-    "Pusan National University": 1
+    "Hanyang University": 1,
+    "KIST": 3,
+    "GIST": 3,
+    "Kyung Hee University": 6,
+    "Pusan National University": 0
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 73,
-    "Cancer Research": 20,
-    "Materials Science": 10,
-    "Biomedical": 34,
-    "Neuroscience": 11,
-    "Computer Science": 2
+    "Multidisciplinary": 75,
+    "Biomedical": 42,
+    "Materials Science": 12,
+    "Neuroscience": 5,
+    "Cancer Research": 13,
+    "Computer Science": 3
   },
-  "multiInstitutional": 16,
+  "multiInstitutional": 19,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,10 +44,12 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Whole Blackcurrant (Ribes nigrum) Alleviates High-Fat Diet Induced-Obesity and Colonic Inflammation by Modulating the Gut Microbiota in Mice",
-    "date": "2026-04-15T10:00:00.000Z",
+    "title": "Red Ginseng Oil Enhances Lipid Metabolism and Liver Function in HepG2 Cells and Hypercholesterolemic Rats",
+    "date": "2026-04-16T10:00:00.000Z",
     "institutions": [
-      "KAIST"
+      "IBS",
+      "KAIST",
+      "Kyung Hee University"
     ]
   }
 }
