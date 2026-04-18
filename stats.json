@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-04-18T08:07:16.271Z",
+  "lastUpdate": "2026-04-18T19:44:18.738Z",
   "totalItems": 150,
-  "totalArchived": 74174,
-  "newPapersAdded": 0,
+  "totalArchived": 74389,
+  "newPapersAdded": 215,
   "institutionBreakdown": {
-    "KAIST": 19,
-    "SNU": 100,
+    "KAIST": 17,
+    "SNU": 94,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 2,
-    "Korea University": 51,
-    "IBS": 0,
-    "UNIST": 1,
+    "POSTECH": 1,
+    "Korea University": 23,
+    "IBS": 45,
+    "UNIST": 0,
     "Hanyang University": 5,
-    "KIST": 8,
+    "KIST": 2,
     "GIST": 4,
-    "Kyung Hee University": 14,
+    "Kyung Hee University": 10,
     "Pusan National University": 3
   },
   "subjectAreaBreakdown": {
     "Materials Science": 12,
-    "Multidisciplinary": 83,
-    "Biomedical": 30,
-    "Cancer Research": 17,
-    "Neuroscience": 7,
-    "Computer Science": 1
+    "Multidisciplinary": 91,
+    "Cancer Research": 16,
+    "Biomedical": 22,
+    "Computer Science": 4,
+    "Neuroscience": 5
   },
-  "multiInstitutional": 45,
+  "multiInstitutional": 46,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,12 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Temperature-driven shifts in microbial reactions and community structure in bentonite under Fe(III)- and sulfate-reducing conditions: implications for deep geological repository performance",
-    "date": "2026-04-17T10:00:00.000Z",
+    "title": "Cell-in-Shell Metacells in Single-Cell Nanoencapsulation",
+    "date": "2026-04-18T10:00:00.000Z",
     "institutions": [
-      "KAIST",
-      "Korea University",
-      "SNU"
+      "IBS",
+      "KAIST"
     ]
   }
 }
