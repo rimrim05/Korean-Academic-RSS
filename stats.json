@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-04-17T20:00:11.933Z",
+  "lastUpdate": "2026-04-18T08:07:16.271Z",
   "totalItems": 150,
   "totalArchived": 74174,
-  "newPapersAdded": 265,
+  "newPapersAdded": 0,
   "institutionBreakdown": {
-    "KAIST": 8,
-    "SNU": 52,
+    "KAIST": 19,
+    "SNU": 100,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 1,
-    "Korea University": 30,
-    "IBS": 79,
-    "UNIST": 0,
-    "Hanyang University": 3,
-    "KIST": 1,
-    "GIST": 1,
-    "Kyung Hee University": 9,
-    "Pusan National University": 0
+    "POSTECH": 2,
+    "Korea University": 51,
+    "IBS": 0,
+    "UNIST": 1,
+    "Hanyang University": 5,
+    "KIST": 8,
+    "GIST": 4,
+    "Kyung Hee University": 14,
+    "Pusan National University": 3
   },
   "subjectAreaBreakdown": {
     "Materials Science": 12,
-    "Multidisciplinary": 82,
-    "Biomedical": 33,
-    "Cancer Research": 16,
-    "Neuroscience": 6,
+    "Multidisciplinary": 83,
+    "Biomedical": 30,
+    "Cancer Research": 17,
+    "Neuroscience": 7,
     "Computer Science": 1
   },
-  "multiInstitutional": 28,
+  "multiInstitutional": 45,
   "institutions": [
     "KAIST",
     "SNU",
@@ -47,7 +47,6 @@
     "title": "Temperature-driven shifts in microbial reactions and community structure in bentonite under Fe(III)- and sulfate-reducing conditions: implications for deep geological repository performance",
     "date": "2026-04-17T10:00:00.000Z",
     "institutions": [
-      "IBS",
       "KAIST",
       "Korea University",
       "SNU"
