@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-04-19T08:30:33.541Z",
+  "lastUpdate": "2026-04-19T19:45:05.822Z",
   "totalItems": 150,
-  "totalArchived": 74425,
-  "newPapersAdded": 36,
+  "totalArchived": 74592,
+  "newPapersAdded": 167,
   "institutionBreakdown": {
-    "KAIST": 17,
-    "SNU": 94,
+    "KAIST": 10,
+    "SNU": 30,
     "Yonsei University": 0,
     "SKKU": 0,
     "POSTECH": 1,
-    "Korea University": 23,
-    "IBS": 45,
-    "UNIST": 0,
-    "Hanyang University": 5,
+    "Korea University": 44,
+    "IBS": 80,
+    "UNIST": 1,
+    "Hanyang University": 2,
     "KIST": 2,
-    "GIST": 4,
-    "Kyung Hee University": 10,
-    "Pusan National University": 3
+    "GIST": 6,
+    "Kyung Hee University": 1,
+    "Pusan National University": 2
   },
   "subjectAreaBreakdown": {
-    "Materials Science": 12,
-    "Multidisciplinary": 91,
-    "Cancer Research": 16,
-    "Biomedical": 22,
-    "Computer Science": 4,
-    "Neuroscience": 5
+    "Multidisciplinary": 84,
+    "Cancer Research": 18,
+    "Neuroscience": 11,
+    "Materials Science": 6,
+    "Biomedical": 27,
+    "Computer Science": 4
   },
-  "multiInstitutional": 45,
+  "multiInstitutional": 17,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,8 +44,8 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Cell-in-Shell Metacells in Single-Cell Nanoencapsulation",
-    "date": "2026-04-18T10:00:00.000Z",
+    "title": "Digital twins for plant-microbe interactions: gap finding and filling",
+    "date": "2026-04-19T10:00:00.000Z",
     "institutions": [
       "IBS",
       "KAIST"
