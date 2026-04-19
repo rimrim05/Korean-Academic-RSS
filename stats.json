@@ -1,8 +1,8 @@
 {
-  "lastUpdate": "2026-04-18T19:44:18.738Z",
+  "lastUpdate": "2026-04-19T08:30:33.541Z",
   "totalItems": 150,
-  "totalArchived": 74389,
-  "newPapersAdded": 215,
+  "totalArchived": 74425,
+  "newPapersAdded": 36,
   "institutionBreakdown": {
     "KAIST": 17,
     "SNU": 94,
@@ -26,7 +26,7 @@
     "Computer Science": 4,
     "Neuroscience": 5
   },
-  "multiInstitutional": 46,
+  "multiInstitutional": 45,
   "institutions": [
     "KAIST",
     "SNU",
