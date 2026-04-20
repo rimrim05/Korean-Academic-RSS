@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-04-20T09:23:48.135Z",
+  "lastUpdate": "2026-04-20T20:02:52.053Z",
   "totalItems": 150,
-  "totalArchived": 74610,
-  "newPapersAdded": 18,
+  "totalArchived": 74840,
+  "newPapersAdded": 230,
   "institutionBreakdown": {
-    "KAIST": 10,
-    "SNU": 33,
+    "KAIST": 2,
+    "SNU": 43,
     "Yonsei University": 0,
     "SKKU": 0,
     "POSTECH": 2,
-    "Korea University": 46,
-    "IBS": 75,
-    "UNIST": 2,
-    "Hanyang University": 2,
-    "KIST": 2,
-    "GIST": 6,
-    "Kyung Hee University": 1,
+    "Korea University": 42,
+    "IBS": 70,
+    "UNIST": 0,
+    "Hanyang University": 3,
+    "KIST": 3,
+    "GIST": 2,
+    "Kyung Hee University": 7,
     "Pusan National University": 2
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 83,
-    "Cancer Research": 20,
-    "Biomedical": 26,
-    "Computer Science": 6,
-    "Neuroscience": 9,
-    "Materials Science": 6
+    "Multidisciplinary": 84,
+    "Cancer Research": 16,
+    "Biomedical": 31,
+    "Neuroscience": 10,
+    "Materials Science": 8,
+    "Computer Science": 1
   },
-  "multiInstitutional": 19,
+  "multiInstitutional": 18,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,12 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Digital twins for plant-microbe interactions: gap finding and filling",
-    "date": "2026-04-19T10:00:00.000Z",
+    "title": "Seedless One-Pot Synthesis of Colloidal InAs Quantum Dots Enabling a High-Accuracy Photoplethysmography Oximeter",
+    "date": "2026-04-20T10:00:00.000Z",
     "institutions": [
-      "IBS",
-      "KAIST"
+      "KAIST",
+      "Korea University",
+      "SNU"
     ]
   }
 }
