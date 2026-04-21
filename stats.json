@@ -1,30 +1,30 @@
 {
-  "lastUpdate": "2026-04-21T09:09:50.537Z",
+  "lastUpdate": "2026-04-21T20:09:10.430Z",
   "totalItems": 150,
-  "totalArchived": 74842,
-  "newPapersAdded": 2,
+  "totalArchived": 75067,
+  "newPapersAdded": 225,
   "institutionBreakdown": {
-    "KAIST": 2,
-    "SNU": 44,
+    "KAIST": 9,
+    "SNU": 37,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 2,
-    "Korea University": 42,
-    "IBS": 69,
-    "UNIST": 0,
-    "Hanyang University": 4,
-    "KIST": 3,
-    "GIST": 2,
-    "Kyung Hee University": 7,
+    "POSTECH": 1,
+    "Korea University": 21,
+    "IBS": 98,
+    "UNIST": 1,
+    "Hanyang University": 5,
+    "KIST": 2,
+    "GIST": 3,
+    "Kyung Hee University": 1,
     "Pusan National University": 2
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 83,
-    "Cancer Research": 16,
-    "Biomedical": 32,
-    "Neuroscience": 10,
-    "Materials Science": 8,
-    "Computer Science": 1
+    "Multidisciplinary": 76,
+    "Biomedical": 35,
+    "Cancer Research": 13,
+    "Neuroscience": 8,
+    "Materials Science": 15,
+    "Computer Science": 3
   },
   "multiInstitutional": 19,
   "institutions": [
@@ -44,12 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Seedless One-Pot Synthesis of Colloidal InAs Quantum Dots Enabling a High-Accuracy Photoplethysmography Oximeter",
-    "date": "2026-04-20T10:00:00.000Z",
+    "title": "Phase-Controlled Copper Catalysts Derived from ZIFs for Electrochemical Urea Synthesis via CO<sub>2</sub> and Nitrate Reduction",
+    "date": "2026-04-21T10:00:00.000Z",
     "institutions": [
-      "KAIST",
-      "Korea University",
-      "SNU"
+      "IBS",
+      "KAIST"
     ]
   }
 }
