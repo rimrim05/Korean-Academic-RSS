@@ -1,31 +1,32 @@
 {
-  "lastUpdate": "2026-04-22T20:10:52.347Z",
+  "lastUpdate": "2026-04-23T09:10:20.200Z",
   "totalItems": 150,
-  "totalArchived": 75452,
-  "newPapersAdded": 185,
+  "totalArchived": 75629,
+  "newPapersAdded": 177,
   "institutionBreakdown": {
-    "KAIST": 13,
-    "SNU": 39,
+    "KAIST": 20,
+    "SNU": 81,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 1,
-    "Korea University": 45,
-    "IBS": 71,
-    "UNIST": 1,
-    "Hanyang University": 1,
-    "KIST": 2,
-    "GIST": 0,
-    "Kyung Hee University": 0,
-    "Pusan National University": 2
+    "POSTECH": 2,
+    "Korea University": 69,
+    "IBS": 7,
+    "UNIST": 2,
+    "Hanyang University": 2,
+    "KIST": 3,
+    "GIST": 1,
+    "Kyung Hee University": 2,
+    "Pusan National University": 7
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 85,
-    "Biomedical": 29,
-    "Materials Science": 11,
-    "Cancer Research": 21,
-    "Neuroscience": 4
+    "Multidisciplinary": 82,
+    "Neuroscience": 8,
+    "Cancer Research": 14,
+    "Biomedical": 33,
+    "Materials Science": 12,
+    "Computer Science": 1
   },
-  "multiInstitutional": 20,
+  "multiInstitutional": 39,
   "institutions": [
     "KAIST",
     "SNU",
@@ -43,12 +44,13 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Modeling Multistate Photodynamics of Azobenzene Using Hybrid Computational Scheme",
+    "title": "Early fibrotic niches establish tumour-permissive microenvironments",
     "date": "2026-04-22T10:00:00.000Z",
     "institutions": [
+      "GIST",
       "IBS",
       "KAIST",
-      "UNIST"
+      "SNU"
     ]
   }
 }
