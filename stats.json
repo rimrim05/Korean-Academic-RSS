@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-04-23T09:10:20.200Z",
+  "lastUpdate": "2026-04-23T20:09:23.103Z",
   "totalItems": 150,
-  "totalArchived": 75629,
-  "newPapersAdded": 177,
+  "totalArchived": 75803,
+  "newPapersAdded": 174,
   "institutionBreakdown": {
-    "KAIST": 20,
-    "SNU": 81,
+    "KAIST": 3,
+    "SNU": 27,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 2,
-    "Korea University": 69,
-    "IBS": 7,
-    "UNIST": 2,
-    "Hanyang University": 2,
-    "KIST": 3,
-    "GIST": 1,
-    "Kyung Hee University": 2,
-    "Pusan National University": 7
+    "POSTECH": 0,
+    "Korea University": 43,
+    "IBS": 84,
+    "UNIST": 1,
+    "Hanyang University": 0,
+    "KIST": 1,
+    "GIST": 0,
+    "Kyung Hee University": 3,
+    "Pusan National University": 4
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 82,
-    "Neuroscience": 8,
-    "Cancer Research": 14,
-    "Biomedical": 33,
+    "Biomedical": 26,
+    "Multidisciplinary": 80,
+    "Cancer Research": 15,
+    "Neuroscience": 15,
     "Materials Science": 12,
-    "Computer Science": 1
+    "Computer Science": 2
   },
-  "multiInstitutional": 39,
+  "multiInstitutional": 12,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,13 +44,10 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Early fibrotic niches establish tumour-permissive microenvironments",
-    "date": "2026-04-22T10:00:00.000Z",
+    "title": "MASQ: A multiplex qPCR platform for quantitative alternative splicing analysis in clinical specimens",
+    "date": "2026-04-23T10:00:00.000Z",
     "institutions": [
-      "GIST",
-      "IBS",
-      "KAIST",
-      "SNU"
+      "KAIST"
     ]
   }
 }
