@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-04-24T19:54:47.413Z",
+  "lastUpdate": "2026-04-25T08:14:35.285Z",
   "totalItems": 150,
-  "totalArchived": 76173,
-  "newPapersAdded": 196,
+  "totalArchived": 76373,
+  "newPapersAdded": 200,
   "institutionBreakdown": {
-    "KAIST": 6,
-    "SNU": 45,
+    "KAIST": 14,
+    "SNU": 92,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 1,
-    "Korea University": 54,
-    "IBS": 61,
-    "UNIST": 1,
-    "Hanyang University": 5,
-    "KIST": 1,
-    "GIST": 1,
-    "Kyung Hee University": 0,
-    "Pusan National University": 0
+    "POSTECH": 7,
+    "Korea University": 60,
+    "IBS": 3,
+    "UNIST": 2,
+    "Hanyang University": 9,
+    "KIST": 2,
+    "GIST": 2,
+    "Kyung Hee University": 5,
+    "Pusan National University": 2
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 84,
-    "Materials Science": 14,
-    "Biomedical": 26,
-    "Computer Science": 3,
+    "Computer Science": 5,
+    "Multidisciplinary": 75,
     "Cancer Research": 12,
-    "Neuroscience": 11
+    "Neuroscience": 4,
+    "Materials Science": 17,
+    "Biomedical": 37
   },
-  "multiInstitutional": 21,
+  "multiInstitutional": 41,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,7 +44,7 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Comprehensive Management of Diabetic Foot Ulcers: Current Evidence and Practice",
+    "title": "Dynamically cross-linked PVA hydrogel reinforced with poly(γ-glutamic acid) for highly Stretchable and rapidly self-healing wearable sensors",
     "date": "2026-04-24T10:00:00.000Z",
     "institutions": [
       "IBS",
