@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-04-26T19:50:13.014Z",
+  "lastUpdate": "2026-04-27T09:35:34.727Z",
   "totalItems": 150,
-  "totalArchived": 76610,
-  "newPapersAdded": 148,
+  "totalArchived": 76755,
+  "newPapersAdded": 145,
   "institutionBreakdown": {
-    "KAIST": 7,
-    "SNU": 26,
+    "KAIST": 5,
+    "SNU": 38,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 0,
+    "POSTECH": 1,
     "Korea University": 36,
-    "IBS": 91,
+    "IBS": 97,
     "UNIST": 0,
-    "Hanyang University": 1,
+    "Hanyang University": 4,
     "KIST": 0,
-    "GIST": 0,
-    "Kyung Hee University": 2,
-    "Pusan National University": 1
+    "GIST": 3,
+    "Kyung Hee University": 1,
+    "Pusan National University": 2
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 93,
-    "Biomedical": 20,
-    "Computer Science": 6,
-    "Neuroscience": 9,
-    "Cancer Research": 18,
-    "Materials Science": 4
+    "Multidisciplinary": 79,
+    "Biomedical": 40,
+    "Neuroscience": 5,
+    "Computer Science": 7,
+    "Cancer Research": 13,
+    "Materials Science": 6
   },
-  "multiInstitutional": 13,
+  "multiInstitutional": 26,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,12 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Single-port robotic resection of a superior mediastinal bronchogenic cyst in a 6-year-old child using the da Vinci SP system: a case report",
+    "title": "Neurophysiological Effects of a Digital Therapeutic for Attention-deficit/Hyperactivity Disorder: A Quantitative Electroencephalography Analysis of Theta-Gamma Coupling",
     "date": "2026-04-26T10:00:00.000Z",
     "institutions": [
       "IBS",
-      "KAIST"
+      "KAIST",
+      "SNU"
     ]
   }
 }
