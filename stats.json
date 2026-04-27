@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-04-27T09:35:34.727Z",
+  "lastUpdate": "2026-04-27T20:13:54.540Z",
   "totalItems": 150,
-  "totalArchived": 76755,
-  "newPapersAdded": 145,
+  "totalArchived": 76989,
+  "newPapersAdded": 234,
   "institutionBreakdown": {
-    "KAIST": 5,
-    "SNU": 38,
+    "KAIST": 11,
+    "SNU": 66,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 1,
-    "Korea University": 36,
-    "IBS": 97,
+    "POSTECH": 2,
+    "Korea University": 66,
+    "IBS": 30,
     "UNIST": 0,
     "Hanyang University": 4,
-    "KIST": 0,
-    "GIST": 3,
-    "Kyung Hee University": 1,
-    "Pusan National University": 2
+    "KIST": 2,
+    "GIST": 1,
+    "Kyung Hee University": 8,
+    "Pusan National University": 3
   },
   "subjectAreaBreakdown": {
     "Multidisciplinary": 79,
-    "Biomedical": 40,
-    "Neuroscience": 5,
-    "Computer Science": 7,
-    "Cancer Research": 13,
-    "Materials Science": 6
+    "Cancer Research": 21,
+    "Materials Science": 13,
+    "Neuroscience": 7,
+    "Biomedical": 26,
+    "Computer Science": 4
   },
-  "multiInstitutional": 26,
+  "multiInstitutional": 36,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,12 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Neurophysiological Effects of a Digital Therapeutic for Attention-deficit/Hyperactivity Disorder: A Quantitative Electroencephalography Analysis of Theta-Gamma Coupling",
-    "date": "2026-04-26T10:00:00.000Z",
+    "title": "Platform-dependent performance of P2A and IRES linkers in multicistronic gene expression",
+    "date": "2026-04-27T10:00:00.000Z",
     "institutions": [
       "IBS",
-      "KAIST",
-      "SNU"
+      "KAIST"
     ]
   }
 }
