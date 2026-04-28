@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-04-28T09:39:31.824Z",
+  "lastUpdate": "2026-04-28T20:23:03.487Z",
   "totalItems": 150,
-  "totalArchived": 77146,
-  "newPapersAdded": 157,
+  "totalArchived": 77282,
+  "newPapersAdded": 136,
   "institutionBreakdown": {
-    "KAIST": 15,
-    "SNU": 100,
+    "KAIST": 17,
+    "SNU": 35,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 3,
-    "Korea University": 50,
-    "IBS": 14,
+    "POSTECH": 1,
+    "Korea University": 20,
+    "IBS": 100,
     "UNIST": 0,
-    "Hanyang University": 5,
-    "KIST": 2,
-    "GIST": 1,
-    "Kyung Hee University": 11,
+    "Hanyang University": 4,
+    "KIST": 1,
+    "GIST": 2,
+    "Kyung Hee University": 3,
     "Pusan National University": 3
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 90,
-    "Cancer Research": 20,
-    "Materials Science": 9,
-    "Neuroscience": 6,
-    "Biomedical": 23,
-    "Computer Science": 2
+    "Multidisciplinary": 92,
+    "Biomedical": 30,
+    "Computer Science": 5,
+    "Cancer Research": 8,
+    "Materials Science": 12,
+    "Neuroscience": 3
   },
-  "multiInstitutional": 46,
+  "multiInstitutional": 26,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,10 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "The past, present and future of control architectures in lower-limb cable-driven robots for gait rehabilitation",
+    "title": "Cytotoxic Irciniastatin Analogs and a New Thiazole Lipid from <em>Sarcotragus spinosulus</em>",
     "date": "2026-04-28T10:00:00.000Z",
     "institutions": [
-      "Korea University"
+      "IBS",
+      "KAIST"
     ]
   }
 }
