@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-04-27T20:13:54.540Z",
+  "lastUpdate": "2026-04-28T09:39:31.824Z",
   "totalItems": 150,
-  "totalArchived": 76989,
-  "newPapersAdded": 234,
+  "totalArchived": 77146,
+  "newPapersAdded": 157,
   "institutionBreakdown": {
-    "KAIST": 11,
-    "SNU": 66,
+    "KAIST": 15,
+    "SNU": 100,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 2,
-    "Korea University": 66,
-    "IBS": 30,
+    "POSTECH": 3,
+    "Korea University": 50,
+    "IBS": 14,
     "UNIST": 0,
-    "Hanyang University": 4,
+    "Hanyang University": 5,
     "KIST": 2,
     "GIST": 1,
-    "Kyung Hee University": 8,
+    "Kyung Hee University": 11,
     "Pusan National University": 3
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 79,
-    "Cancer Research": 21,
-    "Materials Science": 13,
-    "Neuroscience": 7,
-    "Biomedical": 26,
-    "Computer Science": 4
+    "Multidisciplinary": 90,
+    "Cancer Research": 20,
+    "Materials Science": 9,
+    "Neuroscience": 6,
+    "Biomedical": 23,
+    "Computer Science": 2
   },
-  "multiInstitutional": 36,
+  "multiInstitutional": 46,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,10 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Platform-dependent performance of P2A and IRES linkers in multicistronic gene expression",
-    "date": "2026-04-27T10:00:00.000Z",
+    "title": "The past, present and future of control architectures in lower-limb cable-driven robots for gait rehabilitation",
+    "date": "2026-04-28T10:00:00.000Z",
     "institutions": [
-      "IBS",
-      "KAIST"
+      "Korea University"
     ]
   }
 }
