@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-04-29T09:31:45.408Z",
+  "lastUpdate": "2026-04-29T20:16:01.205Z",
   "totalItems": 150,
-  "totalArchived": 77503,
-  "newPapersAdded": 221,
+  "totalArchived": 77690,
+  "newPapersAdded": 187,
   "institutionBreakdown": {
-    "KAIST": 22,
-    "SNU": 98,
+    "KAIST": 9,
+    "SNU": 44,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 3,
-    "Korea University": 53,
-    "IBS": 8,
-    "UNIST": 1,
-    "Hanyang University": 10,
-    "KIST": 3,
-    "GIST": 5,
-    "Kyung Hee University": 8,
+    "POSTECH": 2,
+    "Korea University": 37,
+    "IBS": 74,
+    "UNIST": 0,
+    "Hanyang University": 2,
+    "KIST": 2,
+    "GIST": 1,
+    "Kyung Hee University": 2,
     "Pusan National University": 3
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 81,
+    "Biomedical": 37,
+    "Multidisciplinary": 84,
     "Materials Science": 6,
-    "Cancer Research": 20,
-    "Neuroscience": 6,
-    "Biomedical": 31,
-    "Computer Science": 6
+    "Cancer Research": 14,
+    "Computer Science": 6,
+    "Neuroscience": 3
   },
-  "multiInstitutional": 47,
+  "multiInstitutional": 18,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,12 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Cannabidiol modulates spontaneous recovery through distinct and conserved transcriptomic signatures in mPFC subregions",
-    "date": "2026-04-28T10:00:00.000Z",
+    "title": "Population Pharmacokinetics of Melphalan in Pediatric Patients Undergoing Autologous Hematopoietic Stem Cell Transplantation with Various Conditioning Regimens",
+    "date": "2026-04-29T10:00:00.000Z",
     "institutions": [
       "IBS",
-      "KAIST"
+      "KAIST",
+      "SNU"
     ]
   }
 }
