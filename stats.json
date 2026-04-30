@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-04-29T20:16:01.205Z",
+  "lastUpdate": "2026-04-30T09:33:18.748Z",
   "totalItems": 150,
-  "totalArchived": 77690,
-  "newPapersAdded": 187,
+  "totalArchived": 77878,
+  "newPapersAdded": 188,
   "institutionBreakdown": {
-    "KAIST": 9,
-    "SNU": 44,
+    "KAIST": 19,
+    "SNU": 98,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 2,
-    "Korea University": 37,
-    "IBS": 74,
+    "POSTECH": 6,
+    "Korea University": 54,
+    "IBS": 7,
     "UNIST": 0,
-    "Hanyang University": 2,
-    "KIST": 2,
-    "GIST": 1,
-    "Kyung Hee University": 2,
-    "Pusan National University": 3
+    "Hanyang University": 3,
+    "KIST": 4,
+    "GIST": 4,
+    "Kyung Hee University": 3,
+    "Pusan National University": 5
   },
   "subjectAreaBreakdown": {
-    "Biomedical": 37,
-    "Multidisciplinary": 84,
-    "Materials Science": 6,
-    "Cancer Research": 14,
+    "Biomedical": 35,
+    "Multidisciplinary": 85,
+    "Materials Science": 9,
+    "Neuroscience": 3,
     "Computer Science": 6,
-    "Neuroscience": 3
+    "Cancer Research": 12
   },
-  "multiInstitutional": 18,
+  "multiInstitutional": 40,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,12 +44,10 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Population Pharmacokinetics of Melphalan in Pediatric Patients Undergoing Autologous Hematopoietic Stem Cell Transplantation with Various Conditioning Regimens",
-    "date": "2026-04-29T10:00:00.000Z",
+    "title": "Generation of iPSC line NIMHi033-A from an Indian patient with Autism Spectrum Disorder carrying mutation in DYNC1H1 gene",
+    "date": "2026-04-30T10:00:00.000Z",
     "institutions": [
-      "IBS",
-      "KAIST",
-      "SNU"
+      "IBS"
     ]
   }
 }
