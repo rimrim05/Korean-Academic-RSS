@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-05-01T09:15:17.407Z",
+  "lastUpdate": "2026-05-01T20:09:20.880Z",
   "totalItems": 150,
-  "totalArchived": 78265,
-  "newPapersAdded": 180,
+  "totalArchived": 78462,
+  "newPapersAdded": 197,
   "institutionBreakdown": {
-    "KAIST": 20,
-    "SNU": 100,
+    "KAIST": 4,
+    "SNU": 46,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 4,
-    "Korea University": 45,
-    "IBS": 7,
+    "POSTECH": 0,
+    "Korea University": 49,
+    "IBS": 69,
     "UNIST": 1,
-    "Hanyang University": 6,
-    "KIST": 4,
-    "GIST": 4,
-    "Kyung Hee University": 4,
-    "Pusan National University": 6
+    "Hanyang University": 5,
+    "KIST": 0,
+    "GIST": 2,
+    "Kyung Hee University": 3,
+    "Pusan National University": 2
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 76,
-    "Materials Science": 9,
-    "Cancer Research": 21,
-    "Neuroscience": 7,
-    "Biomedical": 32,
-    "Computer Science": 5
+    "Multidisciplinary": 88,
+    "Neuroscience": 10,
+    "Biomedical": 25,
+    "Cancer Research": 11,
+    "Materials Science": 13,
+    "Computer Science": 3
   },
-  "multiInstitutional": 41,
+  "multiInstitutional": 24,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,12 +44,12 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "A Muribaculaceae-enriched microbiota exacerbates TLR4-dependent Acinetobacter baumannii-induced hyperinflammatory sepsis",
-    "date": "2026-04-30T10:00:00.000Z",
+    "title": "<em>Thymelaea hirsuta</em> (L.) Endl<em>.</em> extract attenuates NLRP3 inflammasome activation via modulation of ATPase activity",
+    "date": "2026-05-01T10:00:00.000Z",
     "institutions": [
-      "IBS",
       "KAIST",
-      "Korea University"
+      "Kyung Hee University",
+      "SNU"
     ]
   }
 }
