@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-04-30T20:13:49.793Z",
+  "lastUpdate": "2026-05-01T09:15:17.407Z",
   "totalItems": 150,
-  "totalArchived": 78085,
-  "newPapersAdded": 207,
+  "totalArchived": 78265,
+  "newPapersAdded": 180,
   "institutionBreakdown": {
-    "KAIST": 17,
-    "SNU": 71,
+    "KAIST": 20,
+    "SNU": 100,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 1,
-    "Korea University": 27,
-    "IBS": 55,
-    "UNIST": 0,
-    "Hanyang University": 1,
-    "KIST": 3,
-    "GIST": 3,
-    "Kyung Hee University": 5,
-    "Pusan National University": 3
+    "POSTECH": 4,
+    "Korea University": 45,
+    "IBS": 7,
+    "UNIST": 1,
+    "Hanyang University": 6,
+    "KIST": 4,
+    "GIST": 4,
+    "Kyung Hee University": 4,
+    "Pusan National University": 6
   },
   "subjectAreaBreakdown": {
-    "Materials Science": 5,
-    "Multidisciplinary": 89,
-    "Cancer Research": 18,
-    "Neuroscience": 8,
-    "Biomedical": 24,
-    "Computer Science": 6
+    "Multidisciplinary": 76,
+    "Materials Science": 9,
+    "Cancer Research": 21,
+    "Neuroscience": 7,
+    "Biomedical": 32,
+    "Computer Science": 5
   },
-  "multiInstitutional": 30,
+  "multiInstitutional": 41,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,12 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "3D Printing of Materials and Printing Parameters with Animal Resources: A Review",
+    "title": "A Muribaculaceae-enriched microbiota exacerbates TLR4-dependent Acinetobacter baumannii-induced hyperinflammatory sepsis",
     "date": "2026-04-30T10:00:00.000Z",
     "institutions": [
       "IBS",
-      "KAIST"
+      "KAIST",
+      "Korea University"
     ]
   }
 }
