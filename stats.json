@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-05-01T20:09:20.880Z",
+  "lastUpdate": "2026-05-02T08:47:47.785Z",
   "totalItems": 150,
-  "totalArchived": 78462,
-  "newPapersAdded": 197,
+  "totalArchived": 78592,
+  "newPapersAdded": 130,
   "institutionBreakdown": {
-    "KAIST": 4,
-    "SNU": 46,
+    "KAIST": 13,
+    "SNU": 0,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 0,
-    "Korea University": 49,
-    "IBS": 69,
+    "POSTECH": 1,
+    "Korea University": 73,
+    "IBS": 71,
     "UNIST": 1,
-    "Hanyang University": 5,
-    "KIST": 0,
-    "GIST": 2,
+    "Hanyang University": 0,
+    "KIST": 1,
+    "GIST": 1,
     "Kyung Hee University": 3,
-    "Pusan National University": 2
+    "Pusan National University": 3
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 88,
-    "Neuroscience": 10,
-    "Biomedical": 25,
-    "Cancer Research": 11,
-    "Materials Science": 13,
-    "Computer Science": 3
+    "Multidisciplinary": 73,
+    "Computer Science": 3,
+    "Cancer Research": 17,
+    "Biomedical": 34,
+    "Materials Science": 16,
+    "Neuroscience": 7
   },
-  "multiInstitutional": 24,
+  "multiInstitutional": 12,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,12 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "<em>Thymelaea hirsuta</em> (L.) Endl<em>.</em> extract attenuates NLRP3 inflammasome activation via modulation of ATPase activity",
+    "title": "Men's preconception diet quality patterns predict supportive food parenting practices: evidence from a longitudinal cohort study",
     "date": "2026-05-01T10:00:00.000Z",
     "institutions": [
-      "KAIST",
-      "Kyung Hee University",
-      "SNU"
+      "IBS",
+      "KAIST"
     ]
   }
 }
