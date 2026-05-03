@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-05-03T09:00:48.693Z",
+  "lastUpdate": "2026-05-03T19:56:19.678Z",
   "totalItems": 150,
-  "totalArchived": 78664,
-  "newPapersAdded": 0,
+  "totalArchived": 78832,
+  "newPapersAdded": 168,
   "institutionBreakdown": {
-    "KAIST": 13,
-    "SNU": 74,
+    "KAIST": 5,
+    "SNU": 46,
     "Yonsei University": 0,
     "SKKU": 0,
     "POSTECH": 1,
-    "Korea University": 52,
-    "IBS": 39,
-    "UNIST": 2,
-    "Hanyang University": 5,
-    "KIST": 2,
-    "GIST": 3,
-    "Kyung Hee University": 7,
-    "Pusan National University": 3
+    "Korea University": 32,
+    "IBS": 82,
+    "UNIST": 0,
+    "Hanyang University": 0,
+    "KIST": 0,
+    "GIST": 1,
+    "Kyung Hee University": 3,
+    "Pusan National University": 1
   },
   "subjectAreaBreakdown": {
-    "Biomedical": 27,
-    "Computer Science": 4,
-    "Cancer Research": 22,
-    "Multidisciplinary": 78,
-    "Neuroscience": 6,
-    "Materials Science": 13
+    "Multidisciplinary": 86,
+    "Cancer Research": 23,
+    "Biomedical": 28,
+    "Neuroscience": 5,
+    "Materials Science": 5,
+    "Computer Science": 3
   },
-  "multiInstitutional": 38,
+  "multiInstitutional": 18,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,8 +44,8 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Discordant and Worse Reactivity of Peripheral Microvasculature in Acute Ischemic Stroke Patients",
-    "date": "2026-05-02T10:00:00.000Z",
+    "title": "Physical activity levels and HINT-8 health-related quality of life in Korean adults with diabetes: analysis of KNHANES 2019-2021",
+    "date": "2026-05-03T10:00:00.000Z",
     "institutions": [
       "SNU"
     ]
