@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-05-03T19:56:19.678Z",
+  "lastUpdate": "2026-05-04T09:35:03.110Z",
   "totalItems": 150,
-  "totalArchived": 78832,
-  "newPapersAdded": 168,
+  "totalArchived": 78958,
+  "newPapersAdded": 126,
   "institutionBreakdown": {
     "KAIST": 5,
-    "SNU": 46,
+    "SNU": 31,
     "Yonsei University": 0,
     "SKKU": 0,
     "POSTECH": 1,
-    "Korea University": 32,
-    "IBS": 82,
+    "Korea University": 23,
+    "IBS": 100,
     "UNIST": 0,
-    "Hanyang University": 0,
+    "Hanyang University": 1,
     "KIST": 0,
-    "GIST": 1,
-    "Kyung Hee University": 3,
+    "GIST": 4,
+    "Kyung Hee University": 4,
     "Pusan National University": 1
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 86,
-    "Cancer Research": 23,
-    "Biomedical": 28,
-    "Neuroscience": 5,
-    "Materials Science": 5,
-    "Computer Science": 3
+    "Cancer Research": 21,
+    "Biomedical": 26,
+    "Multidisciplinary": 85,
+    "Materials Science": 7,
+    "Computer Science": 4,
+    "Neuroscience": 7
   },
-  "multiInstitutional": 18,
+  "multiInstitutional": 17,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,10 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Physical activity levels and HINT-8 health-related quality of life in Korean adults with diabetes: analysis of KNHANES 2019-2021",
-    "date": "2026-05-03T10:00:00.000Z",
+    "title": "Associations between depressive symptoms, attachment style, and continuing bonds among Japanese bereaved family members of patients with cancer: a nationwide cross-sectional study",
+    "date": "2026-05-04T10:00:00.000Z",
     "institutions": [
-      "SNU"
+      "IBS",
+      "Korea University"
     ]
   }
 }
