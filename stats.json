@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-05-04T09:35:03.110Z",
+  "lastUpdate": "2026-05-04T20:22:19.420Z",
   "totalItems": 150,
-  "totalArchived": 78958,
-  "newPapersAdded": 126,
+  "totalArchived": 79311,
+  "newPapersAdded": 353,
   "institutionBreakdown": {
-    "KAIST": 5,
-    "SNU": 31,
+    "KAIST": 34,
+    "SNU": 100,
     "Yonsei University": 0,
     "SKKU": 0,
     "POSTECH": 1,
-    "Korea University": 23,
-    "IBS": 100,
+    "Korea University": 40,
+    "IBS": 6,
     "UNIST": 0,
-    "Hanyang University": 1,
+    "Hanyang University": 7,
     "KIST": 0,
     "GIST": 4,
-    "Kyung Hee University": 4,
+    "Kyung Hee University": 8,
     "Pusan National University": 1
   },
   "subjectAreaBreakdown": {
-    "Cancer Research": 21,
-    "Biomedical": 26,
-    "Multidisciplinary": 85,
-    "Materials Science": 7,
-    "Computer Science": 4,
-    "Neuroscience": 7
+    "Multidisciplinary": 80,
+    "Materials Science": 18,
+    "Cancer Research": 17,
+    "Neuroscience": 8,
+    "Biomedical": 25,
+    "Computer Science": 2
   },
-  "multiInstitutional": 17,
+  "multiInstitutional": 42,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,10 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Associations between depressive symptoms, attachment style, and continuing bonds among Japanese bereaved family members of patients with cancer: a nationwide cross-sectional study",
+    "title": "Comparative effects of remimazolam and propofol on intraoperative redistribution hypothermia in urologic surgery: a retrospective propensity-matched cohort study",
     "date": "2026-05-04T10:00:00.000Z",
     "institutions": [
-      "IBS",
-      "Korea University"
+      "KAIST"
     ]
   }
 }
