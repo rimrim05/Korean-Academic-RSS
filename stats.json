@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-05-05T09:26:15.775Z",
+  "lastUpdate": "2026-05-05T20:12:39.139Z",
   "totalItems": 150,
-  "totalArchived": 79455,
-  "newPapersAdded": 144,
+  "totalArchived": 79596,
+  "newPapersAdded": 141,
   "institutionBreakdown": {
-    "KAIST": 38,
-    "SNU": 100,
+    "KAIST": 14,
+    "SNU": 27,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 3,
-    "Korea University": 35,
-    "IBS": 9,
-    "UNIST": 0,
-    "Hanyang University": 6,
-    "KIST": 0,
-    "GIST": 5,
-    "Kyung Hee University": 7,
-    "Pusan National University": 0
+    "POSTECH": 1,
+    "Korea University": 27,
+    "IBS": 100,
+    "UNIST": 3,
+    "Hanyang University": 1,
+    "KIST": 1,
+    "GIST": 1,
+    "Kyung Hee University": 0,
+    "Pusan National University": 1
   },
   "subjectAreaBreakdown": {
-    "Cancer Research": 20,
-    "Biomedical": 17,
-    "Materials Science": 18,
-    "Multidisciplinary": 83,
-    "Neuroscience": 10,
-    "Computer Science": 2
+    "Multidisciplinary": 91,
+    "Cancer Research": 13,
+    "Biomedical": 24,
+    "Neuroscience": 6,
+    "Materials Science": 12,
+    "Computer Science": 4
   },
-  "multiInstitutional": 43,
+  "multiInstitutional": 20,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,12 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "AI-driven integration of genomic and exposome data for cancer risk: the combined risk score (CRS)",
+    "title": "Anti-Allergic Potential of Chamaecrista nomame and Its Compound Luteolin for Novel Asthma Therapy",
     "date": "2026-05-05T10:00:00.000Z",
     "institutions": [
       "IBS",
-      "Korea University",
+      "KAIST",
+      "KIST",
       "SNU"
     ]
   }
