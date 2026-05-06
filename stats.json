@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-05-05T20:12:39.139Z",
+  "lastUpdate": "2026-05-06T09:40:04.685Z",
   "totalItems": 150,
-  "totalArchived": 79596,
-  "newPapersAdded": 141,
+  "totalArchived": 79761,
+  "newPapersAdded": 165,
   "institutionBreakdown": {
-    "KAIST": 14,
-    "SNU": 27,
+    "KAIST": 11,
+    "SNU": 71,
     "Yonsei University": 0,
     "SKKU": 0,
     "POSTECH": 1,
-    "Korea University": 27,
-    "IBS": 100,
-    "UNIST": 3,
-    "Hanyang University": 1,
-    "KIST": 1,
-    "GIST": 1,
-    "Kyung Hee University": 0,
+    "Korea University": 56,
+    "IBS": 36,
+    "UNIST": 2,
+    "Hanyang University": 10,
+    "KIST": 2,
+    "GIST": 0,
+    "Kyung Hee University": 4,
     "Pusan National University": 1
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 91,
-    "Cancer Research": 13,
-    "Biomedical": 24,
-    "Neuroscience": 6,
+    "Neuroscience": 9,
+    "Multidisciplinary": 73,
+    "Biomedical": 37,
+    "Cancer Research": 16,
     "Materials Science": 12,
-    "Computer Science": 4
+    "Computer Science": 3
   },
-  "multiInstitutional": 20,
+  "multiInstitutional": 34,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,12 +44,12 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Anti-Allergic Potential of Chamaecrista nomame and Its Compound Luteolin for Novel Asthma Therapy",
+    "title": "SARS-CoV-2 infection is associated with hypothalamic orexin suppression and persistent cortical NeuN attenuation",
     "date": "2026-05-05T10:00:00.000Z",
     "institutions": [
       "IBS",
       "KAIST",
-      "KIST",
+      "Korea University",
       "SNU"
     ]
   }
