@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-05-07T20:20:21.381Z",
+  "lastUpdate": "2026-05-08T08:54:01.650Z",
   "totalItems": 150,
-  "totalArchived": 80298,
-  "newPapersAdded": 190,
+  "totalArchived": 80464,
+  "newPapersAdded": 166,
   "institutionBreakdown": {
-    "KAIST": 5,
-    "SNU": 48,
+    "KAIST": 11,
+    "SNU": 76,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 2,
-    "Korea University": 40,
-    "IBS": 65,
+    "POSTECH": 3,
+    "Korea University": 72,
+    "IBS": 6,
     "UNIST": 2,
-    "Hanyang University": 1,
-    "KIST": 2,
+    "Hanyang University": 5,
+    "KIST": 3,
     "GIST": 4,
-    "Kyung Hee University": 6,
+    "Kyung Hee University": 7,
     "Pusan National University": 2
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 74,
-    "Materials Science": 11,
-    "Computer Science": 4,
-    "Neuroscience": 12,
+    "Neuroscience": 9,
+    "Multidisciplinary": 80,
+    "Biomedical": 31,
+    "Materials Science": 9,
     "Cancer Research": 16,
-    "Biomedical": 33
+    "Computer Science": 5
   },
-  "multiInstitutional": 19,
+  "multiInstitutional": 30,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,7 +44,7 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Breaking Atomic Fe-N<sub>4</sub> Symmetry in Aerogel Catalysts by Nitrogen and Chlorine Doping for Enhancing Oxygen Reduction",
+    "title": "Microbial-derived Mediators of the Gut-Brain Axis: Implications for Neurological Disorders",
     "date": "2026-05-07T10:00:00.000Z",
     "institutions": [
       "IBS",
