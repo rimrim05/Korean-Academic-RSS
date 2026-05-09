@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-05-08T20:11:00.382Z",
+  "lastUpdate": "2026-05-09T08:57:33.330Z",
   "totalItems": 150,
-  "totalArchived": 80633,
-  "newPapersAdded": 169,
+  "totalArchived": 80819,
+  "newPapersAdded": 186,
   "institutionBreakdown": {
-    "KAIST": 2,
-    "SNU": 39,
+    "KAIST": 16,
+    "SNU": 91,
     "Yonsei University": 0,
     "SKKU": 0,
     "POSTECH": 0,
-    "Korea University": 26,
-    "IBS": 91,
-    "UNIST": 0,
-    "Hanyang University": 2,
-    "KIST": 3,
-    "GIST": 1,
-    "Kyung Hee University": 5,
-    "Pusan National University": 1
+    "Korea University": 59,
+    "IBS": 8,
+    "UNIST": 1,
+    "Hanyang University": 0,
+    "KIST": 5,
+    "GIST": 0,
+    "Kyung Hee University": 7,
+    "Pusan National University": 5
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 78,
-    "Biomedical": 35,
-    "Cancer Research": 15,
-    "Materials Science": 10,
+    "Biomedical": 31,
+    "Cancer Research": 23,
+    "Multidisciplinary": 75,
+    "Materials Science": 11,
     "Computer Science": 4,
-    "Neuroscience": 8
+    "Neuroscience": 6
   },
-  "multiInstitutional": 17,
+  "multiInstitutional": 35,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,10 +44,14 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "A data-analytics framework for exploring regression associations in multivariate categorical data of firefighters' PTSD",
+    "title": "Observational, Post-marketing Surveillance of Safety and Effectiveness of Glecaprevir/Pibrentasvir in Korean Patients with Chronic Hepatitis C",
     "date": "2026-05-08T10:00:00.000Z",
     "institutions": [
-      "KAIST"
+      "IBS",
+      "KAIST",
+      "Korea University",
+      "Pusan National University",
+      "SNU"
     ]
   }
 }
