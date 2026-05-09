@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-05-09T08:57:33.330Z",
+  "lastUpdate": "2026-05-09T19:59:17.258Z",
   "totalItems": 150,
-  "totalArchived": 80819,
-  "newPapersAdded": 186,
+  "totalArchived": 80889,
+  "newPapersAdded": 70,
   "institutionBreakdown": {
-    "KAIST": 16,
-    "SNU": 91,
+    "KAIST": 17,
+    "SNU": 92,
     "Yonsei University": 0,
     "SKKU": 0,
     "POSTECH": 0,
-    "Korea University": 59,
-    "IBS": 8,
+    "Korea University": 16,
+    "IBS": 46,
     "UNIST": 1,
-    "Hanyang University": 0,
+    "Hanyang University": 4,
     "KIST": 5,
-    "GIST": 0,
+    "GIST": 2,
     "Kyung Hee University": 7,
     "Pusan National University": 5
   },
   "subjectAreaBreakdown": {
-    "Biomedical": 31,
+    "Computer Science": 7,
+    "Biomedical": 36,
     "Cancer Research": 23,
-    "Multidisciplinary": 75,
-    "Materials Science": 11,
-    "Computer Science": 4,
-    "Neuroscience": 6
+    "Multidisciplinary": 63,
+    "Neuroscience": 10,
+    "Materials Science": 11
   },
-  "multiInstitutional": 35,
+  "multiInstitutional": 38,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,14 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Observational, Post-marketing Surveillance of Safety and Effectiveness of Glecaprevir/Pibrentasvir in Korean Patients with Chronic Hepatitis C",
-    "date": "2026-05-08T10:00:00.000Z",
+    "title": "Physics-Guided Neural Network for Quantitative Parameter Mapping Using Balanced Steady State Free Precession MRI",
+    "date": "2026-05-09T10:00:00.000Z",
     "institutions": [
       "IBS",
-      "KAIST",
-      "Korea University",
-      "Pusan National University",
-      "SNU"
+      "KAIST"
     ]
   }
 }
