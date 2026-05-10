@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-05-10T09:11:38.626Z",
+  "lastUpdate": "2026-05-10T20:01:15.702Z",
   "totalItems": 150,
-  "totalArchived": 80889,
-  "newPapersAdded": 0,
+  "totalArchived": 81058,
+  "newPapersAdded": 169,
   "institutionBreakdown": {
-    "KAIST": 17,
-    "SNU": 92,
+    "KAIST": 8,
+    "SNU": 33,
     "Yonsei University": 0,
     "SKKU": 0,
     "POSTECH": 0,
-    "Korea University": 16,
-    "IBS": 46,
-    "UNIST": 1,
-    "Hanyang University": 4,
-    "KIST": 5,
-    "GIST": 2,
-    "Kyung Hee University": 7,
-    "Pusan National University": 5
+    "Korea University": 40,
+    "IBS": 80,
+    "UNIST": 0,
+    "Hanyang University": 2,
+    "KIST": 2,
+    "GIST": 1,
+    "Kyung Hee University": 2,
+    "Pusan National University": 2
   },
   "subjectAreaBreakdown": {
-    "Computer Science": 7,
-    "Biomedical": 36,
-    "Cancer Research": 23,
-    "Multidisciplinary": 63,
-    "Neuroscience": 10,
-    "Materials Science": 11
+    "Biomedical": 41,
+    "Cancer Research": 8,
+    "Multidisciplinary": 82,
+    "Computer Science": 10,
+    "Materials Science": 3,
+    "Neuroscience": 6
   },
-  "multiInstitutional": 38,
+  "multiInstitutional": 14,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,10 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Physics-Guided Neural Network for Quantitative Parameter Mapping Using Balanced Steady State Free Precession MRI",
-    "date": "2026-05-09T10:00:00.000Z",
+    "title": "Safety and Effectiveness of Adalimumab for the Treatment of Pyoderma Gangrenosum: A 52-Week Real-World Prospective Observational Study",
+    "date": "2026-05-10T10:00:00.000Z",
     "institutions": [
-      "IBS",
-      "KAIST"
+      "Korea University"
     ]
   }
 }
