@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-05-10T20:01:15.702Z",
+  "lastUpdate": "2026-05-11T10:45:39.681Z",
   "totalItems": 150,
-  "totalArchived": 81058,
-  "newPapersAdded": 169,
+  "totalArchived": 81238,
+  "newPapersAdded": 180,
   "institutionBreakdown": {
-    "KAIST": 8,
-    "SNU": 33,
+    "KAIST": 6,
+    "SNU": 56,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 0,
-    "Korea University": 40,
-    "IBS": 80,
+    "POSTECH": 1,
+    "Korea University": 14,
+    "IBS": 92,
     "UNIST": 0,
-    "Hanyang University": 2,
-    "KIST": 2,
+    "Hanyang University": 6,
+    "KIST": 1,
     "GIST": 1,
-    "Kyung Hee University": 2,
-    "Pusan National University": 2
+    "Kyung Hee University": 4,
+    "Pusan National University": 1
   },
   "subjectAreaBreakdown": {
-    "Biomedical": 41,
-    "Cancer Research": 8,
+    "Biomedical": 37,
     "Multidisciplinary": 82,
-    "Computer Science": 10,
-    "Materials Science": 3,
-    "Neuroscience": 6
+    "Materials Science": 9,
+    "Neuroscience": 6,
+    "Cancer Research": 14,
+    "Computer Science": 2
   },
-  "multiInstitutional": 14,
+  "multiInstitutional": 25,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,10 +44,13 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Safety and Effectiveness of Adalimumab for the Treatment of Pyoderma Gangrenosum: A 52-Week Real-World Prospective Observational Study",
-    "date": "2026-05-10T10:00:00.000Z",
+    "title": "A Deep Learning Approach for Classifying Rapid Eye Movement Sleep Behavior Disorder Using EEGNet",
+    "date": "2026-05-11T10:00:00.000Z",
     "institutions": [
-      "Korea University"
+      "IBS",
+      "KAIST",
+      "Kyung Hee University",
+      "SNU"
     ]
   }
 }
