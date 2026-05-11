@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-05-11T10:45:39.681Z",
+  "lastUpdate": "2026-05-11T20:49:07.451Z",
   "totalItems": 150,
-  "totalArchived": 81238,
-  "newPapersAdded": 180,
+  "totalArchived": 81438,
+  "newPapersAdded": 200,
   "institutionBreakdown": {
-    "KAIST": 6,
-    "SNU": 56,
+    "KAIST": 12,
+    "SNU": 94,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 1,
-    "Korea University": 14,
-    "IBS": 92,
+    "POSTECH": 3,
+    "Korea University": 46,
+    "IBS": 22,
     "UNIST": 0,
-    "Hanyang University": 6,
-    "KIST": 1,
-    "GIST": 1,
-    "Kyung Hee University": 4,
-    "Pusan National University": 1
+    "Hanyang University": 7,
+    "KIST": 0,
+    "GIST": 7,
+    "Kyung Hee University": 5,
+    "Pusan National University": 2
   },
   "subjectAreaBreakdown": {
-    "Biomedical": 37,
-    "Multidisciplinary": 82,
-    "Materials Science": 9,
-    "Neuroscience": 6,
-    "Cancer Research": 14,
-    "Computer Science": 2
+    "Biomedical": 48,
+    "Multidisciplinary": 68,
+    "Neuroscience": 10,
+    "Materials Science": 4,
+    "Cancer Research": 19,
+    "Computer Science": 1
   },
-  "multiInstitutional": 25,
+  "multiInstitutional": 34,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,13 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "A Deep Learning Approach for Classifying Rapid Eye Movement Sleep Behavior Disorder Using EEGNet",
+    "title": "Flavonoids from <em>Elsholtzia ciliata</em> restore redox electron flow and metabolic signaling via PTP1B inhibition in muscle and liver cells",
     "date": "2026-05-11T10:00:00.000Z",
     "institutions": [
       "IBS",
-      "KAIST",
-      "Kyung Hee University",
-      "SNU"
+      "KAIST"
     ]
   }
 }
