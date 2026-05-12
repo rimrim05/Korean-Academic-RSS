@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-05-11T20:49:07.451Z",
+  "lastUpdate": "2026-05-12T10:02:59.562Z",
   "totalItems": 150,
-  "totalArchived": 81438,
-  "newPapersAdded": 200,
+  "totalArchived": 81611,
+  "newPapersAdded": 173,
   "institutionBreakdown": {
-    "KAIST": 12,
-    "SNU": 94,
+    "KAIST": 26,
+    "SNU": 100,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 3,
-    "Korea University": 46,
-    "IBS": 22,
-    "UNIST": 0,
-    "Hanyang University": 7,
-    "KIST": 0,
-    "GIST": 7,
-    "Kyung Hee University": 5,
-    "Pusan National University": 2
+    "POSTECH": 6,
+    "Korea University": 49,
+    "IBS": 10,
+    "UNIST": 1,
+    "Hanyang University": 5,
+    "KIST": 3,
+    "GIST": 9,
+    "Kyung Hee University": 8,
+    "Pusan National University": 5
   },
   "subjectAreaBreakdown": {
-    "Biomedical": 48,
-    "Multidisciplinary": 68,
+    "Biomedical": 45,
     "Neuroscience": 10,
-    "Materials Science": 4,
-    "Cancer Research": 19,
-    "Computer Science": 1
+    "Multidisciplinary": 69,
+    "Materials Science": 9,
+    "Computer Science": 5,
+    "Cancer Research": 12
   },
-  "multiInstitutional": 34,
+  "multiInstitutional": 50,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,12 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Flavonoids from <em>Elsholtzia ciliata</em> restore redox electron flow and metabolic signaling via PTP1B inhibition in muscle and liver cells",
+    "title": "Association Between SGLT2 Inhibitors and DPP-4 Inhibitors Use and Risk of Acute Pancreatitis: Findings From Nationwide Case-Based Analyses",
     "date": "2026-05-11T10:00:00.000Z",
     "institutions": [
       "IBS",
-      "KAIST"
+      "KAIST",
+      "SNU"
     ]
   }
 }
