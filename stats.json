@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-05-12T10:02:59.562Z",
+  "lastUpdate": "2026-05-12T20:44:16.799Z",
   "totalItems": 150,
-  "totalArchived": 81611,
-  "newPapersAdded": 173,
+  "totalArchived": 81782,
+  "newPapersAdded": 171,
   "institutionBreakdown": {
-    "KAIST": 26,
-    "SNU": 100,
+    "KAIST": 5,
+    "SNU": 35,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 6,
-    "Korea University": 49,
-    "IBS": 10,
-    "UNIST": 1,
-    "Hanyang University": 5,
-    "KIST": 3,
-    "GIST": 9,
-    "Kyung Hee University": 8,
-    "Pusan National University": 5
+    "POSTECH": 0,
+    "Korea University": 37,
+    "IBS": 88,
+    "UNIST": 0,
+    "Hanyang University": 3,
+    "KIST": 1,
+    "GIST": 1,
+    "Kyung Hee University": 4,
+    "Pusan National University": 1
   },
   "subjectAreaBreakdown": {
-    "Biomedical": 45,
-    "Neuroscience": 10,
-    "Multidisciplinary": 69,
-    "Materials Science": 9,
+    "Multidisciplinary": 71,
+    "Biomedical": 40,
     "Computer Science": 5,
-    "Cancer Research": 12
+    "Materials Science": 12,
+    "Cancer Research": 20,
+    "Neuroscience": 2
   },
-  "multiInstitutional": 50,
+  "multiInstitutional": 17,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,12 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Association Between SGLT2 Inhibitors and DPP-4 Inhibitors Use and Risk of Acute Pancreatitis: Findings From Nationwide Case-Based Analyses",
-    "date": "2026-05-11T10:00:00.000Z",
+    "title": "Heavy metal contamination and sources thereof in Oehwang River estuarine sediments from Ulsan Bay, Korea, based on heavy metals and lead isotope ratios",
+    "date": "2026-05-12T10:00:00.000Z",
     "institutions": [
       "IBS",
-      "KAIST",
-      "SNU"
+      "KAIST"
     ]
   }
 }
