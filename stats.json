@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-05-15T10:01:40.947Z",
+  "lastUpdate": "2026-05-15T20:19:28.521Z",
   "totalItems": 150,
-  "totalArchived": 82819,
-  "newPapersAdded": 186,
+  "totalArchived": 82978,
+  "newPapersAdded": 159,
   "institutionBreakdown": {
-    "KAIST": 22,
-    "SNU": 95,
+    "KAIST": 4,
+    "SNU": 38,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 3,
-    "Korea University": 54,
-    "IBS": 12,
-    "UNIST": 1,
-    "Hanyang University": 4,
-    "KIST": 2,
-    "GIST": 3,
+    "POSTECH": 1,
+    "Korea University": 27,
+    "IBS": 93,
+    "UNIST": 0,
+    "Hanyang University": 2,
+    "KIST": 3,
+    "GIST": 0,
     "Kyung Hee University": 7,
-    "Pusan National University": 3
+    "Pusan National University": 0
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 76,
-    "Biomedical": 47,
-    "Cancer Research": 14,
-    "Computer Science": 1,
-    "Neuroscience": 5,
-    "Materials Science": 7
+    "Computer Science": 3,
+    "Multidisciplinary": 86,
+    "Biomedical": 33,
+    "Cancer Research": 15,
+    "Materials Science": 5,
+    "Neuroscience": 8
   },
-  "multiInstitutional": 35,
+  "multiInstitutional": 21,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,10 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Predictive triage for testing may improve control of a COVID-19 epidemic while reducing testing requirements",
+    "title": "Artificial intelligence in animal breeding and genetics: applications, opportunities, and challenges",
     "date": "2026-05-15T10:00:00.000Z",
     "institutions": [
-      "Korea University"
+      "IBS",
+      "KAIST"
     ]
   }
 }
