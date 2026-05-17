@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-05-17T09:18:06.762Z",
+  "lastUpdate": "2026-05-17T20:06:54.552Z",
   "totalItems": 150,
-  "totalArchived": 83240,
-  "newPapersAdded": 0,
+  "totalArchived": 83400,
+  "newPapersAdded": 160,
   "institutionBreakdown": {
-    "KAIST": 9,
-    "SNU": 88,
+    "KAIST": 5,
+    "SNU": 40,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 3,
-    "Korea University": 13,
-    "IBS": 56,
+    "POSTECH": 1,
+    "Korea University": 35,
+    "IBS": 84,
     "UNIST": 0,
-    "Hanyang University": 6,
-    "KIST": 3,
-    "GIST": 2,
-    "Kyung Hee University": 10,
+    "Hanyang University": 2,
+    "KIST": 0,
+    "GIST": 3,
+    "Kyung Hee University": 4,
     "Pusan National University": 0
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 75,
-    "Computer Science": 7,
-    "Materials Science": 14,
-    "Biomedical": 37,
-    "Cancer Research": 14,
-    "Neuroscience": 3
+    "Multidisciplinary": 79,
+    "Cancer Research": 18,
+    "Biomedical": 32,
+    "Materials Science": 7,
+    "Computer Science": 4,
+    "Neuroscience": 10
   },
-  "multiInstitutional": 33,
+  "multiInstitutional": 18,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,10 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Using ΦPSII and leaf temperature as indicators of non-steady-state photosynthesis and stomatal conductance during stepwise changes in light intensity",
-    "date": "2026-05-16T10:00:00.000Z",
+    "title": "Systems-level restoration of vaginal and gut microbiota by lactobacillus helveticus 20 838 alleviates Gardnerella vaginalis-induced dysbiosis",
+    "date": "2026-05-17T10:00:00.000Z",
     "institutions": [
-      "SNU"
+      "IBS",
+      "KAIST"
     ]
   }
 }
