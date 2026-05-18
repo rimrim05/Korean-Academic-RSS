@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-05-18T11:13:37.288Z",
+  "lastUpdate": "2026-05-18T20:40:59.277Z",
   "totalItems": 150,
-  "totalArchived": 83551,
-  "newPapersAdded": 151,
+  "totalArchived": 83751,
+  "newPapersAdded": 200,
   "institutionBreakdown": {
-    "KAIST": 5,
-    "SNU": 38,
+    "KAIST": 13,
+    "SNU": 60,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 1,
-    "Korea University": 28,
-    "IBS": 89,
+    "POSTECH": 4,
+    "Korea University": 64,
+    "IBS": 34,
     "UNIST": 0,
-    "Hanyang University": 1,
+    "Hanyang University": 2,
     "KIST": 1,
     "GIST": 4,
-    "Kyung Hee University": 2,
-    "Pusan National University": 0
+    "Kyung Hee University": 3,
+    "Pusan National University": 1
   },
   "subjectAreaBreakdown": {
-    "Biomedical": 22,
-    "Multidisciplinary": 86,
-    "Cancer Research": 23,
-    "Neuroscience": 5,
-    "Materials Science": 9,
-    "Computer Science": 5
+    "Materials Science": 13,
+    "Multidisciplinary": 76,
+    "Neuroscience": 10,
+    "Biomedical": 28,
+    "Cancer Research": 21,
+    "Computer Science": 2
   },
-  "multiInstitutional": 13,
+  "multiInstitutional": 30,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,12 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Coronary Computed Tomographic Angiography Versus Functional Testing in Patients With Newly Diagnosed Type 2 Diabetes and Suspected Coronary Artery Disease: Real-world Evidence from the Nationwide Cohort",
+    "title": "Surface-based stress tomography of architected metamaterials <em>via</em> physics-constrained generative learning",
     "date": "2026-05-18T10:00:00.000Z",
     "institutions": [
       "IBS",
-      "KAIST",
-      "SNU"
+      "KAIST"
     ]
   }
 }
