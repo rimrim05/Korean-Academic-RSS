@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-05-17T20:06:54.552Z",
+  "lastUpdate": "2026-05-18T11:13:37.288Z",
   "totalItems": 150,
-  "totalArchived": 83400,
-  "newPapersAdded": 160,
+  "totalArchived": 83551,
+  "newPapersAdded": 151,
   "institutionBreakdown": {
     "KAIST": 5,
-    "SNU": 40,
+    "SNU": 38,
     "Yonsei University": 0,
     "SKKU": 0,
     "POSTECH": 1,
-    "Korea University": 35,
-    "IBS": 84,
+    "Korea University": 28,
+    "IBS": 89,
     "UNIST": 0,
-    "Hanyang University": 2,
-    "KIST": 0,
-    "GIST": 3,
-    "Kyung Hee University": 4,
+    "Hanyang University": 1,
+    "KIST": 1,
+    "GIST": 4,
+    "Kyung Hee University": 2,
     "Pusan National University": 0
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 79,
-    "Cancer Research": 18,
-    "Biomedical": 32,
-    "Materials Science": 7,
-    "Computer Science": 4,
-    "Neuroscience": 10
+    "Biomedical": 22,
+    "Multidisciplinary": 86,
+    "Cancer Research": 23,
+    "Neuroscience": 5,
+    "Materials Science": 9,
+    "Computer Science": 5
   },
-  "multiInstitutional": 18,
+  "multiInstitutional": 13,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,12 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Systems-level restoration of vaginal and gut microbiota by lactobacillus helveticus 20 838 alleviates Gardnerella vaginalis-induced dysbiosis",
-    "date": "2026-05-17T10:00:00.000Z",
+    "title": "Coronary Computed Tomographic Angiography Versus Functional Testing in Patients With Newly Diagnosed Type 2 Diabetes and Suspected Coronary Artery Disease: Real-world Evidence from the Nationwide Cohort",
+    "date": "2026-05-18T10:00:00.000Z",
     "institutions": [
       "IBS",
-      "KAIST"
+      "KAIST",
+      "SNU"
     ]
   }
 }
