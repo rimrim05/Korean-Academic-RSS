@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-05-19T10:46:23.762Z",
+  "lastUpdate": "2026-05-19T20:47:36.699Z",
   "totalItems": 150,
-  "totalArchived": 83952,
-  "newPapersAdded": 201,
+  "totalArchived": 84094,
+  "newPapersAdded": 142,
   "institutionBreakdown": {
-    "KAIST": 13,
-    "SNU": 35,
+    "KAIST": 8,
+    "SNU": 56,
     "Yonsei University": 0,
     "SKKU": 0,
     "POSTECH": 3,
-    "Korea University": 21,
-    "IBS": 100,
+    "Korea University": 48,
+    "IBS": 62,
     "UNIST": 0,
-    "Hanyang University": 5,
+    "Hanyang University": 7,
     "KIST": 2,
-    "GIST": 3,
-    "Kyung Hee University": 2,
-    "Pusan National University": 2
+    "GIST": 4,
+    "Kyung Hee University": 4,
+    "Pusan National University": 1
   },
   "subjectAreaBreakdown": {
-    "Materials Science": 8,
-    "Multidisciplinary": 77,
-    "Biomedical": 41,
-    "Cancer Research": 15,
-    "Neuroscience": 7,
-    "Computer Science": 2
+    "Biomedical": 37,
+    "Materials Science": 12,
+    "Cancer Research": 23,
+    "Multidisciplinary": 68,
+    "Computer Science": 2,
+    "Neuroscience": 8
   },
-  "multiInstitutional": 22,
+  "multiInstitutional": 30,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,13 +44,12 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Supramolecular Chiral Assembly of Open-Shell Quinoids With Chiral Additives and Their Spin-Dependent Transport in Magneto Field-Effect Transistors",
+    "title": "A Clinical-Imaging Score Reclassifies Indeterminate Diastolic Dysfunction and Predicts Posttransplant Cardiac Events in Cirrhosis",
     "date": "2026-05-19T10:00:00.000Z",
     "institutions": [
-      "GIST",
       "IBS",
       "KAIST",
-      "KIST"
+      "SNU"
     ]
   }
 }
