@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-05-18T20:40:59.277Z",
+  "lastUpdate": "2026-05-19T10:46:23.762Z",
   "totalItems": 150,
-  "totalArchived": 83751,
-  "newPapersAdded": 200,
+  "totalArchived": 83952,
+  "newPapersAdded": 201,
   "institutionBreakdown": {
     "KAIST": 13,
-    "SNU": 60,
+    "SNU": 35,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 4,
-    "Korea University": 64,
-    "IBS": 34,
+    "POSTECH": 3,
+    "Korea University": 21,
+    "IBS": 100,
     "UNIST": 0,
-    "Hanyang University": 2,
-    "KIST": 1,
-    "GIST": 4,
-    "Kyung Hee University": 3,
-    "Pusan National University": 1
+    "Hanyang University": 5,
+    "KIST": 2,
+    "GIST": 3,
+    "Kyung Hee University": 2,
+    "Pusan National University": 2
   },
   "subjectAreaBreakdown": {
-    "Materials Science": 13,
-    "Multidisciplinary": 76,
-    "Neuroscience": 10,
-    "Biomedical": 28,
-    "Cancer Research": 21,
+    "Materials Science": 8,
+    "Multidisciplinary": 77,
+    "Biomedical": 41,
+    "Cancer Research": 15,
+    "Neuroscience": 7,
     "Computer Science": 2
   },
-  "multiInstitutional": 30,
+  "multiInstitutional": 22,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,13 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Surface-based stress tomography of architected metamaterials <em>via</em> physics-constrained generative learning",
-    "date": "2026-05-18T10:00:00.000Z",
+    "title": "Supramolecular Chiral Assembly of Open-Shell Quinoids With Chiral Additives and Their Spin-Dependent Transport in Magneto Field-Effect Transistors",
+    "date": "2026-05-19T10:00:00.000Z",
     "institutions": [
+      "GIST",
       "IBS",
-      "KAIST"
+      "KAIST",
+      "KIST"
     ]
   }
 }
