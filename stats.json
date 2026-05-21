@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-05-20T21:03:30.014Z",
+  "lastUpdate": "2026-05-21T10:50:32.716Z",
   "totalItems": 150,
-  "totalArchived": 84472,
-  "newPapersAdded": 145,
+  "totalArchived": 84701,
+  "newPapersAdded": 229,
   "institutionBreakdown": {
     "KAIST": 10,
-    "SNU": 49,
+    "SNU": 29,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 4,
-    "Korea University": 58,
-    "IBS": 56,
+    "POSTECH": 2,
+    "Korea University": 24,
+    "IBS": 100,
     "UNIST": 2,
     "Hanyang University": 2,
-    "KIST": 2,
+    "KIST": 3,
     "GIST": 2,
-    "Kyung Hee University": 2,
-    "Pusan National University": 1
+    "Kyung Hee University": 6,
+    "Pusan National University": 3
   },
   "subjectAreaBreakdown": {
-    "Materials Science": 9,
-    "Multidisciplinary": 76,
-    "Neuroscience": 7,
-    "Cancer Research": 21,
-    "Computer Science": 5,
-    "Biomedical": 32
+    "Biomedical": 32,
+    "Multidisciplinary": 83,
+    "Cancer Research": 11,
+    "Neuroscience": 10,
+    "Materials Science": 13,
+    "Computer Science": 1
   },
-  "multiInstitutional": 24,
+  "multiInstitutional": 17,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,13 +44,15 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Dry-Crafted Charge-Conductive ZrO<sub>2</sub> <sub>-</sub> <sub>x</sub> Cathode Shell Coating for High-Performance Sulfide-Based Solid-State Batteries",
-    "date": "2026-05-20T10:00:00.000Z",
+    "title": "Efficacy and Safety of Fimasartan/Indapamide Combination Therapy versus Fimasartan Monotherapy in Patients with Essential Hypertension Inadequately Responding to Fimasartan 30 mg (FINEDUO): A Randomized, Double-Blind, Multicenter, Phase III Study",
+    "date": "2026-05-21T10:00:00.000Z",
     "institutions": [
-      "IBS",
+      "Hanyang University",
       "KAIST",
-      "SNU",
-      "UNIST"
+      "Korea University",
+      "Kyung Hee University",
+      "Pusan National University",
+      "SNU"
     ]
   }
 }
