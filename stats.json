@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-05-21T10:50:32.716Z",
+  "lastUpdate": "2026-05-21T20:53:03.771Z",
   "totalItems": 150,
-  "totalArchived": 84701,
-  "newPapersAdded": 229,
+  "totalArchived": 84819,
+  "newPapersAdded": 118,
   "institutionBreakdown": {
-    "KAIST": 10,
-    "SNU": 29,
+    "KAIST": 3,
+    "SNU": 37,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 2,
-    "Korea University": 24,
-    "IBS": 100,
-    "UNIST": 2,
-    "Hanyang University": 2,
-    "KIST": 3,
-    "GIST": 2,
+    "POSTECH": 1,
+    "Korea University": 35,
+    "IBS": 87,
+    "UNIST": 1,
+    "Hanyang University": 3,
+    "KIST": 0,
+    "GIST": 1,
     "Kyung Hee University": 6,
-    "Pusan National University": 3
+    "Pusan National University": 2
   },
   "subjectAreaBreakdown": {
-    "Biomedical": 32,
-    "Multidisciplinary": 83,
-    "Cancer Research": 11,
-    "Neuroscience": 10,
-    "Materials Science": 13,
-    "Computer Science": 1
+    "Multidisciplinary": 72,
+    "Biomedical": 40,
+    "Computer Science": 3,
+    "Cancer Research": 16,
+    "Materials Science": 14,
+    "Neuroscience": 5
   },
-  "multiInstitutional": 17,
+  "multiInstitutional": 16,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,14 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Efficacy and Safety of Fimasartan/Indapamide Combination Therapy versus Fimasartan Monotherapy in Patients with Essential Hypertension Inadequately Responding to Fimasartan 30 mg (FINEDUO): A Randomized, Double-Blind, Multicenter, Phase III Study",
+    "title": "Deoxygenative Single-Carbon Atom Transfer: Accessing Strained Carbocycles From Alkenes and Aldehydes With Designer Dual-Functional Reagent",
     "date": "2026-05-21T10:00:00.000Z",
     "institutions": [
-      "Hanyang University",
+      "IBS",
       "KAIST",
-      "Korea University",
-      "Kyung Hee University",
-      "Pusan National University",
       "SNU"
     ]
   }
