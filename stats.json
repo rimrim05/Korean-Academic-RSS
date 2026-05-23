@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-05-23T09:18:30.354Z",
+  "lastUpdate": "2026-05-23T20:08:57.510Z",
   "totalItems": 150,
-  "totalArchived": 85308,
-  "newPapersAdded": 104,
+  "totalArchived": 85494,
+  "newPapersAdded": 186,
   "institutionBreakdown": {
-    "KAIST": 9,
-    "SNU": 56,
+    "KAIST": 16,
+    "SNU": 30,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 2,
-    "Korea University": 53,
-    "IBS": 50,
+    "POSTECH": 1,
+    "Korea University": 18,
+    "IBS": 100,
     "UNIST": 0,
-    "Hanyang University": 5,
-    "KIST": 1,
-    "GIST": 2,
-    "Kyung Hee University": 4,
+    "Hanyang University": 4,
+    "KIST": 0,
+    "GIST": 1,
+    "Kyung Hee University": 3,
     "Pusan National University": 3
   },
   "subjectAreaBreakdown": {
-    "Materials Science": 21,
-    "Multidisciplinary": 82,
-    "Biomedical": 23,
-    "Cancer Research": 18,
-    "Neuroscience": 5,
-    "Computer Science": 1
+    "Multidisciplinary": 58,
+    "Biomedical": 57,
+    "Cancer Research": 14,
+    "Computer Science": 5,
+    "Materials Science": 6,
+    "Neuroscience": 10
   },
-  "multiInstitutional": 24,
+  "multiInstitutional": 19,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,8 +44,8 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Magnetogravitationally regulated streamer accretion onto a class 0 protostellar system",
-    "date": "2026-05-22T10:00:00.000Z",
+    "title": "Placental transcriptome profiling and immune signature differences in pregnancies with and without gestational diabetes mellitus: An observational study",
+    "date": "2026-05-23T10:00:00.000Z",
     "institutions": [
       "IBS",
       "KAIST"
