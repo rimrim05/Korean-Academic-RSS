@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-05-25T20:24:51.978Z",
+  "lastUpdate": "2026-05-26T20:57:35.456Z",
   "totalItems": 150,
-  "totalArchived": 85983,
-  "newPapersAdded": 184,
+  "totalArchived": 86155,
+  "newPapersAdded": 172,
   "institutionBreakdown": {
-    "KAIST": 5,
-    "SNU": 68,
+    "KAIST": 10,
+    "SNU": 37,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 2,
-    "Korea University": 37,
-    "IBS": 57,
+    "POSTECH": 1,
+    "Korea University": 24,
+    "IBS": 100,
     "UNIST": 0,
-    "Hanyang University": 2,
-    "KIST": 3,
+    "Hanyang University": 5,
+    "KIST": 4,
     "GIST": 1,
-    "Kyung Hee University": 7,
-    "Pusan National University": 1
+    "Kyung Hee University": 3,
+    "Pusan National University": 2
   },
   "subjectAreaBreakdown": {
-    "Materials Science": 8,
-    "Multidisciplinary": 78,
-    "Cancer Research": 18,
-    "Biomedical": 36,
+    "Multidisciplinary": 85,
+    "Materials Science": 11,
+    "Biomedical": 32,
+    "Cancer Research": 12,
     "Neuroscience": 8,
     "Computer Science": 2
   },
-  "multiInstitutional": 23,
+  "multiInstitutional": 31,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,14 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Identification of precursor origins of synthetic graphite anodes in lithium-ion batteries using LDI-MS and multivariate analysis",
-    "date": "2026-05-25T10:00:00.000Z",
+    "title": "One-step synthesis of a mechanically robust, humidity-stable anti-reflective sub-micron coating with high transparency",
+    "date": "2026-05-26T10:00:00.000Z",
     "institutions": [
       "IBS",
-      "KAIST",
-      "KIST",
-      "POSTECH",
-      "SNU"
+      "KAIST"
     ]
   }
 }
