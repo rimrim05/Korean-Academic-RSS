@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-05-28T11:04:31.720Z",
+  "lastUpdate": "2026-05-28T21:12:43.848Z",
   "totalItems": 150,
-  "totalArchived": 86942,
-  "newPapersAdded": 258,
+  "totalArchived": 87067,
+  "newPapersAdded": 125,
   "institutionBreakdown": {
-    "KAIST": 2,
-    "SNU": 44,
+    "KAIST": 3,
+    "SNU": 56,
     "Yonsei University": 0,
     "SKKU": 0,
     "POSTECH": 2,
-    "Korea University": 27,
-    "IBS": 90,
+    "Korea University": 44,
+    "IBS": 63,
     "UNIST": 0,
     "Hanyang University": 2,
     "KIST": 0,
-    "GIST": 1,
-    "Kyung Hee University": 3,
-    "Pusan National University": 1
+    "GIST": 2,
+    "Kyung Hee University": 4,
+    "Pusan National University": 4
   },
   "subjectAreaBreakdown": {
-    "Materials Science": 10,
-    "Multidisciplinary": 82,
-    "Biomedical": 42,
-    "Cancer Research": 13,
-    "Computer Science": 1,
-    "Neuroscience": 2
+    "Multidisciplinary": 81,
+    "Materials Science": 7,
+    "Biomedical": 41,
+    "Cancer Research": 15,
+    "Neuroscience": 3,
+    "Computer Science": 3
   },
-  "multiInstitutional": 21,
+  "multiInstitutional": 27,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,10 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Removal of iodine from organic media using diethylene triamine-grafted vinylbenzyl chloride-divinylbenzene resin",
+    "title": "Giant Orbital Rashba-Edelstein Effect in Crystalline Cu<sub>2</sub>O/Cu Heterostructures",
     "date": "2026-05-28T10:00:00.000Z",
     "institutions": [
-      "KAIST"
+      "KAIST",
+      "Pusan National University"
     ]
   }
 }
