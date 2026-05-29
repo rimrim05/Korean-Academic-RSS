@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-05-29T10:55:44.145Z",
+  "lastUpdate": "2026-05-29T21:10:39.363Z",
   "totalItems": 150,
-  "totalArchived": 87067,
-  "newPapersAdded": 0,
+  "totalArchived": 87338,
+  "newPapersAdded": 271,
   "institutionBreakdown": {
-    "KAIST": 3,
-    "SNU": 56,
+    "KAIST": 13,
+    "SNU": 43,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 2,
-    "Korea University": 44,
-    "IBS": 63,
+    "POSTECH": 1,
+    "Korea University": 43,
+    "IBS": 74,
     "UNIST": 0,
-    "Hanyang University": 2,
-    "KIST": 0,
-    "GIST": 2,
-    "Kyung Hee University": 4,
+    "Hanyang University": 1,
+    "KIST": 1,
+    "GIST": 4,
+    "Kyung Hee University": 3,
     "Pusan National University": 4
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 81,
-    "Materials Science": 7,
-    "Biomedical": 41,
-    "Cancer Research": 15,
-    "Neuroscience": 3,
-    "Computer Science": 3
+    "Materials Science": 8,
+    "Multidisciplinary": 86,
+    "Biomedical": 27,
+    "Neuroscience": 5,
+    "Cancer Research": 20,
+    "Computer Science": 4
   },
-  "multiInstitutional": 27,
+  "multiInstitutional": 23,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Giant Orbital Rashba-Edelstein Effect in Crystalline Cu<sub>2</sub>O/Cu Heterostructures",
-    "date": "2026-05-28T10:00:00.000Z",
+    "title": "Leaf-Inspired Eutectic Skin With Extreme Fatigue Resistance and Robust Wet Adhesion for Amphibious Epidermal Electronics",
+    "date": "2026-05-29T10:00:00.000Z",
     "institutions": [
-      "KAIST",
-      "Pusan National University"
+      "IBS",
+      "KAIST"
     ]
   }
 }
