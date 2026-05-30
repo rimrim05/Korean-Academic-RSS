@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-05-29T21:10:39.363Z",
+  "lastUpdate": "2026-05-30T09:28:51.073Z",
   "totalItems": 150,
-  "totalArchived": 87338,
-  "newPapersAdded": 271,
+  "totalArchived": 87528,
+  "newPapersAdded": 190,
   "institutionBreakdown": {
-    "KAIST": 13,
-    "SNU": 43,
+    "KAIST": 20,
+    "SNU": 79,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 1,
-    "Korea University": 43,
-    "IBS": 74,
-    "UNIST": 0,
-    "Hanyang University": 1,
+    "POSTECH": 4,
+    "Korea University": 78,
+    "IBS": 4,
+    "UNIST": 4,
+    "Hanyang University": 5,
     "KIST": 1,
-    "GIST": 4,
-    "Kyung Hee University": 3,
-    "Pusan National University": 4
+    "GIST": 6,
+    "Kyung Hee University": 5,
+    "Pusan National University": 6
   },
   "subjectAreaBreakdown": {
-    "Materials Science": 8,
+    "Neuroscience": 7,
     "Multidisciplinary": 86,
-    "Biomedical": 27,
-    "Neuroscience": 5,
-    "Cancer Research": 20,
-    "Computer Science": 4
+    "Materials Science": 10,
+    "Biomedical": 28,
+    "Computer Science": 5,
+    "Cancer Research": 14
   },
-  "multiInstitutional": 23,
+  "multiInstitutional": 40,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,12 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Leaf-Inspired Eutectic Skin With Extreme Fatigue Resistance and Robust Wet Adhesion for Amphibious Epidermal Electronics",
+    "title": "Rapid and reliable computational markers of decision-making for predicting daily smoking behavior and smoking cessation treatment outcomes",
     "date": "2026-05-29T10:00:00.000Z",
     "institutions": [
       "IBS",
-      "KAIST"
+      "KAIST",
+      "SNU"
     ]
   }
 }
