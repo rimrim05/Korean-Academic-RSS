@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-05-30T20:12:42.478Z",
+  "lastUpdate": "2026-05-31T10:00:17.672Z",
   "totalItems": 150,
-  "totalArchived": 87596,
-  "newPapersAdded": 68,
+  "totalArchived": 87766,
+  "newPapersAdded": 170,
   "institutionBreakdown": {
-    "KAIST": 22,
-    "SNU": 86,
+    "KAIST": 7,
+    "SNU": 48,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 4,
-    "Korea University": 21,
-    "IBS": 55,
-    "UNIST": 5,
-    "Hanyang University": 6,
-    "KIST": 1,
-    "GIST": 6,
-    "Kyung Hee University": 6,
-    "Pusan National University": 6
+    "POSTECH": 1,
+    "Korea University": 40,
+    "IBS": 76,
+    "UNIST": 3,
+    "Hanyang University": 4,
+    "KIST": 2,
+    "GIST": 1,
+    "Kyung Hee University": 3,
+    "Pusan National University": 2
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 80,
-    "Biomedical": 35,
-    "Materials Science": 9,
-    "Cancer Research": 14,
-    "Computer Science": 6,
-    "Neuroscience": 6
+    "Biomedical": 41,
+    "Multidisciplinary": 66,
+    "Cancer Research": 21,
+    "Computer Science": 5,
+    "Neuroscience": 8,
+    "Materials Science": 9
   },
-  "multiInstitutional": 43,
+  "multiInstitutional": 28,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,12 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Swimming patterns of a multi-mode bacterial swimmer in fluid shear flow",
+    "title": "Co-existence of clinical high-risk for psychosis and bipolar disorder: a multi-dimensional psychopathological analysis",
     "date": "2026-05-30T10:00:00.000Z",
     "institutions": [
       "IBS",
       "KAIST",
+      "Korea University",
       "SNU"
     ]
   }
