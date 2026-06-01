@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-05-31T20:17:32.664Z",
+  "lastUpdate": "2026-06-01T13:09:12.463Z",
   "totalItems": 150,
-  "totalArchived": 87786,
-  "newPapersAdded": 20,
+  "totalArchived": 87936,
+  "newPapersAdded": 150,
   "institutionBreakdown": {
-    "KAIST": 9,
-    "SNU": 52,
+    "KAIST": 4,
+    "SNU": 41,
     "Yonsei University": 0,
     "SKKU": 0,
     "POSTECH": 1,
-    "Korea University": 43,
-    "IBS": 71,
-    "UNIST": 3,
+    "Korea University": 17,
+    "IBS": 100,
+    "UNIST": 2,
     "Hanyang University": 5,
     "KIST": 2,
-    "GIST": 2,
-    "Kyung Hee University": 3,
+    "GIST": 4,
+    "Kyung Hee University": 2,
     "Pusan National University": 2
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 68,
-    "Biomedical": 43,
-    "Cancer Research": 19,
-    "Neuroscience": 9,
+    "Materials Science": 8,
+    "Multidisciplinary": 80,
+    "Biomedical": 29,
+    "Neuroscience": 6,
     "Computer Science": 5,
-    "Materials Science": 6
+    "Cancer Research": 22
   },
-  "multiInstitutional": 33,
+  "multiInstitutional": 22,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,8 +44,8 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "SU-Eohyeol Pharmacopuncture Ameliorates Parkinson's Disease-Associated Pain via the CB1 and PPARγ Pathways in an MPTP-Induced Mouse Model",
-    "date": "2026-05-31T10:00:00.000Z",
+    "title": "Bias-Tunable Two-Terminal Organic Photodetector for Intelligent Imaging",
+    "date": "2026-06-01T10:00:00.000Z",
     "institutions": [
       "IBS",
       "KAIST"
