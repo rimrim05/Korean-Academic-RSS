@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-06-02T11:48:21.676Z",
+  "lastUpdate": "2026-06-02T21:54:29.884Z",
   "totalItems": 150,
-  "totalArchived": 88320,
-  "newPapersAdded": 217,
+  "totalArchived": 88449,
+  "newPapersAdded": 129,
   "institutionBreakdown": {
-    "KAIST": 10,
-    "SNU": 39,
+    "KAIST": 8,
+    "SNU": 53,
     "Yonsei University": 0,
     "SKKU": 0,
     "POSTECH": 2,
-    "Korea University": 18,
-    "IBS": 100,
+    "Korea University": 35,
+    "IBS": 69,
     "UNIST": 0,
-    "Hanyang University": 3,
+    "Hanyang University": 2,
     "KIST": 0,
-    "GIST": 2,
+    "GIST": 1,
     "Kyung Hee University": 3,
-    "Pusan National University": 5
+    "Pusan National University": 2
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 79,
-    "Biomedical": 34,
     "Cancer Research": 13,
-    "Materials Science": 15,
-    "Neuroscience": 7,
-    "Computer Science": 2
+    "Multidisciplinary": 75,
+    "Biomedical": 46,
+    "Computer Science": 2,
+    "Materials Science": 7,
+    "Neuroscience": 7
   },
-  "multiInstitutional": 22,
+  "multiInstitutional": 21,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,7 +44,7 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Weak In-Plane Ferromagnetism and Electronic Nematicity in the Distorted Triple-Q Magnetic Phase of Co<sub>1/3</sub>TaS<sub>2</sub>",
+    "title": "A <sup>64</sup>Cu-Labeled Oxopurine Derivative for Translocator Protein-Targeted Inflammation Imaging",
     "date": "2026-06-02T10:00:00.000Z",
     "institutions": [
       "IBS",
