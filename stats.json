@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-06-01T22:13:25.597Z",
+  "lastUpdate": "2026-06-02T11:48:21.676Z",
   "totalItems": 150,
-  "totalArchived": 88103,
-  "newPapersAdded": 167,
+  "totalArchived": 88320,
+  "newPapersAdded": 217,
   "institutionBreakdown": {
     "KAIST": 10,
-    "SNU": 59,
+    "SNU": 39,
     "Yonsei University": 0,
     "SKKU": 0,
     "POSTECH": 2,
-    "Korea University": 42,
-    "IBS": 60,
-    "UNIST": 1,
-    "Hanyang University": 5,
-    "KIST": 2,
-    "GIST": 5,
-    "Kyung Hee University": 1,
-    "Pusan National University": 3
+    "Korea University": 18,
+    "IBS": 100,
+    "UNIST": 0,
+    "Hanyang University": 3,
+    "KIST": 0,
+    "GIST": 2,
+    "Kyung Hee University": 3,
+    "Pusan National University": 5
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 81,
-    "Materials Science": 10,
-    "Neuroscience": 8,
-    "Cancer Research": 18,
-    "Biomedical": 32,
-    "Computer Science": 1
+    "Multidisciplinary": 79,
+    "Biomedical": 34,
+    "Cancer Research": 13,
+    "Materials Science": 15,
+    "Neuroscience": 7,
+    "Computer Science": 2
   },
-  "multiInstitutional": 29,
+  "multiInstitutional": 22,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,12 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Laplace-Pressure-Stabilized Rutile Solid-Solution Catalysts for Acidic Water Oxidation: Enabling DSA-Inspired Compositions",
-    "date": "2026-06-01T10:00:00.000Z",
+    "title": "Weak In-Plane Ferromagnetism and Electronic Nematicity in the Distorted Triple-Q Magnetic Phase of Co<sub>1/3</sub>TaS<sub>2</sub>",
+    "date": "2026-06-02T10:00:00.000Z",
     "institutions": [
       "IBS",
-      "KAIST"
+      "KAIST",
+      "SNU"
     ]
   }
 }
