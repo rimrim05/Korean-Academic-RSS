@@ -1,32 +1,31 @@
 {
-  "lastUpdate": "2026-06-02T21:54:29.884Z",
+  "lastUpdate": "2026-06-03T12:17:48.879Z",
   "totalItems": 150,
-  "totalArchived": 88449,
-  "newPapersAdded": 129,
+  "totalArchived": 88706,
+  "newPapersAdded": 257,
   "institutionBreakdown": {
-    "KAIST": 8,
-    "SNU": 53,
+    "KAIST": 9,
+    "SNU": 29,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 2,
-    "Korea University": 35,
-    "IBS": 69,
-    "UNIST": 0,
+    "POSTECH": 0,
+    "Korea University": 21,
+    "IBS": 100,
+    "UNIST": 1,
     "Hanyang University": 2,
-    "KIST": 0,
-    "GIST": 1,
-    "Kyung Hee University": 3,
+    "KIST": 1,
+    "GIST": 2,
+    "Kyung Hee University": 2,
     "Pusan National University": 2
   },
   "subjectAreaBreakdown": {
-    "Cancer Research": 13,
-    "Multidisciplinary": 75,
-    "Biomedical": 46,
-    "Computer Science": 2,
-    "Materials Science": 7,
-    "Neuroscience": 7
+    "Biomedical": 35,
+    "Materials Science": 12,
+    "Multidisciplinary": 82,
+    "Neuroscience": 8,
+    "Cancer Research": 13
   },
-  "multiInstitutional": 21,
+  "multiInstitutional": 11,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +43,12 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "A <sup>64</sup>Cu-Labeled Oxopurine Derivative for Translocator Protein-Targeted Inflammation Imaging",
-    "date": "2026-06-02T10:00:00.000Z",
+    "title": "SFXN3 Serves as a Predictive Biomarker for Cisplatin Response and Survival in Head and Neck Squamous Cell Carcinoma",
+    "date": "2026-06-03T10:00:00.000Z",
     "institutions": [
       "IBS",
       "KAIST",
+      "Korea University",
       "SNU"
     ]
   }
