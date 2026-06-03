@@ -1,31 +1,32 @@
 {
-  "lastUpdate": "2026-06-03T12:17:48.879Z",
+  "lastUpdate": "2026-06-03T21:55:21.894Z",
   "totalItems": 150,
-  "totalArchived": 88706,
-  "newPapersAdded": 257,
+  "totalArchived": 88835,
+  "newPapersAdded": 129,
   "institutionBreakdown": {
-    "KAIST": 9,
-    "SNU": 29,
+    "KAIST": 7,
+    "SNU": 37,
     "Yonsei University": 0,
     "SKKU": 0,
     "POSTECH": 0,
-    "Korea University": 21,
-    "IBS": 100,
-    "UNIST": 1,
-    "Hanyang University": 2,
+    "Korea University": 40,
+    "IBS": 76,
+    "UNIST": 2,
+    "Hanyang University": 3,
     "KIST": 1,
-    "GIST": 2,
+    "GIST": 1,
     "Kyung Hee University": 2,
-    "Pusan National University": 2
+    "Pusan National University": 0
   },
   "subjectAreaBreakdown": {
-    "Biomedical": 35,
-    "Materials Science": 12,
-    "Multidisciplinary": 82,
-    "Neuroscience": 8,
-    "Cancer Research": 13
+    "Multidisciplinary": 81,
+    "Biomedical": 36,
+    "Materials Science": 9,
+    "Neuroscience": 5,
+    "Cancer Research": 16,
+    "Computer Science": 3
   },
-  "multiInstitutional": 11,
+  "multiInstitutional": 14,
   "institutions": [
     "KAIST",
     "SNU",
@@ -43,13 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "SFXN3 Serves as a Predictive Biomarker for Cisplatin Response and Survival in Head and Neck Squamous Cell Carcinoma",
+    "title": "Salivary Enzyme-Responsive Switching Nanoparticles Overcoming Diffusion and Absorption Barriers for Transmucosal Delivery",
     "date": "2026-06-03T10:00:00.000Z",
     "institutions": [
       "IBS",
-      "KAIST",
-      "Korea University",
-      "SNU"
+      "KAIST"
     ]
   }
 }
