@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-06-04T10:46:06.457Z",
+  "lastUpdate": "2026-06-04T21:00:20.755Z",
   "totalItems": 150,
-  "totalArchived": 89090,
-  "newPapersAdded": 255,
+  "totalArchived": 89218,
+  "newPapersAdded": 128,
   "institutionBreakdown": {
-    "KAIST": 8,
-    "SNU": 56,
+    "KAIST": 11,
+    "SNU": 68,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 0,
-    "Korea University": 23,
-    "IBS": 80,
+    "POSTECH": 2,
+    "Korea University": 42,
+    "IBS": 48,
     "UNIST": 0,
     "Hanyang University": 4,
-    "KIST": 0,
-    "GIST": 5,
+    "KIST": 1,
+    "GIST": 6,
     "Kyung Hee University": 4,
-    "Pusan National University": 1
+    "Pusan National University": 2
   },
   "subjectAreaBreakdown": {
-    "Biomedical": 43,
-    "Materials Science": 8,
-    "Multidisciplinary": 68,
-    "Cancer Research": 14,
-    "Computer Science": 11,
-    "Neuroscience": 6
+    "Neuroscience": 7,
+    "Biomedical": 50,
+    "Materials Science": 9,
+    "Multidisciplinary": 63,
+    "Cancer Research": 15,
+    "Computer Science": 6
   },
-  "multiInstitutional": 24,
+  "multiInstitutional": 31,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,13 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Local versus distal acupoint low-level light therapy for pain relief in primary dysmenorrhea: protocol for a randomized, assessor- and statistician-blinded, pilot study",
+    "title": "Development and effectiveness of a mindfulness-based cognitive therapy for individuals with spinal cord injury: Changes in quality of life and inflammatory biomarkers",
     "date": "2026-06-04T10:00:00.000Z",
     "institutions": [
       "IBS",
-      "KAIST"
+      "KAIST",
+      "Korea University",
+      "SNU"
     ]
   }
 }
