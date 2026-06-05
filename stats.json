@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-06-05T10:57:07.450Z",
+  "lastUpdate": "2026-06-05T20:50:22.413Z",
   "totalItems": 150,
-  "totalArchived": 89486,
-  "newPapersAdded": 268,
+  "totalArchived": 89600,
+  "newPapersAdded": 114,
   "institutionBreakdown": {
-    "KAIST": 6,
-    "SNU": 44,
+    "KAIST": 7,
+    "SNU": 50,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 1,
-    "Korea University": 18,
-    "IBS": 94,
+    "POSTECH": 2,
+    "Korea University": 37,
+    "IBS": 76,
     "UNIST": 0,
-    "Hanyang University": 3,
+    "Hanyang University": 4,
     "KIST": 1,
-    "GIST": 2,
+    "GIST": 3,
     "Kyung Hee University": 3,
     "Pusan National University": 1
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 88,
-    "Biomedical": 37,
-    "Computer Science": 5,
-    "Materials Science": 6,
+    "Biomedical": 44,
+    "Multidisciplinary": 77,
+    "Materials Science": 9,
     "Cancer Research": 11,
-    "Neuroscience": 3
+    "Computer Science": 4,
+    "Neuroscience": 5
   },
-  "multiInstitutional": 20,
+  "multiInstitutional": 29,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,13 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Acupuncture-related therapies for drug addiction: a systematic review and network meta-analysis",
+    "title": "Distinct predictive factors for acute severe ulcerative colitis in East Asian and Western populations",
     "date": "2026-06-05T10:00:00.000Z",
     "institutions": [
+      "GIST",
       "IBS",
-      "KAIST"
+      "KAIST",
+      "SNU"
     ]
   }
 }
