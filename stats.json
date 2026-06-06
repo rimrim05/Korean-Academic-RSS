@@ -1,32 +1,31 @@
 {
-  "lastUpdate": "2026-06-06T09:33:11.978Z",
+  "lastUpdate": "2026-06-06T20:16:20.943Z",
   "totalItems": 150,
-  "totalArchived": 89778,
-  "newPapersAdded": 178,
+  "totalArchived": 89895,
+  "newPapersAdded": 117,
   "institutionBreakdown": {
-    "KAIST": 14,
-    "SNU": 91,
+    "KAIST": 17,
+    "SNU": 46,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 4,
-    "Korea University": 63,
-    "IBS": 6,
-    "UNIST": 0,
-    "Hanyang University": 6,
-    "KIST": 3,
-    "GIST": 4,
-    "Kyung Hee University": 7,
-    "Pusan National University": 2
+    "POSTECH": 1,
+    "Korea University": 18,
+    "IBS": 90,
+    "UNIST": 1,
+    "Hanyang University": 2,
+    "KIST": 2,
+    "GIST": 2,
+    "Kyung Hee University": 3,
+    "Pusan National University": 3
   },
   "subjectAreaBreakdown": {
-    "Biomedical": 39,
-    "Multidisciplinary": 76,
-    "Materials Science": 9,
-    "Cancer Research": 18,
-    "Neuroscience": 5,
-    "Computer Science": 3
+    "Multidisciplinary": 71,
+    "Materials Science": 12,
+    "Biomedical": 35,
+    "Neuroscience": 8,
+    "Cancer Research": 24
   },
-  "multiInstitutional": 40,
+  "multiInstitutional": 27,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,12 +43,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Developing evidence-based Korean medicine clinical practice guidelines for pediatric anorexia",
-    "date": "2026-06-05T10:00:00.000Z",
+    "title": "Prophylactic Administration of Gypsophila oldhamiana Extract Restricts Acute Toxoplasma gondii Infection via the DC-IL-12-CD8⁺ T Cell Axis in a Murine Model",
+    "date": "2026-06-06T10:00:00.000Z",
     "institutions": [
       "IBS",
       "KAIST",
-      "Kyung Hee University",
       "SNU"
     ]
   }
