@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-06-07T10:12:08.065Z",
+  "lastUpdate": "2026-06-07T20:19:33.047Z",
   "totalItems": 150,
-  "totalArchived": 90036,
-  "newPapersAdded": 141,
+  "totalArchived": 90075,
+  "newPapersAdded": 39,
   "institutionBreakdown": {
     "KAIST": 3,
-    "SNU": 42,
+    "SNU": 44,
     "Yonsei University": 0,
     "SKKU": 0,
     "POSTECH": 2,
-    "Korea University": 31,
-    "IBS": 85,
+    "Korea University": 32,
+    "IBS": 81,
     "UNIST": 1,
     "Hanyang University": 3,
     "KIST": 1,
-    "GIST": 0,
-    "Kyung Hee University": 3,
+    "GIST": 1,
+    "Kyung Hee University": 4,
     "Pusan National University": 1
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 74,
-    "Materials Science": 8,
-    "Biomedical": 39,
-    "Cancer Research": 20,
+    "Multidisciplinary": 85,
+    "Biomedical": 25,
+    "Computer Science": 3,
     "Neuroscience": 8,
-    "Computer Science": 1
+    "Cancer Research": 19,
+    "Materials Science": 10
   },
-  "multiInstitutional": 20,
+  "multiInstitutional": 21,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,10 +44,9 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Prophylactic Administration of Gypsophila oldhamiana Extract Restricts Acute Toxoplasma gondii Infection via the DC-IL-12-CD8⁺ T Cell Axis in a Murine Model",
-    "date": "2026-06-06T10:00:00.000Z",
+    "title": "Precise Measurement of Matter-Antimatter Asymmetry with Entangled Hyperon-Antihyperon Pairs",
+    "date": "2026-06-07T10:00:00.000Z",
     "institutions": [
-      "KAIST",
       "SNU"
     ]
   }
