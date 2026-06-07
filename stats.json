@@ -1,31 +1,32 @@
 {
-  "lastUpdate": "2026-06-06T20:16:20.943Z",
+  "lastUpdate": "2026-06-07T10:12:08.065Z",
   "totalItems": 150,
-  "totalArchived": 89895,
-  "newPapersAdded": 117,
+  "totalArchived": 90036,
+  "newPapersAdded": 141,
   "institutionBreakdown": {
-    "KAIST": 17,
-    "SNU": 46,
+    "KAIST": 3,
+    "SNU": 42,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 1,
-    "Korea University": 18,
-    "IBS": 90,
+    "POSTECH": 2,
+    "Korea University": 31,
+    "IBS": 85,
     "UNIST": 1,
-    "Hanyang University": 2,
-    "KIST": 2,
-    "GIST": 2,
+    "Hanyang University": 3,
+    "KIST": 1,
+    "GIST": 0,
     "Kyung Hee University": 3,
-    "Pusan National University": 3
+    "Pusan National University": 1
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 71,
-    "Materials Science": 12,
-    "Biomedical": 35,
+    "Multidisciplinary": 74,
+    "Materials Science": 8,
+    "Biomedical": 39,
+    "Cancer Research": 20,
     "Neuroscience": 8,
-    "Cancer Research": 24
+    "Computer Science": 1
   },
-  "multiInstitutional": 27,
+  "multiInstitutional": 20,
   "institutions": [
     "KAIST",
     "SNU",
@@ -46,7 +47,6 @@
     "title": "Prophylactic Administration of Gypsophila oldhamiana Extract Restricts Acute Toxoplasma gondii Infection via the DC-IL-12-CD8⁺ T Cell Axis in a Murine Model",
     "date": "2026-06-06T10:00:00.000Z",
     "institutions": [
-      "IBS",
       "KAIST",
       "SNU"
     ]
