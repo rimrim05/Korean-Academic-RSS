@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-06-08T21:12:29.554Z",
+  "lastUpdate": "2026-06-09T10:44:47.925Z",
   "totalItems": 150,
-  "totalArchived": 90439,
-  "newPapersAdded": 204,
+  "totalArchived": 90651,
+  "newPapersAdded": 212,
   "institutionBreakdown": {
-    "KAIST": 6,
-    "SNU": 74,
+    "KAIST": 10,
+    "SNU": 30,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 0,
-    "Korea University": 65,
-    "IBS": 20,
-    "UNIST": 1,
-    "Hanyang University": 2,
+    "POSTECH": 1,
+    "Korea University": 23,
+    "IBS": 100,
+    "UNIST": 0,
+    "Hanyang University": 4,
     "KIST": 1,
-    "GIST": 4,
-    "Kyung Hee University": 3,
-    "Pusan National University": 2
+    "GIST": 6,
+    "Kyung Hee University": 6,
+    "Pusan National University": 4
   },
   "subjectAreaBreakdown": {
-    "Biomedical": 37,
-    "Multidisciplinary": 82,
-    "Computer Science": 7,
-    "Cancer Research": 14,
-    "Materials Science": 7,
-    "Neuroscience": 3
+    "Multidisciplinary": 86,
+    "Materials Science": 9,
+    "Biomedical": 36,
+    "Cancer Research": 9,
+    "Computer Science": 4,
+    "Neuroscience": 6
   },
-  "multiInstitutional": 24,
+  "multiInstitutional": 22,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,13 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Coronal hamate body fractures with dorsal fourth and fifth carpometacarpal joint instability: fracture patterns, injury mechanisms, surgical strategies, and outcomes",
-    "date": "2026-06-08T10:00:00.000Z",
+    "title": "Hyperactive BMP and Mechanosignaling Remodel Chromatin to Drive Aberrant Osteogenesis in FOP",
+    "date": "2026-06-09T10:00:00.000Z",
     "institutions": [
       "IBS",
-      "KAIST"
+      "KAIST",
+      "Kyung Hee University",
+      "SNU"
     ]
   }
 }
