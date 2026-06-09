@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-06-09T10:44:47.925Z",
+  "lastUpdate": "2026-06-09T21:03:13.285Z",
   "totalItems": 150,
-  "totalArchived": 90651,
-  "newPapersAdded": 212,
+  "totalArchived": 90785,
+  "newPapersAdded": 134,
   "institutionBreakdown": {
-    "KAIST": 10,
-    "SNU": 30,
+    "KAIST": 3,
+    "SNU": 41,
     "Yonsei University": 0,
     "SKKU": 0,
     "POSTECH": 1,
-    "Korea University": 23,
-    "IBS": 100,
+    "Korea University": 42,
+    "IBS": 78,
     "UNIST": 0,
     "Hanyang University": 4,
-    "KIST": 1,
-    "GIST": 6,
+    "KIST": 2,
+    "GIST": 0,
     "Kyung Hee University": 6,
-    "Pusan National University": 4
+    "Pusan National University": 2
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 86,
-    "Materials Science": 9,
-    "Biomedical": 36,
-    "Cancer Research": 9,
-    "Computer Science": 4,
-    "Neuroscience": 6
+    "Multidisciplinary": 83,
+    "Materials Science": 10,
+    "Cancer Research": 17,
+    "Biomedical": 29,
+    "Neuroscience": 10,
+    "Computer Science": 1
   },
-  "multiInstitutional": 22,
+  "multiInstitutional": 24,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,13 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Hyperactive BMP and Mechanosignaling Remodel Chromatin to Drive Aberrant Osteogenesis in FOP",
+    "title": "Translation and Cross-Cultural Adaptation of the Chronic Rhinosinusitis Control Test for Global Use",
     "date": "2026-06-09T10:00:00.000Z",
     "institutions": [
       "IBS",
-      "KAIST",
-      "Kyung Hee University",
-      "SNU"
+      "KAIST"
     ]
   }
 }
