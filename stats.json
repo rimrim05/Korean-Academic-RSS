@@ -1,32 +1,31 @@
 {
-  "lastUpdate": "2026-06-10T11:07:19.182Z",
+  "lastUpdate": "2026-06-10T21:26:36.785Z",
   "totalItems": 150,
-  "totalArchived": 91023,
-  "newPapersAdded": 238,
+  "totalArchived": 91142,
+  "newPapersAdded": 119,
   "institutionBreakdown": {
-    "KAIST": 3,
-    "SNU": 33,
+    "KAIST": 4,
+    "SNU": 43,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 2,
-    "Korea University": 13,
-    "IBS": 100,
-    "UNIST": 1,
+    "POSTECH": 3,
+    "Korea University": 29,
+    "IBS": 87,
+    "UNIST": 0,
     "Hanyang University": 3,
-    "KIST": 0,
-    "GIST": 6,
+    "KIST": 1,
+    "GIST": 1,
     "Kyung Hee University": 3,
     "Pusan National University": 1
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 83,
-    "Cancer Research": 16,
-    "Materials Science": 4,
-    "Biomedical": 37,
-    "Neuroscience": 7,
-    "Computer Science": 3
+    "Multidisciplinary": 87,
+    "Biomedical": 34,
+    "Cancer Research": 15,
+    "Materials Science": 9,
+    "Neuroscience": 5
   },
-  "multiInstitutional": 13,
+  "multiInstitutional": 22,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,7 +43,7 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "A new role for an old actor: plant small RNAs orchestrate the phytobiome",
+    "title": "Experimental characterization of after-pulsing probability in InGaAs/InP-based single-photon avalanche photodiodes",
     "date": "2026-06-10T10:00:00.000Z",
     "institutions": [
       "IBS",
