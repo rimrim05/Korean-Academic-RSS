@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-06-11T11:53:42.924Z",
+  "lastUpdate": "2026-06-11T21:26:42.033Z",
   "totalItems": 150,
-  "totalArchived": 91412,
-  "newPapersAdded": 270,
+  "totalArchived": 91539,
+  "newPapersAdded": 127,
   "institutionBreakdown": {
-    "KAIST": 6,
-    "SNU": 46,
+    "KAIST": 10,
+    "SNU": 0,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 1,
-    "Korea University": 26,
-    "IBS": 84,
+    "POSTECH": 2,
+    "Korea University": 46,
+    "IBS": 96,
     "UNIST": 0,
-    "Hanyang University": 4,
+    "Hanyang University": 0,
     "KIST": 0,
-    "GIST": 2,
-    "Kyung Hee University": 3,
+    "GIST": 1,
+    "Kyung Hee University": 0,
     "Pusan National University": 0
   },
   "subjectAreaBreakdown": {
-    "Cancer Research": 25,
-    "Biomedical": 40,
-    "Multidisciplinary": 71,
-    "Neuroscience": 6,
-    "Materials Science": 6,
-    "Computer Science": 2
+    "Multidisciplinary": 78,
+    "Materials Science": 9,
+    "Biomedical": 36,
+    "Cancer Research": 18,
+    "Neuroscience": 4,
+    "Computer Science": 5
   },
-  "multiInstitutional": 19,
+  "multiInstitutional": 5,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,12 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Current Status of PSMA-Targeted Agents Based on Small Molecules for Prostate Cancer in Preclinical Studies",
+    "title": "Multivariate analysis of the effects of high seeding density on therapeutic protein production and sialylation in an intensified CHO cell culture process",
     "date": "2026-06-11T10:00:00.000Z",
     "institutions": [
       "IBS",
-      "KAIST",
-      "SNU"
+      "KAIST"
     ]
   }
 }
