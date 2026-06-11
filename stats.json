@@ -1,31 +1,32 @@
 {
-  "lastUpdate": "2026-06-10T21:26:36.785Z",
+  "lastUpdate": "2026-06-11T11:53:42.924Z",
   "totalItems": 150,
-  "totalArchived": 91142,
-  "newPapersAdded": 119,
+  "totalArchived": 91412,
+  "newPapersAdded": 270,
   "institutionBreakdown": {
-    "KAIST": 4,
-    "SNU": 43,
+    "KAIST": 6,
+    "SNU": 46,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 3,
-    "Korea University": 29,
-    "IBS": 87,
+    "POSTECH": 1,
+    "Korea University": 26,
+    "IBS": 84,
     "UNIST": 0,
-    "Hanyang University": 3,
-    "KIST": 1,
-    "GIST": 1,
+    "Hanyang University": 4,
+    "KIST": 0,
+    "GIST": 2,
     "Kyung Hee University": 3,
-    "Pusan National University": 1
+    "Pusan National University": 0
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 87,
-    "Biomedical": 34,
-    "Cancer Research": 15,
-    "Materials Science": 9,
-    "Neuroscience": 5
+    "Cancer Research": 25,
+    "Biomedical": 40,
+    "Multidisciplinary": 71,
+    "Neuroscience": 6,
+    "Materials Science": 6,
+    "Computer Science": 2
   },
-  "multiInstitutional": 22,
+  "multiInstitutional": 19,
   "institutions": [
     "KAIST",
     "SNU",
@@ -43,11 +44,12 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Experimental characterization of after-pulsing probability in InGaAs/InP-based single-photon avalanche photodiodes",
-    "date": "2026-06-10T10:00:00.000Z",
+    "title": "Current Status of PSMA-Targeted Agents Based on Small Molecules for Prostate Cancer in Preclinical Studies",
+    "date": "2026-06-11T10:00:00.000Z",
     "institutions": [
       "IBS",
-      "KAIST"
+      "KAIST",
+      "SNU"
     ]
   }
 }
