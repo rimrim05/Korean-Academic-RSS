@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-06-11T21:26:42.033Z",
+  "lastUpdate": "2026-06-12T11:11:56.163Z",
   "totalItems": 150,
-  "totalArchived": 91539,
-  "newPapersAdded": 127,
+  "totalArchived": 91855,
+  "newPapersAdded": 316,
   "institutionBreakdown": {
-    "KAIST": 10,
-    "SNU": 0,
+    "KAIST": 16,
+    "SNU": 91,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 2,
-    "Korea University": 46,
-    "IBS": 96,
-    "UNIST": 0,
-    "Hanyang University": 0,
-    "KIST": 0,
+    "POSTECH": 3,
+    "Korea University": 56,
+    "IBS": 9,
+    "UNIST": 2,
+    "Hanyang University": 4,
+    "KIST": 3,
     "GIST": 1,
-    "Kyung Hee University": 0,
-    "Pusan National University": 0
+    "Kyung Hee University": 5,
+    "Pusan National University": 2
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 78,
-    "Materials Science": 9,
-    "Biomedical": 36,
-    "Cancer Research": 18,
-    "Neuroscience": 4,
-    "Computer Science": 5
+    "Multidisciplinary": 65,
+    "Materials Science": 18,
+    "Biomedical": 39,
+    "Cancer Research": 19,
+    "Neuroscience": 7,
+    "Computer Science": 2
   },
-  "multiInstitutional": 5,
+  "multiInstitutional": 29,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,12 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Multivariate analysis of the effects of high seeding density on therapeutic protein production and sialylation in an intensified CHO cell culture process",
-    "date": "2026-06-11T10:00:00.000Z",
+    "title": "A Robust and Universal LC-MS/MS Method for Determination of N-Nitrosodimethylamine in Pharmaceuticals Using a C30 Column",
+    "date": "2026-06-12T10:00:00.000Z",
     "institutions": [
       "IBS",
-      "KAIST"
+      "KAIST",
+      "SNU"
     ]
   }
 }
