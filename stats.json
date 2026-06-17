@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-06-17T12:01:55.411Z",
+  "lastUpdate": "2026-06-17T21:16:29.256Z",
   "totalItems": 150,
-  "totalArchived": 93278,
-  "newPapersAdded": 268,
+  "totalArchived": 93407,
+  "newPapersAdded": 129,
   "institutionBreakdown": {
-    "KAIST": 0,
-    "SNU": 48,
+    "KAIST": 10,
+    "SNU": 61,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 1,
-    "Korea University": 39,
-    "IBS": 82,
+    "POSTECH": 2,
+    "Korea University": 49,
+    "IBS": 55,
     "UNIST": 1,
-    "Hanyang University": 4,
+    "Hanyang University": 5,
     "KIST": 2,
-    "GIST": 2,
-    "Kyung Hee University": 3,
-    "Pusan National University": 0
+    "GIST": 3,
+    "Kyung Hee University": 6,
+    "Pusan National University": 2
   },
   "subjectAreaBreakdown": {
-    "Biomedical": 32,
-    "Multidisciplinary": 75,
-    "Materials Science": 9,
-    "Cancer Research": 25,
-    "Computer Science": 2,
-    "Neuroscience": 7
+    "Neuroscience": 8,
+    "Computer Science": 3,
+    "Multidisciplinary": 79,
+    "Biomedical": 29,
+    "Cancer Research": 23,
+    "Materials Science": 8
   },
-  "multiInstitutional": 23,
+  "multiInstitutional": 34,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Relationships Among Type D Personality, Symptoms, Depression and Anxiety, and Quality of Life in Patients With Gastroesophageal Reflux Disease",
+    "title": "Paeonia suffruticosa root bark extract alleviates gut-brain axis dysfunction in DSS-induced colitis via suppression of intestinal necroptosis and glial activation",
     "date": "2026-06-17T10:00:00.000Z",
     "institutions": [
-      "Korea University",
-      "SNU"
+      "IBS",
+      "KAIST"
     ]
   }
 }
