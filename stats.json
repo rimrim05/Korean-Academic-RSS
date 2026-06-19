@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-06-18T21:25:21.546Z",
+  "lastUpdate": "2026-06-19T11:46:14.240Z",
   "totalItems": 150,
-  "totalArchived": 93761,
-  "newPapersAdded": 126,
+  "totalArchived": 94028,
+  "newPapersAdded": 267,
   "institutionBreakdown": {
-    "KAIST": 0,
-    "SNU": 39,
+    "KAIST": 10,
+    "SNU": 55,
     "Yonsei University": 0,
     "SKKU": 0,
     "POSTECH": 1,
-    "Korea University": 35,
-    "IBS": 85,
+    "Korea University": 33,
+    "IBS": 68,
     "UNIST": 0,
-    "Hanyang University": 1,
+    "Hanyang University": 3,
     "KIST": 0,
     "GIST": 3,
     "Kyung Hee University": 5,
-    "Pusan National University": 0
+    "Pusan National University": 2
   },
   "subjectAreaBreakdown": {
-    "Biomedical": 34,
-    "Multidisciplinary": 83,
-    "Neuroscience": 6,
-    "Computer Science": 7,
-    "Materials Science": 7,
-    "Cancer Research": 13
+    "Multidisciplinary": 78,
+    "Materials Science": 9,
+    "Cancer Research": 21,
+    "Biomedical": 37,
+    "Neuroscience": 4,
+    "Computer Science": 1
   },
-  "multiInstitutional": 13,
+  "multiInstitutional": 25,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,12 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Fosfomycin as Oral Transition Therapy Versus Continued Intravenous β-Lactams for Complicated Urinary Tract Infections Caused by Extended-Spectrum β-Lactamase-Producing Enterobacterales: A Multicenter, Open-Label, Randomized Controlled Trial",
-    "date": "2026-06-18T10:00:00.000Z",
+    "title": "2M Phase Engineering of W<sub>1-x</sub>Mo<sub>x</sub>S<sub>2</sub> Alloy Nanosheets for Enhanced Catalytic Hydrogen Evolution Reaction",
+    "date": "2026-06-19T10:00:00.000Z",
     "institutions": [
-      "GIST",
-      "SNU"
+      "IBS",
+      "KAIST",
+      "Korea University"
     ]
   }
 }
