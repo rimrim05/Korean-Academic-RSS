@@ -1,32 +1,31 @@
 {
-  "lastUpdate": "2026-06-19T11:46:14.240Z",
+  "lastUpdate": "2026-06-19T20:40:30.573Z",
   "totalItems": 150,
-  "totalArchived": 94028,
-  "newPapersAdded": 267,
+  "totalArchived": 94148,
+  "newPapersAdded": 120,
   "institutionBreakdown": {
     "KAIST": 10,
-    "SNU": 55,
+    "SNU": 67,
     "Yonsei University": 0,
     "SKKU": 0,
     "POSTECH": 1,
-    "Korea University": 33,
-    "IBS": 68,
+    "Korea University": 42,
+    "IBS": 46,
     "UNIST": 0,
     "Hanyang University": 3,
     "KIST": 0,
     "GIST": 3,
-    "Kyung Hee University": 5,
+    "Kyung Hee University": 7,
     "Pusan National University": 2
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 78,
-    "Materials Science": 9,
-    "Cancer Research": 21,
-    "Biomedical": 37,
-    "Neuroscience": 4,
-    "Computer Science": 1
+    "Multidisciplinary": 72,
+    "Materials Science": 7,
+    "Cancer Research": 22,
+    "Biomedical": 38,
+    "Neuroscience": 11
   },
-  "multiInstitutional": 25,
+  "multiInstitutional": 26,
   "institutions": [
     "KAIST",
     "SNU",
@@ -47,7 +46,6 @@
     "title": "2M Phase Engineering of W<sub>1-x</sub>Mo<sub>x</sub>S<sub>2</sub> Alloy Nanosheets for Enhanced Catalytic Hydrogen Evolution Reaction",
     "date": "2026-06-19T10:00:00.000Z",
     "institutions": [
-      "IBS",
       "KAIST",
       "Korea University"
     ]
