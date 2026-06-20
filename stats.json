@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-06-20T10:16:54.008Z",
+  "lastUpdate": "2026-06-20T20:20:42.114Z",
   "totalItems": 150,
-  "totalArchived": 94319,
-  "newPapersAdded": 171,
+  "totalArchived": 94382,
+  "newPapersAdded": 63,
   "institutionBreakdown": {
     "KAIST": 19,
-    "SNU": 100,
+    "SNU": 94,
     "Yonsei University": 0,
     "SKKU": 0,
     "POSTECH": 2,
-    "Korea University": 51,
-    "IBS": 10,
+    "Korea University": 19,
+    "IBS": 43,
     "UNIST": 1,
-    "Hanyang University": 3,
+    "Hanyang University": 1,
     "KIST": 0,
-    "GIST": 4,
-    "Kyung Hee University": 10,
-    "Pusan National University": 2
+    "GIST": 3,
+    "Kyung Hee University": 9,
+    "Pusan National University": 1
   },
   "subjectAreaBreakdown": {
-    "Cancer Research": 14,
-    "Multidisciplinary": 80,
-    "Computer Science": 5,
-    "Materials Science": 6,
-    "Neuroscience": 5,
-    "Biomedical": 40
+    "Multidisciplinary": 75,
+    "Neuroscience": 7,
+    "Materials Science": 9,
+    "Biomedical": 39,
+    "Computer Science": 4,
+    "Cancer Research": 16
   },
-  "multiInstitutional": 46,
+  "multiInstitutional": 37,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,10 +44,10 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Burden and Regional Disparities of MASH-Related Liver Cancer in the Asia-Pacific Region From 1990 to 2023",
+    "title": "Cross-cultural differences in social and self-referential memory are magnified with age",
     "date": "2026-06-20T10:00:00.000Z",
     "institutions": [
-      "IBS"
+      "SNU"
     ]
   }
 }
