@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-06-22T13:09:34.163Z",
+  "lastUpdate": "2026-06-22T21:33:48.069Z",
   "totalItems": 150,
-  "totalArchived": 94578,
-  "newPapersAdded": 196,
+  "totalArchived": 94772,
+  "newPapersAdded": 194,
   "institutionBreakdown": {
-    "KAIST": 3,
-    "SNU": 33,
+    "KAIST": 11,
+    "SNU": 58,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 0,
-    "Korea University": 22,
-    "IBS": 100,
-    "UNIST": 1,
-    "Hanyang University": 1,
-    "KIST": 1,
-    "GIST": 4,
-    "Kyung Hee University": 4,
-    "Pusan National University": 3
+    "POSTECH": 1,
+    "Korea University": 63,
+    "IBS": 42,
+    "UNIST": 2,
+    "Hanyang University": 5,
+    "KIST": 2,
+    "GIST": 1,
+    "Kyung Hee University": 7,
+    "Pusan National University": 2
   },
   "subjectAreaBreakdown": {
-    "Cancer Research": 16,
-    "Biomedical": 31,
-    "Multidisciplinary": 86,
-    "Materials Science": 7,
-    "Neuroscience": 7,
-    "Computer Science": 3
+    "Multidisciplinary": 76,
+    "Materials Science": 12,
+    "Cancer Research": 15,
+    "Biomedical": 35,
+    "Computer Science": 5,
+    "Neuroscience": 7
   },
-  "multiInstitutional": 14,
+  "multiInstitutional": 32,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,12 +44,12 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Long-Term Trends in Thyroid Cancer Incidence and Mortality in Korea: Analysis of Korean National Data",
+    "title": "Acceptability and Preliminary Evaluation of a Campus-Integrated Digital Platform (Fruto) for University Students' Mental Health Help-Seeking: Sequential Mixed Methods Study",
     "date": "2026-06-22T10:00:00.000Z",
     "institutions": [
       "IBS",
       "KAIST",
-      "SNU"
+      "UNIST"
     ]
   }
 }
