@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-06-24T20:51:13.897Z",
+  "lastUpdate": "2026-06-25T10:23:39.382Z",
   "totalItems": 150,
-  "totalArchived": 95467,
-  "newPapersAdded": 184,
+  "totalArchived": 95648,
+  "newPapersAdded": 181,
   "institutionBreakdown": {
-    "KAIST": 5,
-    "SNU": 54,
+    "KAIST": 15,
+    "SNU": 98,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 0,
-    "Korea University": 32,
-    "IBS": 73,
+    "POSTECH": 2,
+    "Korea University": 58,
+    "IBS": 12,
     "UNIST": 0,
-    "Hanyang University": 3,
-    "KIST": 2,
-    "GIST": 1,
-    "Kyung Hee University": 6,
-    "Pusan National University": 5
+    "Hanyang University": 4,
+    "KIST": 5,
+    "GIST": 2,
+    "Kyung Hee University": 7,
+    "Pusan National University": 6
   },
   "subjectAreaBreakdown": {
-    "Cancer Research": 21,
-    "Computer Science": 6,
-    "Multidisciplinary": 76,
-    "Biomedical": 32,
-    "Materials Science": 4,
-    "Neuroscience": 11
+    "Cancer Research": 20,
+    "Multidisciplinary": 64,
+    "Materials Science": 6,
+    "Biomedical": 43,
+    "Neuroscience": 11,
+    "Computer Science": 6
   },
-  "multiInstitutional": 18,
+  "multiInstitutional": 42,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,12 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Inferior Mesenteric Artery Ligation Level and Anastomotic Leakage in Low Anterior Resection: A Randomized Clinical Trial",
+    "title": "Bone mineral density testing rates and fracture risk across cancers with different mortality risks: a nationwide matched cohort study",
     "date": "2026-06-24T10:00:00.000Z",
     "institutions": [
       "IBS",
       "KAIST",
-      "Pusan National University",
       "SNU"
     ]
   }
