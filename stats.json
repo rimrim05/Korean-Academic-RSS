@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-06-26T10:34:22.877Z",
+  "lastUpdate": "2026-06-26T20:49:00.086Z",
   "totalItems": 150,
-  "totalArchived": 96054,
-  "newPapersAdded": 191,
+  "totalArchived": 96370,
+  "newPapersAdded": 316,
   "institutionBreakdown": {
-    "KAIST": 15,
+    "KAIST": 22,
     "SNU": 100,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 2,
-    "Korea University": 44,
-    "IBS": 18,
+    "POSTECH": 1,
+    "Korea University": 38,
+    "IBS": 2,
     "UNIST": 1,
-    "Hanyang University": 6,
-    "KIST": 3,
-    "GIST": 4,
-    "Kyung Hee University": 6,
+    "Hanyang University": 5,
+    "KIST": 1,
+    "GIST": 3,
+    "Kyung Hee University": 11,
     "Pusan National University": 1
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 71,
-    "Biomedical": 40,
-    "Neuroscience": 5,
-    "Materials Science": 11,
-    "Cancer Research": 19,
-    "Computer Science": 4
+    "Multidisciplinary": 76,
+    "Computer Science": 5,
+    "Materials Science": 20,
+    "Biomedical": 34,
+    "Cancer Research": 9,
+    "Neuroscience": 6
   },
-  "multiInstitutional": 40,
+  "multiInstitutional": 33,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,10 +44,10 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Safety and feasibility of a single-surgeon cardiac surgery program during workforce shortage: a propensity-matched cohort study",
+    "title": "Fluorometholone-antibiotic interactions in canine ocular bacteria: <em>in vitro</em> susceptibility changes in common corneal infection pathogens",
     "date": "2026-06-26T10:00:00.000Z",
     "institutions": [
-      "SNU"
+      "KAIST"
     ]
   }
 }
