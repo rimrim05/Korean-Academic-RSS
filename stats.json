@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-06-26T20:49:00.086Z",
+  "lastUpdate": "2026-06-27T09:36:25.715Z",
   "totalItems": 150,
-  "totalArchived": 96370,
-  "newPapersAdded": 316,
+  "totalArchived": 96581,
+  "newPapersAdded": 211,
   "institutionBreakdown": {
-    "KAIST": 22,
+    "KAIST": 34,
     "SNU": 100,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 1,
-    "Korea University": 38,
-    "IBS": 2,
-    "UNIST": 1,
-    "Hanyang University": 5,
-    "KIST": 1,
-    "GIST": 3,
+    "POSTECH": 4,
+    "Korea University": 39,
+    "IBS": 3,
+    "UNIST": 0,
+    "Hanyang University": 8,
+    "KIST": 4,
+    "GIST": 6,
     "Kyung Hee University": 11,
-    "Pusan National University": 1
+    "Pusan National University": 2
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 76,
-    "Computer Science": 5,
-    "Materials Science": 20,
-    "Biomedical": 34,
-    "Cancer Research": 9,
-    "Neuroscience": 6
+    "Multidisciplinary": 85,
+    "Materials Science": 16,
+    "Neuroscience": 8,
+    "Cancer Research": 17,
+    "Computer Science": 3,
+    "Biomedical": 21
   },
-  "multiInstitutional": 33,
+  "multiInstitutional": 51,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,9 +44,10 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Fluorometholone-antibiotic interactions in canine ocular bacteria: <em>in vitro</em> susceptibility changes in common corneal infection pathogens",
+    "title": "Genetic characterization of the TAPBP and its allelic association with BF2 in the chicken major histocompatibility complex",
     "date": "2026-06-26T10:00:00.000Z",
     "institutions": [
+      "IBS",
       "KAIST"
     ]
   }
