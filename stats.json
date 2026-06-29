@@ -1,31 +1,32 @@
 {
-  "lastUpdate": "2026-06-29T12:14:06.425Z",
+  "lastUpdate": "2026-06-29T20:52:34.942Z",
   "totalItems": 150,
-  "totalArchived": 96975,
-  "newPapersAdded": 136,
+  "totalArchived": 97176,
+  "newPapersAdded": 201,
   "institutionBreakdown": {
-    "KAIST": 12,
-    "SNU": 27,
+    "KAIST": 15,
+    "SNU": 52,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 0,
-    "Korea University": 23,
-    "IBS": 100,
-    "UNIST": 1,
-    "Hanyang University": 1,
+    "POSTECH": 2,
+    "Korea University": 57,
+    "IBS": 41,
+    "UNIST": 0,
+    "Hanyang University": 7,
     "KIST": 0,
-    "GIST": 4,
-    "Kyung Hee University": 3,
-    "Pusan National University": 7
+    "GIST": 3,
+    "Kyung Hee University": 7,
+    "Pusan National University": 0
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 84,
-    "Cancer Research": 23,
-    "Biomedical": 27,
-    "Materials Science": 7,
-    "Neuroscience": 9
+    "Multidisciplinary": 78,
+    "Materials Science": 11,
+    "Computer Science": 3,
+    "Neuroscience": 8,
+    "Cancer Research": 20,
+    "Biomedical": 30
   },
-  "multiInstitutional": 21,
+  "multiInstitutional": 27,
   "institutions": [
     "KAIST",
     "SNU",
@@ -43,12 +44,12 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Chiral supramolecular alloys: programmable 2D-3D control <em>via</em> Co-assembly of isomorphous β-peptide foldamers",
+    "title": "A human liver organoid platform for hepatotoxicity assessment: evaluation using reference compounds",
     "date": "2026-06-29T10:00:00.000Z",
     "institutions": [
-      "GIST",
       "IBS",
-      "KAIST"
+      "KAIST",
+      "Korea University"
     ]
   }
 }
