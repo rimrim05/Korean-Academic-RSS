@@ -1,32 +1,31 @@
 {
-  "lastUpdate": "2026-06-28T20:18:54.341Z",
+  "lastUpdate": "2026-06-29T12:14:06.425Z",
   "totalItems": 150,
-  "totalArchived": 96839,
-  "newPapersAdded": 26,
+  "totalArchived": 96975,
+  "newPapersAdded": 136,
   "institutionBreakdown": {
-    "KAIST": 9,
-    "SNU": 35,
+    "KAIST": 12,
+    "SNU": 27,
     "Yonsei University": 0,
     "SKKU": 0,
     "POSTECH": 0,
-    "Korea University": 39,
-    "IBS": 86,
+    "Korea University": 23,
+    "IBS": 100,
     "UNIST": 1,
-    "Hanyang University": 2,
-    "KIST": 1,
-    "GIST": 2,
-    "Kyung Hee University": 6,
-    "Pusan National University": 4
+    "Hanyang University": 1,
+    "KIST": 0,
+    "GIST": 4,
+    "Kyung Hee University": 3,
+    "Pusan National University": 7
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 83,
-    "Biomedical": 24,
-    "Cancer Research": 22,
-    "Materials Science": 9,
-    "Neuroscience": 7,
-    "Computer Science": 5
+    "Multidisciplinary": 84,
+    "Cancer Research": 23,
+    "Biomedical": 27,
+    "Materials Science": 7,
+    "Neuroscience": 9
   },
-  "multiInstitutional": 23,
+  "multiInstitutional": 21,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,12 +43,12 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Fully Programmable Slow Light Based on a Spinor Representation of Generalized Coupled-Resonator-Induced Transparency",
-    "date": "2026-06-28T10:00:00.000Z",
+    "title": "Chiral supramolecular alloys: programmable 2D-3D control <em>via</em> Co-assembly of isomorphous β-peptide foldamers",
+    "date": "2026-06-29T10:00:00.000Z",
     "institutions": [
+      "GIST",
       "IBS",
-      "KAIST",
-      "SNU"
+      "KAIST"
     ]
   }
 }
