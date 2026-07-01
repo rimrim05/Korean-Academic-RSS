@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-06-30T21:00:34.576Z",
+  "lastUpdate": "2026-07-01T10:52:24.968Z",
   "totalItems": 150,
-  "totalArchived": 97574,
-  "newPapersAdded": 146,
+  "totalArchived": 97842,
+  "newPapersAdded": 268,
   "institutionBreakdown": {
-    "KAIST": 11,
-    "SNU": 71,
+    "KAIST": 10,
+    "SNU": 48,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 1,
-    "Korea University": 46,
-    "IBS": 49,
-    "UNIST": 2,
-    "Hanyang University": 3,
+    "POSTECH": 2,
+    "Korea University": 43,
+    "IBS": 64,
+    "UNIST": 0,
+    "Hanyang University": 2,
     "KIST": 1,
-    "GIST": 2,
-    "Kyung Hee University": 5,
+    "GIST": 3,
+    "Kyung Hee University": 2,
     "Pusan National University": 2
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 82,
-    "Biomedical": 35,
-    "Computer Science": 7,
-    "Materials Science": 7,
-    "Cancer Research": 15,
-    "Neuroscience": 4
+    "Multidisciplinary": 73,
+    "Biomedical": 37,
+    "Neuroscience": 8,
+    "Computer Science": 4,
+    "Cancer Research": 22,
+    "Materials Science": 6
   },
-  "multiInstitutional": 31,
+  "multiInstitutional": 22,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,8 +44,8 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Influence of Naturally Converted Nitrite and Ultrasound Marination on the Curing Efficiency and Residual Nitrite of Pork Loin",
-    "date": "2026-06-30T10:00:00.000Z",
+    "title": "CRISPR-Cas9 screening reveals <em>TM9SF2</em> knockout as a solution to HEK293 cell aggregation for improved AAV production",
+    "date": "2026-07-01T10:00:00.000Z",
     "institutions": [
       "IBS",
       "KAIST"
