@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-07-01T10:52:24.968Z",
+  "lastUpdate": "2026-07-01T20:50:23.440Z",
   "totalItems": 150,
-  "totalArchived": 97842,
-  "newPapersAdded": 268,
+  "totalArchived": 97970,
+  "newPapersAdded": 128,
   "institutionBreakdown": {
-    "KAIST": 10,
-    "SNU": 48,
+    "KAIST": 12,
+    "SNU": 57,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 2,
-    "Korea University": 43,
-    "IBS": 64,
+    "POSTECH": 3,
+    "Korea University": 68,
+    "IBS": 34,
     "UNIST": 0,
-    "Hanyang University": 2,
-    "KIST": 1,
-    "GIST": 3,
+    "Hanyang University": 4,
+    "KIST": 2,
+    "GIST": 4,
     "Kyung Hee University": 2,
     "Pusan National University": 2
   },
   "subjectAreaBreakdown": {
+    "Neuroscience": 6,
+    "Biomedical": 40,
     "Multidisciplinary": 73,
-    "Biomedical": 37,
-    "Neuroscience": 8,
-    "Computer Science": 4,
-    "Cancer Research": 22,
-    "Materials Science": 6
+    "Materials Science": 8,
+    "Computer Science": 5,
+    "Cancer Research": 18
   },
-  "multiInstitutional": 22,
+  "multiInstitutional": 32,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,9 +44,10 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "CRISPR-Cas9 screening reveals <em>TM9SF2</em> knockout as a solution to HEK293 cell aggregation for improved AAV production",
+    "title": "Mercury exposure in wintering Cinereous vultures (Aegypius monachus) on the Korean Peninsula: tissue and feather distribution and associations with brain cholinesterase activity",
     "date": "2026-07-01T10:00:00.000Z",
     "institutions": [
+      "GIST",
       "IBS",
       "KAIST"
     ]
