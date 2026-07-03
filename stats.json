@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-07-02T20:24:11.208Z",
+  "lastUpdate": "2026-07-03T10:13:09.679Z",
   "totalItems": 150,
-  "totalArchived": 98331,
-  "newPapersAdded": 176,
+  "totalArchived": 98511,
+  "newPapersAdded": 180,
   "institutionBreakdown": {
-    "KAIST": 7,
-    "SNU": 43,
+    "KAIST": 14,
+    "SNU": 89,
     "Yonsei University": 0,
     "SKKU": 0,
     "POSTECH": 0,
-    "Korea University": 32,
-    "IBS": 80,
+    "Korea University": 67,
+    "IBS": 8,
     "UNIST": 0,
-    "Hanyang University": 2,
+    "Hanyang University": 6,
     "KIST": 0,
-    "GIST": 1,
+    "GIST": 2,
     "Kyung Hee University": 7,
     "Pusan National University": 2
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 83,
-    "Materials Science": 10,
-    "Biomedical": 35,
-    "Computer Science": 4,
-    "Neuroscience": 3,
-    "Cancer Research": 15
+    "Biomedical": 29,
+    "Multidisciplinary": 86,
+    "Materials Science": 9,
+    "Computer Science": 5,
+    "Cancer Research": 17,
+    "Neuroscience": 4
   },
-  "multiInstitutional": 20,
+  "multiInstitutional": 38,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,12 +44,12 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Targeting the fibrosis-inflammation-oxidative stress axis: multifaceted mechanisms of salidroside in chronic organ fibrosis",
+    "title": "Clinico-Pathologic Features of Adult Erdheim-Chester Disease in South Korea: A Multicenter Retrospective Study (KCSG LY22-15)",
     "date": "2026-07-02T10:00:00.000Z",
     "institutions": [
-      "GIST",
       "IBS",
-      "KAIST"
+      "KAIST",
+      "SNU"
     ]
   }
 }
