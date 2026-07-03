@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-07-03T10:13:09.679Z",
+  "lastUpdate": "2026-07-03T20:19:23.869Z",
   "totalItems": 150,
-  "totalArchived": 98511,
-  "newPapersAdded": 180,
+  "totalArchived": 98704,
+  "newPapersAdded": 193,
   "institutionBreakdown": {
-    "KAIST": 14,
-    "SNU": 89,
+    "KAIST": 8,
+    "SNU": 55,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 0,
-    "Korea University": 67,
-    "IBS": 8,
+    "POSTECH": 3,
+    "Korea University": 41,
+    "IBS": 58,
     "UNIST": 0,
-    "Hanyang University": 6,
-    "KIST": 0,
+    "Hanyang University": 2,
+    "KIST": 3,
     "GIST": 2,
-    "Kyung Hee University": 7,
-    "Pusan National University": 2
+    "Kyung Hee University": 6,
+    "Pusan National University": 1
   },
   "subjectAreaBreakdown": {
-    "Biomedical": 29,
-    "Multidisciplinary": 86,
-    "Materials Science": 9,
+    "Cancer Research": 18,
+    "Materials Science": 7,
+    "Biomedical": 46,
+    "Multidisciplinary": 67,
     "Computer Science": 5,
-    "Cancer Research": 17,
-    "Neuroscience": 4
+    "Neuroscience": 7
   },
-  "multiInstitutional": 38,
+  "multiInstitutional": 21,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,8 +44,8 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Clinico-Pathologic Features of Adult Erdheim-Chester Disease in South Korea: A Multicenter Retrospective Study (KCSG LY22-15)",
-    "date": "2026-07-02T10:00:00.000Z",
+    "title": "EpCAM<sup>+</sup> Extracellular Vesicle PD-L1 Dynamics as a Predictive Biomarker of Immune Checkpoint Blockade Response",
+    "date": "2026-07-03T10:00:00.000Z",
     "institutions": [
       "IBS",
       "KAIST",
