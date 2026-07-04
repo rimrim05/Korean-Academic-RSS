@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-07-03T20:19:23.869Z",
+  "lastUpdate": "2026-07-04T09:34:35.204Z",
   "totalItems": 150,
-  "totalArchived": 98704,
-  "newPapersAdded": 193,
+  "totalArchived": 98879,
+  "newPapersAdded": 175,
   "institutionBreakdown": {
-    "KAIST": 8,
-    "SNU": 55,
+    "KAIST": 16,
+    "SNU": 98,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 3,
-    "Korea University": 41,
-    "IBS": 58,
-    "UNIST": 0,
-    "Hanyang University": 2,
-    "KIST": 3,
+    "POSTECH": 4,
+    "Korea University": 46,
+    "IBS": 15,
+    "UNIST": 1,
+    "Hanyang University": 5,
+    "KIST": 5,
     "GIST": 2,
-    "Kyung Hee University": 6,
-    "Pusan National University": 1
+    "Kyung Hee University": 8,
+    "Pusan National University": 4
   },
   "subjectAreaBreakdown": {
-    "Cancer Research": 18,
-    "Materials Science": 7,
-    "Biomedical": 46,
-    "Multidisciplinary": 67,
-    "Computer Science": 5,
-    "Neuroscience": 7
+    "Multidisciplinary": 76,
+    "Biomedical": 34,
+    "Neuroscience": 7,
+    "Cancer Research": 20,
+    "Materials Science": 9,
+    "Computer Science": 4
   },
-  "multiInstitutional": 21,
+  "multiInstitutional": 40,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,12 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "EpCAM<sup>+</sup> Extracellular Vesicle PD-L1 Dynamics as a Predictive Biomarker of Immune Checkpoint Blockade Response",
-    "date": "2026-07-03T10:00:00.000Z",
+    "title": "Rewiring a methanol-responsive regulatory system improves glucose-methanol co-utilization in Eubacterium limosum",
+    "date": "2026-07-04T10:00:00.000Z",
     "institutions": [
       "IBS",
-      "KAIST",
-      "SNU"
+      "KAIST"
     ]
   }
 }
