@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-07-06T11:47:15.700Z",
+  "lastUpdate": "2026-07-06T20:55:09.380Z",
   "totalItems": 150,
-  "totalArchived": 99343,
-  "newPapersAdded": 192,
+  "totalArchived": 99490,
+  "newPapersAdded": 147,
   "institutionBreakdown": {
-    "KAIST": 7,
-    "SNU": 41,
+    "KAIST": 11,
+    "SNU": 70,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 0,
-    "Korea University": 32,
-    "IBS": 91,
+    "POSTECH": 1,
+    "Korea University": 50,
+    "IBS": 41,
     "UNIST": 0,
-    "Hanyang University": 0,
+    "Hanyang University": 2,
     "KIST": 0,
-    "GIST": 1,
-    "Kyung Hee University": 2,
-    "Pusan National University": 1
+    "GIST": 4,
+    "Kyung Hee University": 3,
+    "Pusan National University": 2
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 82,
-    "Cancer Research": 16,
-    "Biomedical": 33,
-    "Computer Science": 5,
-    "Neuroscience": 9,
-    "Materials Science": 5
+    "Multidisciplinary": 80,
+    "Neuroscience": 11,
+    "Cancer Research": 19,
+    "Biomedical": 28,
+    "Materials Science": 6,
+    "Computer Science": 6
   },
-  "multiInstitutional": 18,
+  "multiInstitutional": 27,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,13 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Optimizing twin prime editing components for scalable genome editing and therapy in spinocerebellar ataxia type 3",
+    "title": "Changes in the Properties of Frozen Meat with Freezing and Storage Conditions and Non-Destructive Analyses for Monitoring Meat Quality",
     "date": "2026-07-06T10:00:00.000Z",
     "institutions": [
       "IBS",
-      "KAIST",
-      "Korea University",
-      "SNU"
+      "KAIST"
     ]
   }
 }
