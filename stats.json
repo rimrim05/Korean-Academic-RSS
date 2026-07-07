@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-07-06T20:55:09.380Z",
+  "lastUpdate": "2026-07-07T10:36:53.004Z",
   "totalItems": 150,
-  "totalArchived": 99490,
-  "newPapersAdded": 147,
+  "totalArchived": 99772,
+  "newPapersAdded": 282,
   "institutionBreakdown": {
-    "KAIST": 11,
-    "SNU": 70,
+    "KAIST": 24,
+    "SNU": 31,
     "Yonsei University": 0,
     "SKKU": 0,
     "POSTECH": 1,
-    "Korea University": 50,
-    "IBS": 41,
-    "UNIST": 0,
+    "Korea University": 16,
+    "IBS": 100,
+    "UNIST": 1,
     "Hanyang University": 2,
     "KIST": 0,
     "GIST": 4,
-    "Kyung Hee University": 3,
-    "Pusan National University": 2
+    "Kyung Hee University": 2,
+    "Pusan National University": 3
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 80,
-    "Neuroscience": 11,
-    "Cancer Research": 19,
-    "Biomedical": 28,
-    "Materials Science": 6,
-    "Computer Science": 6
+    "Multidisciplinary": 77,
+    "Biomedical": 37,
+    "Cancer Research": 17,
+    "Computer Science": 5,
+    "Neuroscience": 9,
+    "Materials Science": 5
   },
-  "multiInstitutional": 27,
+  "multiInstitutional": 23,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,12 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Changes in the Properties of Frozen Meat with Freezing and Storage Conditions and Non-Destructive Analyses for Monitoring Meat Quality",
-    "date": "2026-07-06T10:00:00.000Z",
+    "title": "Resurgence of Human Adenovirus Infections in the Korean Military Following the COVID-19 Pandemic",
+    "date": "2026-07-07T10:00:00.000Z",
     "institutions": [
       "IBS",
-      "KAIST"
+      "KAIST",
+      "SNU"
     ]
   }
 }
