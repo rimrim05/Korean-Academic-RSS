@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-07-08T09:43:40.917Z",
+  "lastUpdate": "2026-07-08T20:24:48.167Z",
   "totalItems": 150,
-  "totalArchived": 100070,
-  "newPapersAdded": 159,
+  "totalArchived": 100291,
+  "newPapersAdded": 221,
   "institutionBreakdown": {
-    "KAIST": 15,
-    "SNU": 0,
+    "KAIST": 8,
+    "SNU": 60,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 7,
-    "Korea University": 81,
-    "IBS": 54,
-    "UNIST": 1,
-    "Hanyang University": 2,
-    "KIST": 0,
-    "GIST": 4,
-    "Kyung Hee University": 3,
-    "Pusan National University": 0
+    "POSTECH": 2,
+    "Korea University": 33,
+    "IBS": 62,
+    "UNIST": 0,
+    "Hanyang University": 3,
+    "KIST": 1,
+    "GIST": 3,
+    "Kyung Hee University": 2,
+    "Pusan National University": 2
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 70,
-    "Materials Science": 7,
-    "Biomedical": 35,
-    "Cancer Research": 25,
-    "Neuroscience": 10,
-    "Computer Science": 3
+    "Multidisciplinary": 91,
+    "Biomedical": 38,
+    "Materials Science": 6,
+    "Cancer Research": 9,
+    "Computer Science": 3,
+    "Neuroscience": 3
   },
-  "multiInstitutional": 15,
+  "multiInstitutional": 19,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,10 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Short-term repeated-dose oral toxicity and mutagenicity studies on rice-derived glucosylceramides",
+    "title": "ONT-only genome assembly of a Korean male individual using a semen sample",
     "date": "2026-07-08T10:00:00.000Z",
     "institutions": [
-      "Korea University"
+      "IBS",
+      "KAIST"
     ]
   }
 }
