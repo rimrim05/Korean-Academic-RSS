@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-07-09T10:35:57.981Z",
+  "lastUpdate": "2026-07-09T20:52:09.589Z",
   "totalItems": 150,
-  "totalArchived": 100554,
-  "newPapersAdded": 263,
+  "totalArchived": 100682,
+  "newPapersAdded": 128,
   "institutionBreakdown": {
-    "KAIST": 7,
-    "SNU": 35,
+    "KAIST": 11,
+    "SNU": 51,
     "Yonsei University": 0,
     "SKKU": 0,
     "POSTECH": 1,
-    "Korea University": 24,
-    "IBS": 92,
+    "Korea University": 38,
+    "IBS": 61,
     "UNIST": 0,
     "Hanyang University": 4,
     "KIST": 0,
-    "GIST": 5,
-    "Kyung Hee University": 1,
-    "Pusan National University": 2
+    "GIST": 6,
+    "Kyung Hee University": 2,
+    "Pusan National University": 3
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 80,
-    "Biomedical": 41,
-    "Computer Science": 4,
-    "Neuroscience": 10,
-    "Cancer Research": 12,
-    "Materials Science": 3
+    "Biomedical": 37,
+    "Materials Science": 5,
+    "Multidisciplinary": 79,
+    "Cancer Research": 16,
+    "Computer Science": 5,
+    "Neuroscience": 8
   },
-  "multiInstitutional": 19,
+  "multiInstitutional": 23,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,12 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Four new spider species of the <em>Pholcus phungiformes</em> species group (Araneae, Pholcidae) from South Korea",
+    "title": "Recent advances in the treatment of FLT3-mutated acute myeloid leukemia",
     "date": "2026-07-09T10:00:00.000Z",
     "institutions": [
       "IBS",
-      "KAIST",
-      "SNU"
+      "KAIST"
     ]
   }
 }
