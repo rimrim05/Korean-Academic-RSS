@@ -1,30 +1,30 @@
 {
-  "lastUpdate": "2026-07-08T20:24:48.167Z",
+  "lastUpdate": "2026-07-09T10:35:57.981Z",
   "totalItems": 150,
-  "totalArchived": 100291,
-  "newPapersAdded": 221,
+  "totalArchived": 100554,
+  "newPapersAdded": 263,
   "institutionBreakdown": {
-    "KAIST": 8,
-    "SNU": 60,
+    "KAIST": 7,
+    "SNU": 35,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 2,
-    "Korea University": 33,
-    "IBS": 62,
+    "POSTECH": 1,
+    "Korea University": 24,
+    "IBS": 92,
     "UNIST": 0,
-    "Hanyang University": 3,
-    "KIST": 1,
-    "GIST": 3,
-    "Kyung Hee University": 2,
+    "Hanyang University": 4,
+    "KIST": 0,
+    "GIST": 5,
+    "Kyung Hee University": 1,
     "Pusan National University": 2
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 91,
-    "Biomedical": 38,
-    "Materials Science": 6,
-    "Cancer Research": 9,
-    "Computer Science": 3,
-    "Neuroscience": 3
+    "Multidisciplinary": 80,
+    "Biomedical": 41,
+    "Computer Science": 4,
+    "Neuroscience": 10,
+    "Cancer Research": 12,
+    "Materials Science": 3
   },
   "multiInstitutional": 19,
   "institutions": [
@@ -44,11 +44,12 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "ONT-only genome assembly of a Korean male individual using a semen sample",
-    "date": "2026-07-08T10:00:00.000Z",
+    "title": "Four new spider species of the <em>Pholcus phungiformes</em> species group (Araneae, Pholcidae) from South Korea",
+    "date": "2026-07-09T10:00:00.000Z",
     "institutions": [
       "IBS",
-      "KAIST"
+      "KAIST",
+      "SNU"
     ]
   }
 }
