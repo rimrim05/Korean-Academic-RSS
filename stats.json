@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-07-09T20:52:09.589Z",
+  "lastUpdate": "2026-07-10T10:32:15.085Z",
   "totalItems": 150,
-  "totalArchived": 100682,
-  "newPapersAdded": 128,
+  "totalArchived": 100937,
+  "newPapersAdded": 255,
   "institutionBreakdown": {
-    "KAIST": 11,
-    "SNU": 51,
+    "KAIST": 3,
+    "SNU": 33,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 1,
-    "Korea University": 38,
-    "IBS": 61,
-    "UNIST": 0,
-    "Hanyang University": 4,
-    "KIST": 0,
-    "GIST": 6,
-    "Kyung Hee University": 2,
-    "Pusan National University": 3
+    "POSTECH": 0,
+    "Korea University": 22,
+    "IBS": 100,
+    "UNIST": 1,
+    "Hanyang University": 2,
+    "KIST": 2,
+    "GIST": 0,
+    "Kyung Hee University": 3,
+    "Pusan National University": 0
   },
   "subjectAreaBreakdown": {
-    "Biomedical": 37,
-    "Materials Science": 5,
-    "Multidisciplinary": 79,
-    "Cancer Research": 16,
-    "Computer Science": 5,
-    "Neuroscience": 8
+    "Multidisciplinary": 77,
+    "Materials Science": 8,
+    "Cancer Research": 14,
+    "Biomedical": 38,
+    "Neuroscience": 6,
+    "Computer Science": 7
   },
-  "multiInstitutional": 23,
+  "multiInstitutional": 13,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,8 +44,8 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Recent advances in the treatment of FLT3-mutated acute myeloid leukemia",
-    "date": "2026-07-09T10:00:00.000Z",
+    "title": "Complete mitochondrial genome of the hybrid flounder <em>Platichthys stellatus</em> (♀) × <em>Verasper variegatus</em> (♂)",
+    "date": "2026-07-10T10:00:00.000Z",
     "institutions": [
       "IBS",
       "KAIST"
