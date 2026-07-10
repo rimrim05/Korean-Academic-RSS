@@ -1,16 +1,16 @@
 {
-  "lastUpdate": "2026-07-10T10:32:15.085Z",
+  "lastUpdate": "2026-07-10T20:37:24.522Z",
   "totalItems": 150,
-  "totalArchived": 100937,
-  "newPapersAdded": 255,
+  "totalArchived": 101065,
+  "newPapersAdded": 128,
   "institutionBreakdown": {
-    "KAIST": 3,
-    "SNU": 33,
+    "KAIST": 8,
+    "SNU": 48,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 0,
-    "Korea University": 22,
-    "IBS": 100,
+    "POSTECH": 2,
+    "Korea University": 36,
+    "IBS": 69,
     "UNIST": 1,
     "Hanyang University": 2,
     "KIST": 2,
@@ -19,14 +19,14 @@
     "Pusan National University": 0
   },
   "subjectAreaBreakdown": {
+    "Materials Science": 13,
     "Multidisciplinary": 77,
-    "Materials Science": 8,
-    "Cancer Research": 14,
-    "Biomedical": 38,
-    "Neuroscience": 6,
-    "Computer Science": 7
+    "Computer Science": 5,
+    "Cancer Research": 11,
+    "Neuroscience": 4,
+    "Biomedical": 40
   },
-  "multiInstitutional": 13,
+  "multiInstitutional": 17,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,12 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Complete mitochondrial genome of the hybrid flounder <em>Platichthys stellatus</em> (♀) × <em>Verasper variegatus</em> (♂)",
+    "title": "Promoting Gas Sensitivity of Graphitic Carbon Nitride via Incorporation of Platinum Nanoparticles under Blue-Light Irradiation",
     "date": "2026-07-10T10:00:00.000Z",
     "institutions": [
       "IBS",
-      "KAIST"
+      "KAIST",
+      "POSTECH"
     ]
   }
 }
