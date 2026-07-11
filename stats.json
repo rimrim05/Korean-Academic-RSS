@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-07-10T20:37:24.522Z",
+  "lastUpdate": "2026-07-11T09:05:56.787Z",
   "totalItems": 150,
-  "totalArchived": 101065,
-  "newPapersAdded": 128,
+  "totalArchived": 101173,
+  "newPapersAdded": 108,
   "institutionBreakdown": {
-    "KAIST": 8,
-    "SNU": 48,
+    "KAIST": 9,
+    "SNU": 57,
     "Yonsei University": 0,
     "SKKU": 0,
     "POSTECH": 2,
-    "Korea University": 36,
-    "IBS": 69,
-    "UNIST": 1,
-    "Hanyang University": 2,
+    "Korea University": 46,
+    "IBS": 53,
+    "UNIST": 2,
+    "Hanyang University": 3,
     "KIST": 2,
     "GIST": 0,
-    "Kyung Hee University": 3,
+    "Kyung Hee University": 4,
     "Pusan National University": 0
   },
   "subjectAreaBreakdown": {
-    "Materials Science": 13,
-    "Multidisciplinary": 77,
+    "Cancer Research": 12,
+    "Materials Science": 15,
+    "Multidisciplinary": 79,
     "Computer Science": 5,
-    "Cancer Research": 11,
-    "Neuroscience": 4,
-    "Biomedical": 40
+    "Neuroscience": 7,
+    "Biomedical": 32
   },
-  "multiInstitutional": 17,
+  "multiInstitutional": 24,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,12 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Promoting Gas Sensitivity of Graphitic Carbon Nitride via Incorporation of Platinum Nanoparticles under Blue-Light Irradiation",
+    "title": "The efficacy of immunotherapy in glioma requires distal B cell responses in tumor-draining lymph nodes",
     "date": "2026-07-10T10:00:00.000Z",
     "institutions": [
       "IBS",
-      "KAIST",
-      "POSTECH"
+      "KAIST"
     ]
   }
 }
