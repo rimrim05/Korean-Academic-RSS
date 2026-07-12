@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-07-12T09:25:18.623Z",
+  "lastUpdate": "2026-07-12T20:08:12.363Z",
   "totalItems": 150,
-  "totalArchived": 101538,
-  "newPapersAdded": 161,
+  "totalArchived": 101649,
+  "newPapersAdded": 111,
   "institutionBreakdown": {
     "KAIST": 12,
-    "SNU": 47,
+    "SNU": 48,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 2,
-    "Korea University": 48,
-    "IBS": 58,
+    "POSTECH": 0,
+    "Korea University": 14,
+    "IBS": 87,
     "UNIST": 0,
-    "Hanyang University": 3,
-    "KIST": 2,
+    "Hanyang University": 0,
+    "KIST": 1,
     "GIST": 4,
-    "Kyung Hee University": 5,
+    "Kyung Hee University": 4,
     "Pusan National University": 1
   },
   "subjectAreaBreakdown": {
-    "Biomedical": 28,
-    "Multidisciplinary": 80,
-    "Cancer Research": 29,
-    "Neuroscience": 6,
-    "Materials Science": 4,
-    "Computer Science": 3
+    "Multidisciplinary": 79,
+    "Cancer Research": 19,
+    "Materials Science": 8,
+    "Neuroscience": 8,
+    "Biomedical": 31,
+    "Computer Science": 5
   },
-  "multiInstitutional": 24,
+  "multiInstitutional": 16,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,10 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Clinical Evaluation of Opioid-Free Pediatric Peripheral Nerve Block for Lower Extremity Surgery Without Sedation",
-    "date": "2026-07-11T10:00:00.000Z",
+    "title": "Transformer-driven classification of soft condensed matter <em>via</em> reference-based data embedding",
+    "date": "2026-07-12T10:00:00.000Z",
     "institutions": [
-      "IBS",
-      "KAIST"
+      "SNU"
     ]
   }
 }
