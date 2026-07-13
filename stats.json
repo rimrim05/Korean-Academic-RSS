@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-07-12T20:08:12.363Z",
+  "lastUpdate": "2026-07-13T10:38:05.803Z",
   "totalItems": 150,
-  "totalArchived": 101649,
-  "newPapersAdded": 111,
+  "totalArchived": 101824,
+  "newPapersAdded": 175,
   "institutionBreakdown": {
-    "KAIST": 12,
-    "SNU": 48,
+    "KAIST": 9,
+    "SNU": 50,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 0,
-    "Korea University": 14,
-    "IBS": 87,
+    "POSTECH": 1,
+    "Korea University": 18,
+    "IBS": 97,
     "UNIST": 0,
-    "Hanyang University": 0,
-    "KIST": 1,
-    "GIST": 4,
-    "Kyung Hee University": 4,
-    "Pusan National University": 1
+    "Hanyang University": 4,
+    "KIST": 0,
+    "GIST": 5,
+    "Kyung Hee University": 2,
+    "Pusan National University": 3
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 79,
-    "Cancer Research": 19,
-    "Materials Science": 8,
-    "Neuroscience": 8,
-    "Biomedical": 31,
-    "Computer Science": 5
+    "Biomedical": 35,
+    "Multidisciplinary": 80,
+    "Neuroscience": 10,
+    "Cancer Research": 17,
+    "Materials Science": 7,
+    "Computer Science": 1
   },
-  "multiInstitutional": 16,
+  "multiInstitutional": 25,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,10 +44,12 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Transformer-driven classification of soft condensed matter <em>via</em> reference-based data embedding",
-    "date": "2026-07-12T10:00:00.000Z",
+    "title": "Prognostic significance of 1-year versus baseline high-sensitivity C-reactive protein after acute myocardial infarction: nationwide landmark results",
+    "date": "2026-07-13T10:00:00.000Z",
     "institutions": [
-      "SNU"
+      "GIST",
+      "IBS",
+      "KAIST"
     ]
   }
 }
