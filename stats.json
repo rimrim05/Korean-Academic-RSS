@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-07-13T10:38:05.803Z",
+  "lastUpdate": "2026-07-13T20:19:30.441Z",
   "totalItems": 150,
-  "totalArchived": 101824,
-  "newPapersAdded": 175,
+  "totalArchived": 101966,
+  "newPapersAdded": 142,
   "institutionBreakdown": {
-    "KAIST": 9,
-    "SNU": 50,
+    "KAIST": 10,
+    "SNU": 73,
     "Yonsei University": 0,
     "SKKU": 0,
     "POSTECH": 1,
-    "Korea University": 18,
-    "IBS": 97,
+    "Korea University": 44,
+    "IBS": 46,
     "UNIST": 0,
-    "Hanyang University": 4,
-    "KIST": 0,
+    "Hanyang University": 7,
+    "KIST": 1,
     "GIST": 5,
-    "Kyung Hee University": 2,
-    "Pusan National University": 3
+    "Kyung Hee University": 6,
+    "Pusan National University": 4
   },
   "subjectAreaBreakdown": {
-    "Biomedical": 35,
-    "Multidisciplinary": 80,
-    "Neuroscience": 10,
-    "Cancer Research": 17,
-    "Materials Science": 7,
-    "Computer Science": 1
+    "Multidisciplinary": 79,
+    "Biomedical": 34,
+    "Neuroscience": 4,
+    "Computer Science": 5,
+    "Cancer Research": 21,
+    "Materials Science": 7
   },
-  "multiInstitutional": 25,
+  "multiInstitutional": 32,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,10 +44,9 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Prognostic significance of 1-year versus baseline high-sensitivity C-reactive protein after acute myocardial infarction: nationwide landmark results",
+    "title": "An Operational Data Management Approach for Helicopter-based Aerial Radiation Measurements in Emergency Preparedness and Response",
     "date": "2026-07-13T10:00:00.000Z",
     "institutions": [
-      "GIST",
       "IBS",
       "KAIST"
     ]
