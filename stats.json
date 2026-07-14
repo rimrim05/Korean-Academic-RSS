@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-07-13T20:19:30.441Z",
+  "lastUpdate": "2026-07-14T09:22:25.150Z",
   "totalItems": 150,
-  "totalArchived": 101966,
-  "newPapersAdded": 142,
+  "totalArchived": 102168,
+  "newPapersAdded": 202,
   "institutionBreakdown": {
-    "KAIST": 10,
-    "SNU": 73,
+    "KAIST": 22,
+    "SNU": 100,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 1,
-    "Korea University": 44,
-    "IBS": 46,
+    "POSTECH": 2,
+    "Korea University": 46,
+    "IBS": 12,
     "UNIST": 0,
-    "Hanyang University": 7,
-    "KIST": 1,
-    "GIST": 5,
-    "Kyung Hee University": 6,
+    "Hanyang University": 11,
+    "KIST": 2,
+    "GIST": 6,
+    "Kyung Hee University": 8,
     "Pusan National University": 4
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 79,
-    "Biomedical": 34,
-    "Neuroscience": 4,
+    "Multidisciplinary": 74,
     "Computer Science": 5,
-    "Cancer Research": 21,
-    "Materials Science": 7
+    "Biomedical": 37,
+    "Neuroscience": 8,
+    "Cancer Research": 20,
+    "Materials Science": 6
   },
-  "multiInstitutional": 32,
+  "multiInstitutional": 45,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,10 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "An Operational Data Management Approach for Helicopter-based Aerial Radiation Measurements in Emergency Preparedness and Response",
-    "date": "2026-07-13T10:00:00.000Z",
+    "title": "Isolation and pathogenicity of a highly virulent recombinant GIIc subtype PEDV strain",
+    "date": "2026-07-14T10:00:00.000Z",
     "institutions": [
-      "IBS",
-      "KAIST"
+      "IBS"
     ]
   }
 }
