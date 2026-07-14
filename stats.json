@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-07-14T09:22:25.150Z",
+  "lastUpdate": "2026-07-14T20:18:28.768Z",
   "totalItems": 150,
-  "totalArchived": 102168,
-  "newPapersAdded": 202,
+  "totalArchived": 102338,
+  "newPapersAdded": 170,
   "institutionBreakdown": {
-    "KAIST": 22,
-    "SNU": 100,
+    "KAIST": 4,
+    "SNU": 37,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 2,
-    "Korea University": 46,
-    "IBS": 12,
+    "POSTECH": 1,
+    "Korea University": 36,
+    "IBS": 90,
     "UNIST": 0,
-    "Hanyang University": 11,
+    "Hanyang University": 2,
     "KIST": 2,
-    "GIST": 6,
-    "Kyung Hee University": 8,
-    "Pusan National University": 4
+    "GIST": 0,
+    "Kyung Hee University": 2,
+    "Pusan National University": 1
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 74,
-    "Computer Science": 5,
-    "Biomedical": 37,
-    "Neuroscience": 8,
-    "Cancer Research": 20,
-    "Materials Science": 6
+    "Computer Science": 8,
+    "Multidisciplinary": 72,
+    "Biomedical": 34,
+    "Cancer Research": 17,
+    "Materials Science": 12,
+    "Neuroscience": 7
   },
-  "multiInstitutional": 45,
+  "multiInstitutional": 19,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,10 +44,14 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Isolation and pathogenicity of a highly virulent recombinant GIIc subtype PEDV strain",
+    "title": "High-entropy Na layered oxide facilitating reversible oxygen capacity",
     "date": "2026-07-14T10:00:00.000Z",
     "institutions": [
-      "IBS"
+      "IBS",
+      "KAIST",
+      "KIST",
+      "Kyung Hee University",
+      "SNU"
     ]
   }
 }
