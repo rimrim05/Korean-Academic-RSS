@@ -1,30 +1,30 @@
 {
-  "lastUpdate": "2026-07-15T09:27:05.484Z",
+  "lastUpdate": "2026-07-15T20:15:19.236Z",
   "totalItems": 150,
-  "totalArchived": 102503,
-  "newPapersAdded": 165,
+  "totalArchived": 102805,
+  "newPapersAdded": 302,
   "institutionBreakdown": {
-    "KAIST": 12,
-    "SNU": 71,
+    "KAIST": 24,
+    "SNU": 100,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 3,
-    "Korea University": 69,
-    "IBS": 19,
-    "UNIST": 1,
-    "Hanyang University": 3,
-    "KIST": 3,
-    "GIST": 0,
-    "Kyung Hee University": 8,
-    "Pusan National University": 4
+    "POSTECH": 4,
+    "Korea University": 41,
+    "IBS": 6,
+    "UNIST": 0,
+    "Hanyang University": 6,
+    "KIST": 2,
+    "GIST": 4,
+    "Kyung Hee University": 7,
+    "Pusan National University": 2
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 81,
-    "Biomedical": 39,
-    "Computer Science": 8,
-    "Neuroscience": 2,
-    "Cancer Research": 12,
-    "Materials Science": 8
+    "Materials Science": 11,
+    "Multidisciplinary": 79,
+    "Biomedical": 34,
+    "Neuroscience": 8,
+    "Cancer Research": 13,
+    "Computer Science": 5
   },
   "multiInstitutional": 38,
   "institutions": [
@@ -44,8 +44,8 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Ground-based microgravity simulators for plant research: principles and biological responses",
-    "date": "2026-07-14T10:00:00.000Z",
+    "title": "Asymmetric-beam steady-state thermoreflectance for three-dimensional anisotropic thermal conductivity measurements",
+    "date": "2026-07-15T10:00:00.000Z",
     "institutions": [
       "IBS",
       "KAIST"
