@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-07-14T20:18:28.768Z",
+  "lastUpdate": "2026-07-15T09:27:05.484Z",
   "totalItems": 150,
-  "totalArchived": 102338,
-  "newPapersAdded": 170,
+  "totalArchived": 102503,
+  "newPapersAdded": 165,
   "institutionBreakdown": {
-    "KAIST": 4,
-    "SNU": 37,
+    "KAIST": 12,
+    "SNU": 71,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 1,
-    "Korea University": 36,
-    "IBS": 90,
-    "UNIST": 0,
-    "Hanyang University": 2,
-    "KIST": 2,
+    "POSTECH": 3,
+    "Korea University": 69,
+    "IBS": 19,
+    "UNIST": 1,
+    "Hanyang University": 3,
+    "KIST": 3,
     "GIST": 0,
-    "Kyung Hee University": 2,
-    "Pusan National University": 1
+    "Kyung Hee University": 8,
+    "Pusan National University": 4
   },
   "subjectAreaBreakdown": {
+    "Multidisciplinary": 81,
+    "Biomedical": 39,
     "Computer Science": 8,
-    "Multidisciplinary": 72,
-    "Biomedical": 34,
-    "Cancer Research": 17,
-    "Materials Science": 12,
-    "Neuroscience": 7
+    "Neuroscience": 2,
+    "Cancer Research": 12,
+    "Materials Science": 8
   },
-  "multiInstitutional": 19,
+  "multiInstitutional": 38,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,14 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "High-entropy Na layered oxide facilitating reversible oxygen capacity",
+    "title": "Ground-based microgravity simulators for plant research: principles and biological responses",
     "date": "2026-07-14T10:00:00.000Z",
     "institutions": [
       "IBS",
-      "KAIST",
-      "KIST",
-      "Kyung Hee University",
-      "SNU"
+      "KAIST"
     ]
   }
 }
