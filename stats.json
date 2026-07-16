@@ -1,32 +1,31 @@
 {
-  "lastUpdate": "2026-07-16T09:33:42.566Z",
+  "lastUpdate": "2026-07-16T20:06:30.925Z",
   "totalItems": 150,
-  "totalArchived": 103004,
-  "newPapersAdded": 199,
+  "totalArchived": 103176,
+  "newPapersAdded": 172,
   "institutionBreakdown": {
-    "KAIST": 37,
-    "SNU": 98,
+    "KAIST": 10,
+    "SNU": 42,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 3,
-    "Korea University": 20,
-    "IBS": 20,
-    "UNIST": 2,
-    "Hanyang University": 8,
-    "KIST": 5,
-    "GIST": 4,
-    "Kyung Hee University": 8,
-    "Pusan National University": 4
+    "POSTECH": 2,
+    "Korea University": 46,
+    "IBS": 78,
+    "UNIST": 0,
+    "Hanyang University": 2,
+    "KIST": 1,
+    "GIST": 3,
+    "Kyung Hee University": 3,
+    "Pusan National University": 1
   },
   "subjectAreaBreakdown": {
-    "Cancer Research": 14,
-    "Multidisciplinary": 77,
-    "Materials Science": 12,
-    "Biomedical": 37,
-    "Computer Science": 4,
-    "Neuroscience": 6
+    "Multidisciplinary": 83,
+    "Biomedical": 43,
+    "Cancer Research": 12,
+    "Neuroscience": 6,
+    "Materials Science": 6
   },
-  "multiInstitutional": 45,
+  "multiInstitutional": 24,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,9 +43,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Mutation-specific dynamics of dedifferentiation trajectories and tumor-stromal interactions in thyroid cancer",
+    "title": "Absence of Significant Interaction Between Serum Albumin Level and Carbapenem Type on 30-Day Mortality in ESBL-positive E. coli and K. pneumoniae Bacteremia: A Multicenter Cohort Study with Inverse Probability of Treatment Weighting Analysis",
     "date": "2026-07-16T10:00:00.000Z",
     "institutions": [
+      "IBS",
+      "KAIST",
       "SNU"
     ]
   }
