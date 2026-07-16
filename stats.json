@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-07-15T20:15:19.236Z",
+  "lastUpdate": "2026-07-16T09:33:42.566Z",
   "totalItems": 150,
-  "totalArchived": 102805,
-  "newPapersAdded": 302,
+  "totalArchived": 103004,
+  "newPapersAdded": 199,
   "institutionBreakdown": {
-    "KAIST": 24,
-    "SNU": 100,
+    "KAIST": 37,
+    "SNU": 98,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 4,
-    "Korea University": 41,
-    "IBS": 6,
-    "UNIST": 0,
-    "Hanyang University": 6,
-    "KIST": 2,
+    "POSTECH": 3,
+    "Korea University": 20,
+    "IBS": 20,
+    "UNIST": 2,
+    "Hanyang University": 8,
+    "KIST": 5,
     "GIST": 4,
-    "Kyung Hee University": 7,
-    "Pusan National University": 2
+    "Kyung Hee University": 8,
+    "Pusan National University": 4
   },
   "subjectAreaBreakdown": {
-    "Materials Science": 11,
-    "Multidisciplinary": 79,
-    "Biomedical": 34,
-    "Neuroscience": 8,
-    "Cancer Research": 13,
-    "Computer Science": 5
+    "Cancer Research": 14,
+    "Multidisciplinary": 77,
+    "Materials Science": 12,
+    "Biomedical": 37,
+    "Computer Science": 4,
+    "Neuroscience": 6
   },
-  "multiInstitutional": 38,
+  "multiInstitutional": 45,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,10 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Asymmetric-beam steady-state thermoreflectance for three-dimensional anisotropic thermal conductivity measurements",
-    "date": "2026-07-15T10:00:00.000Z",
+    "title": "Mutation-specific dynamics of dedifferentiation trajectories and tumor-stromal interactions in thyroid cancer",
+    "date": "2026-07-16T10:00:00.000Z",
     "institutions": [
-      "IBS",
-      "KAIST"
+      "SNU"
     ]
   }
 }
