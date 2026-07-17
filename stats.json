@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-07-17T09:25:56.976Z",
+  "lastUpdate": "2026-07-17T20:11:15.448Z",
   "totalItems": 150,
-  "totalArchived": 103349,
+  "totalArchived": 103522,
   "newPapersAdded": 173,
   "institutionBreakdown": {
-    "KAIST": 16,
-    "SNU": 77,
+    "KAIST": 6,
+    "SNU": 36,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 2,
-    "Korea University": 79,
-    "IBS": 7,
-    "UNIST": 1,
-    "Hanyang University": 6,
-    "KIST": 1,
-    "GIST": 3,
-    "Kyung Hee University": 6,
-    "Pusan National University": 1
+    "POSTECH": 1,
+    "Korea University": 40,
+    "IBS": 82,
+    "UNIST": 0,
+    "Hanyang University": 2,
+    "KIST": 3,
+    "GIST": 0,
+    "Kyung Hee University": 1,
+    "Pusan National University": 4
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 84,
-    "Biomedical": 39,
-    "Cancer Research": 13,
-    "Neuroscience": 6,
-    "Materials Science": 6,
-    "Computer Science": 2
+    "Biomedical": 34,
+    "Materials Science": 11,
+    "Multidisciplinary": 73,
+    "Neuroscience": 9,
+    "Computer Science": 2,
+    "Cancer Research": 21
   },
-  "multiInstitutional": 37,
+  "multiInstitutional": 21,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,8 +44,8 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Rational design of polymer film morphology via structure-performance linkage for enhanced condensation performance",
-    "date": "2026-07-16T10:00:00.000Z",
+    "title": "Non-Cytopathic Mammalian Orthoreovirus Infection Triggers Innate Immune Responses in Human Tonsil-Derived Mesenchymal Stem Cells: Implications for Cell Therapy Quality Control",
+    "date": "2026-07-17T10:00:00.000Z",
     "institutions": [
       "IBS",
       "KAIST"
