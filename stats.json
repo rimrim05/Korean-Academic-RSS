@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-07-17T20:11:15.448Z",
+  "lastUpdate": "2026-07-18T09:07:41.589Z",
   "totalItems": 150,
-  "totalArchived": 103522,
-  "newPapersAdded": 173,
+  "totalArchived": 103687,
+  "newPapersAdded": 165,
   "institutionBreakdown": {
-    "KAIST": 6,
-    "SNU": 36,
+    "KAIST": 17,
+    "SNU": 67,
     "Yonsei University": 0,
     "SKKU": 0,
     "POSTECH": 1,
-    "Korea University": 40,
-    "IBS": 82,
+    "Korea University": 70,
+    "IBS": 17,
     "UNIST": 0,
-    "Hanyang University": 2,
-    "KIST": 3,
-    "GIST": 0,
-    "Kyung Hee University": 1,
+    "Hanyang University": 4,
+    "KIST": 4,
+    "GIST": 1,
+    "Kyung Hee University": 3,
     "Pusan National University": 4
   },
   "subjectAreaBreakdown": {
-    "Biomedical": 34,
-    "Materials Science": 11,
-    "Multidisciplinary": 73,
+    "Multidisciplinary": 71,
+    "Cancer Research": 19,
+    "Biomedical": 38,
     "Neuroscience": 9,
-    "Computer Science": 2,
-    "Cancer Research": 21
+    "Materials Science": 11,
+    "Computer Science": 2
   },
-  "multiInstitutional": 21,
+  "multiInstitutional": 32,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,10 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Non-Cytopathic Mammalian Orthoreovirus Infection Triggers Innate Immune Responses in Human Tonsil-Derived Mesenchymal Stem Cells: Implications for Cell Therapy Quality Control",
-    "date": "2026-07-17T10:00:00.000Z",
+    "title": "Efficacy of perifracture site injections for pain control following distal radius and ankle fracture surgery: a meta-analysis of randomized controlled trials",
+    "date": "2026-07-18T10:00:00.000Z",
     "institutions": [
-      "IBS",
-      "KAIST"
+      "SNU"
     ]
   }
 }
