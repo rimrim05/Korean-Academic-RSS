@@ -1,16 +1,16 @@
 {
-  "lastUpdate": "2026-07-18T09:07:41.589Z",
+  "lastUpdate": "2026-07-18T20:05:40.766Z",
   "totalItems": 150,
-  "totalArchived": 103687,
-  "newPapersAdded": 165,
+  "totalArchived": 103749,
+  "newPapersAdded": 62,
   "institutionBreakdown": {
     "KAIST": 17,
-    "SNU": 67,
+    "SNU": 68,
     "Yonsei University": 0,
     "SKKU": 0,
     "POSTECH": 1,
-    "Korea University": 70,
-    "IBS": 17,
+    "Korea University": 39,
+    "IBS": 43,
     "UNIST": 0,
     "Hanyang University": 4,
     "KIST": 4,
@@ -19,14 +19,14 @@
     "Pusan National University": 4
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 71,
-    "Cancer Research": 19,
+    "Multidisciplinary": 73,
+    "Cancer Research": 20,
     "Biomedical": 38,
-    "Neuroscience": 9,
-    "Materials Science": 11,
+    "Neuroscience": 8,
+    "Materials Science": 9,
     "Computer Science": 2
   },
-  "multiInstitutional": 32,
+  "multiInstitutional": 29,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,9 +44,10 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Efficacy of perifracture site injections for pain control following distal radius and ankle fracture surgery: a meta-analysis of randomized controlled trials",
+    "title": "Ten- and thirty-year cardiovascular disease risks using PREVENT equation in Koreans from 2001 to 2021",
     "date": "2026-07-18T10:00:00.000Z",
     "institutions": [
+      "Korea University",
       "SNU"
     ]
   }
