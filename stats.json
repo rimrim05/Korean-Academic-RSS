@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-07-19T09:24:28.253Z",
+  "lastUpdate": "2026-07-19T20:09:26.243Z",
   "totalItems": 150,
-  "totalArchived": 103893,
-  "newPapersAdded": 144,
+  "totalArchived": 103970,
+  "newPapersAdded": 77,
   "institutionBreakdown": {
-    "KAIST": 6,
-    "SNU": 19,
+    "KAIST": 5,
+    "SNU": 24,
     "Yonsei University": 0,
     "SKKU": 0,
     "POSTECH": 0,
-    "Korea University": 27,
-    "IBS": 100,
-    "UNIST": 2,
+    "Korea University": 34,
+    "IBS": 95,
+    "UNIST": 1,
     "Hanyang University": 1,
     "KIST": 1,
-    "GIST": 2,
-    "Kyung Hee University": 2,
-    "Pusan National University": 4
+    "GIST": 1,
+    "Kyung Hee University": 3,
+    "Pusan National University": 1
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 87,
-    "Biomedical": 34,
-    "Cancer Research": 11,
+    "Multidisciplinary": 79,
     "Materials Science": 6,
-    "Neuroscience": 7,
-    "Computer Science": 5
+    "Biomedical": 39,
+    "Cancer Research": 16,
+    "Neuroscience": 9,
+    "Computer Science": 1
   },
-  "multiInstitutional": 12,
+  "multiInstitutional": 14,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,8 +44,8 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "The chemistry and biology of securinega alkaloids",
-    "date": "2026-07-18T10:00:00.000Z",
+    "title": "Gremlin-2 inhibits hepatocellular carcinoma progression by suppressing Akt/MEK-RPL23 signaling pathway",
+    "date": "2026-07-19T10:00:00.000Z",
     "institutions": [
       "IBS",
       "KAIST"
