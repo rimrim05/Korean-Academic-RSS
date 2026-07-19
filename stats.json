@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-07-18T20:05:40.766Z",
+  "lastUpdate": "2026-07-19T09:24:28.253Z",
   "totalItems": 150,
-  "totalArchived": 103749,
-  "newPapersAdded": 62,
+  "totalArchived": 103893,
+  "newPapersAdded": 144,
   "institutionBreakdown": {
-    "KAIST": 17,
-    "SNU": 68,
+    "KAIST": 6,
+    "SNU": 19,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 1,
-    "Korea University": 39,
-    "IBS": 43,
-    "UNIST": 0,
-    "Hanyang University": 4,
-    "KIST": 4,
-    "GIST": 1,
-    "Kyung Hee University": 3,
+    "POSTECH": 0,
+    "Korea University": 27,
+    "IBS": 100,
+    "UNIST": 2,
+    "Hanyang University": 1,
+    "KIST": 1,
+    "GIST": 2,
+    "Kyung Hee University": 2,
     "Pusan National University": 4
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 73,
-    "Cancer Research": 20,
-    "Biomedical": 38,
-    "Neuroscience": 8,
-    "Materials Science": 9,
-    "Computer Science": 2
+    "Multidisciplinary": 87,
+    "Biomedical": 34,
+    "Cancer Research": 11,
+    "Materials Science": 6,
+    "Neuroscience": 7,
+    "Computer Science": 5
   },
-  "multiInstitutional": 29,
+  "multiInstitutional": 12,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Ten- and thirty-year cardiovascular disease risks using PREVENT equation in Koreans from 2001 to 2021",
+    "title": "The chemistry and biology of securinega alkaloids",
     "date": "2026-07-18T10:00:00.000Z",
     "institutions": [
-      "Korea University",
-      "SNU"
+      "IBS",
+      "KAIST"
     ]
   }
 }
