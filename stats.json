@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-07-20T20:25:48.245Z",
+  "lastUpdate": "2026-07-21T09:58:36.296Z",
   "totalItems": 150,
-  "totalArchived": 104218,
-  "newPapersAdded": 171,
+  "totalArchived": 104392,
+  "newPapersAdded": 174,
   "institutionBreakdown": {
-    "KAIST": 4,
-    "SNU": 30,
+    "KAIST": 17,
+    "SNU": 68,
     "Yonsei University": 0,
     "SKKU": 0,
     "POSTECH": 1,
-    "Korea University": 50,
-    "IBS": 84,
+    "Korea University": 80,
+    "IBS": 10,
     "UNIST": 1,
-    "Hanyang University": 2,
-    "KIST": 0,
-    "GIST": 4,
-    "Kyung Hee University": 0,
-    "Pusan National University": 2
+    "Hanyang University": 4,
+    "KIST": 2,
+    "GIST": 7,
+    "Kyung Hee University": 6,
+    "Pusan National University": 3
   },
   "subjectAreaBreakdown": {
+    "Biomedical": 25,
+    "Cancer Research": 17,
     "Multidisciplinary": 86,
-    "Computer Science": 4,
-    "Neuroscience": 3,
-    "Materials Science": 9,
-    "Biomedical": 26,
-    "Cancer Research": 22
+    "Neuroscience": 9,
+    "Computer Science": 6,
+    "Materials Science": 7
   },
-  "multiInstitutional": 20,
+  "multiInstitutional": 32,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,12 +44,10 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Quantum capacitance-induced transconductance anomalies in cryogenic quasi-ballistic transistors",
-    "date": "2026-07-20T10:00:00.000Z",
+    "title": "Recurrence patterns stratify post-progression survival after early recurrence of colorectal liver metastases following hepatectomy: a single-center retrospective study",
+    "date": "2026-07-21T10:00:00.000Z",
     "institutions": [
-      "IBS",
-      "KAIST",
-      "SNU"
+      "Korea University"
     ]
   }
 }
