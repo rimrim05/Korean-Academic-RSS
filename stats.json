@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-07-21T09:58:36.296Z",
+  "lastUpdate": "2026-07-21T20:21:30.234Z",
   "totalItems": 150,
-  "totalArchived": 104392,
-  "newPapersAdded": 174,
+  "totalArchived": 104557,
+  "newPapersAdded": 165,
   "institutionBreakdown": {
-    "KAIST": 17,
-    "SNU": 68,
+    "KAIST": 7,
+    "SNU": 38,
     "Yonsei University": 0,
     "SKKU": 0,
     "POSTECH": 1,
-    "Korea University": 80,
-    "IBS": 10,
+    "Korea University": 41,
+    "IBS": 89,
     "UNIST": 1,
-    "Hanyang University": 4,
-    "KIST": 2,
-    "GIST": 7,
-    "Kyung Hee University": 6,
-    "Pusan National University": 3
+    "Hanyang University": 7,
+    "KIST": 0,
+    "GIST": 2,
+    "Kyung Hee University": 5,
+    "Pusan National University": 2
   },
   "subjectAreaBreakdown": {
-    "Biomedical": 25,
-    "Cancer Research": 17,
-    "Multidisciplinary": 86,
-    "Neuroscience": 9,
-    "Computer Science": 6,
-    "Materials Science": 7
+    "Multidisciplinary": 79,
+    "Biomedical": 37,
+    "Neuroscience": 6,
+    "Cancer Research": 13,
+    "Materials Science": 12,
+    "Computer Science": 3
   },
-  "multiInstitutional": 32,
+  "multiInstitutional": 31,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,10 +44,11 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Recurrence patterns stratify post-progression survival after early recurrence of colorectal liver metastases following hepatectomy: a single-center retrospective study",
+    "title": "A Dual-Responsive Julolidine-Barbituric Acid Platform for Environmental Hydrazine Detection",
     "date": "2026-07-21T10:00:00.000Z",
     "institutions": [
-      "Korea University"
+      "IBS",
+      "KAIST"
     ]
   }
 }
