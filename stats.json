@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-07-22T20:16:28.187Z",
+  "lastUpdate": "2026-07-23T09:54:30.885Z",
   "totalItems": 150,
-  "totalArchived": 104935,
-  "newPapersAdded": 264,
+  "totalArchived": 105090,
+  "newPapersAdded": 155,
   "institutionBreakdown": {
-    "KAIST": 6,
-    "SNU": 39,
+    "KAIST": 10,
+    "SNU": 68,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 0,
-    "Korea University": 37,
-    "IBS": 84,
+    "POSTECH": 2,
+    "Korea University": 64,
+    "IBS": 26,
     "UNIST": 0,
-    "Hanyang University": 4,
-    "KIST": 2,
+    "Hanyang University": 5,
+    "KIST": 4,
     "GIST": 1,
-    "Kyung Hee University": 1,
-    "Pusan National University": 0
+    "Kyung Hee University": 4,
+    "Pusan National University": 1
   },
   "subjectAreaBreakdown": {
-    "Materials Science": 9,
-    "Multidisciplinary": 82,
-    "Cancer Research": 12,
-    "Biomedical": 37,
-    "Neuroscience": 6,
-    "Computer Science": 4
+    "Multidisciplinary": 80,
+    "Biomedical": 32,
+    "Cancer Research": 17,
+    "Materials Science": 8,
+    "Neuroscience": 7,
+    "Computer Science": 6
   },
-  "multiInstitutional": 19,
+  "multiInstitutional": 27,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,11 +44,12 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Phase regulation <em>via</em> dual additives for pure-blue emitting quasi-2D perovskite light-emitting diodes",
+    "title": "Closed-Eye Assessment of Endoscopic Browlift: An AI-Based Analysis of Eyebrow Position",
     "date": "2026-07-22T10:00:00.000Z",
     "institutions": [
       "IBS",
-      "KAIST"
+      "KAIST",
+      "SNU"
     ]
   }
 }
