@@ -1,32 +1,32 @@
 {
-  "lastUpdate": "2026-07-23T20:17:34.820Z",
+  "lastUpdate": "2026-07-24T09:41:46.348Z",
   "totalItems": 150,
-  "totalArchived": 105256,
-  "newPapersAdded": 166,
+  "totalArchived": 105454,
+  "newPapersAdded": 198,
   "institutionBreakdown": {
-    "KAIST": 3,
-    "SNU": 37,
+    "KAIST": 17,
+    "SNU": 75,
     "Yonsei University": 0,
     "SKKU": 0,
-    "POSTECH": 1,
-    "Korea University": 37,
-    "IBS": 87,
-    "UNIST": 2,
-    "Hanyang University": 4,
+    "POSTECH": 2,
+    "Korea University": 72,
+    "IBS": 4,
+    "UNIST": 4,
+    "Hanyang University": 7,
     "KIST": 1,
-    "GIST": 1,
-    "Kyung Hee University": 1,
-    "Pusan National University": 1
+    "GIST": 4,
+    "Kyung Hee University": 3,
+    "Pusan National University": 3
   },
   "subjectAreaBreakdown": {
-    "Multidisciplinary": 76,
-    "Cancer Research": 12,
-    "Materials Science": 12,
-    "Biomedical": 37,
-    "Neuroscience": 9,
-    "Computer Science": 4
+    "Biomedical": 36,
+    "Multidisciplinary": 67,
+    "Materials Science": 13,
+    "Neuroscience": 6,
+    "Cancer Research": 23,
+    "Computer Science": 5
   },
-  "multiInstitutional": 17,
+  "multiInstitutional": 29,
   "institutions": [
     "KAIST",
     "SNU",
@@ -44,12 +44,9 @@
   ],
   "mlClassificationEnabled": false,
   "latestItem": {
-    "title": "Generation of Probabilistic Bits by Exploiting Orthogonal Spin Currents in Magnetic Trilayers",
-    "date": "2026-07-23T10:00:00.000Z",
+    "title": "Assessment of change in limb length following correction of coronal and sagittal plane deformities in patients undergoing total knee arthroplasty: a retrospective study",
+    "date": "2026-07-24T10:00:00.000Z",
     "institutions": [
-      "IBS",
-      "KAIST",
-      "Korea University",
       "SNU"
     ]
   }
